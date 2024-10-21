@@ -1,19 +1,26 @@
-/.phpunit.cache
-/node_modules
-/public/build
-/public/hot
-/public/storage
-/storage/*.key
-/vendor
-.env
-.env.backup
-.env.production
-.phpunit.result.cache
-Homestead.json
-Homestead.yaml
-auth.json
-npm-debug.log
-yarn-error.log
-/.fleet
-/.idea
-/.vscode
+# Ignore Windows system directories
+Application Data/
+Cookies/
+Local Settings/
+My Documents/
+NetHood/
+PrintHood/
+Recent/
+SendTo/
+Start Menu/
+Templates/
+
+# Ignore NTUSER files
+NTUSER.DAT
+NTUSER.DAT*
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+ntuser.ini
+
+# Ignore common personal directories
+../AppData/
+../Documents/
+../Downloads/
+../Music/
+../Pictures/
+../Videos/
