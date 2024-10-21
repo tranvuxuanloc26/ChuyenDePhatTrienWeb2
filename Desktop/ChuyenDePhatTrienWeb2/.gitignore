@@ -10,14 +10,7 @@ SendTo/
 Start Menu/
 Templates/
 
-# Ignore NTUSER files
-NTUSER.DAT
-NTUSER.DAT*
-ntuser.dat.LOG1
-ntuser.dat.LOG2
-ntuser.ini
-
-# Ignore common personal directories
+# Ignore user-specific files
 ../AppData/
 ../Documents/
 ../Downloads/
