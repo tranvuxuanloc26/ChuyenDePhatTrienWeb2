@@ -36,6 +36,4 @@ class ProductControllerScreen extends Controller
 
      ]);
 }
-
-
 }
