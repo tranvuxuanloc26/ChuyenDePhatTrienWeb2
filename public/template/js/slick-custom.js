@@ -1,5 +1,3 @@
-
-
 (function ($) {
     // USE STRICT
     "use strict";
@@ -75,9 +73,7 @@
 
                 $(layerSlick1).each(function(){
                     $(this).removeClass($(this).data('appear') + ' visible-true');
-                });
-
-                for(var i=0; i<layerCurrentItem.length; i++) {
+                });for(var i=0; i<layerCurrentItem.length; i++) {
                     actionSlick1[i] = setTimeout(function(index) {
                         $(layerCurrentItem[index]).addClass($(layerCurrentItem[index]).data('appear') + ' visible-true');
                     },$(layerCurrentItem[i]).data('delay'),i); 
@@ -87,6 +83,7 @@
 
         });
 
+      
             
                 
 
