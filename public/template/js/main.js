@@ -267,6 +267,7 @@
     });
     
     /*==================================================================
+<<<<<<< HEAD
     [ Show modal1 ]*/
     $('.js-show-modal1').on('click',function(e){
         e.preventDefault();

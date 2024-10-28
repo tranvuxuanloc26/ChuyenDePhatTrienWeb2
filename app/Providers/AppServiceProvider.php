@@ -2,11 +2,8 @@
 
 namespace App\Providers;
 
-use App\View\Composers\MenuComposer;
-use Illuminate\Support\Facades\View;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\ServiceProvider;
-use App\View\Composers\CartComposer;
 
 
 class AppServiceProvider extends ServiceProvider
@@ -25,8 +22,6 @@ class AppServiceProvider extends ServiceProvider
     public function boot(): void
     {
         Schema::defaultStringLength(191);
-        View::composer('header', MenuComposer::class);
-        View::composer('cart', CartComposer::class);
 
     }
 }
