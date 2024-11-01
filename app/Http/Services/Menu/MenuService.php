@@ -96,6 +96,7 @@ class MenuService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> chi_tiet_don_hang_da_luu
 =======
@@ -112,11 +113,14 @@ class MenuService
 >>>>>>> product
 =======
 >>>>>>> product_detail
+=======
+>>>>>>> remove_cart
     public function getProduct($menu, $request){
         $query =  $menu->products()
         ->select('id', 'name', 'price', 'price_sale', 'thumb')
         ->where('active', 1);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -155,10 +159,16 @@ class MenuService
               $query->orderBy('price', $request->input('price'));
         }
 >>>>>>> product
+=======
+        if($request->input('price')){
+              $query->orderBy('price', $request->input('price'));
+        }
+>>>>>>> remove_cart
       return  $query->orderByDesc('id')
                     ->paginate(4)
                     ->withQueryString();
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -189,4 +199,6 @@ class MenuService
                     ->paginate(4);
     }
 >>>>>>> product_detail
+=======
+>>>>>>> remove_cart
 }

@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  
 =======
     @php $menuHtml = App\Helpers\Helper::menus($menus);     @endphp
@@ -29,6 +30,9 @@
 =======
     @php $menuHtml = App\Helpers\Helper::menus($menus);     @endphp
 >>>>>>> product_detail
+=======
+    @php $menuHtml = App\Helpers\Helper::menus($menus);     @endphp
+>>>>>>> remove_cart
     <!-- Header desktop -->
     <div class="container-menu-desktop ">
         <!-- Topbar -->
@@ -79,6 +83,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                         {!! $menuHtml !!}
 >>>>>>> add_to_cart
@@ -100,6 +105,9 @@
 =======
                         {!! $menuHtml !!}
 >>>>>>> product_detail
+=======
+                        {!! $menuHtml !!}
+>>>>>>> remove_cart
                       
 
                         {{-- <li >
@@ -221,6 +229,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             {!! $menuHtml !!}
 >>>>>>> add_to_cart
@@ -242,6 +251,9 @@
 =======
             {!! $menuHtml !!}
 >>>>>>> product_detail
+=======
+            {!! $menuHtml !!}
+>>>>>>> remove_cart
             {{-- <li >
                 <a href="index.html">Home</a>
                 <ul class="sub-menu">

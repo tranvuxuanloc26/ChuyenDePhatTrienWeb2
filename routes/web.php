@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use App\Http\Controllers\Admin\CartAdminController;
 use App\Http\Services\UploadService;
 =======
@@ -39,6 +40,10 @@ use App\Http\Services\UploadService;
 use App\Http\Controllers\Admin\CartAdminController;
 use App\Http\Services\UploadService;
 >>>>>>> product
+=======
+use App\Http\Controllers\Admin\CartAdminController;
+use App\Http\Services\UploadService;
+>>>>>>> remove_cart
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\MainController;
@@ -50,6 +55,7 @@ use App\Http\Controllers\Admin\MenuController;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use App\Http\Controllers\MenuControllerScreen;
 =======
 >>>>>>> add_to_cart
@@ -71,11 +77,15 @@ use App\Http\Controllers\MenuControllerScreen;
 =======
 use App\Http\Controllers\MenuControllerScreen;
 >>>>>>> product
+=======
+use App\Http\Controllers\MenuControllerScreen;
+>>>>>>> remove_cart
 use App\Http\Controllers\Admin\SliderController;
 use App\Http\Controllers\Admin\UploadController;
 use App\Http\Controllers\Admin\ProductController;
 
 use App\Http\Controllers\ProductControllerScreen;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -109,6 +119,8 @@ use App\Http\Controllers\Admin\UploadController;
 use App\Http\Controllers\Admin\ProductController;
 use App\Http\Controllers\ProductControllerScreen;
 >>>>>>> product_detail
+=======
+>>>>>>> remove_cart
 use App\Http\Controllers\Admin\MainAdminController;
 use App\Http\Controllers\Admin\Users\LoginController;
 
@@ -128,6 +140,7 @@ Route::middleware(['auth'])->group(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> luu_thong_tin_don_hang
 =======
@@ -136,6 +149,8 @@ Route::middleware(['auth'])->group(function () {
 >>>>>>> product
 =======
 >>>>>>> product_detail
+=======
+>>>>>>> remove_cart
         #Menu
         Route::prefix('menus')->group(function () {
             Route::get('add', [MenuController::class, 'create']);
@@ -148,10 +163,13 @@ Route::middleware(['auth'])->group(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> product
 =======
 >>>>>>> product_detail
+=======
+>>>>>>> remove_cart
         #Product
         Route::prefix('products')->group(function () {
             Route::get('add', [ProductController::class, 'create']);
@@ -165,8 +183,11 @@ Route::middleware(['auth'])->group(function () {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> product_detail
+=======
+>>>>>>> remove_cart
         #Slider
         Route::prefix('sliders')->group(function () {
             Route::get('add', [SliderController::class, 'create']);
@@ -178,15 +199,19 @@ Route::middleware(['auth'])->group(function () {
 
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     
 >>>>>>> product
 =======
 >>>>>>> product_detail
+=======
+>>>>>>> remove_cart
 
         #Upload
         Route::post('upload/services', [UploadController::class, 'store']);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -248,10 +273,15 @@ Route::middleware(['auth'])->group(function () {
 =======
       
 >>>>>>> product_detail
+=======
+     
+
+>>>>>>> remove_cart
     });
 
 });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -314,11 +344,16 @@ Route::get('/', [MainController::class, 'index']);
 
 
 >>>>>>> product_detail
+=======
+Route::get('/', [MainController::class, 'index']);
+
+>>>>>>> remove_cart
 Route::get('/san-pham/{id}-{slug}.html', [ProductControllerScreen::class, 'index']);
 // Route::post('/san-pham/{id}-{slug}.html', [ProductControllerScreen::class, 'indexQuickView']);
 
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Route::post('add-cart', [CartController::class, 'index']);
 Route::get('carts', [CartController::class, 'show']);
@@ -370,8 +405,17 @@ Route::post('carts', [CartController::class, 'addCart']);
 
 
 // Route::post('carts', [CartController::class, 'addCart']);
+=======
+Route::post('add-cart', [CartController::class, 'index']);
+Route::get('carts', [CartController::class, 'show']);
+Route::post('update-cart', [CartController::class, 'update']);
+Route::get('carts/delete/{id}', [CartController::class, 'remove']);
+>>>>>>> remove_cart
 
 
 
 
+<<<<<<< HEAD
 >>>>>>> product_detail
+=======
+>>>>>>> remove_cart

@@ -20,6 +20,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <ul class="header-cart-wrapitem w-full">
 =======
             <ul class="header-cart-wrapitem w-full">
@@ -42,6 +43,8 @@
 >>>>>>> load_more
 =======
 >>>>>>> luu_thong_tin_don_hang
+=======
+>>>>>>> remove_cart
             @php $sumPriceCart = 0; @endphp
             <ul class="header-cart-wrapitem w-full">
                 @if(count($products) > 0 )
@@ -60,6 +63,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> add_to_cart
 =======
 >>>>>>> chi_tiet_don_hang_da_luu
@@ -73,10 +77,13 @@
 >>>>>>> luu_thong_tin_don_hang
 =======
 >>>>>>> product_detail
+=======
+>>>>>>> remove_cart
                     </div>
 
                     <div class="header-cart-item-txt p-t-8">
                         <a href="#" class="header-cart-item-name m-b-18 hov-cl1 trans-04">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -104,11 +111,14 @@
 >>>>>>> load_more
 =======
 >>>>>>> luu_thong_tin_don_hang
+=======
+>>>>>>> remove_cart
                             {{ $product->name }}
                         </a>
 
                         <span class="header-cart-item-info">
                             {!! $price !!}
+<<<<<<< HEAD
 =======
                            
                         </a>
@@ -116,6 +126,8 @@
                         <span class="header-cart-item-info">
                             
 >>>>>>> product_detail
+=======
+>>>>>>> remove_cart
                         </span>
                     </div>
                 </li>
@@ -128,6 +140,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> add_to_cart
 =======
 >>>>>>> chi_tiet_don_hang_da_luu
@@ -141,6 +154,8 @@
 >>>>>>> luu_thong_tin_don_hang
 =======
 >>>>>>> product_detail
+=======
+>>>>>>> remove_cart
             </ul>
             
             <div class="w-full">
@@ -152,6 +167,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                     Totals: {{ number_format($sumPriceCart,'0', '','.') }} đ
 >>>>>>> add_to_cart
@@ -170,6 +186,9 @@
 =======
                     Totals: {{ number_format($sumPriceCart,'0', '','.') }} đ
 >>>>>>> luu_thong_tin_don_hang
+=======
+                    Totals: {{ number_format($sumPriceCart,'0', '','.') }} đ
+>>>>>>> remove_cart
                 </div>
 
                 <div class="header-cart-buttons flex-w w-full">
@@ -178,6 +197,7 @@
                     </a>
 
                     <a href="/carts" class="flex-c-m stext-101 cl0 size-107 bg3 bor2 hov-btn3 p-lr-15 trans-04 m-b-10">
+<<<<<<< HEAD
 =======
                     Totals: 13123 đ
                 </div>
@@ -189,6 +209,8 @@
 
                     <a href="" class="flex-c-m stext-101 cl0 size-107 bg3 bor2 hov-btn3 p-lr-15 trans-04 m-b-10">
 >>>>>>> product_detail
+=======
+>>>>>>> remove_cart
                         Check Out
                     </a>
                 </div>

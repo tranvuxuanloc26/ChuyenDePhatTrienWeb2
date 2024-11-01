@@ -135,10 +135,14 @@
                                     Add to cart
                                 </button>
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <input type="hidden" name="product_id" value="{{ $product->id }}">
 =======
                                 <input type="hidden" name="product_id" value="">
 >>>>>>> product_detail
+=======
+                                <input type="hidden" name="product_id" value="{{ $product->id }}">
+>>>>>>> remove_cart
                                 @endif
                                 @csrf
                             </form>

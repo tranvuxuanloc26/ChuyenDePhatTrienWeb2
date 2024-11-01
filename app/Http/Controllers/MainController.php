@@ -17,6 +17,7 @@ class MainController extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function __construct(SliderService $slider, MenuService $menu, ProductServiceScreen $product)
     {
         $this->slider = $slider;
@@ -43,18 +44,24 @@ class MainController extends Controller
         $this->product = $product;
 >>>>>>> product
 =======
+=======
+>>>>>>> remove_cart
     public function __construct(SliderService $slider, MenuService $menu, ProductServiceScreen $product)
     {
         $this->slider = $slider;
         $this->menu = $menu;
         $this->product = $product;
+<<<<<<< HEAD
 >>>>>>> product_detail
+=======
+>>>>>>> remove_cart
     }
     public function index()
     {
 
         return view('home', [
             'title' => 'Shop Nước Hoa',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -95,6 +102,8 @@ class MainController extends Controller
 >>>>>>> product
 =======
 >>>>>>> product_detail
+=======
+>>>>>>> remove_cart
             'sliders' => $this->slider->show(),
             'menus' => $this->menu->show(),
             'products' => $this->product->get(),
@@ -102,9 +111,12 @@ class MainController extends Controller
         ]);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> luu_thong_tin_don_hang
 =======
 >>>>>>> product_detail
+=======
+>>>>>>> remove_cart
     }
 
     public function loadProduct(Request $request)
@@ -118,6 +130,7 @@ class MainController extends Controller
         }
         return response()->json(['html' => '' ]);
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -156,4 +169,6 @@ class MainController extends Controller
 >>>>>>> product
 =======
 >>>>>>> product_detail
+=======
+>>>>>>> remove_cart
 }

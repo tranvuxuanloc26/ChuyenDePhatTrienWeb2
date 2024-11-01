@@ -60,6 +60,7 @@ class CartService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> get_product_by_menu
@@ -69,6 +70,8 @@ class CartService
 >>>>>>> load_more
 =======
 >>>>>>> luu_thong_tin_don_hang
+=======
+>>>>>>> remove_cart
     public function update($request){
         Session::put('carts', $request->input('num_product'));
 
@@ -89,6 +92,7 @@ class CartService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> chi_tiet_don_hang_da_luu
 =======
 >>>>>>> gui_mail
@@ -96,6 +100,8 @@ class CartService
 >>>>>>> luu_thong_tin_don_hang
 =======
 >>>>>>> product_detail
+=======
+>>>>>>> remove_cart
 
     public function addCart($request){
         try{
@@ -103,6 +109,7 @@ class CartService
             $carts = Session::get('carts');
             if(is_null($carts)) return false ;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -159,17 +166,31 @@ class CartService
          
 >>>>>>> product_detail
 
+=======
+        
+               
+
+           DB::commit();
+
+
+
+         
+>>>>>>> remove_cart
 
            Session::forget('carts');
            
         }catch(\Exception $err){
             DB::rollback();
+<<<<<<< HEAD
             Session::flash('error', 'Đặt Hàng Lỗi . Vui lòng thử lại sau');
+=======
+>>>>>>> remove_cart
             return false;
         }
         return true;
     }
     
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -233,14 +254,22 @@ class CartService
     
 >>>>>>> load_more
 =======
+=======
+    
+
+>>>>>>> remove_cart
     public function getCustomer(){
         return Customer::orderByDesc('id')->paginate(8);
     }
 
+<<<<<<< HEAD
    
 >>>>>>> luu_thong_tin_don_hang
 =======
 >>>>>>> product_detail
+=======
+
+>>>>>>> remove_cart
 
 
 }

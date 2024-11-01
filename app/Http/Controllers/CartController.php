@@ -37,6 +37,7 @@ class CartController extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 =======
@@ -47,6 +48,8 @@ class CartController extends Controller
 >>>>>>> load_more
 =======
 >>>>>>> luu_thong_tin_don_hang
+=======
+>>>>>>> remove_cart
     public function update(Request $request){
         $this->cartService->update($request);
         return redirect( '/carts');
@@ -61,16 +64,20 @@ class CartController extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> chi_tiet_don_hang_da_luu
 =======
 >>>>>>> gui_mail
 =======
 >>>>>>> luu_thong_tin_don_hang
+=======
+>>>>>>> remove_cart
 
     public function addCart(Request $request){
          $this->cartService->addCart($request);
          return redirect()->back();
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -84,4 +91,6 @@ class CartController extends Controller
 >>>>>>> load_more
 =======
 >>>>>>> luu_thong_tin_don_hang
+=======
+>>>>>>> remove_cart
 }

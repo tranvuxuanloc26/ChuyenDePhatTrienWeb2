@@ -16,6 +16,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	@include('cart')
 >>>>>>> add_to_cart
@@ -37,6 +38,9 @@
 =======
 	@include('cart')
 >>>>>>> product_detail
+=======
+	@include('cart')
+>>>>>>> remove_cart
 
  
 	

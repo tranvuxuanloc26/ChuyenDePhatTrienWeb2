@@ -54,6 +54,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <a href="">Xoá</a>
 =======
                                     <a href="/carts/delete/{{ $product->id }}">Xoá</a>
@@ -70,6 +71,9 @@
 =======
                                     <a href="/carts/delete/{{ $product->id }}">Xoá</a>
 >>>>>>> luu_thong_tin_don_hang
+=======
+                                    <a href="/carts/delete/{{ $product->id }}">Xoá</a>
+>>>>>>> remove_cart
                                 </td>
                             </tr>
                               @endforeach
@@ -95,6 +99,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <input type="submit" value="Update Cart" class="flex-c-m stext-101 cl2 size-119 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer m-tb-10">
 =======
                         <input type="submit" value="Update Cart" formaction="/update-cart" class="flex-c-m stext-101 cl2 size-119 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer m-tb-10">
@@ -111,6 +116,9 @@
 =======
                         <input type="submit" value="Update Cart" formaction="/update-cart" class="flex-c-m stext-101 cl2 size-119 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer m-tb-10">
 >>>>>>> luu_thong_tin_don_hang
+=======
+                        <input type="submit" value="Update Cart" formaction="/update-cart" class="flex-c-m stext-101 cl2 size-119 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer m-tb-10">
+>>>>>>> remove_cart
                         
                         @csrf
                     </div>
@@ -173,6 +181,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <input class="stext-111 cl8 plh3 size-111 p-lr-15" type="text" name="phone" placeholder="Số Điện Thoại">
 =======
                                     <input class="stext-111 cl8 plh3 size-111 p-lr-15" type="text" name="phone" placeholder="Số Điện Thoại" >
@@ -189,6 +198,9 @@
 =======
                                     <input class="stext-111 cl8 plh3 size-111 p-lr-15" type="text" name="phone" placeholder="Số Điện Thoại" >
 >>>>>>> luu_thong_tin_don_hang
+=======
+                                    <input class="stext-111 cl8 plh3 size-111 p-lr-15" type="text" name="phone" placeholder="Số Điện Thoại" >
+>>>>>>> remove_cart
                                 </div>
 
                                 <div class="bor8 bg0 m-b-12">
