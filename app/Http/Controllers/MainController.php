@@ -28,6 +28,7 @@ class MainController extends Controller
             'products' => $this->product->get(),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
           
            
@@ -55,4 +56,11 @@ class MainController extends Controller
         }
         return response()->json(['html' => '' ]);
     }
+=======
+           
+        ]);
+    }
+
+   
+>>>>>>> get_product_by_menu
 }

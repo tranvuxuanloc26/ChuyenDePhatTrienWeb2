@@ -50,10 +50,14 @@
                                 <td class="column-5"> {{ number_format($priceEnd, 0, '', '.') }}</td>
                                 <td class="p-r-15">
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <a href="">Xoá</a>
 =======
                                     <a href="/carts/delete/{{ $product->id }}">Xoá</a>
 >>>>>>> chi_tiet_don_hang_da_luu
+=======
+                                    <a href="/carts/delete/{{ $product->id }}">Xoá</a>
+>>>>>>> get_product_by_menu
                                 </td>
                             </tr>
                               @endforeach
@@ -75,10 +79,14 @@
                         </div>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <input type="submit" value="Update Cart" class="flex-c-m stext-101 cl2 size-119 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer m-tb-10">
 =======
                         <input type="submit" value="Update Cart" formaction="/update-cart" class="flex-c-m stext-101 cl2 size-119 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer m-tb-10">
 >>>>>>> chi_tiet_don_hang_da_luu
+=======
+                        <input type="submit" value="Update Cart" formaction="/update-cart" class="flex-c-m stext-101 cl2 size-119 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer m-tb-10">
+>>>>>>> get_product_by_menu
                         
                         @csrf
                     </div>
@@ -137,10 +145,14 @@
                                  
                                 <div class="bor8 bg0 m-b-12">
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <input class="stext-111 cl8 plh3 size-111 p-lr-15" type="text" name="phone" placeholder="Số Điện Thoại">
 =======
                                     <input class="stext-111 cl8 plh3 size-111 p-lr-15" type="text" name="phone" placeholder="Số Điện Thoại" >
 >>>>>>> chi_tiet_don_hang_da_luu
+=======
+                                    <input class="stext-111 cl8 plh3 size-111 p-lr-15" type="text" name="phone" placeholder="Số Điện Thoại" >
+>>>>>>> get_product_by_menu
                                 </div>
 
                                 <div class="bor8 bg0 m-b-12">

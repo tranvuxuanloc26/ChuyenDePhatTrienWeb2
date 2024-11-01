@@ -2,6 +2,7 @@
 <header>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  
 =======
     @php $menuHtml = App\Helpers\Helper::menus($menus);     @endphp
@@ -9,6 +10,9 @@
 =======
     @php $menuHtml = App\Helpers\Helper::menus($menus);     @endphp
 >>>>>>> chi_tiet_don_hang_da_luu
+=======
+    @php $menuHtml = App\Helpers\Helper::menus($menus);     @endphp
+>>>>>>> get_product_by_menu
     <!-- Header desktop -->
     <div class="container-menu-desktop ">
         <!-- Topbar -->
@@ -54,12 +58,16 @@
                     <ul id="navbuttons" class="main-menu ">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                         {!! $menuHtml !!}
 >>>>>>> add_to_cart
 =======
                         {!! $menuHtml !!}
 >>>>>>> chi_tiet_don_hang_da_luu
+=======
+                        {!! $menuHtml !!}
+>>>>>>> get_product_by_menu
                       
 
                         {{-- <li >
@@ -176,12 +184,16 @@
             <li class="active-menu"><a href="/">Trang Chủ</a></li>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             {!! $menuHtml !!}
 >>>>>>> add_to_cart
 =======
             {!! $menuHtml !!}
 >>>>>>> chi_tiet_don_hang_da_luu
+=======
+            {!! $menuHtml !!}
+>>>>>>> get_product_by_menu
             {{-- <li >
                 <a href="index.html">Home</a>
                 <ul class="sub-menu">

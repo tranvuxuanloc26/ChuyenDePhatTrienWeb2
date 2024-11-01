@@ -55,7 +55,10 @@ class CartService
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> get_product_by_menu
     public function update($request){
         Session::put('carts', $request->input('num_product'));
 
@@ -72,6 +75,7 @@ class CartService
         return true;
 
     }
+<<<<<<< HEAD
 >>>>>>> chi_tiet_don_hang_da_luu
 
     public function addCart($request){
@@ -145,6 +149,11 @@ class CartService
     public function getCustomer(){
         return Customer::orderByDesc('id')->paginate(8);
     }
+=======
+
+
+   
+>>>>>>> get_product_by_menu
 
     public function getProductForCart($customer)
     {

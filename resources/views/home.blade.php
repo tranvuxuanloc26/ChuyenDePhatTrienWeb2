@@ -6,6 +6,7 @@
 			<div class="slick1">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			
 			@if(isset($sliders))
 =======
@@ -14,6 +15,9 @@
 =======
 				@if(isset($sliders))
 >>>>>>> chi_tiet_don_hang_da_luu
+=======
+				@if(isset($sliders))
+>>>>>>> get_product_by_menu
 
 				@foreach ($sliders as $slider)
 				<div class="item-slick1" style="background-image: url({{ $slider->thumb }});">
@@ -23,9 +27,13 @@
 								<span class="ltext-101 cl2 respon2">
 									HOT 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 									
 >>>>>>> chi_tiet_don_hang_da_luu
+=======
+									
+>>>>>>> get_product_by_menu
 								</span>
 							</div>
 								
@@ -47,12 +55,15 @@
 				@endif
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		
 				
 =======
 >>>>>>> add_to_cart
 =======
 >>>>>>> chi_tiet_don_hang_da_luu
+=======
+>>>>>>> get_product_by_menu
 
 				
 
@@ -66,12 +77,16 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	<!-- Banner -->
 >>>>>>> add_to_cart
 =======
 	<!-- Banner -->
 >>>>>>> chi_tiet_don_hang_da_luu
+=======
+	<!-- Banner -->
+>>>>>>> get_product_by_menu
 	<div class="sec-banner bg0 p-t-80 p-b-50">
 		<div class="container">
 			<div class="row">
@@ -110,12 +125,16 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> add_to_cart
 =======
 
 >>>>>>> chi_tiet_don_hang_da_luu
+=======
+
+>>>>>>> get_product_by_menu
 	<!-- Product -->
 	<section class="bg0 p-t-23 p-b-140">
 		<div class="container">
@@ -573,6 +592,7 @@
 			<div id="loadProduct">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			@include('product.list')
 
 =======
@@ -581,11 +601,15 @@
 =======
 			@include('product.list')
 >>>>>>> chi_tiet_don_hang_da_luu
+=======
+			@include('product.list')
+>>>>>>> get_product_by_menu
 			</div>
 
 			<!-- Load more -->
 			<div class="flex-c-m flex-w w-full p-t-45" id="button-loadMore">
 				<input type="hidden" value="1" id="page">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 				<a  class="btn flex-c-m stext-101 cl5 size-103 bg2 bor1 hov-btn1 p-lr-15 trans-04">
@@ -595,6 +619,9 @@
 =======
 				<a  onclick="loadMore()" class="btn flex-c-m stext-101 cl5 size-103 bg2 bor1 hov-btn1 p-lr-15 trans-04">
 >>>>>>> chi_tiet_don_hang_da_luu
+=======
+				<a   class="btn flex-c-m stext-101 cl5 size-103 bg2 bor1 hov-btn1 p-lr-15 trans-04">
+>>>>>>> get_product_by_menu
 					Load More
 				</a>
 			</div>

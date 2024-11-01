@@ -11,12 +11,16 @@
 	<!-- Cart -->
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	@include('cart')
 >>>>>>> add_to_cart
 =======
 	@include('cart')
 >>>>>>> chi_tiet_don_hang_da_luu
+=======
+	@include('cart')
+>>>>>>> get_product_by_menu
 
  
 	

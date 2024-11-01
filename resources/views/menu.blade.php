@@ -45,10 +45,14 @@
                         <ul>
                             <li class="p-b-6">
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <a href="" class="filter-link stext-106 trans-04">
 =======
                                 <a href="{{ request()->url() }}" class="filter-link stext-106 trans-04">
 >>>>>>> chi_tiet_don_hang_da_luu
+=======
+                                <a href="{{ request()->url() }}" class="filter-link stext-106 trans-04">
+>>>>>>> get_product_by_menu
                                     Default
                                 </a>
                             </li>
@@ -73,6 +77,7 @@
 
                             <li class="p-b-6">
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <a href="" class="filter-link stext-106 trans-04 ">
 <<<<<<< HEAD
                                     Price: Low to High
@@ -83,10 +88,15 @@
                                 <a href="{{ request()->fullUrlWithQuery(['price' => 'asc']) }}" class="filter-link stext-106 trans-04 ">
                                     Price: Low to High
 >>>>>>> chi_tiet_don_hang_da_luu
+=======
+                                <a href="{{ request()->fullUrlWithQuery(['price' => 'asc']) }}" class="filter-link stext-106 trans-04 ">
+                                    Price: Low to High
+>>>>>>> get_product_by_menu
                                 </a>
                             </li>
 
                             <li class="p-b-6">
+<<<<<<< HEAD
 <<<<<<< HEAD
                                 <a href="" class="filter-link stext-106 trans-04">
 <<<<<<< HEAD
@@ -98,6 +108,10 @@
                                 <a href="{{ request()->fullUrlWithQuery(['price' => 'desc']) }}" class="filter-link stext-106 trans-04">
                                     Price: High to Low
 >>>>>>> chi_tiet_don_hang_da_luu
+=======
+                                <a href="{{ request()->fullUrlWithQuery(['price' => 'desc']) }}" class="filter-link stext-106 trans-04">
+                                    Price: High to Low
+>>>>>>> get_product_by_menu
                                 </a>
                             </li>
                         </ul>
@@ -248,6 +262,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
       @include('product.list')
@@ -259,6 +274,11 @@
       {{ $products->links('pagination::bootstrap-4')  }}
 
 >>>>>>> chi_tiet_don_hang_da_luu
+=======
+      @include('product.list')
+      {{ $products->links('pagination::bootstrap-4')  }}
+
+>>>>>>> get_product_by_menu
     </div>
 </div>
 @endsection

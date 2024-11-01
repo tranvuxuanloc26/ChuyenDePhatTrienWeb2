@@ -33,8 +33,11 @@ class CartController extends Controller
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
+=======
+>>>>>>> get_product_by_menu
     public function update(Request $request){
         $this->cartService->update($request);
         return redirect( '/carts');
@@ -45,10 +48,14 @@ class CartController extends Controller
         $this->cartService->remove($id);
         return redirect( '/carts');
     }
+<<<<<<< HEAD
 >>>>>>> chi_tiet_don_hang_da_luu
 
     public function addCart(Request $request){
          $this->cartService->addCart($request);
          return redirect()->back();
     }
+=======
+
+>>>>>>> get_product_by_menu
 }

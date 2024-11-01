@@ -15,6 +15,7 @@
         <div class="header-cart-content flex-w js-pscroll">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <ul class="header-cart-wrapitem w-full">
               
                 <li class="header-cart-item flex-w flex-t m-b-12">
@@ -23,6 +24,8 @@
 =======
 =======
 >>>>>>> chi_tiet_don_hang_da_luu
+=======
+>>>>>>> get_product_by_menu
             @php $sumPriceCart = 0; @endphp
             <ul class="header-cart-wrapitem w-full">
                 @if(count($products) > 0 )
@@ -37,13 +40,17 @@
                     <div class="header-cart-item-img">
                         <img src="{{ $product->thumb }}" alt="IMG">
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> add_to_cart
 =======
 >>>>>>> chi_tiet_don_hang_da_luu
+=======
+>>>>>>> get_product_by_menu
                     </div>
 
                     <div class="header-cart-item-txt p-t-8">
                         <a href="#" class="header-cart-item-name m-b-18 hov-cl1 trans-04">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                             
@@ -58,6 +65,8 @@
 =======
 =======
 >>>>>>> chi_tiet_don_hang_da_luu
+=======
+>>>>>>> get_product_by_menu
                             {{ $product->name }}
                         </a>
 
@@ -70,21 +79,28 @@
              
                  @endif
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> add_to_cart
 =======
 >>>>>>> chi_tiet_don_hang_da_luu
+=======
+>>>>>>> get_product_by_menu
             </ul>
             
             <div class="w-full">
                 <div class="header-cart-total w-full p-tb-40">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                     Totals: {{ number_format($sumPriceCart,'0', '','.') }} đ
 >>>>>>> add_to_cart
 =======
                     Totals: {{ number_format($sumPriceCart,'0', '','.') }} đ
 >>>>>>> chi_tiet_don_hang_da_luu
+=======
+                    Totals: {{ number_format($sumPriceCart,'0', '','.') }} đ
+>>>>>>> get_product_by_menu
                 </div>
 
                 <div class="header-cart-buttons flex-w w-full">
