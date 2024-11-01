@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
@@ -28,6 +29,10 @@
 
 
 >>>>>>> luu_thong_tin_don_hang
+=======
+
+
+>>>>>>> menu
 (function ($) {
     // USE STRICT
     "use strict";
@@ -109,6 +114,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 });for(var i=0; i<layerCurrentItem.length; i++) {
 =======
                 });
@@ -140,6 +146,11 @@
 
                 for(var i=0; i<layerCurrentItem.length; i++) {
 >>>>>>> luu_thong_tin_don_hang
+=======
+                });
+
+                for(var i=0; i<layerCurrentItem.length; i++) {
+>>>>>>> menu
                     actionSlick1[i] = setTimeout(function(index) {
                         $(layerCurrentItem[index]).addClass($(layerCurrentItem[index]).data('appear') + ' visible-true');
                     },$(layerCurrentItem[i]).data('delay'),i); 
@@ -149,6 +160,7 @@
 
         });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -265,6 +277,9 @@
 >>>>>>> load_more
 =======
 >>>>>>> luu_thong_tin_don_hang
+=======
+      
+>>>>>>> menu
             
                 
 

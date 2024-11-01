@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use App\Http\Controllers\Admin\CartAdminController;
 use App\Http\Services\UploadService;
 =======
@@ -72,6 +73,17 @@ use Illuminate\Support\Facades\Route;
 >>>>>>> login
 =======
 >>>>>>> luu_thong_tin_don_hang
+=======
+
+use Illuminate\Support\Facades\Route;
+
+use App\Http\Controllers\Admin\MenuController;
+
+use App\Http\Controllers\Admin\UploadController;
+
+
+
+>>>>>>> menu
 use App\Http\Controllers\Admin\MainAdminController;
 use App\Http\Controllers\Admin\Users\LoginController;
 
@@ -88,8 +100,11 @@ Route::middleware(['auth'])->group(function () {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> luu_thong_tin_don_hang
+=======
+>>>>>>> menu
         #Menu
         Route::prefix('menus')->group(function () {
             Route::get('add', [MenuController::class, 'create']);
@@ -99,6 +114,7 @@ Route::middleware(['auth'])->group(function () {
             Route::post('edit/{menu}', [MenuController::class, 'update']);
             Route::DELETE('destroy', [MenuController::class, 'destroy']);
         });
+<<<<<<< HEAD
         #Product
         Route::prefix('products')->group(function () {
             Route::get('add', [ProductController::class, 'create']);
@@ -167,10 +183,19 @@ Route::middleware(['auth'])->group(function () {
 
 
 >>>>>>> luu_thong_tin_don_hang
+=======
+       
+        #Upload
+        Route::post('upload/services', [UploadController::class, 'store']);
+
+        
+
+>>>>>>> menu
     });
 
 });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -186,10 +211,13 @@ Route::get('/', [MainController::class, 'index']);
 
 
 <<<<<<< HEAD
+=======
+>>>>>>> menu
 
 
 
 
+<<<<<<< HEAD
 =======
 Route::get('/', [MainController::class, 'index']);
 
@@ -266,3 +294,5 @@ Route::post('carts', [CartController::class, 'addCart']);
 >>>>>>> luu_thong_tin_don_hang
 
 
+=======
+>>>>>>> menu

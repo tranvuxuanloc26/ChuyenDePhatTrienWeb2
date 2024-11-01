@@ -40,6 +40,7 @@ class Helper
         return $active == 0 ? '<span class="badge badge-danger btn-xs"> NO </span>' : '<span class="badge badge-success btn-xs"> YES </span>';
     }
     
+<<<<<<< HEAD
     public static function menus($menus, $parent_id = 0): string{
         $html = '';
         foreach($menus as $key => $menu){
@@ -87,4 +88,7 @@ class Helper
         return '<a href="/lien-he.html">Liên Hệ</a>';
     }
     
+=======
+  
+>>>>>>> menu
 }
