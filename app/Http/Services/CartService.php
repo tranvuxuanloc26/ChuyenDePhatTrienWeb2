@@ -59,6 +59,7 @@ class CartService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> get_product_by_menu
@@ -93,6 +94,8 @@ class CartService
 >>>>>>> gui_mail
 =======
 >>>>>>> luu_thong_tin_don_hang
+=======
+>>>>>>> product_detail
 
     public function addCart($request){
         try{
@@ -100,6 +103,7 @@ class CartService
             $carts = Session::get('carts');
             if(is_null($carts)) return false ;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -125,12 +129,16 @@ class CartService
 >>>>>>> gui_mail
 =======
 >>>>>>> luu_thong_tin_don_hang
+=======
+         
+>>>>>>> product_detail
 
            DB::commit();
 
            Session::flash('success', 'Đặt Hàng Thành Công');
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -147,6 +155,9 @@ class CartService
            #Queue
            SendMail::dispatch($request->input('email'))->delay(now()->addSeconds(3));
 >>>>>>> luu_thong_tin_don_hang
+=======
+         
+>>>>>>> product_detail
 
 
            Session::forget('carts');
@@ -159,6 +170,7 @@ class CartService
         return true;
     }
     
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -200,6 +212,11 @@ class CartService
 
    
 >>>>>>> get_product_by_menu
+=======
+    public function getCustomer(){
+        return Customer::orderByDesc('id')->paginate(8);
+    }
+>>>>>>> product_detail
 
     public function getProductForCart($customer)
     {
@@ -207,6 +224,7 @@ class CartService
             $query->select('id','thumb', 'name');
      }])->get();
     }
+<<<<<<< HEAD
 =======
   
 >>>>>>> gui_mail
@@ -221,6 +239,8 @@ class CartService
 
    
 >>>>>>> luu_thong_tin_don_hang
+=======
+>>>>>>> product_detail
 
 
 }

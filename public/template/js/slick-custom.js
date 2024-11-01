@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
@@ -33,6 +34,10 @@
 
 
 >>>>>>> menu
+=======
+
+
+>>>>>>> product_detail
 (function ($) {
     // USE STRICT
     "use strict";
@@ -115,6 +120,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 });for(var i=0; i<layerCurrentItem.length; i++) {
 =======
                 });
@@ -151,6 +157,11 @@
 
                 for(var i=0; i<layerCurrentItem.length; i++) {
 >>>>>>> menu
+=======
+                });
+
+                for(var i=0; i<layerCurrentItem.length; i++) {
+>>>>>>> product_detail
                     actionSlick1[i] = setTimeout(function(index) {
                         $(layerCurrentItem[index]).addClass($(layerCurrentItem[index]).data('appear') + ' visible-true');
                     },$(layerCurrentItem[i]).data('delay'),i); 
@@ -167,8 +178,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       
 =======
+=======
+>>>>>>> product_detail
         /*==================================================================
         [ Slick2 ]*/
         // $('.wrap-slick2').each(function(){
@@ -224,6 +238,7 @@
         /*==================================================================
         [ Slick3 ]*/
         // $('.wrap-slick3').each(function(){
+<<<<<<< HEAD
 =======
       
 >>>>>>> chi_tiet_don_hang_da_luu
@@ -239,6 +254,8 @@
 =======
       
 >>>>>>> luu_thong_tin_don_hang
+=======
+>>>>>>> product_detail
         //     $(this).find('.slick3').slick({
         //         slidesToShow: 1,
         //         slidesToScroll: 1,
@@ -266,6 +283,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> add_to_cart
 =======
 >>>>>>> chi_tiet_don_hang_da_luu
@@ -280,6 +298,8 @@
 =======
       
 >>>>>>> menu
+=======
+>>>>>>> product_detail
             
                 
 

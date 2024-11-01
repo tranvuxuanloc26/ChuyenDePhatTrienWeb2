@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use App\Http\Controllers\Admin\CartAdminController;
 use App\Http\Services\UploadService;
 =======
@@ -96,6 +97,18 @@ use App\Http\Controllers\Admin\UploadController;
 >>>>>>> menu
 =======
 >>>>>>> product
+=======
+
+use Illuminate\Support\Facades\Route;
+
+use App\Http\Controllers\MainController;
+use App\Http\Controllers\Admin\MenuController;
+use App\Http\Controllers\Admin\SliderController;
+use App\Http\Controllers\Admin\UploadController;
+
+use App\Http\Controllers\Admin\ProductController;
+use App\Http\Controllers\ProductControllerScreen;
+>>>>>>> product_detail
 use App\Http\Controllers\Admin\MainAdminController;
 use App\Http\Controllers\Admin\Users\LoginController;
 
@@ -114,12 +127,15 @@ Route::middleware(['auth'])->group(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> luu_thong_tin_don_hang
 =======
 >>>>>>> menu
 =======
 >>>>>>> product
+=======
+>>>>>>> product_detail
         #Menu
         Route::prefix('menus')->group(function () {
             Route::get('add', [MenuController::class, 'create']);
@@ -131,8 +147,11 @@ Route::middleware(['auth'])->group(function () {
         });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> product
+=======
+>>>>>>> product_detail
         #Product
         Route::prefix('products')->group(function () {
             Route::get('add', [ProductController::class, 'create']);
@@ -145,6 +164,9 @@ Route::middleware(['auth'])->group(function () {
         });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> product_detail
         #Slider
         Route::prefix('sliders')->group(function () {
             Route::get('add', [SliderController::class, 'create']);
@@ -155,13 +177,17 @@ Route::middleware(['auth'])->group(function () {
             Route::DELETE('destroy', [SliderController::class, 'destroy']);
 
         });
+<<<<<<< HEAD
 =======
     
 >>>>>>> product
+=======
+>>>>>>> product_detail
 
         #Upload
         Route::post('upload/services', [UploadController::class, 'store']);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -219,10 +245,14 @@ Route::middleware(['auth'])->group(function () {
 >>>>>>> menu
 =======
 >>>>>>> product
+=======
+      
+>>>>>>> product_detail
     });
 
 });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -279,11 +309,17 @@ Route::get('/danh-muc/{id}-{slug}.html', [MenuControllerScreen::class, 'index'])
 >>>>>>> load_more
 =======
 >>>>>>> luu_thong_tin_don_hang
+=======
+Route::get('/', [MainController::class, 'index']);
+
+
+>>>>>>> product_detail
 Route::get('/san-pham/{id}-{slug}.html', [ProductControllerScreen::class, 'index']);
 // Route::post('/san-pham/{id}-{slug}.html', [ProductControllerScreen::class, 'indexQuickView']);
 
 
 
+<<<<<<< HEAD
 Route::post('add-cart', [CartController::class, 'index']);
 Route::get('carts', [CartController::class, 'show']);
 <<<<<<< HEAD
@@ -330,3 +366,12 @@ Route::post('carts', [CartController::class, 'addCart']);
 >>>>>>> menu
 =======
 >>>>>>> product
+=======
+
+
+// Route::post('carts', [CartController::class, 'addCart']);
+
+
+
+
+>>>>>>> product_detail

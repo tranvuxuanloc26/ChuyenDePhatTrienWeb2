@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  
 =======
     @php $menuHtml = App\Helpers\Helper::menus($menus);     @endphp
@@ -25,6 +26,9 @@
 =======
     @php $menuHtml = App\Helpers\Helper::menus($menus);     @endphp
 >>>>>>> luu_thong_tin_don_hang
+=======
+    @php $menuHtml = App\Helpers\Helper::menus($menus);     @endphp
+>>>>>>> product_detail
     <!-- Header desktop -->
     <div class="container-menu-desktop ">
         <!-- Topbar -->
@@ -74,6 +78,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                         {!! $menuHtml !!}
 >>>>>>> add_to_cart
@@ -92,6 +97,9 @@
 =======
                         {!! $menuHtml !!}
 >>>>>>> luu_thong_tin_don_hang
+=======
+                        {!! $menuHtml !!}
+>>>>>>> product_detail
                       
 
                         {{-- <li >
@@ -212,6 +220,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             {!! $menuHtml !!}
 >>>>>>> add_to_cart
@@ -230,6 +239,9 @@
 =======
             {!! $menuHtml !!}
 >>>>>>> luu_thong_tin_don_hang
+=======
+            {!! $menuHtml !!}
+>>>>>>> product_detail
             {{-- <li >
                 <a href="index.html">Home</a>
                 <ul class="sub-menu">

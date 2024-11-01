@@ -11,6 +11,7 @@ namespace App\Providers;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\ServiceProvider;
 =======
@@ -30,10 +31,13 @@ use Illuminate\Support\ServiceProvider;
 >>>>>>> menu
 =======
 >>>>>>> product
+=======
+>>>>>>> product_detail
 use App\View\Composers\MenuComposer;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\ServiceProvider;
+<<<<<<< HEAD
 use App\View\Composers\CartComposer;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -60,6 +64,8 @@ use App\View\Composers\CartComposer;
 >>>>>>> menu
 =======
 >>>>>>> product
+=======
+>>>>>>> product_detail
 
 
 class AppServiceProvider extends ServiceProvider
@@ -87,6 +93,7 @@ class AppServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         View::composer('header', MenuComposer::class);
         View::composer('cart', CartComposer::class);
@@ -123,6 +130,9 @@ class AppServiceProvider extends ServiceProvider
         View::composer('header', MenuComposer::class);
         View::composer('cart', CartComposer::class);
 >>>>>>> product
+=======
+        View::composer('header', MenuComposer::class);
+>>>>>>> product_detail
 
     }
 }

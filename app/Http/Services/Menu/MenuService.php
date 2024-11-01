@@ -95,6 +95,7 @@ class MenuService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> chi_tiet_don_hang_da_luu
 =======
@@ -109,11 +110,14 @@ class MenuService
 >>>>>>> menu
 =======
 >>>>>>> product
+=======
+>>>>>>> product_detail
     public function getProduct($menu, $request){
         $query =  $menu->products()
         ->select('id', 'name', 'price', 'price_sale', 'thumb')
         ->where('active', 1);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -179,4 +183,10 @@ class MenuService
 >>>>>>> menu
 =======
 >>>>>>> product
+=======
+     
+      return  $query->orderByDesc('id')
+                    ->paginate(4);
+    }
+>>>>>>> product_detail
 }

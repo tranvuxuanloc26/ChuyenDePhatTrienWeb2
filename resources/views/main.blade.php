@@ -15,6 +15,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	@include('cart')
 >>>>>>> add_to_cart
@@ -33,6 +34,9 @@
 =======
 	@include('cart')
 >>>>>>> luu_thong_tin_don_hang
+=======
+	@include('cart')
+>>>>>>> product_detail
 
  
 	

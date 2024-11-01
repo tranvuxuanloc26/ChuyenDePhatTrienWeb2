@@ -42,6 +42,9 @@ class Helper
     
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> product_detail
     public static function menus($menus, $parent_id = 0): string{
         $html = '';
         foreach($menus as $key => $menu){
@@ -89,6 +92,7 @@ class Helper
         return '<a href="/lien-he.html">Liên Hệ</a>';
     }
     
+<<<<<<< HEAD
 =======
   
 >>>>>>> menu
@@ -96,4 +100,6 @@ class Helper
     
     
 >>>>>>> product
+=======
+>>>>>>> product_detail
 }
