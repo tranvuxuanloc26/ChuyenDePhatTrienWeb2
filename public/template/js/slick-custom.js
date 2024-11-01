@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
@@ -23,6 +24,10 @@
 
 
 >>>>>>> load_more
+=======
+
+
+>>>>>>> luu_thong_tin_don_hang
 (function ($) {
     // USE STRICT
     "use strict";
@@ -103,6 +108,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 });for(var i=0; i<layerCurrentItem.length; i++) {
 =======
                 });
@@ -129,6 +135,11 @@
 
                 for(var i=0; i<layerCurrentItem.length; i++) {
 >>>>>>> load_more
+=======
+                });
+
+                for(var i=0; i<layerCurrentItem.length; i++) {
+>>>>>>> luu_thong_tin_don_hang
                     actionSlick1[i] = setTimeout(function(index) {
                         $(layerCurrentItem[index]).addClass($(layerCurrentItem[index]).data('appear') + ' visible-true');
                     },$(layerCurrentItem[i]).data('delay'),i); 
@@ -138,6 +149,7 @@
 
         });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -212,6 +224,9 @@
 =======
       
 >>>>>>> load_more
+=======
+      
+>>>>>>> luu_thong_tin_don_hang
         //     $(this).find('.slick3').slick({
         //         slidesToShow: 1,
         //         slidesToScroll: 1,
@@ -238,6 +253,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> add_to_cart
 =======
 >>>>>>> chi_tiet_don_hang_da_luu
@@ -247,6 +263,8 @@
 >>>>>>> gui_mail
 =======
 >>>>>>> load_more
+=======
+>>>>>>> luu_thong_tin_don_hang
             
                 
 

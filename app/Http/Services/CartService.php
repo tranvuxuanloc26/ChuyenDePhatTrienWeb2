@@ -58,6 +58,7 @@ class CartService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> get_product_by_menu
@@ -65,6 +66,8 @@ class CartService
 >>>>>>> gui_mail
 =======
 >>>>>>> load_more
+=======
+>>>>>>> luu_thong_tin_don_hang
     public function update($request){
         Session::put('carts', $request->input('num_product'));
 
@@ -84,9 +87,12 @@ class CartService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> chi_tiet_don_hang_da_luu
 =======
 >>>>>>> gui_mail
+=======
+>>>>>>> luu_thong_tin_don_hang
 
     public function addCart($request){
         try{
@@ -96,10 +102,13 @@ class CartService
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
          
 =======
 =======
 >>>>>>> gui_mail
+=======
+>>>>>>> luu_thong_tin_don_hang
            $customer = Customer::create([
             'name' => $request->input('name'),
             'phone' => $request->input('phone'),
@@ -110,15 +119,19 @@ class CartService
                
            $this->infoProductCart($carts, $customer->id);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> chi_tiet_don_hang_da_luu
 =======
 >>>>>>> gui_mail
+=======
+>>>>>>> luu_thong_tin_don_hang
 
            DB::commit();
 
            Session::flash('success', 'Đặt Hàng Thành Công');
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          
@@ -130,6 +143,10 @@ class CartService
            #Queue
            SendMail::dispatch($request->input('email'))->delay(now()->addSeconds(3));
 >>>>>>> gui_mail
+=======
+           #Queue
+           SendMail::dispatch($request->input('email'))->delay(now()->addSeconds(3));
+>>>>>>> luu_thong_tin_don_hang
 
 
            Session::forget('carts');
@@ -144,9 +161,12 @@ class CartService
     
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> gui_mail
+=======
+>>>>>>> luu_thong_tin_don_hang
     protected function infoProductCart($carts, $customer_id){
        
         $productId = array_keys($carts);
@@ -169,6 +189,7 @@ class CartService
         }
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> chi_tiet_don_hang_da_luu
     public function getCustomer(){
@@ -193,6 +214,13 @@ class CartService
 
     
 >>>>>>> load_more
+=======
+    public function getCustomer(){
+        return Customer::orderByDesc('id')->paginate(8);
+    }
+
+   
+>>>>>>> luu_thong_tin_don_hang
 
 
 }

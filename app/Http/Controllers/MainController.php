@@ -13,6 +13,7 @@ class MainController extends Controller
     protected $menu;
     protected $product;
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function __construct(SliderService $slider, MenuService $menu, ProductServiceScreen $product)
     {
         $this->slider = $slider;
@@ -20,6 +21,11 @@ class MainController extends Controller
     public function __construct( MenuService $menu)
     {
 >>>>>>> login
+=======
+    public function __construct(SliderService $slider, MenuService $menu, ProductServiceScreen $product)
+    {
+        $this->slider = $slider;
+>>>>>>> luu_thong_tin_don_hang
         $this->menu = $menu;
         $this->product = $product;
     }
@@ -28,6 +34,7 @@ class MainController extends Controller
 
         return view('home', [
             'title' => 'Shop Nước Hoa',
+<<<<<<< HEAD
 <<<<<<< HEAD
             'sliders' => $this->slider->show(),
             'menus' => $this->menu->show(),
@@ -59,6 +66,13 @@ class MainController extends Controller
            
         ]);
 >>>>>>> load_more
+=======
+            'sliders' => $this->slider->show(),
+            'menus' => $this->menu->show(),
+            'products' => $this->product->get(),
+           
+        ]);
+>>>>>>> luu_thong_tin_don_hang
     }
 
     public function loadProduct(Request $request)
@@ -72,6 +86,7 @@ class MainController extends Controller
         }
         return response()->json(['html' => '' ]);
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -92,4 +107,6 @@ class MainController extends Controller
 >>>>>>> load_more
 =======
 >>>>>>> login
+=======
+>>>>>>> luu_thong_tin_don_hang
 }

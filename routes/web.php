@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use App\Http\Controllers\Admin\CartAdminController;
 use App\Http\Services\UploadService;
 =======
@@ -27,6 +28,10 @@ use App\Http\Services\UploadService;
 use App\Http\Controllers\Admin\CartAdminController;
 use App\Http\Services\UploadService;
 >>>>>>> load_more
+=======
+use App\Http\Controllers\Admin\CartAdminController;
+use App\Http\Services\UploadService;
+>>>>>>> luu_thong_tin_don_hang
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\MainController;
@@ -36,6 +41,7 @@ use App\Http\Controllers\Admin\MenuController;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use App\Http\Controllers\MenuControllerScreen;
 =======
 >>>>>>> add_to_cart
@@ -51,15 +57,21 @@ use App\Http\Controllers\MenuControllerScreen;
 =======
 use App\Http\Controllers\MenuControllerScreen;
 >>>>>>> load_more
+=======
+use App\Http\Controllers\MenuControllerScreen;
+>>>>>>> luu_thong_tin_don_hang
 use App\Http\Controllers\Admin\SliderController;
 use App\Http\Controllers\Admin\UploadController;
 use App\Http\Controllers\Admin\ProductController;
 
 use App\Http\Controllers\ProductControllerScreen;
+<<<<<<< HEAD
 =======
 use Illuminate\Support\Facades\Route;
 
 >>>>>>> login
+=======
+>>>>>>> luu_thong_tin_don_hang
 use App\Http\Controllers\Admin\MainAdminController;
 use App\Http\Controllers\Admin\Users\LoginController;
 
@@ -75,6 +87,9 @@ Route::middleware(['auth'])->group(function () {
         Route::get('main', [MainAdminController::class, 'index'])->name('admin');
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> luu_thong_tin_don_hang
         #Menu
         Route::prefix('menus')->group(function () {
             Route::get('add', [MenuController::class, 'create']);
@@ -114,6 +129,7 @@ Route::middleware(['auth'])->group(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      
 
 
@@ -145,6 +161,12 @@ Route::middleware(['auth'])->group(function () {
 =======
         
 >>>>>>> login
+=======
+        #Cart
+        Route::get('customers', [CartAdminController::class, 'index']);
+
+
+>>>>>>> luu_thong_tin_don_hang
     });
 
 });
@@ -155,6 +177,7 @@ Route::middleware(['auth'])->group(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> get_product_by_menu
@@ -176,11 +199,14 @@ Route::get('/', [MainController::class, 'index']);
 >>>>>>> gui_mail
 =======
 >>>>>>> load_more
+=======
+>>>>>>> luu_thong_tin_don_hang
 Route::get('/', [MainController::class, 'index']);
 Route::post('/services/load-product', [MainController::class, 'loadProduct']);
 
 
 Route::get('/danh-muc/{id}-{slug}.html', [MenuControllerScreen::class, 'index']);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> chi_tiet_don_hang_da_luu
@@ -191,6 +217,8 @@ Route::get('/danh-muc/{id}-{slug}.html', [MenuControllerScreen::class, 'index'])
 >>>>>>> gui_mail
 =======
 >>>>>>> load_more
+=======
+>>>>>>> luu_thong_tin_don_hang
 Route::get('/san-pham/{id}-{slug}.html', [ProductControllerScreen::class, 'index']);
 // Route::post('/san-pham/{id}-{slug}.html', [ProductControllerScreen::class, 'indexQuickView']);
 
@@ -198,6 +226,7 @@ Route::get('/san-pham/{id}-{slug}.html', [ProductControllerScreen::class, 'index
 
 Route::post('add-cart', [CartController::class, 'index']);
 Route::get('carts', [CartController::class, 'show']);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -228,5 +257,12 @@ Route::get('carts/delete/{id}', [CartController::class, 'remove']);
 
 =======
 >>>>>>> login
+=======
+Route::post('update-cart', [CartController::class, 'update']);
+Route::get('carts/delete/{id}', [CartController::class, 'remove']);
+Route::post('carts', [CartController::class, 'addCart']);
+
+
+>>>>>>> luu_thong_tin_don_hang
 
 

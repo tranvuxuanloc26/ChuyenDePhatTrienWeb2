@@ -18,6 +18,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <ul class="header-cart-wrapitem w-full">
               
                 <li class="header-cart-item flex-w flex-t m-b-12">
@@ -32,6 +33,8 @@
 >>>>>>> gui_mail
 =======
 >>>>>>> load_more
+=======
+>>>>>>> luu_thong_tin_don_hang
             @php $sumPriceCart = 0; @endphp
             <ul class="header-cart-wrapitem w-full">
                 @if(count($products) > 0 )
@@ -49,6 +52,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> add_to_cart
 =======
 >>>>>>> chi_tiet_don_hang_da_luu
@@ -58,10 +62,13 @@
 >>>>>>> gui_mail
 =======
 >>>>>>> load_more
+=======
+>>>>>>> luu_thong_tin_don_hang
                     </div>
 
                     <div class="header-cart-item-txt p-t-8">
                         <a href="#" class="header-cart-item-name m-b-18 hov-cl1 trans-04">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -85,6 +92,8 @@
 >>>>>>> gui_mail
 =======
 >>>>>>> load_more
+=======
+>>>>>>> luu_thong_tin_don_hang
                             {{ $product->name }}
                         </a>
 
@@ -100,6 +109,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> add_to_cart
 =======
 >>>>>>> chi_tiet_don_hang_da_luu
@@ -109,6 +119,8 @@
 >>>>>>> gui_mail
 =======
 >>>>>>> load_more
+=======
+>>>>>>> luu_thong_tin_don_hang
             </ul>
             
             <div class="w-full">
@@ -118,6 +130,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                     Totals: {{ number_format($sumPriceCart,'0', '','.') }} đ
 >>>>>>> add_to_cart
@@ -133,6 +146,9 @@
 =======
                     Totals: {{ number_format($sumPriceCart,'0', '','.') }} đ
 >>>>>>> load_more
+=======
+                    Totals: {{ number_format($sumPriceCart,'0', '','.') }} đ
+>>>>>>> luu_thong_tin_don_hang
                 </div>
 
                 <div class="header-cart-buttons flex-w w-full">

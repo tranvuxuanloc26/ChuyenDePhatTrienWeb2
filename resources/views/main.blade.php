@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	@include('cart')
 >>>>>>> add_to_cart
@@ -29,6 +30,9 @@
 =======
 	@include('cart')
 >>>>>>> load_more
+=======
+	@include('cart')
+>>>>>>> luu_thong_tin_don_hang
 
  
 	

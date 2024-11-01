@@ -48,6 +48,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <a href="" class="filter-link stext-106 trans-04">
 =======
                                 <a href="{{ request()->url() }}" class="filter-link stext-106 trans-04">
@@ -61,6 +62,9 @@
 =======
                                 <a href="{{ request()->url() }}" class="filter-link stext-106 trans-04">
 >>>>>>> load_more
+=======
+                                <a href="{{ request()->url() }}" class="filter-link stext-106 trans-04">
+>>>>>>> luu_thong_tin_don_hang
                                     Default
                                 </a>
                             </li>
@@ -88,6 +92,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <a href="" class="filter-link stext-106 trans-04 ">
 <<<<<<< HEAD
                                     Price: Low to High
@@ -110,10 +115,15 @@
                                 <a href="{{ request()->fullUrlWithQuery(['price' => 'asc']) }}" class="filter-link stext-106 trans-04 ">
                                     Price: Low to High
 >>>>>>> load_more
+=======
+                                <a href="{{ request()->fullUrlWithQuery(['price' => 'asc']) }}" class="filter-link stext-106 trans-04 ">
+                                    Price: Low to High
+>>>>>>> luu_thong_tin_don_hang
                                 </a>
                             </li>
 
                             <li class="p-b-6">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -140,6 +150,10 @@
                                 <a href="{{ request()->fullUrlWithQuery(['price' => 'desc']) }}" class="filter-link stext-106 trans-04">
                                     Price: High to Low
 >>>>>>> load_more
+=======
+                                <a href="{{ request()->fullUrlWithQuery(['price' => 'desc']) }}" class="filter-link stext-106 trans-04">
+                                    Price: High to Low
+>>>>>>> luu_thong_tin_don_hang
                                 </a>
                             </li>
                         </ul>
@@ -293,6 +307,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
       @include('product.list')
@@ -319,6 +334,11 @@
       {{ $products->links('pagination::bootstrap-4')  }}
 
 >>>>>>> load_more
+=======
+      @include('product.list')
+      {{ $products->links('pagination::bootstrap-4')  }}
+
+>>>>>>> luu_thong_tin_don_hang
     </div>
 </div>
 @endsection

@@ -19,6 +19,7 @@ class CartAdminController extends Controller
             'customers' => $this->cart->getCustomer()
          ]);
     }
+<<<<<<< HEAD
     public function show(Customer $customer){
         $carts = $this->cart->getProductForCart($customer);
           return view('admin.carts.detail',[
@@ -27,4 +28,7 @@ class CartAdminController extends Controller
             'carts' => $carts
           ]);
     }
+=======
+  
+>>>>>>> luu_thong_tin_don_hang
 }
