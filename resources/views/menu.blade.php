@@ -46,6 +46,7 @@
                             <li class="p-b-6">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <a href="" class="filter-link stext-106 trans-04">
 =======
                                 <a href="{{ request()->url() }}" class="filter-link stext-106 trans-04">
@@ -53,6 +54,9 @@
 =======
                                 <a href="{{ request()->url() }}" class="filter-link stext-106 trans-04">
 >>>>>>> get_product_by_menu
+=======
+                                <a href="{{ request()->url() }}" class="filter-link stext-106 trans-04">
+>>>>>>> gui_mail
                                     Default
                                 </a>
                             </li>
@@ -78,6 +82,7 @@
                             <li class="p-b-6">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <a href="" class="filter-link stext-106 trans-04 ">
 <<<<<<< HEAD
                                     Price: Low to High
@@ -92,10 +97,15 @@
                                 <a href="{{ request()->fullUrlWithQuery(['price' => 'asc']) }}" class="filter-link stext-106 trans-04 ">
                                     Price: Low to High
 >>>>>>> get_product_by_menu
+=======
+                                <a href="{{ request()->fullUrlWithQuery(['price' => 'asc']) }}" class="filter-link stext-106 trans-04 ">
+                                    Price: Low to High
+>>>>>>> gui_mail
                                 </a>
                             </li>
 
                             <li class="p-b-6">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                                 <a href="" class="filter-link stext-106 trans-04">
@@ -112,6 +122,10 @@
                                 <a href="{{ request()->fullUrlWithQuery(['price' => 'desc']) }}" class="filter-link stext-106 trans-04">
                                     Price: High to Low
 >>>>>>> get_product_by_menu
+=======
+                                <a href="{{ request()->fullUrlWithQuery(['price' => 'desc']) }}" class="filter-link stext-106 trans-04">
+                                    Price: High to Low
+>>>>>>> gui_mail
                                 </a>
                             </li>
                         </ul>
@@ -263,6 +277,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
       @include('product.list')
@@ -279,6 +294,11 @@
       {{ $products->links('pagination::bootstrap-4')  }}
 
 >>>>>>> get_product_by_menu
+=======
+      @include('product.list')
+      {{ $products->links('pagination::bootstrap-4')  }}
+
+>>>>>>> gui_mail
     </div>
 </div>
 @endsection

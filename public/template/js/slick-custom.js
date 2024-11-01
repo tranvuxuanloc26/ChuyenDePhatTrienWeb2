@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
@@ -13,6 +14,10 @@
 
 
 >>>>>>> get_product_by_menu
+=======
+
+
+>>>>>>> gui_mail
 (function ($) {
     // USE STRICT
     "use strict";
@@ -91,6 +96,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 });for(var i=0; i<layerCurrentItem.length; i++) {
 =======
                 });
@@ -107,6 +113,11 @@
 
                 for(var i=0; i<layerCurrentItem.length; i++) {
 >>>>>>> get_product_by_menu
+=======
+                });
+
+                for(var i=0; i<layerCurrentItem.length; i++) {
+>>>>>>> gui_mail
                     actionSlick1[i] = setTimeout(function(index) {
                         $(layerCurrentItem[index]).addClass($(layerCurrentItem[index]).data('appear') + ' visible-true');
                     },$(layerCurrentItem[i]).data('delay'),i); 
@@ -116,6 +127,7 @@
 
         });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -182,6 +194,9 @@
 =======
       
 >>>>>>> get_product_by_menu
+=======
+      
+>>>>>>> gui_mail
         //     $(this).find('.slick3').slick({
         //         slidesToShow: 1,
         //         slidesToScroll: 1,
@@ -206,11 +221,14 @@
         // });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> add_to_cart
 =======
 >>>>>>> chi_tiet_don_hang_da_luu
 =======
 >>>>>>> get_product_by_menu
+=======
+>>>>>>> gui_mail
             
                 
 

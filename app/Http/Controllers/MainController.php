@@ -29,6 +29,7 @@ class MainController extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
           
            
@@ -43,6 +44,10 @@ class MainController extends Controller
            
         ]);
 >>>>>>> chi_tiet_don_hang_da_luu
+=======
+           
+        ]);
+>>>>>>> gui_mail
     }
 
     public function loadProduct(Request $request)
@@ -56,6 +61,7 @@ class MainController extends Controller
         }
         return response()->json(['html' => '' ]);
     }
+<<<<<<< HEAD
 =======
            
         ]);
@@ -63,4 +69,6 @@ class MainController extends Controller
 
    
 >>>>>>> get_product_by_menu
+=======
+>>>>>>> gui_mail
 }

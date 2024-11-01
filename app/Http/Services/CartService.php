@@ -56,9 +56,12 @@ class CartService
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> get_product_by_menu
+=======
+>>>>>>> gui_mail
     public function update($request){
         Session::put('carts', $request->input('num_product'));
 
@@ -76,7 +79,10 @@ class CartService
 
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> chi_tiet_don_hang_da_luu
+=======
+>>>>>>> gui_mail
 
     public function addCart($request){
         try{
@@ -85,8 +91,11 @@ class CartService
             if(is_null($carts)) return false ;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
          
 =======
+=======
+>>>>>>> gui_mail
            $customer = Customer::create([
             'name' => $request->input('name'),
             'phone' => $request->input('phone'),
@@ -96,7 +105,10 @@ class CartService
            ]);
                
            $this->infoProductCart($carts, $customer->id);
+<<<<<<< HEAD
 >>>>>>> chi_tiet_don_hang_da_luu
+=======
+>>>>>>> gui_mail
 
            DB::commit();
 
@@ -104,11 +116,16 @@ class CartService
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
          
 =======
            #Queue
            SendMail::dispatch($request->input('email'))->delay(now()->addSeconds(3));
 >>>>>>> chi_tiet_don_hang_da_luu
+=======
+           #Queue
+           SendMail::dispatch($request->input('email'))->delay(now()->addSeconds(3));
+>>>>>>> gui_mail
 
 
            Session::forget('carts');
@@ -122,7 +139,10 @@ class CartService
     }
     
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> gui_mail
     protected function infoProductCart($carts, $customer_id){
        
         $productId = array_keys($carts);
@@ -145,6 +165,7 @@ class CartService
         }
     }
 
+<<<<<<< HEAD
 >>>>>>> chi_tiet_don_hang_da_luu
     public function getCustomer(){
         return Customer::orderByDesc('id')->paginate(8);
@@ -161,6 +182,9 @@ class CartService
             $query->select('id','thumb', 'name');
      }])->get();
     }
+=======
+  
+>>>>>>> gui_mail
 
 
 }

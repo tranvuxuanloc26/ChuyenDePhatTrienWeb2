@@ -34,10 +34,13 @@ class CartController extends Controller
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 =======
 >>>>>>> get_product_by_menu
+=======
+>>>>>>> gui_mail
     public function update(Request $request){
         $this->cartService->update($request);
         return redirect( '/carts');
@@ -49,13 +52,19 @@ class CartController extends Controller
         return redirect( '/carts');
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> chi_tiet_don_hang_da_luu
+=======
+>>>>>>> gui_mail
 
     public function addCart(Request $request){
          $this->cartService->addCart($request);
          return redirect()->back();
     }
+<<<<<<< HEAD
 =======
 
 >>>>>>> get_product_by_menu
+=======
+>>>>>>> gui_mail
 }

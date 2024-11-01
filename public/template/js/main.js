@@ -271,6 +271,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     [ Show modal1 ]*/
     $('.js-show-modal1').on('click',function(e){
         e.preventDefault();
@@ -285,6 +286,8 @@
 >>>>>>> chi_tiet_don_hang_da_luu
 =======
 >>>>>>> get_product_by_menu
+=======
+>>>>>>> gui_mail
     // [ Show modal1 ]*/
     // $('.js-show-modal1').on('click',function(e){
     //     e.preventDefault();
@@ -296,11 +299,14 @@
     // });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> add_to_cart
 =======
 >>>>>>> chi_tiet_don_hang_da_luu
 =======
 >>>>>>> get_product_by_menu
+=======
+>>>>>>> gui_mail
 
 
 

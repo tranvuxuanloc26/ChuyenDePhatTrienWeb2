@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			
 			@if(isset($sliders))
 =======
@@ -18,6 +19,9 @@
 =======
 				@if(isset($sliders))
 >>>>>>> get_product_by_menu
+=======
+				@if(isset($sliders))
+>>>>>>> gui_mail
 
 				@foreach ($sliders as $slider)
 				<div class="item-slick1" style="background-image: url({{ $slider->thumb }});">
@@ -28,12 +32,16 @@
 									HOT 2024
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 									
 >>>>>>> chi_tiet_don_hang_da_luu
 =======
 									
 >>>>>>> get_product_by_menu
+=======
+									
+>>>>>>> gui_mail
 								</span>
 							</div>
 								
@@ -56,6 +64,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		
 				
 =======
@@ -64,6 +73,8 @@
 >>>>>>> chi_tiet_don_hang_da_luu
 =======
 >>>>>>> get_product_by_menu
+=======
+>>>>>>> gui_mail
 
 				
 
@@ -78,6 +89,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	<!-- Banner -->
 >>>>>>> add_to_cart
@@ -87,6 +99,9 @@
 =======
 	<!-- Banner -->
 >>>>>>> get_product_by_menu
+=======
+	<!-- Banner -->
+>>>>>>> gui_mail
 	<div class="sec-banner bg0 p-t-80 p-b-50">
 		<div class="container">
 			<div class="row">
@@ -126,6 +141,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> add_to_cart
@@ -135,6 +151,9 @@
 =======
 
 >>>>>>> get_product_by_menu
+=======
+
+>>>>>>> gui_mail
 	<!-- Product -->
 	<section class="bg0 p-t-23 p-b-140">
 		<div class="container">
@@ -593,6 +612,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			@include('product.list')
 
 =======
@@ -604,11 +624,15 @@
 =======
 			@include('product.list')
 >>>>>>> get_product_by_menu
+=======
+			@include('product.list')
+>>>>>>> gui_mail
 			</div>
 
 			<!-- Load more -->
 			<div class="flex-c-m flex-w w-full p-t-45" id="button-loadMore">
 				<input type="hidden" value="1" id="page">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -622,6 +646,9 @@
 =======
 				<a   class="btn flex-c-m stext-101 cl5 size-103 bg2 bor1 hov-btn1 p-lr-15 trans-04">
 >>>>>>> get_product_by_menu
+=======
+				<a  onclick="loadMore()" class="btn flex-c-m stext-101 cl5 size-103 bg2 bor1 hov-btn1 p-lr-15 trans-04">
+>>>>>>> gui_mail
 					Load More
 				</a>
 			</div>

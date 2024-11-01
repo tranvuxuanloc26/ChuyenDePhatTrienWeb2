@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	@include('cart')
 >>>>>>> add_to_cart
@@ -21,6 +22,9 @@
 =======
 	@include('cart')
 >>>>>>> get_product_by_menu
+=======
+	@include('cart')
+>>>>>>> gui_mail
 
  
 	
