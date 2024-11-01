@@ -7,6 +7,7 @@ namespace App\Providers;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\ServiceProvider;
 =======
@@ -18,11 +19,14 @@ use Illuminate\Support\ServiceProvider;
 >>>>>>> gui_mail
 =======
 >>>>>>> load_more
+=======
+>>>>>>> login
 use App\View\Composers\MenuComposer;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\ServiceProvider;
 use App\View\Composers\CartComposer;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -36,6 +40,8 @@ use App\View\Composers\CartComposer;
 >>>>>>> gui_mail
 =======
 >>>>>>> load_more
+=======
+>>>>>>> login
 
 
 class AppServiceProvider extends ServiceProvider
@@ -59,6 +65,7 @@ class AppServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         View::composer('header', MenuComposer::class);
         View::composer('cart', CartComposer::class);
@@ -79,6 +86,10 @@ class AppServiceProvider extends ServiceProvider
         View::composer('header', MenuComposer::class);
         View::composer('cart', CartComposer::class);
 >>>>>>> load_more
+=======
+        View::composer('header', MenuComposer::class);
+        View::composer('cart', CartComposer::class);
+>>>>>>> login
 
     }
 }

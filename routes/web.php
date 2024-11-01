@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use App\Http\Controllers\Admin\CartAdminController;
 use App\Http\Services\UploadService;
 =======
@@ -55,6 +56,10 @@ use App\Http\Controllers\Admin\UploadController;
 use App\Http\Controllers\Admin\ProductController;
 
 use App\Http\Controllers\ProductControllerScreen;
+=======
+use Illuminate\Support\Facades\Route;
+
+>>>>>>> login
 use App\Http\Controllers\Admin\MainAdminController;
 use App\Http\Controllers\Admin\Users\LoginController;
 
@@ -69,6 +74,7 @@ Route::middleware(['auth'])->group(function () {
         Route::get('/', [MainAdminController::class, 'index'])->name('admin');
         Route::get('main', [MainAdminController::class, 'index'])->name('admin');
 
+<<<<<<< HEAD
         #Menu
         Route::prefix('menus')->group(function () {
             Route::get('add', [MenuController::class, 'create']);
@@ -136,10 +142,14 @@ Route::middleware(['auth'])->group(function () {
 
 
 >>>>>>> load_more
+=======
+        
+>>>>>>> login
     });
 
 });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -216,5 +226,7 @@ Route::get('carts/delete/{id}', [CartController::class, 'remove']);
 >>>>>>> load_more
 
 
+=======
+>>>>>>> login
 
 

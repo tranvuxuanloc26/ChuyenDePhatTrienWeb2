@@ -273,6 +273,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> login
     [ Show modal1 ]*/
     $('.js-show-modal1').on('click',function(e){
         e.preventDefault();
@@ -282,6 +285,7 @@
     $('.js-hide-modal1').on('click',function(){
         $('.js-modal1').removeClass('show-modal1');
     });
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> chi_tiet_don_hang_da_luu
@@ -313,6 +317,8 @@
 >>>>>>> gui_mail
 =======
 >>>>>>> load_more
+=======
+>>>>>>> login
 
 
 
