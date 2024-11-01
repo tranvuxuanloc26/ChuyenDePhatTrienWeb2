@@ -57,11 +57,14 @@ class CartService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> get_product_by_menu
 =======
 >>>>>>> gui_mail
+=======
+>>>>>>> load_more
     public function update($request){
         Session::put('carts', $request->input('num_product'));
 
@@ -78,6 +81,7 @@ class CartService
         return true;
 
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> chi_tiet_don_hang_da_luu
@@ -185,6 +189,10 @@ class CartService
 =======
   
 >>>>>>> gui_mail
+=======
+
+    
+>>>>>>> load_more
 
 
 }

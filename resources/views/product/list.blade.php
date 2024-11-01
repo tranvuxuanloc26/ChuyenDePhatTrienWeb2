@@ -11,6 +11,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
                 <a href="/san-pham/{{ $product->id }}-{{ \Str::slug($product->name, '-') }}.html" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
                     Quick View
@@ -22,12 +23,15 @@
 >>>>>>> get_product_by_menu
 =======
 >>>>>>> gui_mail
+=======
+>>>>>>> load_more
                 {{-- <a href="/san-pham/{{ $product->id }}-{{ \Str::slug($product->name, '-') }}.html" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
                     Quick View
                 </a> --}}
                 <button  class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
                     Quick View
                 </button>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -38,6 +42,8 @@
 >>>>>>> get_product_by_menu
 =======
 >>>>>>> gui_mail
+=======
+>>>>>>> load_more
             </div>
 
             <div class="block2-txt flex-w flex-t p-t-14">
@@ -64,6 +70,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
    
 >>>>>>> add_to_cart
@@ -76,6 +83,9 @@
 =======
    
 >>>>>>> gui_mail
+=======
+   
+>>>>>>> load_more
     @endforeach
     @endif
 </div>

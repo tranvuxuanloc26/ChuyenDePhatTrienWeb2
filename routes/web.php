@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use App\Http\Controllers\Admin\CartAdminController;
 use App\Http\Services\UploadService;
 =======
@@ -21,10 +22,15 @@ use App\Http\Services\UploadService;
 use App\Http\Controllers\Admin\CartAdminController;
 use App\Http\Services\UploadService;
 >>>>>>> gui_mail
+=======
+use App\Http\Controllers\Admin\CartAdminController;
+use App\Http\Services\UploadService;
+>>>>>>> load_more
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\MainController;
 use App\Http\Controllers\Admin\MenuController;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -41,6 +47,9 @@ use App\Http\Controllers\MenuControllerScreen;
 =======
 use App\Http\Controllers\MenuControllerScreen;
 >>>>>>> gui_mail
+=======
+use App\Http\Controllers\MenuControllerScreen;
+>>>>>>> load_more
 use App\Http\Controllers\Admin\SliderController;
 use App\Http\Controllers\Admin\UploadController;
 use App\Http\Controllers\Admin\ProductController;
@@ -98,6 +107,7 @@ Route::middleware(['auth'])->group(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      
 
 
@@ -121,6 +131,11 @@ Route::middleware(['auth'])->group(function () {
 
 
 >>>>>>> gui_mail
+=======
+      
+
+
+>>>>>>> load_more
     });
 
 });
@@ -129,6 +144,7 @@ Route::middleware(['auth'])->group(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> get_product_by_menu
@@ -148,11 +164,14 @@ Route::get('/', [MainController::class, 'index']);
 =======
 =======
 >>>>>>> gui_mail
+=======
+>>>>>>> load_more
 Route::get('/', [MainController::class, 'index']);
 Route::post('/services/load-product', [MainController::class, 'loadProduct']);
 
 
 Route::get('/danh-muc/{id}-{slug}.html', [MenuControllerScreen::class, 'index']);
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> chi_tiet_don_hang_da_luu
 =======
@@ -160,6 +179,8 @@ Route::get('/danh-muc/{id}-{slug}.html', [MenuControllerScreen::class, 'index'])
 >>>>>>> get_product_by_menu
 =======
 >>>>>>> gui_mail
+=======
+>>>>>>> load_more
 Route::get('/san-pham/{id}-{slug}.html', [ProductControllerScreen::class, 'index']);
 // Route::post('/san-pham/{id}-{slug}.html', [ProductControllerScreen::class, 'indexQuickView']);
 
@@ -167,6 +188,7 @@ Route::get('/san-pham/{id}-{slug}.html', [ProductControllerScreen::class, 'index
 
 Route::post('add-cart', [CartController::class, 'index']);
 Route::get('carts', [CartController::class, 'show']);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -188,6 +210,10 @@ Route::post('update-cart', [CartController::class, 'update']);
 Route::get('carts/delete/{id}', [CartController::class, 'remove']);
 Route::post('carts', [CartController::class, 'addCart']);
 >>>>>>> gui_mail
+=======
+Route::post('update-cart', [CartController::class, 'update']);
+Route::get('carts/delete/{id}', [CartController::class, 'remove']);
+>>>>>>> load_more
 
 
 

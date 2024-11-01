@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			
 			@if(isset($sliders))
 =======
@@ -22,6 +23,9 @@
 =======
 				@if(isset($sliders))
 >>>>>>> gui_mail
+=======
+				@if(isset($sliders))
+>>>>>>> load_more
 
 				@foreach ($sliders as $slider)
 				<div class="item-slick1" style="background-image: url({{ $slider->thumb }});">
@@ -30,6 +34,7 @@
 							<div class="layer-slick1 animated visible-false" data-appear="fadeInDown" data-delay="0">
 								<span class="ltext-101 cl2 respon2">
 									HOT 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -42,6 +47,9 @@
 =======
 									
 >>>>>>> gui_mail
+=======
+									
+>>>>>>> load_more
 								</span>
 							</div>
 								
@@ -65,6 +73,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		
 				
 =======
@@ -75,6 +84,8 @@
 >>>>>>> get_product_by_menu
 =======
 >>>>>>> gui_mail
+=======
+>>>>>>> load_more
 
 				
 
@@ -90,6 +101,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	<!-- Banner -->
 >>>>>>> add_to_cart
@@ -102,6 +114,9 @@
 =======
 	<!-- Banner -->
 >>>>>>> gui_mail
+=======
+	<!-- Banner -->
+>>>>>>> load_more
 	<div class="sec-banner bg0 p-t-80 p-b-50">
 		<div class="container">
 			<div class="row">
@@ -142,6 +157,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> add_to_cart
@@ -154,6 +170,9 @@
 =======
 
 >>>>>>> gui_mail
+=======
+
+>>>>>>> load_more
 	<!-- Product -->
 	<section class="bg0 p-t-23 p-b-140">
 		<div class="container">
@@ -613,6 +632,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			@include('product.list')
 
 =======
@@ -627,11 +647,15 @@
 =======
 			@include('product.list')
 >>>>>>> gui_mail
+=======
+			@include('product.list')
+>>>>>>> load_more
 			</div>
 
 			<!-- Load more -->
 			<div class="flex-c-m flex-w w-full p-t-45" id="button-loadMore">
 				<input type="hidden" value="1" id="page">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -649,6 +673,9 @@
 =======
 				<a  onclick="loadMore()" class="btn flex-c-m stext-101 cl5 size-103 bg2 bor1 hov-btn1 p-lr-15 trans-04">
 >>>>>>> gui_mail
+=======
+				<a  onclick="loadMore()" class="btn flex-c-m stext-101 cl5 size-103 bg2 bor1 hov-btn1 p-lr-15 trans-04">
+>>>>>>> load_more
 					Load More
 				</a>
 			</div>

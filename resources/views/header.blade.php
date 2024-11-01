@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  
 =======
     @php $menuHtml = App\Helpers\Helper::menus($menus);     @endphp
@@ -17,6 +18,9 @@
 =======
     @php $menuHtml = App\Helpers\Helper::menus($menus);     @endphp
 >>>>>>> gui_mail
+=======
+    @php $menuHtml = App\Helpers\Helper::menus($menus);     @endphp
+>>>>>>> load_more
     <!-- Header desktop -->
     <div class="container-menu-desktop ">
         <!-- Topbar -->
@@ -64,6 +68,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                         {!! $menuHtml !!}
 >>>>>>> add_to_cart
@@ -76,6 +81,9 @@
 =======
                         {!! $menuHtml !!}
 >>>>>>> gui_mail
+=======
+                        {!! $menuHtml !!}
+>>>>>>> load_more
                       
 
                         {{-- <li >
@@ -194,6 +202,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             {!! $menuHtml !!}
 >>>>>>> add_to_cart
@@ -206,6 +215,9 @@
 =======
             {!! $menuHtml !!}
 >>>>>>> gui_mail
+=======
+            {!! $menuHtml !!}
+>>>>>>> load_more
             {{-- <li >
                 <a href="index.html">Home</a>
                 <ul class="sub-menu">

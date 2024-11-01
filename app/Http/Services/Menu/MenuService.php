@@ -91,17 +91,21 @@ class MenuService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> chi_tiet_don_hang_da_luu
 =======
 >>>>>>> get_product_by_menu
 =======
 >>>>>>> gui_mail
+=======
+>>>>>>> load_more
     public function getProduct($menu, $request){
         $query =  $menu->products()
         ->select('id', 'name', 'price', 'price_sale', 'thumb')
         ->where('active', 1);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         if($request->input('price')){
@@ -115,10 +119,16 @@ class MenuService
               $query->orderBy('price', $request->input('price'));
         }
 >>>>>>> gui_mail
+=======
+        if($request->input('price')){
+              $query->orderBy('price', $request->input('price'));
+        }
+>>>>>>> load_more
       return  $query->orderByDesc('id')
                     ->paginate(4)
                     ->withQueryString();
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -131,4 +141,6 @@ class MenuService
 >>>>>>> get_product_by_menu
 =======
 >>>>>>> gui_mail
+=======
+>>>>>>> load_more
 }
