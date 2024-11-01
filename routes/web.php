@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use App\Http\Controllers\Admin\CartAdminController;
 use App\Http\Services\UploadService;
 =======
@@ -33,6 +34,10 @@ use App\Http\Services\UploadService;
 use App\Http\Controllers\Admin\CartAdminController;
 use App\Http\Services\UploadService;
 >>>>>>> luu_thong_tin_don_hang
+=======
+use App\Http\Controllers\Admin\CartAdminController;
+use App\Http\Services\UploadService;
+>>>>>>> product
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\MainController;
@@ -43,6 +48,7 @@ use App\Http\Controllers\Admin\MenuController;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use App\Http\Controllers\MenuControllerScreen;
 =======
 >>>>>>> add_to_cart
@@ -61,11 +67,15 @@ use App\Http\Controllers\MenuControllerScreen;
 =======
 use App\Http\Controllers\MenuControllerScreen;
 >>>>>>> luu_thong_tin_don_hang
+=======
+use App\Http\Controllers\MenuControllerScreen;
+>>>>>>> product
 use App\Http\Controllers\Admin\SliderController;
 use App\Http\Controllers\Admin\UploadController;
 use App\Http\Controllers\Admin\ProductController;
 
 use App\Http\Controllers\ProductControllerScreen;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 use Illuminate\Support\Facades\Route;
@@ -84,6 +94,8 @@ use App\Http\Controllers\Admin\UploadController;
 
 
 >>>>>>> menu
+=======
+>>>>>>> product
 use App\Http\Controllers\Admin\MainAdminController;
 use App\Http\Controllers\Admin\Users\LoginController;
 
@@ -101,10 +113,13 @@ Route::middleware(['auth'])->group(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> luu_thong_tin_don_hang
 =======
 >>>>>>> menu
+=======
+>>>>>>> product
         #Menu
         Route::prefix('menus')->group(function () {
             Route::get('add', [MenuController::class, 'create']);
@@ -115,6 +130,9 @@ Route::middleware(['auth'])->group(function () {
             Route::DELETE('destroy', [MenuController::class, 'destroy']);
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> product
         #Product
         Route::prefix('products')->group(function () {
             Route::get('add', [ProductController::class, 'create']);
@@ -126,6 +144,7 @@ Route::middleware(['auth'])->group(function () {
 
         });
 
+<<<<<<< HEAD
         #Slider
         Route::prefix('sliders')->group(function () {
             Route::get('add', [SliderController::class, 'create']);
@@ -136,10 +155,14 @@ Route::middleware(['auth'])->group(function () {
             Route::DELETE('destroy', [SliderController::class, 'destroy']);
 
         });
+=======
+    
+>>>>>>> product
 
         #Upload
         Route::post('upload/services', [UploadController::class, 'store']);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -153,11 +176,14 @@ Route::middleware(['auth'])->group(function () {
       
 >>>>>>> add_to_cart
 =======
+=======
+>>>>>>> product
         #Cart
         Route::get('customers', [CartAdminController::class, 'index']);
         Route::get('customers/view/{customer}', [CartAdminController::class, 'show']);
 
 
+<<<<<<< HEAD
 >>>>>>> chi_tiet_don_hang_da_luu
 =======
        
@@ -191,10 +217,13 @@ Route::middleware(['auth'])->group(function () {
         
 
 >>>>>>> menu
+=======
+>>>>>>> product
     });
 
 });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -213,10 +242,13 @@ Route::get('/', [MainController::class, 'index']);
 <<<<<<< HEAD
 =======
 >>>>>>> menu
+=======
+>>>>>>> product
 
 
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 Route::get('/', [MainController::class, 'index']);
@@ -296,3 +328,5 @@ Route::post('carts', [CartController::class, 'addCart']);
 
 =======
 >>>>>>> menu
+=======
+>>>>>>> product

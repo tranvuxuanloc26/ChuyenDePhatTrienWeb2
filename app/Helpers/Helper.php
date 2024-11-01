@@ -41,6 +41,7 @@ class Helper
     }
     
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function menus($menus, $parent_id = 0): string{
         $html = '';
         foreach($menus as $key => $menu){
@@ -91,4 +92,8 @@ class Helper
 =======
   
 >>>>>>> menu
+=======
+    
+    
+>>>>>>> product
 }

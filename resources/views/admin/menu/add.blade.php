@@ -72,6 +72,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <button type="submit" class="btn btn-primary">Tạo Danh Mục</button>
       
             <a href="/admin/menus/list" class="btn btn-primary">Trở về</a>
@@ -100,6 +101,11 @@
       
             <a href="/admin/menus/list" class="btn btn-primary">Trở về</a>
 >>>>>>> menu
+=======
+        <button type="submit" class="btn btn-primary">Tạo Danh Mục</button>
+      
+            <a href="/admin/menus/list" class="btn btn-primary">Trở về</a>
+>>>>>>> product
     
       </div>
     

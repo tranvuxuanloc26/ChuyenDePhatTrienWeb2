@@ -15,6 +15,7 @@ class MainController extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function __construct(SliderService $slider, MenuService $menu, ProductServiceScreen $product)
     {
         $this->slider = $slider;
@@ -34,12 +35,19 @@ class MainController extends Controller
     {
         $this->menu = $menu;
 >>>>>>> menu
+=======
+    public function __construct( MenuService $menu, ProductServiceScreen $product)
+    {
+        $this->menu = $menu;
+        $this->product = $product;
+>>>>>>> product
     }
     public function index()
     {
 
         return view('home', [
             'title' => 'Shop Nước Hoa',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -74,11 +82,14 @@ class MainController extends Controller
         ]);
 >>>>>>> load_more
 =======
+=======
+>>>>>>> product
             'sliders' => $this->slider->show(),
             'menus' => $this->menu->show(),
             'products' => $this->product->get(),
            
         ]);
+<<<<<<< HEAD
 >>>>>>> luu_thong_tin_don_hang
     }
 
@@ -123,4 +134,9 @@ class MainController extends Controller
 =======
   
 >>>>>>> menu
+=======
+    }
+
+   
+>>>>>>> product
 }

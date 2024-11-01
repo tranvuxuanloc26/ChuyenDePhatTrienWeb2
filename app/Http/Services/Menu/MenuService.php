@@ -94,6 +94,7 @@ class MenuService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> chi_tiet_don_hang_da_luu
 =======
@@ -106,11 +107,14 @@ class MenuService
 >>>>>>> luu_thong_tin_don_hang
 =======
 >>>>>>> menu
+=======
+>>>>>>> product
     public function getProduct($menu, $request){
         $query =  $menu->products()
         ->select('id', 'name', 'price', 'price_sale', 'thumb')
         ->where('active', 1);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -142,10 +146,16 @@ class MenuService
               $query->orderBy('price', $request->input('price'));
         }
 >>>>>>> menu
+=======
+        if($request->input('price')){
+              $query->orderBy('price', $request->input('price'));
+        }
+>>>>>>> product
       return  $query->orderByDesc('id')
                     ->paginate(4)
                     ->withQueryString();
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -167,4 +177,6 @@ class MenuService
 >>>>>>> luu_thong_tin_don_hang
 =======
 >>>>>>> menu
+=======
+>>>>>>> product
 }

@@ -276,10 +276,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> login
 =======
 >>>>>>> menu
+=======
+>>>>>>> product
     [ Show modal1 ]*/
     $('.js-show-modal1').on('click',function(e){
         e.preventDefault();
@@ -289,6 +292,7 @@
     $('.js-hide-modal1').on('click',function(){
         $('.js-modal1').removeClass('show-modal1');
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -331,6 +335,8 @@
 >>>>>>> luu_thong_tin_don_hang
 =======
 >>>>>>> menu
+=======
+>>>>>>> product
 
 
 
