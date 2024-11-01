@@ -61,6 +61,7 @@ class CartService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> get_product_by_menu
@@ -72,6 +73,8 @@ class CartService
 >>>>>>> luu_thong_tin_don_hang
 =======
 >>>>>>> remove_cart
+=======
+>>>>>>> sort_by_price
     public function update($request){
         Session::put('carts', $request->input('num_product'));
 
@@ -88,6 +91,7 @@ class CartService
         return true;
 
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -270,6 +274,10 @@ class CartService
 =======
 
 >>>>>>> remove_cart
+=======
+
+   
+>>>>>>> sort_by_price
 
 
 }

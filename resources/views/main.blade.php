@@ -17,6 +17,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	@include('cart')
 >>>>>>> add_to_cart
@@ -41,6 +42,9 @@
 =======
 	@include('cart')
 >>>>>>> remove_cart
+=======
+	@include('cart')
+>>>>>>> sort_by_price
 
  
 	

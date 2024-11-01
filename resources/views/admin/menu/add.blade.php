@@ -75,6 +75,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <button type="submit" class="btn btn-primary">Tạo Danh Mục</button>
       
             <a href="/admin/menus/list" class="btn btn-primary">Trở về</a>
@@ -116,6 +117,10 @@
         <a href="/admin/menus/list" class="btn btn-primary ml-5">Trở Về</a>
         <button type="submit" class="btn btn-primary">Tạo Danh Mục</button>
 >>>>>>> remove_cart
+=======
+        <a href="/admin/menus/list" class="btn btn-primary">Trở Về</a>
+        <button type="submit" class="btn btn-primary">Tạo Danh Mục</button>
+>>>>>>> sort_by_price
     
       </div>
     

@@ -38,6 +38,7 @@ class CartController extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 =======
@@ -50,6 +51,8 @@ class CartController extends Controller
 >>>>>>> luu_thong_tin_don_hang
 =======
 >>>>>>> remove_cart
+=======
+>>>>>>> sort_by_price
     public function update(Request $request){
         $this->cartService->update($request);
         return redirect( '/carts');
@@ -60,6 +63,7 @@ class CartController extends Controller
         $this->cartService->remove($id);
         return redirect( '/carts');
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -93,4 +97,8 @@ class CartController extends Controller
 >>>>>>> luu_thong_tin_don_hang
 =======
 >>>>>>> remove_cart
+=======
+
+   
+>>>>>>> sort_by_price
 }

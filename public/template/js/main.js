@@ -279,6 +279,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> login
 =======
@@ -312,6 +313,8 @@
 >>>>>>> product_detail
 =======
 >>>>>>> remove_cart
+=======
+>>>>>>> sort_by_price
     // [ Show modal1 ]*/
     // $('.js-show-modal1').on('click',function(e){
     //     e.preventDefault();
@@ -321,6 +324,7 @@
     // $('.js-hide-modal1').on('click',function(){
     //     $('.js-modal1').removeClass('show-modal1');
     // });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -349,6 +353,8 @@
 >>>>>>> product_detail
 =======
 >>>>>>> remove_cart
+=======
+>>>>>>> sort_by_price
 
 
 

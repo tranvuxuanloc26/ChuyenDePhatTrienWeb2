@@ -51,6 +51,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <a href="" class="filter-link stext-106 trans-04">
 =======
                                 <a href="{{ request()->url() }}" class="filter-link stext-106 trans-04">
@@ -73,6 +74,9 @@
 =======
                                 <a href="{{ request()->url() }}" class="filter-link stext-106 trans-04">
 >>>>>>> remove_cart
+=======
+                                <a href="{{ request()->url() }}" class="filter-link stext-106 trans-04">
+>>>>>>> sort_by_price
                                     Default
                                 </a>
                             </li>
@@ -103,6 +107,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <a href="" class="filter-link stext-106 trans-04 ">
 <<<<<<< HEAD
                                     Price: Low to High
@@ -137,6 +142,10 @@
                                 <a href="{{ request()->fullUrlWithQuery(['price' => 'asc']) }}" class="filter-link stext-106 trans-04 ">
                                     Price: Low to High
 >>>>>>> remove_cart
+=======
+                                <a href="{{ request()->fullUrlWithQuery(['price' => 'asc']) }}" class="filter-link stext-106 trans-04 ">
+                                    Price: Low to High
+>>>>>>> sort_by_price
                                 </a>
                             </li>
 
@@ -148,6 +157,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <a href="" class="filter-link stext-106 trans-04">
 <<<<<<< HEAD
                                     Price: High to Low
@@ -182,6 +192,10 @@
                                 <a href="{{ request()->fullUrlWithQuery(['price' => 'desc']) }}" class="filter-link stext-106 trans-04">
                                     Price: High to Low
 >>>>>>> remove_cart
+=======
+                                <a href="{{ request()->fullUrlWithQuery(['price' => 'desc']) }}" class="filter-link stext-106 trans-04">
+                                    Price: High to Low
+>>>>>>> sort_by_price
                                 </a>
                             </li>
                         </ul>
@@ -338,6 +352,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
       @include('product.list')
@@ -379,6 +394,11 @@
       {{ $products->links('pagination::bootstrap-4')  }}
 
 >>>>>>> remove_cart
+=======
+      @include('product.list')
+      {{ $products->links('pagination::bootstrap-4')  }}
+
+>>>>>>> sort_by_price
     </div>
 </div>
 @endsection

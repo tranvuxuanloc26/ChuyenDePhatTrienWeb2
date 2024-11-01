@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			
 			@if(isset($sliders))
 =======
@@ -38,6 +39,9 @@
 =======
 				@if(isset($sliders))
 >>>>>>> remove_cart
+=======
+				@if(isset($sliders))
+>>>>>>> sort_by_price
 
 				@foreach ($sliders as $slider)
 				<div class="item-slick1" style="background-image: url({{ $slider->thumb }});">
@@ -46,6 +50,7 @@
 							<div class="layer-slick1 animated visible-false" data-appear="fadeInDown" data-delay="0">
 								<span class="ltext-101 cl2 respon2">
 									HOT 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -72,6 +77,9 @@
 >>>>>>> product_detail
 =======
 >>>>>>> remove_cart
+=======
+									
+>>>>>>> sort_by_price
 								</span>
 							</div>
 								
@@ -99,6 +107,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		
 				
 =======
@@ -117,6 +126,8 @@
 >>>>>>> product_detail
 =======
 >>>>>>> remove_cart
+=======
+>>>>>>> sort_by_price
 
 				
 
@@ -136,6 +147,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	<!-- Banner -->
 >>>>>>> add_to_cart
@@ -160,6 +172,9 @@
 =======
 	<!-- Banner -->
 >>>>>>> remove_cart
+=======
+	<!-- Banner -->
+>>>>>>> sort_by_price
 	<div class="sec-banner bg0 p-t-80 p-b-50">
 		<div class="container">
 			<div class="row">
@@ -204,6 +219,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> add_to_cart
@@ -228,6 +244,9 @@
 =======
 
 >>>>>>> remove_cart
+=======
+
+>>>>>>> sort_by_price
 	<!-- Product -->
 	<section class="bg0 p-t-23 p-b-140">
 		<div class="container">
@@ -691,6 +710,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			@include('product.list')
 
 =======
@@ -717,11 +737,15 @@
 =======
 		
 >>>>>>> remove_cart
+=======
+			@include('product.list')
+>>>>>>> sort_by_price
 			</div>
 
 			<!-- Load more -->
 			<div class="flex-c-m flex-w w-full p-t-45" id="button-loadMore">
 				<input type="hidden" value="1" id="page">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -755,6 +779,9 @@
 =======
 				<a   class="btn flex-c-m stext-101 cl5 size-103 bg2 bor1 hov-btn1 p-lr-15 trans-04">
 >>>>>>> remove_cart
+=======
+				<a  class="btn flex-c-m stext-101 cl5 size-103 bg2 bor1 hov-btn1 p-lr-15 trans-04">
+>>>>>>> sort_by_price
 					Load More
 				</a>
 			</div>

@@ -55,6 +55,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <a href="">Xoá</a>
 =======
                                     <a href="/carts/delete/{{ $product->id }}">Xoá</a>
@@ -74,6 +75,9 @@
 =======
                                     <a href="/carts/delete/{{ $product->id }}">Xoá</a>
 >>>>>>> remove_cart
+=======
+                                    <a href="/carts/delete/{{ $product->id }}">Xoá</a>
+>>>>>>> sort_by_price
                                 </td>
                             </tr>
                               @endforeach
@@ -100,6 +104,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <input type="submit" value="Update Cart" class="flex-c-m stext-101 cl2 size-119 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer m-tb-10">
 =======
                         <input type="submit" value="Update Cart" formaction="/update-cart" class="flex-c-m stext-101 cl2 size-119 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer m-tb-10">
@@ -119,6 +124,9 @@
 =======
                         <input type="submit" value="Update Cart" formaction="/update-cart" class="flex-c-m stext-101 cl2 size-119 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer m-tb-10">
 >>>>>>> remove_cart
+=======
+                        <input type="submit" value="Update Cart" formaction="/update-cart" class="flex-c-m stext-101 cl2 size-119 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer m-tb-10">
+>>>>>>> sort_by_price
                         
                         @csrf
                     </div>
@@ -182,6 +190,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <input class="stext-111 cl8 plh3 size-111 p-lr-15" type="text" name="phone" placeholder="Số Điện Thoại">
 =======
                                     <input class="stext-111 cl8 plh3 size-111 p-lr-15" type="text" name="phone" placeholder="Số Điện Thoại" >
@@ -201,6 +210,9 @@
 =======
                                     <input class="stext-111 cl8 plh3 size-111 p-lr-15" type="text" name="phone" placeholder="Số Điện Thoại" >
 >>>>>>> remove_cart
+=======
+                                    <input class="stext-111 cl8 plh3 size-111 p-lr-15" type="text" name="phone" placeholder="Số Điện Thoại" >
+>>>>>>> sort_by_price
                                 </div>
 
                                 <div class="bor8 bg0 m-b-12">

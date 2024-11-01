@@ -11,6 +11,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use App\Http\Controllers\Admin\CartAdminController;
 use App\Http\Services\UploadService;
 =======
@@ -44,6 +45,10 @@ use App\Http\Services\UploadService;
 use App\Http\Controllers\Admin\CartAdminController;
 use App\Http\Services\UploadService;
 >>>>>>> remove_cart
+=======
+use App\Http\Controllers\Admin\CartAdminController;
+use App\Http\Services\UploadService;
+>>>>>>> sort_by_price
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\MainController;
@@ -56,6 +61,7 @@ use App\Http\Controllers\Admin\MenuController;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use App\Http\Controllers\MenuControllerScreen;
 =======
 >>>>>>> add_to_cart
@@ -80,11 +86,15 @@ use App\Http\Controllers\MenuControllerScreen;
 =======
 use App\Http\Controllers\MenuControllerScreen;
 >>>>>>> remove_cart
+=======
+use App\Http\Controllers\MenuControllerScreen;
+>>>>>>> sort_by_price
 use App\Http\Controllers\Admin\SliderController;
 use App\Http\Controllers\Admin\UploadController;
 use App\Http\Controllers\Admin\ProductController;
 
 use App\Http\Controllers\ProductControllerScreen;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -121,6 +131,8 @@ use App\Http\Controllers\ProductControllerScreen;
 >>>>>>> product_detail
 =======
 >>>>>>> remove_cart
+=======
+>>>>>>> sort_by_price
 use App\Http\Controllers\Admin\MainAdminController;
 use App\Http\Controllers\Admin\Users\LoginController;
 
@@ -141,6 +153,7 @@ Route::middleware(['auth'])->group(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> luu_thong_tin_don_hang
 =======
@@ -151,6 +164,8 @@ Route::middleware(['auth'])->group(function () {
 >>>>>>> product_detail
 =======
 >>>>>>> remove_cart
+=======
+>>>>>>> sort_by_price
         #Menu
         Route::prefix('menus')->group(function () {
             Route::get('add', [MenuController::class, 'create']);
@@ -164,12 +179,15 @@ Route::middleware(['auth'])->group(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> product
 =======
 >>>>>>> product_detail
 =======
 >>>>>>> remove_cart
+=======
+>>>>>>> sort_by_price
         #Product
         Route::prefix('products')->group(function () {
             Route::get('add', [ProductController::class, 'create']);
@@ -184,10 +202,13 @@ Route::middleware(['auth'])->group(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> product_detail
 =======
 >>>>>>> remove_cart
+=======
+>>>>>>> sort_by_price
         #Slider
         Route::prefix('sliders')->group(function () {
             Route::get('add', [SliderController::class, 'create']);
@@ -200,6 +221,7 @@ Route::middleware(['auth'])->group(function () {
         });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     
 >>>>>>> product
@@ -207,10 +229,13 @@ Route::middleware(['auth'])->group(function () {
 >>>>>>> product_detail
 =======
 >>>>>>> remove_cart
+=======
+>>>>>>> sort_by_price
 
         #Upload
         Route::post('upload/services', [UploadController::class, 'store']);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -277,10 +302,16 @@ Route::middleware(['auth'])->group(function () {
      
 
 >>>>>>> remove_cart
+=======
+      
+
+
+>>>>>>> sort_by_price
     });
 
 });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -348,11 +379,18 @@ Route::get('/', [MainController::class, 'index']);
 Route::get('/', [MainController::class, 'index']);
 
 >>>>>>> remove_cart
+=======
+Route::get('/', [MainController::class, 'index']);
+
+
+Route::get('/danh-muc/{id}-{slug}.html', [MenuControllerScreen::class, 'index']);
+>>>>>>> sort_by_price
 Route::get('/san-pham/{id}-{slug}.html', [ProductControllerScreen::class, 'index']);
 // Route::post('/san-pham/{id}-{slug}.html', [ProductControllerScreen::class, 'indexQuickView']);
 
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 Route::post('add-cart', [CartController::class, 'index']);
@@ -406,16 +444,24 @@ Route::post('carts', [CartController::class, 'addCart']);
 
 // Route::post('carts', [CartController::class, 'addCart']);
 =======
+=======
+>>>>>>> sort_by_price
 Route::post('add-cart', [CartController::class, 'index']);
 Route::get('carts', [CartController::class, 'show']);
 Route::post('update-cart', [CartController::class, 'update']);
 Route::get('carts/delete/{id}', [CartController::class, 'remove']);
+<<<<<<< HEAD
 >>>>>>> remove_cart
+=======
+>>>>>>> sort_by_price
 
 
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> product_detail
 =======
 >>>>>>> remove_cart
+=======
+>>>>>>> sort_by_price

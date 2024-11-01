@@ -136,6 +136,7 @@
                                 </button>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <input type="hidden" name="product_id" value="{{ $product->id }}">
 =======
                                 <input type="hidden" name="product_id" value="">
@@ -143,6 +144,9 @@
 =======
                                 <input type="hidden" name="product_id" value="{{ $product->id }}">
 >>>>>>> remove_cart
+=======
+                                <input type="hidden" name="product_id" value="{{ $product->id }}">
+>>>>>>> sort_by_price
                                 @endif
                                 @csrf
                             </form>
