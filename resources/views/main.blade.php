@@ -10,9 +10,13 @@
 
 	<!-- Cart -->
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	@include('cart')
 >>>>>>> add_to_cart
+=======
+	@include('cart')
+>>>>>>> chi_tiet_don_hang_da_luu
 
  
 	

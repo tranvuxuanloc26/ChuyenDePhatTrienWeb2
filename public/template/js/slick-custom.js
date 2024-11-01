@@ -1,8 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
 >>>>>>> add_to_cart
+=======
+
+
+>>>>>>> chi_tiet_don_hang_da_luu
 (function ($) {
     // USE STRICT
     "use strict";
@@ -79,12 +84,18 @@
                 $(layerSlick1).each(function(){
                     $(this).removeClass($(this).data('appear') + ' visible-true');
 <<<<<<< HEAD
+<<<<<<< HEAD
                 });for(var i=0; i<layerCurrentItem.length; i++) {
 =======
                 });
 
                 for(var i=0; i<layerCurrentItem.length; i++) {
 >>>>>>> add_to_cart
+=======
+                });
+
+                for(var i=0; i<layerCurrentItem.length; i++) {
+>>>>>>> chi_tiet_don_hang_da_luu
                     actionSlick1[i] = setTimeout(function(index) {
                         $(layerCurrentItem[index]).addClass($(layerCurrentItem[index]).data('appear') + ' visible-true');
                     },$(layerCurrentItem[i]).data('delay'),i); 
@@ -94,6 +105,7 @@
 
         });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
       
 =======
@@ -152,6 +164,9 @@
         /*==================================================================
         [ Slick3 ]*/
         // $('.wrap-slick3').each(function(){
+=======
+      
+>>>>>>> chi_tiet_don_hang_da_luu
         //     $(this).find('.slick3').slick({
         //         slidesToShow: 1,
         //         slidesToScroll: 1,
@@ -174,7 +189,10 @@
         //         },  
         //     });
         // });
+<<<<<<< HEAD
 >>>>>>> add_to_cart
+=======
+>>>>>>> chi_tiet_don_hang_da_luu
             
                 
 

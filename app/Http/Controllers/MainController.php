@@ -27,6 +27,7 @@ class MainController extends Controller
             'menus' => $this->menu->show(),
             'products' => $this->product->get(),
 <<<<<<< HEAD
+<<<<<<< HEAD
 
           
            
@@ -37,6 +38,10 @@ class MainController extends Controller
            
         ]);
 >>>>>>> add_to_cart
+=======
+           
+        ]);
+>>>>>>> chi_tiet_don_hang_da_luu
     }
 
     public function loadProduct(Request $request)

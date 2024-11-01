@@ -67,6 +67,7 @@
       
       <div class="card-footer">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <button type="submit" class="btn btn-primary">Tạo Danh Mục</button>
       
             <a href="/admin/menus/list" class="btn btn-primary">Trở về</a>
@@ -74,6 +75,10 @@
         <a href="/admin/menus/list" class="btn btn-primary ml-5">Trở Về</a>
         <button type="submit" class="btn btn-primary">Tạo Danh Mục</button>
 >>>>>>> add_to_cart
+=======
+        <a href="/admin/menus/list" class="btn btn-primary">Trở Về</a>
+        <button type="submit" class="btn btn-primary">Tạo Danh Mục</button>
+>>>>>>> chi_tiet_don_hang_da_luu
     
       </div>
     

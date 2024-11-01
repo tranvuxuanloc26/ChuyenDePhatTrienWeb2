@@ -269,6 +269,7 @@
     /*==================================================================
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     [ Show modal1 ]*/
     $('.js-show-modal1').on('click',function(e){
         e.preventDefault();
@@ -279,6 +280,8 @@
         $('.js-modal1').removeClass('show-modal1');
     });
 =======
+=======
+>>>>>>> chi_tiet_don_hang_da_luu
     // [ Show modal1 ]*/
     // $('.js-show-modal1').on('click',function(e){
     //     e.preventDefault();
@@ -288,7 +291,10 @@
     // $('.js-hide-modal1').on('click',function(){
     //     $('.js-modal1').removeClass('show-modal1');
     // });
+<<<<<<< HEAD
 >>>>>>> add_to_cart
+=======
+>>>>>>> chi_tiet_don_hang_da_luu
 
 
 

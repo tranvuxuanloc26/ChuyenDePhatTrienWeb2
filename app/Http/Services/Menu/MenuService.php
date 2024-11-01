@@ -88,6 +88,9 @@ class MenuService
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> chi_tiet_don_hang_da_luu
     public function getProduct($menu, $request){
         $query =  $menu->products()
         ->select('id', 'name', 'price', 'price_sale', 'thumb')
@@ -100,7 +103,10 @@ class MenuService
                     ->paginate(4)
                     ->withQueryString();
     }
+<<<<<<< HEAD
 =======
     
 >>>>>>> add_to_cart
+=======
+>>>>>>> chi_tiet_don_hang_da_luu
 }

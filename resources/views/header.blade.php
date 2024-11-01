@@ -1,10 +1,14 @@
 
 <header>
 <<<<<<< HEAD
+<<<<<<< HEAD
  
 =======
     @php $menuHtml = App\Helpers\Helper::menus($menus);     @endphp
 >>>>>>> add_to_cart
+=======
+    @php $menuHtml = App\Helpers\Helper::menus($menus);     @endphp
+>>>>>>> chi_tiet_don_hang_da_luu
     <!-- Header desktop -->
     <div class="container-menu-desktop ">
         <!-- Topbar -->
@@ -49,9 +53,13 @@
 
                     <ul id="navbuttons" class="main-menu ">
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                         {!! $menuHtml !!}
 >>>>>>> add_to_cart
+=======
+                        {!! $menuHtml !!}
+>>>>>>> chi_tiet_don_hang_da_luu
                       
 
                         {{-- <li >
@@ -167,9 +175,13 @@
         <ul class="main-menu-m">
             <li class="active-menu"><a href="/">Trang Chủ</a></li>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             {!! $menuHtml !!}
 >>>>>>> add_to_cart
+=======
+            {!! $menuHtml !!}
+>>>>>>> chi_tiet_don_hang_da_luu
             {{-- <li >
                 <a href="index.html">Home</a>
                 <ul class="sub-menu">

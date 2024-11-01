@@ -5,11 +5,15 @@
 		<div class="wrap-slick1">
 			<div class="slick1">
 <<<<<<< HEAD
+<<<<<<< HEAD
 			
 			@if(isset($sliders))
 =======
 				@if(isset($sliders))
 >>>>>>> add_to_cart
+=======
+				@if(isset($sliders))
+>>>>>>> chi_tiet_don_hang_da_luu
 
 				@foreach ($sliders as $slider)
 				<div class="item-slick1" style="background-image: url({{ $slider->thumb }});">
@@ -18,6 +22,10 @@
 							<div class="layer-slick1 animated visible-false" data-appear="fadeInDown" data-delay="0">
 								<span class="ltext-101 cl2 respon2">
 									HOT 2024
+<<<<<<< HEAD
+=======
+									
+>>>>>>> chi_tiet_don_hang_da_luu
 								</span>
 							</div>
 								
@@ -38,10 +46,13 @@
 				@endforeach
 				@endif
 <<<<<<< HEAD
+<<<<<<< HEAD
 		
 				
 =======
 >>>>>>> add_to_cart
+=======
+>>>>>>> chi_tiet_don_hang_da_luu
 
 				
 
@@ -54,9 +65,13 @@
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	<!-- Banner -->
 >>>>>>> add_to_cart
+=======
+	<!-- Banner -->
+>>>>>>> chi_tiet_don_hang_da_luu
 	<div class="sec-banner bg0 p-t-80 p-b-50">
 		<div class="container">
 			<div class="row">
@@ -94,9 +109,13 @@
 	</div>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> add_to_cart
+=======
+
+>>>>>>> chi_tiet_don_hang_da_luu
 	<!-- Product -->
 	<section class="bg0 p-t-23 p-b-140">
 		<div class="container">
@@ -553,21 +572,29 @@
 			
 			<div id="loadProduct">
 <<<<<<< HEAD
+<<<<<<< HEAD
 			@include('product.list')
 
 =======
 		
 >>>>>>> add_to_cart
+=======
+			@include('product.list')
+>>>>>>> chi_tiet_don_hang_da_luu
 			</div>
 
 			<!-- Load more -->
 			<div class="flex-c-m flex-w w-full p-t-45" id="button-loadMore">
 				<input type="hidden" value="1" id="page">
 <<<<<<< HEAD
+<<<<<<< HEAD
 				<a  class="btn flex-c-m stext-101 cl5 size-103 bg2 bor1 hov-btn1 p-lr-15 trans-04">
 =======
 				<a   class="btn flex-c-m stext-101 cl5 size-103 bg2 bor1 hov-btn1 p-lr-15 trans-04">
 >>>>>>> add_to_cart
+=======
+				<a  onclick="loadMore()" class="btn flex-c-m stext-101 cl5 size-103 bg2 bor1 hov-btn1 p-lr-15 trans-04">
+>>>>>>> chi_tiet_don_hang_da_luu
 					Load More
 				</a>
 			</div>
