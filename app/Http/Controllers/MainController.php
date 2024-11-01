@@ -26,12 +26,17 @@ class MainController extends Controller
             'sliders' => $this->slider->show(),
             'menus' => $this->menu->show(),
             'products' => $this->product->get(),
+<<<<<<< HEAD
 
           
            
         ]);
 
         dd($this->slider->show());
+=======
+           
+        ]);
+>>>>>>> add_to_cart
     }
 
     public function loadProduct(Request $request)

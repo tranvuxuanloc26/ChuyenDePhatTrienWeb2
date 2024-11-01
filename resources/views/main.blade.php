@@ -9,6 +9,10 @@
 	@include('header')
 
 	<!-- Cart -->
+<<<<<<< HEAD
+=======
+	@include('cart')
+>>>>>>> add_to_cart
 
  
 	

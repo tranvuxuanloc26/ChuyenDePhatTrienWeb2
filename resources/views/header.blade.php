@@ -1,6 +1,10 @@
 
 <header>
+<<<<<<< HEAD
  
+=======
+    @php $menuHtml = App\Helpers\Helper::menus($menus);     @endphp
+>>>>>>> add_to_cart
     <!-- Header desktop -->
     <div class="container-menu-desktop ">
         <!-- Topbar -->
@@ -44,6 +48,10 @@
                 <div id="nav" class="menu-desktop ">
 
                     <ul id="navbuttons" class="main-menu ">
+<<<<<<< HEAD
+=======
+                        {!! $menuHtml !!}
+>>>>>>> add_to_cart
                       
 
                         {{-- <li >
@@ -158,6 +166,10 @@
 
         <ul class="main-menu-m">
             <li class="active-menu"><a href="/">Trang Chủ</a></li>
+<<<<<<< HEAD
+=======
+            {!! $menuHtml !!}
+>>>>>>> add_to_cart
             {{-- <li >
                 <a href="index.html">Home</a>
                 <ul class="sub-menu">

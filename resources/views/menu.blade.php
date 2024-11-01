@@ -69,13 +69,21 @@
 
                             <li class="p-b-6">
                                 <a href="" class="filter-link stext-106 trans-04 ">
+<<<<<<< HEAD
                                     Price: Low to High
+=======
+                                    Low 
+>>>>>>> add_to_cart
                                 </a>
                             </li>
 
                             <li class="p-b-6">
                                 <a href="" class="filter-link stext-106 trans-04">
+<<<<<<< HEAD
                                     Price: High to Low
+=======
+                                    High 
+>>>>>>> add_to_cart
                                 </a>
                             </li>
                         </ul>
@@ -224,7 +232,13 @@
             </div>
         </div>
 
+<<<<<<< HEAD
     
+=======
+      @include('product.list')
+      {{ $products->links('pagination::bootstrap-4')  }}
+
+>>>>>>> add_to_cart
     </div>
 </div>
 @endsection

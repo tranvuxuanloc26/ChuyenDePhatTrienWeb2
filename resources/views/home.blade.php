@@ -4,8 +4,12 @@
 	<section class="section-slide">
 		<div class="wrap-slick1">
 			<div class="slick1">
+<<<<<<< HEAD
 			
 			@if(isset($sliders))
+=======
+				@if(isset($sliders))
+>>>>>>> add_to_cart
 
 				@foreach ($sliders as $slider)
 				<div class="item-slick1" style="background-image: url({{ $slider->thumb }});">
@@ -33,8 +37,11 @@
 				</div>
 				@endforeach
 				@endif
+<<<<<<< HEAD
 		
 				
+=======
+>>>>>>> add_to_cart
 
 				
 
@@ -46,6 +53,10 @@
 	</section>
 
 
+<<<<<<< HEAD
+=======
+	<!-- Banner -->
+>>>>>>> add_to_cart
 	<div class="sec-banner bg0 p-t-80 p-b-50">
 		<div class="container">
 			<div class="row">
@@ -82,6 +93,10 @@
 		</div>
 	</div>
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> add_to_cart
 	<!-- Product -->
 	<section class="bg0 p-t-23 p-b-140">
 		<div class="container">
@@ -537,14 +552,22 @@
 			</div>
 			
 			<div id="loadProduct">
+<<<<<<< HEAD
 			@include('product.list')
 
+=======
+		
+>>>>>>> add_to_cart
 			</div>
 
 			<!-- Load more -->
 			<div class="flex-c-m flex-w w-full p-t-45" id="button-loadMore">
 				<input type="hidden" value="1" id="page">
+<<<<<<< HEAD
 				<a  class="btn flex-c-m stext-101 cl5 size-103 bg2 bor1 hov-btn1 p-lr-15 trans-04">
+=======
+				<a   class="btn flex-c-m stext-101 cl5 size-103 bg2 bor1 hov-btn1 p-lr-15 trans-04">
+>>>>>>> add_to_cart
 					Load More
 				</a>
 			</div>

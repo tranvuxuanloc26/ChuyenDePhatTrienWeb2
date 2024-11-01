@@ -7,10 +7,19 @@
         <div class="block2">
             <div class="block2-pic hov-img0" >
                 <img src="{{ $product->thumb }}" alt="{{ $product->name }}" width="100%" height="335px">
+<<<<<<< HEAD
 
                 <a href="/san-pham/{{ $product->id }}-{{ \Str::slug($product->name, '-') }}.html" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
                     Quick View
                 </a>
+=======
+                {{-- <a href="/san-pham/{{ $product->id }}-{{ \Str::slug($product->name, '-') }}.html" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
+                    Quick View
+                </a> --}}
+                <button  class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
+                    Quick View
+                </button>
+>>>>>>> add_to_cart
             </div>
 
             <div class="block2-txt flex-w flex-t p-t-14">
@@ -33,6 +42,10 @@
             </div>
         </div>
     </div>
+<<<<<<< HEAD
+=======
+   
+>>>>>>> add_to_cart
     @endforeach
     @endif
 </div>

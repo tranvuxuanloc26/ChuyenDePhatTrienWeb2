@@ -13,15 +13,32 @@
         </div>
         
         <div class="header-cart-content flex-w js-pscroll">
+<<<<<<< HEAD
             <ul class="header-cart-wrapitem w-full">
               
                 <li class="header-cart-item flex-w flex-t m-b-12">
                     <div class="header-cart-item-img">
                         <img src="" alt="IMG">
+=======
+            @php $sumPriceCart = 0; @endphp
+            <ul class="header-cart-wrapitem w-full">
+                @if(count($products) > 0 )
+                @foreach ($products as $key=>$product)
+                @php 
+                
+                $price = \App\Helpers\Helper::price($product->price, $product->price_sale); 
+                $sumPriceCart += $product->price_sale !=0 ? $product->price_sale : $product->price;
+                
+                @endphp
+                <li class="header-cart-item flex-w flex-t m-b-12">
+                    <div class="header-cart-item-img">
+                        <img src="{{ $product->thumb }}" alt="IMG">
+>>>>>>> add_to_cart
                     </div>
 
                     <div class="header-cart-item-txt p-t-8">
                         <a href="#" class="header-cart-item-name m-b-18 hov-cl1 trans-04">
+<<<<<<< HEAD
                             
                         </a>
 
@@ -31,10 +48,27 @@
                     </div>
                 </li>
              
+=======
+                            {{ $product->name }}
+                        </a>
+
+                        <span class="header-cart-item-info">
+                            {!! $price !!}
+                        </span>
+                    </div>
+                </li>
+                @endforeach
+             
+                 @endif
+>>>>>>> add_to_cart
             </ul>
             
             <div class="w-full">
                 <div class="header-cart-total w-full p-tb-40">
+<<<<<<< HEAD
+=======
+                    Totals: {{ number_format($sumPriceCart,'0', '','.') }} đ
+>>>>>>> add_to_cart
                 </div>
 
                 <div class="header-cart-buttons flex-w w-full">

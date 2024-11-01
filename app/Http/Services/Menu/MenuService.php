@@ -87,6 +87,7 @@ class MenuService
         ->firstOrFail();
     }
 
+<<<<<<< HEAD
     public function getProduct($menu, $request){
         $query =  $menu->products()
         ->select('id', 'name', 'price', 'price_sale', 'thumb')
@@ -99,4 +100,7 @@ class MenuService
                     ->paginate(4)
                     ->withQueryString();
     }
+=======
+    
+>>>>>>> add_to_cart
 }

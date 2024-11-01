@@ -1,12 +1,19 @@
 <?php
 
+<<<<<<< HEAD
 use App\Http\Controllers\Admin\CartAdminController;
 use App\Http\Services\UploadService;
+=======
+
+>>>>>>> add_to_cart
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\MainController;
 use App\Http\Controllers\Admin\MenuController;
+<<<<<<< HEAD
 use App\Http\Controllers\MenuControllerScreen;
+=======
+>>>>>>> add_to_cart
 use App\Http\Controllers\Admin\SliderController;
 use App\Http\Controllers\Admin\UploadController;
 use App\Http\Controllers\Admin\ProductController;
@@ -60,13 +67,18 @@ Route::middleware(['auth'])->group(function () {
         #Upload
         Route::post('upload/services', [UploadController::class, 'store']);
 
+<<<<<<< HEAD
      
 
 
+=======
+      
+>>>>>>> add_to_cart
     });
 
 });
 
+<<<<<<< HEAD
 
 Route::get('/', [MainController::class, 'index']);
 
@@ -76,6 +88,20 @@ Route::get('/', [MainController::class, 'index']);
 
 
 
+=======
+Route::get('/', [MainController::class, 'index']);
+
+
+Route::get('/san-pham/{id}-{slug}.html', [ProductControllerScreen::class, 'index']);
+// Route::post('/san-pham/{id}-{slug}.html', [ProductControllerScreen::class, 'indexQuickView']);
+
+
+
+Route::post('add-cart', [CartController::class, 'index']);
+Route::get('carts', [CartController::class, 'show']);
+
+// Route::post('carts', [CartController::class, 'addCart']);
+>>>>>>> add_to_cart
 
 
 
