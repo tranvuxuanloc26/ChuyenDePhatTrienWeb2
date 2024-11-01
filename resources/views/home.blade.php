@@ -13,6 +13,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			
 			@if(isset($sliders))
 =======
@@ -42,6 +43,9 @@
 =======
 				@if(isset($sliders))
 >>>>>>> sort_by_price
+=======
+				@if(isset($sliders))
+>>>>>>> update_cart
 
 				@foreach ($sliders as $slider)
 				<div class="item-slick1" style="background-image: url({{ $slider->thumb }});">
@@ -50,6 +54,7 @@
 							<div class="layer-slick1 animated visible-false" data-appear="fadeInDown" data-delay="0">
 								<span class="ltext-101 cl2 respon2">
 									HOT 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -80,6 +85,8 @@
 =======
 									
 >>>>>>> sort_by_price
+=======
+>>>>>>> update_cart
 								</span>
 							</div>
 								
@@ -99,6 +106,7 @@
 				</div>
 				@endforeach
 				@endif
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -128,6 +136,8 @@
 >>>>>>> remove_cart
 =======
 >>>>>>> sort_by_price
+=======
+>>>>>>> update_cart
 
 				
 
@@ -139,6 +149,7 @@
 	</section>
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -175,6 +186,9 @@
 =======
 	<!-- Banner -->
 >>>>>>> sort_by_price
+=======
+	<!-- Banner -->
+>>>>>>> update_cart
 	<div class="sec-banner bg0 p-t-80 p-b-50">
 		<div class="container">
 			<div class="row">
@@ -220,6 +234,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> add_to_cart
@@ -247,6 +262,9 @@
 =======
 
 >>>>>>> sort_by_price
+=======
+
+>>>>>>> update_cart
 	<!-- Product -->
 	<section class="bg0 p-t-23 p-b-140">
 		<div class="container">
@@ -711,6 +729,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			@include('product.list')
 
 =======
@@ -740,11 +759,15 @@
 =======
 			@include('product.list')
 >>>>>>> sort_by_price
+=======
+			
+>>>>>>> update_cart
 			</div>
 
 			<!-- Load more -->
 			<div class="flex-c-m flex-w w-full p-t-45" id="button-loadMore">
 				<input type="hidden" value="1" id="page">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -782,6 +805,9 @@
 =======
 				<a  class="btn flex-c-m stext-101 cl5 size-103 bg2 bor1 hov-btn1 p-lr-15 trans-04">
 >>>>>>> sort_by_price
+=======
+				<a  onclick="" class="btn flex-c-m stext-101 cl5 size-103 bg2 bor1 hov-btn1 p-lr-15 trans-04">
+>>>>>>> update_cart
 					Load More
 				</a>
 			</div>

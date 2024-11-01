@@ -52,6 +52,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <a href="" class="filter-link stext-106 trans-04">
 =======
                                 <a href="{{ request()->url() }}" class="filter-link stext-106 trans-04">
@@ -77,6 +78,9 @@
 =======
                                 <a href="{{ request()->url() }}" class="filter-link stext-106 trans-04">
 >>>>>>> sort_by_price
+=======
+                                <a href="{{ request()->url() }}" class="filter-link stext-106 trans-04">
+>>>>>>> update_cart
                                     Default
                                 </a>
                             </li>
@@ -108,6 +112,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <a href="" class="filter-link stext-106 trans-04 ">
 <<<<<<< HEAD
                                     Price: Low to High
@@ -146,6 +151,10 @@
                                 <a href="{{ request()->fullUrlWithQuery(['price' => 'asc']) }}" class="filter-link stext-106 trans-04 ">
                                     Price: Low to High
 >>>>>>> sort_by_price
+=======
+                                <a href="{{ request()->fullUrlWithQuery(['price' => 'asc']) }}" class="filter-link stext-106 trans-04 ">
+                                    Price: Low to High
+>>>>>>> update_cart
                                 </a>
                             </li>
 
@@ -158,6 +167,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <a href="" class="filter-link stext-106 trans-04">
 <<<<<<< HEAD
                                     Price: High to Low
@@ -196,6 +206,10 @@
                                 <a href="{{ request()->fullUrlWithQuery(['price' => 'desc']) }}" class="filter-link stext-106 trans-04">
                                     Price: High to Low
 >>>>>>> sort_by_price
+=======
+                                <a href="{{ request()->fullUrlWithQuery(['price' => 'desc']) }}" class="filter-link stext-106 trans-04">
+                                    Price: High to Low
+>>>>>>> update_cart
                                 </a>
                             </li>
                         </ul>
@@ -353,6 +367,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
       @include('product.list')
@@ -399,6 +414,11 @@
       {{ $products->links('pagination::bootstrap-4')  }}
 
 >>>>>>> sort_by_price
+=======
+      @include('product.list')
+      {{ $products->links('pagination::bootstrap-4')  }}
+
+>>>>>>> update_cart
     </div>
 </div>
 @endsection

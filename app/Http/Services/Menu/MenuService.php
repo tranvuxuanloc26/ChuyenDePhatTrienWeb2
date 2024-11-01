@@ -98,6 +98,7 @@ class MenuService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> chi_tiet_don_hang_da_luu
 =======
@@ -213,4 +214,7 @@ class MenuService
 >>>>>>> remove_cart
 =======
 >>>>>>> sort_by_price
+=======
+
+>>>>>>> update_cart
 }

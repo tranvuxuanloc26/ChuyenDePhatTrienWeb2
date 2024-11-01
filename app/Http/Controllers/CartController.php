@@ -39,6 +39,7 @@ class CartController extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 =======
@@ -53,12 +54,15 @@ class CartController extends Controller
 >>>>>>> remove_cart
 =======
 >>>>>>> sort_by_price
+=======
+>>>>>>> update_cart
     public function update(Request $request){
         $this->cartService->update($request);
         return redirect( '/carts');
  
     }
 
+<<<<<<< HEAD
     public function remove($id = 0){
         $this->cartService->remove($id);
         return redirect( '/carts');
@@ -76,11 +80,15 @@ class CartController extends Controller
 >>>>>>> luu_thong_tin_don_hang
 =======
 >>>>>>> remove_cart
+=======
+  
+>>>>>>> update_cart
 
     public function addCart(Request $request){
          $this->cartService->addCart($request);
          return redirect()->back();
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -101,4 +109,6 @@ class CartController extends Controller
 
    
 >>>>>>> sort_by_price
+=======
+>>>>>>> update_cart
 }

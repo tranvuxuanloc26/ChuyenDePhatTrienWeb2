@@ -137,6 +137,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <input type="hidden" name="product_id" value="{{ $product->id }}">
 =======
                                 <input type="hidden" name="product_id" value="">
@@ -147,6 +148,9 @@
 =======
                                 <input type="hidden" name="product_id" value="{{ $product->id }}">
 >>>>>>> sort_by_price
+=======
+                                <input type="hidden" name="product_id" value="{{ $product->id }}">
+>>>>>>> update_cart
                                 @endif
                                 @csrf
                             </form>

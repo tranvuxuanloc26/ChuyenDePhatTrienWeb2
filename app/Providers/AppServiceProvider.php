@@ -14,6 +14,7 @@ namespace App\Providers;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\ServiceProvider;
 =======
@@ -39,10 +40,13 @@ use Illuminate\Support\ServiceProvider;
 >>>>>>> remove_cart
 =======
 >>>>>>> sort_by_price
+=======
+>>>>>>> update_cart
 use App\View\Composers\MenuComposer;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\ServiceProvider;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -80,6 +84,9 @@ use App\View\Composers\CartComposer;
 =======
 use App\View\Composers\CartComposer;
 >>>>>>> sort_by_price
+=======
+use App\View\Composers\CartComposer;
+>>>>>>> update_cart
 
 
 class AppServiceProvider extends ServiceProvider
@@ -110,6 +117,7 @@ class AppServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         View::composer('header', MenuComposer::class);
         View::composer('cart', CartComposer::class);
@@ -157,6 +165,10 @@ class AppServiceProvider extends ServiceProvider
         View::composer('header', MenuComposer::class);
         View::composer('cart', CartComposer::class);
 >>>>>>> sort_by_price
+=======
+        View::composer('header', MenuComposer::class);
+        View::composer('cart', CartComposer::class);
+>>>>>>> update_cart
 
     }
 }

@@ -45,12 +45,15 @@ class Helper
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> product_detail
 =======
 >>>>>>> remove_cart
 =======
 >>>>>>> sort_by_price
+=======
+>>>>>>> update_cart
     public static function menus($menus, $parent_id = 0): string{
         $html = '';
         foreach($menus as $key => $menu){
@@ -101,6 +104,7 @@ class Helper
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   
 >>>>>>> menu
@@ -114,4 +118,6 @@ class Helper
 >>>>>>> remove_cart
 =======
 >>>>>>> sort_by_price
+=======
+>>>>>>> update_cart
 }
