@@ -267,26 +267,6 @@
     });
     
     /*==================================================================
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> login
-=======
->>>>>>> menu
-=======
->>>>>>> product
     [ Show modal1 ]*/
     $('.js-show-modal1').on('click',function(e){
         e.preventDefault();
@@ -296,71 +276,6 @@
     $('.js-hide-modal1').on('click',function(){
         $('.js-modal1').removeClass('show-modal1');
     });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> chi_tiet_don_hang_da_luu
-=======
->>>>>>> get_product_by_menu
-=======
->>>>>>> gui_mail
-=======
->>>>>>> load_more
-=======
->>>>>>> luu_thong_tin_don_hang
-=======
->>>>>>> product_detail
-=======
->>>>>>> remove_cart
-=======
->>>>>>> sort_by_price
-=======
->>>>>>> update_cart
-    // [ Show modal1 ]*/
-    // $('.js-show-modal1').on('click',function(e){
-    //     e.preventDefault();
-    //     $('.js-modal1').addClass('show-modal1');
-    // });
-
-    // $('.js-hide-modal1').on('click',function(){
-    //     $('.js-modal1').removeClass('show-modal1');
-    // });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> add_to_cart
-=======
->>>>>>> chi_tiet_don_hang_da_luu
-=======
->>>>>>> get_product_by_menu
-=======
->>>>>>> gui_mail
-=======
->>>>>>> load_more
-=======
->>>>>>> login
-=======
->>>>>>> luu_thong_tin_don_hang
-=======
->>>>>>> menu
-=======
->>>>>>> product
-=======
->>>>>>> product_detail
-=======
->>>>>>> remove_cart
-=======
->>>>>>> sort_by_price
-=======
->>>>>>> update_cart
 
 
 

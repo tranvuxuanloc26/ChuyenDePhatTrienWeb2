@@ -66,66 +66,9 @@
       <!-- /.card-body -->
       
       <div class="card-footer">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         <button type="submit" class="btn btn-primary">Tạo Danh Mục</button>
       
             <a href="/admin/menus/list" class="btn btn-primary">Trở về</a>
-=======
-        <a href="/admin/menus/list" class="btn btn-primary ml-5">Trở Về</a>
-        <button type="submit" class="btn btn-primary">Tạo Danh Mục</button>
->>>>>>> add_to_cart
-=======
-        <a href="/admin/menus/list" class="btn btn-primary">Trở Về</a>
-        <button type="submit" class="btn btn-primary">Tạo Danh Mục</button>
->>>>>>> chi_tiet_don_hang_da_luu
-=======
-        <a href="/admin/menus/list" class="btn btn-primary ml-5">Trở Về</a>
-        <button type="submit" class="btn btn-primary">Tạo Danh Mục</button>
->>>>>>> get_product_by_menu
-=======
-        <a href="/admin/menus/list" class="btn btn-primary">Trở Về</a>
-        <button type="submit" class="btn btn-primary">Tạo Danh Mục</button>
->>>>>>> gui_mail
-=======
-        <a href="/admin/menus/list" class="btn btn-primary">Trở Về</a>
-        <button type="submit" class="btn btn-primary">Tạo Danh Mục</button>
->>>>>>> luu_thong_tin_don_hang
-=======
-        <button type="submit" class="btn btn-primary">Tạo Danh Mục</button>
-      
-            <a href="/admin/menus/list" class="btn btn-primary">Trở về</a>
->>>>>>> menu
-=======
-        <button type="submit" class="btn btn-primary">Tạo Danh Mục</button>
-      
-            <a href="/admin/menus/list" class="btn btn-primary">Trở về</a>
->>>>>>> product
-=======
-        <a href="/admin/menus/list" class="btn btn-primary ml-5">Trở Về</a>
-        <button type="submit" class="btn btn-primary">Tạo Danh Mục</button>
->>>>>>> product_detail
-=======
-        <a href="/admin/menus/list" class="btn btn-primary ml-5">Trở Về</a>
-        <button type="submit" class="btn btn-primary">Tạo Danh Mục</button>
->>>>>>> remove_cart
-=======
-        <a href="/admin/menus/list" class="btn btn-primary">Trở Về</a>
-        <button type="submit" class="btn btn-primary">Tạo Danh Mục</button>
->>>>>>> sort_by_price
-=======
-        <a href="/admin/menus/list" class="btn btn-primary ml-5">Trở Về</a>
-        <button type="submit" class="btn btn-primary">Tạo Danh Mục</button>
->>>>>>> update_cart
     
       </div>
     

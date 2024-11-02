@@ -7,73 +7,12 @@
         <div class="block2">
             <div class="block2-pic hov-img0" >
                 <img src="{{ $product->thumb }}" alt="{{ $product->name }}" width="100%" height="335px">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-                <a href="/san-pham/{{ $product->id }}-{{ \Str::slug($product->name, '-') }}.html" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
-                    Quick View
-                </a>
-=======
-=======
->>>>>>> chi_tiet_don_hang_da_luu
-=======
->>>>>>> get_product_by_menu
-=======
->>>>>>> gui_mail
-=======
->>>>>>> load_more
-=======
->>>>>>> luu_thong_tin_don_hang
-=======
->>>>>>> product_detail
-=======
->>>>>>> remove_cart
-=======
->>>>>>> sort_by_price
-=======
->>>>>>> update_cart
                 {{-- <a href="/san-pham/{{ $product->id }}-{{ \Str::slug($product->name, '-') }}.html" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
                     Quick View
                 </a> --}}
                 <button  class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
                     Quick View
                 </button>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> add_to_cart
-=======
->>>>>>> chi_tiet_don_hang_da_luu
-=======
->>>>>>> get_product_by_menu
-=======
->>>>>>> gui_mail
-=======
->>>>>>> load_more
-=======
->>>>>>> luu_thong_tin_don_hang
-=======
->>>>>>> product_detail
-=======
->>>>>>> remove_cart
-=======
->>>>>>> sort_by_price
-=======
->>>>>>> update_cart
             </div>
 
             <div class="block2-txt flex-w flex-t p-t-14">
@@ -84,6 +23,7 @@
 
                     <span class="stext-105 cl4">
                         {!! \App\Helpers\Helper::price($product->price, $product->price_sale) !!}
+                        
                     </span>
                 </div>
 
@@ -96,46 +36,7 @@
             </div>
         </div>
     </div>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
    
->>>>>>> add_to_cart
-=======
-   
->>>>>>> chi_tiet_don_hang_da_luu
-=======
-   
->>>>>>> get_product_by_menu
-=======
-   
->>>>>>> gui_mail
-=======
-   
->>>>>>> load_more
-=======
-   
->>>>>>> luu_thong_tin_don_hang
-=======
-   
->>>>>>> product_detail
-=======
-   
->>>>>>> remove_cart
-=======
-   
->>>>>>> sort_by_price
-=======
-   
->>>>>>> update_cart
     @endforeach
     @endif
 </div>

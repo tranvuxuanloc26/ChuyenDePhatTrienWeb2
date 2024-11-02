@@ -40,20 +40,7 @@ class Helper
         return $active == 0 ? '<span class="badge badge-danger btn-xs"> NO </span>' : '<span class="badge badge-success btn-xs"> YES </span>';
     }
     
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> product_detail
-=======
->>>>>>> remove_cart
-=======
->>>>>>> sort_by_price
-=======
->>>>>>> update_cart
+
     public static function menus($menus, $parent_id = 0): string{
         $html = '';
         foreach($menus as $key => $menu){
@@ -100,24 +87,4 @@ class Helper
         
         return '<a href="/lien-he.html">Liên Hệ</a>';
     }
-    
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-  
->>>>>>> menu
-=======
-    
-    
->>>>>>> product
-=======
->>>>>>> product_detail
-=======
->>>>>>> remove_cart
-=======
->>>>>>> sort_by_price
-=======
->>>>>>> update_cart
 }

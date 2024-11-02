@@ -44,43 +44,7 @@
 
                         <ul>
                             <li class="p-b-6">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                                <a href="" class="filter-link stext-106 trans-04">
-=======
                                 <a href="{{ request()->url() }}" class="filter-link stext-106 trans-04">
->>>>>>> chi_tiet_don_hang_da_luu
-=======
-                                <a href="{{ request()->url() }}" class="filter-link stext-106 trans-04">
->>>>>>> get_product_by_menu
-=======
-                                <a href="{{ request()->url() }}" class="filter-link stext-106 trans-04">
->>>>>>> gui_mail
-=======
-                                <a href="{{ request()->url() }}" class="filter-link stext-106 trans-04">
->>>>>>> load_more
-=======
-                                <a href="{{ request()->url() }}" class="filter-link stext-106 trans-04">
->>>>>>> luu_thong_tin_don_hang
-=======
-                                <a href="" class="filter-link stext-106 trans-04">
->>>>>>> product_detail
-=======
-                                <a href="{{ request()->url() }}" class="filter-link stext-106 trans-04">
->>>>>>> remove_cart
-=======
-                                <a href="{{ request()->url() }}" class="filter-link stext-106 trans-04">
->>>>>>> sort_by_price
-=======
-                                <a href="{{ request()->url() }}" class="filter-link stext-106 trans-04">
->>>>>>> update_cart
                                     Default
                                 </a>
                             </li>
@@ -104,112 +68,14 @@
                             </li>
 
                             <li class="p-b-6">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                                <a href="" class="filter-link stext-106 trans-04 ">
-<<<<<<< HEAD
-                                    Price: Low to High
-=======
-                                    Low 
->>>>>>> add_to_cart
-=======
                                 <a href="{{ request()->fullUrlWithQuery(['price' => 'asc']) }}" class="filter-link stext-106 trans-04 ">
                                     Price: Low to High
->>>>>>> chi_tiet_don_hang_da_luu
-=======
-                                <a href="{{ request()->fullUrlWithQuery(['price' => 'asc']) }}" class="filter-link stext-106 trans-04 ">
-                                    Price: Low to High
->>>>>>> get_product_by_menu
-=======
-                                <a href="{{ request()->fullUrlWithQuery(['price' => 'asc']) }}" class="filter-link stext-106 trans-04 ">
-                                    Price: Low to High
->>>>>>> gui_mail
-=======
-                                <a href="{{ request()->fullUrlWithQuery(['price' => 'asc']) }}" class="filter-link stext-106 trans-04 ">
-                                    Price: Low to High
->>>>>>> load_more
-=======
-                                <a href="{{ request()->fullUrlWithQuery(['price' => 'asc']) }}" class="filter-link stext-106 trans-04 ">
-                                    Price: Low to High
->>>>>>> luu_thong_tin_don_hang
-=======
-                                <a href="" class="filter-link stext-106 trans-04 ">
-                                    Low 
->>>>>>> product_detail
-=======
-                                <a href="{{ request()->fullUrlWithQuery(['price' => 'asc']) }}" class="filter-link stext-106 trans-04 ">
-                                    Price: Low to High
->>>>>>> remove_cart
-=======
-                                <a href="{{ request()->fullUrlWithQuery(['price' => 'asc']) }}" class="filter-link stext-106 trans-04 ">
-                                    Price: Low to High
->>>>>>> sort_by_price
-=======
-                                <a href="{{ request()->fullUrlWithQuery(['price' => 'asc']) }}" class="filter-link stext-106 trans-04 ">
-                                    Price: Low to High
->>>>>>> update_cart
                                 </a>
                             </li>
 
                             <li class="p-b-6">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                                <a href="" class="filter-link stext-106 trans-04">
-<<<<<<< HEAD
-                                    Price: High to Low
-=======
-                                    High 
->>>>>>> add_to_cart
-=======
                                 <a href="{{ request()->fullUrlWithQuery(['price' => 'desc']) }}" class="filter-link stext-106 trans-04">
                                     Price: High to Low
->>>>>>> chi_tiet_don_hang_da_luu
-=======
-                                <a href="{{ request()->fullUrlWithQuery(['price' => 'desc']) }}" class="filter-link stext-106 trans-04">
-                                    Price: High to Low
->>>>>>> get_product_by_menu
-=======
-                                <a href="{{ request()->fullUrlWithQuery(['price' => 'desc']) }}" class="filter-link stext-106 trans-04">
-                                    Price: High to Low
->>>>>>> gui_mail
-=======
-                                <a href="{{ request()->fullUrlWithQuery(['price' => 'desc']) }}" class="filter-link stext-106 trans-04">
-                                    Price: High to Low
->>>>>>> load_more
-=======
-                                <a href="{{ request()->fullUrlWithQuery(['price' => 'desc']) }}" class="filter-link stext-106 trans-04">
-                                    Price: High to Low
->>>>>>> luu_thong_tin_don_hang
-=======
-                                <a href="" class="filter-link stext-106 trans-04">
-                                    High 
->>>>>>> product_detail
-=======
-                                <a href="{{ request()->fullUrlWithQuery(['price' => 'desc']) }}" class="filter-link stext-106 trans-04">
-                                    Price: High to Low
->>>>>>> remove_cart
-=======
-                                <a href="{{ request()->fullUrlWithQuery(['price' => 'desc']) }}" class="filter-link stext-106 trans-04">
-                                    Price: High to Low
->>>>>>> sort_by_price
-=======
-                                <a href="{{ request()->fullUrlWithQuery(['price' => 'desc']) }}" class="filter-link stext-106 trans-04">
-                                    Price: High to Low
->>>>>>> update_cart
                                 </a>
                             </li>
                         </ul>
@@ -358,67 +224,9 @@
             </div>
         </div>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    
-=======
       @include('product.list')
       {{ $products->links('pagination::bootstrap-4')  }}
 
->>>>>>> add_to_cart
-=======
-      @include('product.list')
-      {{ $products->links('pagination::bootstrap-4')  }}
-
->>>>>>> chi_tiet_don_hang_da_luu
-=======
-      @include('product.list')
-      {{ $products->links('pagination::bootstrap-4')  }}
-
->>>>>>> get_product_by_menu
-=======
-      @include('product.list')
-      {{ $products->links('pagination::bootstrap-4')  }}
-
->>>>>>> gui_mail
-=======
-      @include('product.list')
-      {{ $products->links('pagination::bootstrap-4')  }}
-
->>>>>>> load_more
-=======
-      @include('product.list')
-      {{ $products->links('pagination::bootstrap-4')  }}
-
->>>>>>> luu_thong_tin_don_hang
-=======
-      @include('product.list')
-      {{ $products->links('pagination::bootstrap-4')  }}
-
->>>>>>> product_detail
-=======
-      @include('product.list')
-      {{ $products->links('pagination::bootstrap-4')  }}
-
->>>>>>> remove_cart
-=======
-      @include('product.list')
-      {{ $products->links('pagination::bootstrap-4')  }}
-
->>>>>>> sort_by_price
-=======
-      @include('product.list')
-      {{ $products->links('pagination::bootstrap-4')  }}
-
->>>>>>> update_cart
     </div>
 </div>
 @endsection

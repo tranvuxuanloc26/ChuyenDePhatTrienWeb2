@@ -32,83 +32,19 @@ class CartController extends Controller
         ]);
     }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    
-=======
-=======
->>>>>>> get_product_by_menu
-=======
->>>>>>> gui_mail
-=======
->>>>>>> load_more
-=======
->>>>>>> luu_thong_tin_don_hang
-=======
->>>>>>> remove_cart
-=======
->>>>>>> sort_by_price
-=======
->>>>>>> update_cart
     public function update(Request $request){
         $this->cartService->update($request);
         return redirect( '/carts');
  
     }
 
-<<<<<<< HEAD
     public function remove($id = 0){
         $this->cartService->remove($id);
         return redirect( '/carts');
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> chi_tiet_don_hang_da_luu
-=======
->>>>>>> gui_mail
-=======
->>>>>>> luu_thong_tin_don_hang
-=======
->>>>>>> remove_cart
-=======
-  
->>>>>>> update_cart
 
     public function addCart(Request $request){
          $this->cartService->addCart($request);
          return redirect()->back();
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> get_product_by_menu
-=======
->>>>>>> gui_mail
-=======
-
-  
->>>>>>> load_more
-=======
->>>>>>> luu_thong_tin_don_hang
-=======
->>>>>>> remove_cart
-=======
-
-   
->>>>>>> sort_by_price
-=======
->>>>>>> update_cart
 }

@@ -12,133 +12,34 @@ class MainController extends Controller
     protected $slider;
     protected $menu;
     protected $product;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function __construct(SliderService $slider, MenuService $menu, ProductServiceScreen $product)
-    {
-        $this->slider = $slider;
-=======
-    public function __construct( MenuService $menu)
-    {
->>>>>>> login
-=======
-    public function __construct(SliderService $slider, MenuService $menu, ProductServiceScreen $product)
-    {
-        $this->slider = $slider;
->>>>>>> luu_thong_tin_don_hang
-        $this->menu = $menu;
-        $this->product = $product;
-=======
-    public function __construct( MenuService $menu)
-    {
-        $this->menu = $menu;
->>>>>>> menu
-=======
-    public function __construct( MenuService $menu, ProductServiceScreen $product)
-    {
-        $this->menu = $menu;
-        $this->product = $product;
->>>>>>> product
-=======
-=======
->>>>>>> remove_cart
-=======
->>>>>>> sort_by_price
-=======
->>>>>>> update_cart
+
+   
+   
     public function __construct(SliderService $slider, MenuService $menu, ProductServiceScreen $product)
     {
         $this->slider = $slider;
         $this->menu = $menu;
         $this->product = $product;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> product_detail
-=======
->>>>>>> remove_cart
-=======
->>>>>>> sort_by_price
-=======
->>>>>>> update_cart
+
     }
     public function index()
     {
 
         return view('home', [
             'title' => 'Shop Nước Hoa',
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
             'sliders' => $this->slider->show(),
             'menus' => $this->menu->show(),
             'products' => $this->product->get(),
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 
           
            
         ]);
 
-        dd($this->slider->show());
-=======
+       
            
-        ]);
->>>>>>> add_to_cart
-=======
-           
-        ]);
->>>>>>> chi_tiet_don_hang_da_luu
-=======
-           
-        ]);
->>>>>>> gui_mail
-=======
-           
-        ]);
->>>>>>> load_more
-=======
-=======
->>>>>>> product
-=======
->>>>>>> product_detail
-=======
->>>>>>> remove_cart
-=======
->>>>>>> sort_by_price
-=======
->>>>>>> update_cart
-            'sliders' => $this->slider->show(),
-            'menus' => $this->menu->show(),
-            'products' => $this->product->get(),
-           
-        ]);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> luu_thong_tin_don_hang
-=======
->>>>>>> product_detail
-=======
->>>>>>> remove_cart
-=======
->>>>>>> update_cart
+
     }
 
     public function loadProduct(Request $request)
@@ -152,53 +53,19 @@ class MainController extends Controller
         }
         return response()->json(['html' => '' ]);
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-            'menus' => $this->menu->show(),
-            'products' => $this->product->get(),
->>>>>>> login
-=======
-            'menus' => $this->menu->show(),
->>>>>>> menu
+
+
+
            
-        ]);
+      
     }
 
-<<<<<<< HEAD
-   
-<<<<<<< HEAD
->>>>>>> get_product_by_menu
-=======
->>>>>>> gui_mail
-=======
->>>>>>> load_more
-=======
->>>>>>> login
-=======
->>>>>>> luu_thong_tin_don_hang
-=======
-  
->>>>>>> menu
-=======
-    }
+
+    
 
    
->>>>>>> product
-=======
->>>>>>> product_detail
-=======
->>>>>>> remove_cart
-=======
-    }
+    
 
    
->>>>>>> sort_by_price
-=======
->>>>>>> update_cart
-}
+
+

@@ -134,23 +134,7 @@
                                 <button class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">
                                     Add to cart
                                 </button>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
                                 <input type="hidden" name="product_id" value="{{ $product->id }}">
-=======
-                                <input type="hidden" name="product_id" value="">
->>>>>>> product_detail
-=======
-                                <input type="hidden" name="product_id" value="{{ $product->id }}">
->>>>>>> remove_cart
-=======
-                                <input type="hidden" name="product_id" value="{{ $product->id }}">
->>>>>>> sort_by_price
-=======
-                                <input type="hidden" name="product_id" value="{{ $product->id }}">
->>>>>>> update_cart
                                 @endif
                                 @csrf
                             </form>

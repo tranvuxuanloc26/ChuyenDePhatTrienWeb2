@@ -1,46 +1,6 @@
 
 <header>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
- 
-=======
     @php $menuHtml = App\Helpers\Helper::menus($menus);     @endphp
->>>>>>> add_to_cart
-=======
-    @php $menuHtml = App\Helpers\Helper::menus($menus);     @endphp
->>>>>>> chi_tiet_don_hang_da_luu
-=======
-    @php $menuHtml = App\Helpers\Helper::menus($menus);     @endphp
->>>>>>> get_product_by_menu
-=======
-    @php $menuHtml = App\Helpers\Helper::menus($menus);     @endphp
->>>>>>> gui_mail
-=======
-    @php $menuHtml = App\Helpers\Helper::menus($menus);     @endphp
->>>>>>> load_more
-=======
-    @php $menuHtml = App\Helpers\Helper::menus($menus);     @endphp
->>>>>>> luu_thong_tin_don_hang
-=======
-    @php $menuHtml = App\Helpers\Helper::menus($menus);     @endphp
->>>>>>> product_detail
-=======
-    @php $menuHtml = App\Helpers\Helper::menus($menus);     @endphp
->>>>>>> remove_cart
-=======
-    @php $menuHtml = App\Helpers\Helper::menus($menus);     @endphp
->>>>>>> sort_by_price
-=======
-    @php $menuHtml = App\Helpers\Helper::menus($menus);     @endphp
->>>>>>> update_cart
     <!-- Header desktop -->
     <div class="container-menu-desktop ">
         <!-- Topbar -->
@@ -84,46 +44,7 @@
                 <div id="nav" class="menu-desktop ">
 
                     <ul id="navbuttons" class="main-menu ">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
                         {!! $menuHtml !!}
->>>>>>> add_to_cart
-=======
-                        {!! $menuHtml !!}
->>>>>>> chi_tiet_don_hang_da_luu
-=======
-                        {!! $menuHtml !!}
->>>>>>> get_product_by_menu
-=======
-                        {!! $menuHtml !!}
->>>>>>> gui_mail
-=======
-                        {!! $menuHtml !!}
->>>>>>> load_more
-=======
-                        {!! $menuHtml !!}
->>>>>>> luu_thong_tin_don_hang
-=======
-                        {!! $menuHtml !!}
->>>>>>> product_detail
-=======
-                        {!! $menuHtml !!}
->>>>>>> remove_cart
-=======
-                        {!! $menuHtml !!}
->>>>>>> sort_by_price
-=======
-                        {!! $menuHtml !!}
->>>>>>> update_cart
                       
 
                         {{-- <li >
@@ -238,46 +159,7 @@
 
         <ul class="main-menu-m">
             <li class="active-menu"><a href="/">Trang Chủ</a></li>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
             {!! $menuHtml !!}
->>>>>>> add_to_cart
-=======
-            {!! $menuHtml !!}
->>>>>>> chi_tiet_don_hang_da_luu
-=======
-            {!! $menuHtml !!}
->>>>>>> get_product_by_menu
-=======
-            {!! $menuHtml !!}
->>>>>>> gui_mail
-=======
-            {!! $menuHtml !!}
->>>>>>> load_more
-=======
-            {!! $menuHtml !!}
->>>>>>> luu_thong_tin_don_hang
-=======
-            {!! $menuHtml !!}
->>>>>>> product_detail
-=======
-            {!! $menuHtml !!}
->>>>>>> remove_cart
-=======
-            {!! $menuHtml !!}
->>>>>>> sort_by_price
-=======
-            {!! $menuHtml !!}
->>>>>>> update_cart
             {{-- <li >
                 <a href="index.html">Home</a>
                 <ul class="sub-menu">

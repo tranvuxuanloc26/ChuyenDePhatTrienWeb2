@@ -2,76 +2,8 @@
 Project:  
 Version:  
 Last change:  
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-
->>>>>>> slide
-=======
-Assigned to:  Vinh Le
-
->>>>>>> add_to_cart
-=======
-Assigned to:  Vinh Le
-
->>>>>>> chi_tiet_don_hang_da_luu
-=======
-Assigned to:  Vinh Le
-
->>>>>>> get_product_by_menu
-=======
-Assigned to:  Vinh Le
-
->>>>>>> gui_mail
-=======
-Assigned to:  Vinh Le
-
->>>>>>> load_more
-=======
 Assigned to:  Le Xuan Bach
 Primary use:  Company
->>>>>>> login
-=======
-Assigned to:  Vinh Le
-
->>>>>>> luu_thong_tin_don_hang
-=======
-Assigned to:  Le Xuan Bach
-Primary use:  Company
->>>>>>> menu
-=======
-Assigned to:  Le Xuan Bach
-Primary use:  Company
->>>>>>> product
-=======
-Assigned to:  Vinh Le
-
->>>>>>> product_detail
-=======
-Assigned to:  Vinh Le
-
->>>>>>> remove_cart
-=======
-Assigned to:  Vinh Le
-
->>>>>>> sort_by_price
-=======
-Assigned to:  Vinh Le
-
->>>>>>> update_cart
 -------------------------------------------------------------------*/
 /*------------------------------------------------------------------
 [LAYOUT]
@@ -79,7 +11,7 @@ Assigned to:  Vinh Le
 * body
   + Header / header
   + Page Content / .page-content .name-page
-        + Section Layouts / section .name-section
+        + Section Layouts / section .name-sectiona
         ...
   + Footer / footer
 
