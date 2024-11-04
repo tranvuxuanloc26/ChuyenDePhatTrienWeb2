@@ -11,6 +11,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <a href="../../index2.html"><b>Admin</b>LTE</a>
 =======
     <a href="../../index2.html"><b>COZA</b>STORE</a>
@@ -24,6 +25,9 @@
 =======
     <a href="../../index2.html"><b>COZA</b>STORE</a>
 >>>>>>> menu_admin_detail
+=======
+    <a href="../../index2.html"><b>COZA</b>STORE</a>
+>>>>>>> product_admin_detail
   </div>
   <!-- /.login-logo -->
   <div class="card">
@@ -83,6 +87,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <a href="register.html" class="text-center">Register a new membership</a>
 =======
         <a href="/admin/users/register" class="text-center">Register a new membership</a>
@@ -96,6 +101,9 @@
 =======
         <a href="/admin/users/register" class="text-center">Register a new membership</a>
 >>>>>>> menu_admin_detail
+=======
+        <a href="/admin/users/register" class="text-center">Register a new membership</a>
+>>>>>>> product_admin_detail
       </p>
     </div>
     </div>

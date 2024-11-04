@@ -22,6 +22,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <li class="nav-item">
         <a class="nav-link" data-widget="fullscreen" href="#" role="button">
           <i class="fas fa-expand-arrows-alt"></i>
@@ -36,6 +37,10 @@
     
       <li class="nav-item dropdown" style="right: 60px">
 >>>>>>> menu_admin_detail
+=======
+    
+      <li class="nav-item dropdown" style="right: 60px">
+>>>>>>> product_admin_detail
         <div class="d-flex align-items-center">
             <img src="{{ asset('template/images/icons/R.png') }}" alt="User Avatar" class="rounded-circle me-4" style="width: 40px; height: 40px;">
             <span class="fw-bold dropdown-toggle" style="margin-left: 10px" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -60,11 +65,14 @@
   </style>    
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> logout
 =======
 >>>>>>> phan_quyen
 =======
 >>>>>>> menu_admin_detail
+=======
+>>>>>>> product_admin_detail
     
     </ul>
   </nav>

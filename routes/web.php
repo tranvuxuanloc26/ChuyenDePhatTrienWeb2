@@ -5,6 +5,7 @@ use App\Http\Services\UploadService;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
@@ -52,6 +53,8 @@ Route::post('admin/users/login/store', [LoginController::class, 'store']);
 >>>>>>> phan_quyen
 =======
 >>>>>>> menu_admin_detail
+=======
+>>>>>>> product_admin_detail
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\MainController;
@@ -74,6 +77,7 @@ use App\Http\Controllers\Admin\Users\RegisterController;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     #logout
     Route::post('admin/users/logout', [LoginController::class, 'logout'])->name('logout');
@@ -89,12 +93,18 @@ use App\Http\Controllers\Admin\Users\RegisterController;
     Route::post('admin/users/logout', [LoginController::class, 'logout'])->name('logout');
 
 >>>>>>> menu_admin_detail
+=======
+    #logout
+    Route::post('admin/users/logout', [LoginController::class, 'logout'])->name('logout');
+
+>>>>>>> product_admin_detail
 #Register
 Route::get('admin/users/register', [RegisterController::class,'index'])->name('register');
 Route::post('admin/users/register/store', [RegisterController::class, 'store']);
 
 
 #Admin
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -107,10 +117,14 @@ Route::middleware(['auth'])->group(function () {
 =======
 Route::middleware(['auth', 'role:1,2'])->group(function () {
 >>>>>>> menu_admin_detail
+=======
+Route::middleware(['auth', 'role:1,2'])->group(function () {
+>>>>>>> product_admin_detail
 
     Route::prefix('admin')->group(function () {
         Route::get('/', [MainAdminController::class, 'index'])->name('admin');
         Route::get('main', [MainAdminController::class, 'index'])->name('admin');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -137,6 +151,9 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 =======
 
 >>>>>>> menu_admin_detail
+=======
+
+>>>>>>> product_admin_detail
         #Menu
         Route::prefix('menus')->group(function () {
             Route::get('add', [MenuController::class, 'create']);
@@ -145,6 +162,7 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
             Route::get('edit/{menu}', [MenuController::class, 'show']);
             Route::post('edit/{menu}', [MenuController::class, 'update']);
 <<<<<<< HEAD
+<<<<<<< HEAD
             Route::DELETE('destroy', [MenuController::class, 'destroy']);
         });
 <<<<<<< HEAD
@@ -159,11 +177,16 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 =======
 >>>>>>> phan_quyen
 =======
+=======
+>>>>>>> product_admin_detail
             Route::get('detail/{menu}', [MenuController::class, 'showDetail']);
 
             Route::DELETE('destroy', [MenuController::class, 'destroy']);
         });
+<<<<<<< HEAD
 >>>>>>> menu_admin_detail
+=======
+>>>>>>> product_admin_detail
         #Product
         Route::prefix('products')->group(function () {
             Route::get('add', [ProductController::class, 'create']);
@@ -171,6 +194,11 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
             Route::get('list', [ProductController::class, 'index']);
             Route::get('edit/{product}', [ProductController::class, 'show']);
             Route::post('edit/{product}', [ProductController::class, 'update']);
+<<<<<<< HEAD
+=======
+            Route::get('detail/{product}', [ProductController::class, 'showDetail']);
+
+>>>>>>> product_admin_detail
             Route::DELETE('destroy', [ProductController::class, 'destroy']);
 
         });
@@ -179,6 +207,7 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> register
@@ -188,6 +217,8 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 >>>>>>> phan_quyen
 =======
 >>>>>>> menu_admin_detail
+=======
+>>>>>>> product_admin_detail
         #Slider
         Route::prefix('sliders')->group(function () {
             Route::get('add', [SliderController::class, 'create']);
@@ -206,6 +237,7 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> register
@@ -215,11 +247,14 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 >>>>>>> phan_quyen
 =======
 >>>>>>> menu_admin_detail
+=======
+>>>>>>> product_admin_detail
         #Cart
         Route::get('customers', [CartAdminController::class, 'index']);
         Route::get('customers/view/{customer}', [CartAdminController::class, 'show']);
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -242,10 +277,13 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 >>>>>>> phan_quyen
 =======
 >>>>>>> menu_admin_detail
+=======
+>>>>>>> product_admin_detail
     });
 
 });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -276,10 +314,15 @@ Route::get('/', [MainController::class, 'index'])->name('home');
 #Trang chủ
 Route::get('/', [MainController::class, 'index'])->name('home');
 >>>>>>> menu_admin_detail
+=======
+#Trang chủ
+Route::get('/', [MainController::class, 'index'])->name('home');
+>>>>>>> product_admin_detail
 Route::post('/services/load-product', [MainController::class, 'loadProduct']);
 
 
 Route::get('/danh-muc/{id}-{slug}.html', [MenuControllerScreen::class, 'index']);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -299,6 +342,8 @@ Route::get('carts', [CartController::class, 'show']);
 >>>>>>> phan_quyen
 =======
 >>>>>>> menu_admin_detail
+=======
+>>>>>>> product_admin_detail
 Route::get('/san-pham/{id}-{slug}.html', [ProductControllerScreen::class, 'index']);
 // Route::post('/san-pham/{id}-{slug}.html', [ProductControllerScreen::class, 'indexQuickView']);
 
@@ -309,6 +354,7 @@ Route::get('carts', [CartController::class, 'show']);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> register
 =======
 >>>>>>> logout
@@ -316,6 +362,8 @@ Route::get('carts', [CartController::class, 'show']);
 >>>>>>> phan_quyen
 =======
 >>>>>>> menu_admin_detail
+=======
+>>>>>>> product_admin_detail
 Route::post('update-cart', [CartController::class, 'update']);
 Route::get('carts/delete/{id}', [CartController::class, 'remove']);
 Route::post('carts', [CartController::class, 'addCart']);
@@ -326,6 +374,7 @@ Route::post('carts', [CartController::class, 'addCart']);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> register
@@ -338,3 +387,6 @@ Route::post('carts', [CartController::class, 'addCart']);
 =======
 
 >>>>>>> menu_admin_detail
+=======
+
+>>>>>>> product_admin_detail

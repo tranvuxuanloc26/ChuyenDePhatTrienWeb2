@@ -76,6 +76,19 @@ class ProductController extends Controller
 
     }
 
+<<<<<<< HEAD
+=======
+    public function showDetail(Product $product)
+    {
+        return view('admin.product.detail', [
+            'title' => 'Trang Chi Tiết Sản Phẩm',
+            'product' => $product,
+            'menus' => $this->productService->getMenu()
+
+        ]);
+    }
+
+>>>>>>> product_admin_detail
     /**
      * Remove the specified resource from storage.
      */

@@ -27,6 +27,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         
 =======
 >>>>>>> register
@@ -36,6 +37,8 @@
 >>>>>>> phan_quyen
 =======
 >>>>>>> menu_admin_detail
+=======
+>>>>>>> product_admin_detail
                     </span>
                 </div>
 

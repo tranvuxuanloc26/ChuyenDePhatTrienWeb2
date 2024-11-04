@@ -11,6 +11,7 @@ class RegisterController extends Controller
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function index(){
         return view('admin.users.register',[
             'title' => 'Đăng ký hệ thống',
@@ -22,6 +23,8 @@ class RegisterController extends Controller
 =======
 =======
 >>>>>>> menu_admin_detail
+=======
+>>>>>>> product_admin_detail
     public function index()
     {
         return view('admin.users.register', [
@@ -30,9 +33,12 @@ class RegisterController extends Controller
 
         ]);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> phan_quyen
 =======
 >>>>>>> menu_admin_detail
+=======
+>>>>>>> product_admin_detail
     }
 
     public function store(Request $request)
@@ -40,6 +46,7 @@ class RegisterController extends Controller
         $this->validate($request, [
             'name' => 'required|string|max:255',
             'email' => 'required|email|unique:users,email',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             'password' => 'required|min:6|confirmed'
@@ -53,6 +60,11 @@ class RegisterController extends Controller
             'role' => 'required|in:0,1', // Thêm xác nhận vai trò
 
 >>>>>>> menu_admin_detail
+=======
+            'password' => 'required|min:6|confirmed',
+            'role' => 'required|in:0,1', // Thêm xác nhận vai trò
+
+>>>>>>> product_admin_detail
         ]);
 
         $user = User::create([
@@ -61,17 +73,22 @@ class RegisterController extends Controller
             'password' => bcrypt($request->input('password')),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             'role' => $request->input('role'), // Lưu vai trò
 >>>>>>> phan_quyen
 =======
             'role' => $request->input('role'), // Lưu vai trò
 >>>>>>> menu_admin_detail
+=======
+            'role' => $request->input('role'), // Lưu vai trò
+>>>>>>> product_admin_detail
             'terms' => 'accepted' // Người dùng phải chọn checkbox
         ]);
 
         Auth::login($user);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -84,6 +101,8 @@ class RegisterController extends Controller
 =======
 =======
 >>>>>>> menu_admin_detail
+=======
+>>>>>>> product_admin_detail
           // Kiểm tra vai trò và điều hướng đến trang tương ứng
     if ($user->role == 1) { // Nếu là Admin
         return redirect()->route('admin')->with('success', 'Đăng ký thành công!'); // Đổi route thành route tương ứng với trang admin
@@ -92,7 +111,10 @@ class RegisterController extends Controller
     }
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> phan_quyen
 =======
 >>>>>>> menu_admin_detail
+=======
+>>>>>>> product_admin_detail
 }

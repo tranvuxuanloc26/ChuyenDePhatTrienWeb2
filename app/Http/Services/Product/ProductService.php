@@ -17,6 +17,7 @@ class ProductService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         
 =======
 >>>>>>> register
@@ -26,6 +27,8 @@ class ProductService
 >>>>>>> phan_quyen
 =======
 >>>>>>> menu_admin_detail
+=======
+>>>>>>> product_admin_detail
     }
     protected function isValidPrice($request){
         if($request->input('price') != 0 && $request->input('price_sale') != 0 
@@ -63,6 +66,7 @@ class ProductService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 
                 ->orderByDesc('id')
                 ->paginate(15);
@@ -78,6 +82,9 @@ class ProductService
 =======
                 ->orderByDesc('id')->paginate(15);
 >>>>>>> menu_admin_detail
+=======
+                ->orderByDesc('id')->paginate(15);
+>>>>>>> product_admin_detail
     }
 
     public function update($request, $product)

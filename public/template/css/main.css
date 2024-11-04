@@ -6,6 +6,7 @@ Last change:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Assigned to:  Le Xuan Bach
 Primary use:  Company
 =======
@@ -24,6 +25,10 @@ Assigned to:  Vinh Le
 Assigned to:  Vinh Le
 
 >>>>>>> menu_admin_detail
+=======
+Assigned to:  Vinh Le
+
+>>>>>>> product_admin_detail
 -------------------------------------------------------------------*/
 /*------------------------------------------------------------------
 [LAYOUT]
@@ -31,6 +36,7 @@ Assigned to:  Vinh Le
 * body
   + Header / header
   + Page Content / .page-content .name-page
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -48,6 +54,9 @@ Assigned to:  Vinh Le
 =======
         + Section Layouts / section .name-section
 >>>>>>> menu_admin_detail
+=======
+        + Section Layouts / section .name-section
+>>>>>>> product_admin_detail
         ...
   + Footer / footer
 

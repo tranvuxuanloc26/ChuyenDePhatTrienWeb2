@@ -22,10 +22,13 @@ class Helper
                                 <i class="fas fa-edit"></i>
                             </a>
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <a class="btn btn-danger btn-sm" href="#" onClick="removeRow(' . $menu->id . ', \'/admin/menus/destroy\')">
                                 <i class="fas fa-trash"></i>
                             </a>
 =======
+=======
+>>>>>>> product_admin_detail
                               <a class="btn btn-primary btn-sm" href="/admin/menus/detail/' . $menu->id . '">
                                  <i class="fas fa-eye"></i>
                             </a>
@@ -33,7 +36,10 @@ class Helper
                                 <i class="fas fa-trash"></i>
                             </a>
 
+<<<<<<< HEAD
 >>>>>>> menu_admin_detail
+=======
+>>>>>>> product_admin_detail
                         </td>
                     </tr>
                 ';
@@ -54,6 +60,7 @@ class Helper
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> register
@@ -63,6 +70,8 @@ class Helper
 >>>>>>> phan_quyen
 =======
 >>>>>>> menu_admin_detail
+=======
+>>>>>>> product_admin_detail
     public static function menus($menus, $parent_id = 0): string{
         $html = '';
         foreach($menus as $key => $menu){
@@ -113,6 +122,7 @@ class Helper
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     
 >>>>>>> register
@@ -125,4 +135,7 @@ class Helper
 =======
     
 >>>>>>> menu_admin_detail
+=======
+    
+>>>>>>> product_admin_detail
 }

@@ -40,9 +40,12 @@ class MenuController extends Controller
       ]);
    }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> menu_admin_detail
+=======
+>>>>>>> product_admin_detail
    public function show(Menu $menu){
        // Kiểm tra nếu không tìm thấy menu
     if (!$menu) {
@@ -83,7 +86,10 @@ class MenuController extends Controller
       ]);
    }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> product_admin_detail
    public function    showDetail(Menu $menu){
       // Kiểm tra nếu không tìm thấy menu
    if (!$menu) {
@@ -103,5 +109,8 @@ class MenuController extends Controller
 
      ]);
   }
+<<<<<<< HEAD
 >>>>>>> menu_admin_detail
+=======
+>>>>>>> product_admin_detail
 }

@@ -21,6 +21,7 @@ class LoginController extends Controller
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function store(Request $request){
          
 =======
@@ -31,10 +32,15 @@ class LoginController extends Controller
     public function store(Request $request)
     {
 >>>>>>> menu_admin_detail
+=======
+    public function store(Request $request)
+    {
+>>>>>>> product_admin_detail
         $this->validate($request, [
             'email' => 'required|email:filter',
             'password' => 'required'
         ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -62,6 +68,8 @@ class LoginController extends Controller
 =======
 =======
 >>>>>>> menu_admin_detail
+=======
+>>>>>>> product_admin_detail
     
         if (Auth::attempt([
             'email' => $request->input('email'),
@@ -86,9 +94,12 @@ class LoginController extends Controller
         return redirect()->back();
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> phan_quyen
 =======
 >>>>>>> menu_admin_detail
+=======
+>>>>>>> product_admin_detail
         //  đăng xuất
         public function logout(Request $request)
         {
@@ -99,9 +110,12 @@ class LoginController extends Controller
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> logout
 =======
 >>>>>>> phan_quyen
 =======
 >>>>>>> menu_admin_detail
+=======
+>>>>>>> product_admin_detail
 }                    
