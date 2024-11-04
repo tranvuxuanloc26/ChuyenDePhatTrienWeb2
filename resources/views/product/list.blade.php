@@ -25,11 +25,14 @@
                         {!! \App\Helpers\Helper::price($product->price, $product->price_sale) !!}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         
 =======
 >>>>>>> register
 =======
 >>>>>>> logout
+=======
+>>>>>>> phan_quyen
                     </span>
                 </div>
 

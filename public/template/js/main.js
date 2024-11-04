@@ -269,6 +269,7 @@
     /*==================================================================
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     [ Show modal1 ]*/
     $('.js-show-modal1').on('click',function(e){
         e.preventDefault();
@@ -281,6 +282,8 @@
 =======
 =======
 >>>>>>> logout
+=======
+>>>>>>> phan_quyen
     // [ Show modal1 ]*/
     // $('.js-show-modal1').on('click',function(e){
     //     e.preventDefault();
@@ -291,9 +294,12 @@
     //     $('.js-modal1').removeClass('show-modal1');
     // });
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> register
 =======
 >>>>>>> logout
+=======
+>>>>>>> phan_quyen
 
 
 

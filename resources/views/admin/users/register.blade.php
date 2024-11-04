@@ -48,6 +48,16 @@
                             </div>
                         </div>
                     </div>
+<<<<<<< HEAD
+=======
+                    <div class="input-group mb-3">
+                        <select name="role" class="form-control" required>
+                            <option value="" disabled selected>Chọn vai trò</option>
+                            <option value="0">Người dùng</option>
+                            <option value="1">Admin</option>
+                        </select>
+                    </div>
+>>>>>>> phan_quyen
                     <div class="row">
                         <div class="col-8">
                             <div class="icheck-primary">

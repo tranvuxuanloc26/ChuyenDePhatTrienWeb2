@@ -1,9 +1,13 @@
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <header>
 =======
 <header >
 >>>>>>> logout
+=======
+<header >
+>>>>>>> phan_quyen
     @php $menuHtml = App\Helpers\Helper::menus($menus);     @endphp
     <!-- Header desktop -->
     <div class="container-menu-desktop ">
@@ -96,7 +100,10 @@
                         <i class="zmdi zmdi-favorite-outline"></i>
                     </a>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> phan_quyen
                     <li class="p-l-30 p-r-2 nav-item dropdown" style="right: 1px">
                         @auth
                         <!-- Hiển thị khi người dùng đã đăng nhập -->
@@ -133,7 +140,10 @@
                         }
                     </style>
                        
+<<<<<<< HEAD
 >>>>>>> logout
+=======
+>>>>>>> phan_quyen
                 </div>
             </nav>
         </div>	

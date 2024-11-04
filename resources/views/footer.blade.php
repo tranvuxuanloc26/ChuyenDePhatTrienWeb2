@@ -155,6 +155,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <!-- Modal1 -->
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <div class="wrap-modal1 js-modal1 p-t-60 p-b-20">
 =======
  <div class="wrap-modal1 js-modal1 p-t-60 p-b-20">
@@ -162,11 +163,15 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 =======
  <div class="wrap-modal1 js-modal1 p-t-60 p-b-20">
 >>>>>>> logout
+=======
+ <div class="wrap-modal1 js-modal1 p-t-60 p-b-20">
+>>>>>>> phan_quyen
     <div class="overlay-modal1 js-hide-modal1"></div>
 
     <div class="container">
         <div class="bg0 p-t-60 p-b-30 p-lr-15-lg how-pos3-parent">
             <button class="how-pos3 hov3 trans-04 js-hide-modal1">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                 <img src="images/icons/icon-close.png" alt="CLOSE">
@@ -176,6 +181,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 =======
                 <img src="/template/images/icons/icon-close.png" alt="CLOSE">
 >>>>>>> logout
+=======
+                <img src="/template/images/icons/icon-close.png" alt="CLOSE">
+>>>>>>> phan_quyen
             </button>
 
             <div class="row">
@@ -226,6 +234,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                         <h4 class="mtext-105 cl2 js-name-detail p-b-14">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             rwerwerwerwer
 =======
                             rwerwerwerddsdsfsd
@@ -233,6 +242,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 =======
                             rwerwerwerddsdsfsd
 >>>>>>> logout
+=======
+                            rwerwerwerddsdsfsd
+>>>>>>> phan_quyen
                         </h4>
 
                         <span class="mtext-106 cl2">
@@ -331,6 +343,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     </div>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 </div>
 =======
 </div> 
@@ -338,6 +351,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 =======
 </div> 
 >>>>>>> logout
+=======
+</div> 
+>>>>>>> phan_quyen
 
 <!--===============================================================================================-->	
 <script src="/template/vendor/jquery/jquery-3.2.1.min.js"></script>

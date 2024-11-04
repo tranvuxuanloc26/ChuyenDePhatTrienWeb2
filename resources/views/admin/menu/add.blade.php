@@ -68,6 +68,7 @@
       <div class="card-footer">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <button type="submit" class="btn btn-primary">Tạo Danh Mục</button>
       
             <a href="/admin/menus/list" class="btn btn-primary">Trở về</a>
@@ -79,6 +80,10 @@
         <a href="/admin/menus/list" class="btn btn-primary">Trở Về</a>
         <button type="submit" class="btn btn-primary">Tạo Danh Mục</button>
 >>>>>>> logout
+=======
+        <a href="/admin/menus/list" class="btn btn-primary">Trở Về</a>
+        <button type="submit" class="btn btn-primary">Tạo Danh Mục</button>
+>>>>>>> phan_quyen
     
       </div>
     

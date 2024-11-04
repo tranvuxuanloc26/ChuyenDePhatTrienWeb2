@@ -9,6 +9,7 @@
   <div class="login-logo">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <a href="../../index2.html"><b>Admin</b>LTE</a>
 =======
     <a href="../../index2.html"><b>COZA</b>STORE</a>
@@ -16,6 +17,9 @@
 =======
     <a href="../../index2.html"><b>COZA</b>STORE</a>
 >>>>>>> logout
+=======
+    <a href="../../index2.html"><b>COZA</b>STORE</a>
+>>>>>>> phan_quyen
   </div>
   <!-- /.login-logo -->
   <div class="card">
@@ -73,6 +77,7 @@
       <p class="mb-0">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <a href="register.html" class="text-center">Register a new membership</a>
 =======
         <a href="/admin/users/register" class="text-center">Register a new membership</a>
@@ -80,6 +85,9 @@
 =======
         <a href="/admin/users/register" class="text-center">Register a new membership</a>
 >>>>>>> logout
+=======
+        <a href="/admin/users/register" class="text-center">Register a new membership</a>
+>>>>>>> phan_quyen
       </p>
     </div>
     </div>

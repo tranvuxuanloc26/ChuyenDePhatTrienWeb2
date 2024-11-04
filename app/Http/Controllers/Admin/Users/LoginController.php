@@ -19,12 +19,18 @@ class LoginController extends Controller
 
         ]);
     }
+<<<<<<< HEAD
     public function store(Request $request){
          
+=======
+    public function store(Request $request)
+    {
+>>>>>>> phan_quyen
         $this->validate($request, [
             'email' => 'required|email:filter',
             'password' => 'required'
         ]);
+<<<<<<< HEAD
 
         if(Auth::attempt([
                 'email' => $request->input('email'),
@@ -47,6 +53,31 @@ class LoginController extends Controller
     }
 <<<<<<< HEAD
 =======
+=======
+    
+        if (Auth::attempt([
+            'email' => $request->input('email'),
+            'password' => $request->input('password'),      
+        ], $request->input('remember'))) {
+            $user = Auth::user(); // Lấy thông tin người dùng đã đăng nhập
+    
+            // Kiểm tra vai trò của người dùng và định hướng trang tương ứng
+            switch ($user->role) {
+                case 0:
+                    return redirect()->route('home')->with('success', 'Đăng nhập thành công!');
+                case 1:
+                    return redirect()->route('admin')->with('success', 'Đăng nhập thành công!');
+                case 2:
+                    return redirect()->route('admin')->with('success', 'Đăng nhập thành công!');
+                default:
+                    return redirect()->route('home')->with('error', 'Vai trò không hợp lệ.');
+            }
+        }
+    
+        Session::flash('error', 'Email hoặc mật khẩu không chính xác.');
+        return redirect()->back();
+    }
+>>>>>>> phan_quyen
         //  đăng xuất
         public function logout(Request $request)
         {
@@ -55,5 +86,8 @@ class LoginController extends Controller
          
             return redirect('/'); 
         }
+<<<<<<< HEAD
 >>>>>>> logout
+=======
+>>>>>>> phan_quyen
 }                    

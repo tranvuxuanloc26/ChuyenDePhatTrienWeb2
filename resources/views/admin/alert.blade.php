@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
  @if ($errors->any())
@@ -24,6 +25,8 @@
 =======
 =======
 >>>>>>> logout
+=======
+>>>>>>> phan_quyen
 @if ($errors->any())
     <div class="alert alert-danger" id="session-alert">
         <ul>
@@ -43,18 +46,24 @@
 @if(Session::has('success'))
     <div class="alert alert-success" id="session-alert">
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> register
 =======
 >>>>>>> logout
+=======
+>>>>>>> phan_quyen
         {{ Session::get('success') }}
     </div>
 @endif
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> logout
+=======
+>>>>>>> phan_quyen
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         // Tìm tất cả các thông báo có class .alert
@@ -69,6 +78,9 @@
     });
 </script>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> register
 =======
 >>>>>>> logout
+=======
+>>>>>>> phan_quyen

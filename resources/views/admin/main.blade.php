@@ -20,12 +20,15 @@
     
     
 <<<<<<< HEAD
+<<<<<<< HEAD
       <li class="nav-item">
         <a class="nav-link" data-widget="fullscreen" href="#" role="button">
           <i class="fas fa-expand-arrows-alt"></i>
         </a>
       </li>
 =======
+=======
+>>>>>>> phan_quyen
     
       <li class="nav-item dropdown" style="right: 20px">
         <div class="d-flex align-items-center">
@@ -50,7 +53,10 @@
     display: block;
 }
   </style>    
+<<<<<<< HEAD
 >>>>>>> logout
+=======
+>>>>>>> phan_quyen
     
     </ul>
   </nav>

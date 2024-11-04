@@ -3,6 +3,7 @@
 use App\Http\Services\UploadService;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
@@ -46,6 +47,8 @@ Route::post('admin/users/login/store', [LoginController::class, 'store']);
 =======
 =======
 >>>>>>> logout
+=======
+>>>>>>> phan_quyen
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\MainController;
@@ -66,11 +69,17 @@ use App\Http\Controllers\Admin\Users\RegisterController;
     Route::post('admin/users/login/store', [LoginController::class, 'store']);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     #logout
     Route::post('admin/users/logout', [LoginController::class, 'logout'])->name('logout');
 
 >>>>>>> logout
+=======
+    #logout
+    Route::post('admin/users/logout', [LoginController::class, 'logout'])->name('logout');
+
+>>>>>>> phan_quyen
 #Register
 Route::get('admin/users/register', [RegisterController::class,'index'])->name('register');
 Route::post('admin/users/register/store', [RegisterController::class, 'store']);
@@ -78,14 +87,18 @@ Route::post('admin/users/register/store', [RegisterController::class, 'store']);
 
 #Admin
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> register
 =======
 >>>>>>> logout
+=======
+>>>>>>> phan_quyen
 Route::middleware(['auth'])->group(function () {
 
     Route::prefix('admin')->group(function () {
         Route::get('/', [MainAdminController::class, 'index'])->name('admin');
         Route::get('main', [MainAdminController::class, 'index'])->name('admin');
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -103,6 +116,10 @@ Route::middleware(['auth'])->group(function () {
 >>>>>>> register
 =======
 >>>>>>> logout
+=======
+        Route::get('/', [MainController::class, 'index'])->name('home');
+
+>>>>>>> phan_quyen
         #Menu
         Route::prefix('menus')->group(function () {
             Route::get('add', [MenuController::class, 'create']);
@@ -114,12 +131,15 @@ Route::middleware(['auth'])->group(function () {
         });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 =======
 >>>>>>> register
 =======
 >>>>>>> logout
+=======
+>>>>>>> phan_quyen
         #Product
         Route::prefix('products')->group(function () {
             Route::get('add', [ProductController::class, 'create']);
@@ -133,11 +153,14 @@ Route::middleware(['auth'])->group(function () {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> register
 =======
 >>>>>>> logout
+=======
+>>>>>>> phan_quyen
         #Slider
         Route::prefix('sliders')->group(function () {
             Route::get('add', [SliderController::class, 'create']);
@@ -154,16 +177,20 @@ Route::middleware(['auth'])->group(function () {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> register
 =======
 >>>>>>> logout
+=======
+>>>>>>> phan_quyen
         #Cart
         Route::get('customers', [CartAdminController::class, 'index']);
         Route::get('customers/view/{customer}', [CartAdminController::class, 'show']);
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -180,10 +207,13 @@ Route::middleware(['auth'])->group(function () {
 >>>>>>> register
 =======
 >>>>>>> logout
+=======
+>>>>>>> phan_quyen
     });
 
 });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -204,10 +234,15 @@ Route::get('/', [MainController::class, 'index']);
 #Trang chủ
 Route::get('/', [MainController::class, 'index'])->name('home');
 >>>>>>> logout
+=======
+#Trang chủ
+Route::get('/', [MainController::class, 'index'])->name('home');
+>>>>>>> phan_quyen
 Route::post('/services/load-product', [MainController::class, 'loadProduct']);
 
 
 Route::get('/danh-muc/{id}-{slug}.html', [MenuControllerScreen::class, 'index']);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -221,6 +256,8 @@ Route::get('carts', [CartController::class, 'show']);
 =======
 =======
 >>>>>>> logout
+=======
+>>>>>>> phan_quyen
 Route::get('/san-pham/{id}-{slug}.html', [ProductControllerScreen::class, 'index']);
 // Route::post('/san-pham/{id}-{slug}.html', [ProductControllerScreen::class, 'indexQuickView']);
 
@@ -229,9 +266,12 @@ Route::get('/san-pham/{id}-{slug}.html', [ProductControllerScreen::class, 'index
 Route::post('add-cart', [CartController::class, 'index']);
 Route::get('carts', [CartController::class, 'show']);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> register
 =======
 >>>>>>> logout
+=======
+>>>>>>> phan_quyen
 Route::post('update-cart', [CartController::class, 'update']);
 Route::get('carts/delete/{id}', [CartController::class, 'remove']);
 Route::post('carts', [CartController::class, 'addCart']);
@@ -240,9 +280,13 @@ Route::post('carts', [CartController::class, 'addCart']);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> register
 =======
 
 >>>>>>> logout
+=======
+
+>>>>>>> phan_quyen

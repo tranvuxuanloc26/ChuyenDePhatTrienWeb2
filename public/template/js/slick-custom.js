@@ -90,9 +90,12 @@
       
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> logout
+=======
+>>>>>>> phan_quyen
         //     $(this).find('.slick3').slick({
         //         slidesToShow: 1,
         //         slidesToScroll: 1,
@@ -116,9 +119,12 @@
         //     });
         // });
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> register
 =======
 >>>>>>> logout
+=======
+>>>>>>> phan_quyen
             
                 
 
