@@ -24,9 +24,12 @@
                     <span class="stext-105 cl4">
                         {!! \App\Helpers\Helper::price($product->price, $product->price_sale) !!}
 <<<<<<< HEAD
+<<<<<<< HEAD
                         
 =======
 >>>>>>> register
+=======
+>>>>>>> logout
                     </span>
                 </div>
 

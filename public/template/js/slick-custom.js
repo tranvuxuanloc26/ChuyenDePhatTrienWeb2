@@ -89,7 +89,10 @@
 
       
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> logout
         //     $(this).find('.slick3').slick({
         //         slidesToShow: 1,
         //         slidesToScroll: 1,
@@ -112,7 +115,10 @@
         //         },  
         //     });
         // });
+<<<<<<< HEAD
 >>>>>>> register
+=======
+>>>>>>> logout
             
                 
 

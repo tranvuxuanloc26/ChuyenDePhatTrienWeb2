@@ -8,10 +8,14 @@
 <div class="login-box">
   <div class="login-logo">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <a href="../../index2.html"><b>Admin</b>LTE</a>
 =======
     <a href="../../index2.html"><b>COZA</b>STORE</a>
 >>>>>>> register
+=======
+    <a href="../../index2.html"><b>COZA</b>STORE</a>
+>>>>>>> logout
   </div>
   <!-- /.login-logo -->
   <div class="card">
@@ -68,10 +72,14 @@
       </p>
       <p class="mb-0">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <a href="register.html" class="text-center">Register a new membership</a>
 =======
         <a href="/admin/users/register" class="text-center">Register a new membership</a>
 >>>>>>> register
+=======
+        <a href="/admin/users/register" class="text-center">Register a new membership</a>
+>>>>>>> logout
       </p>
     </div>
     </div>

@@ -3,12 +3,17 @@ Project:
 Version:  
 Last change:  
 <<<<<<< HEAD
+<<<<<<< HEAD
 Assigned to:  Le Xuan Bach
 Primary use:  Company
 =======
 Assigned to:  Vinh Le
 
 >>>>>>> register
+=======
+Assigned to:  Vinh Le
+
+>>>>>>> logout
 -------------------------------------------------------------------*/
 /*------------------------------------------------------------------
 [LAYOUT]
@@ -17,10 +22,14 @@ Assigned to:  Vinh Le
   + Header / header
   + Page Content / .page-content .name-page
 <<<<<<< HEAD
+<<<<<<< HEAD
         + Section Layouts / section .name-sectiona
 =======
         + Section Layouts / section .name-section
 >>>>>>> register
+=======
+        + Section Layouts / section .name-section
+>>>>>>> logout
         ...
   + Footer / footer
 

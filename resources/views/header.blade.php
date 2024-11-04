@@ -1,5 +1,9 @@
 
+<<<<<<< HEAD
 <header>
+=======
+<header >
+>>>>>>> logout
     @php $menuHtml = App\Helpers\Helper::menus($menus);     @endphp
     <!-- Header desktop -->
     <div class="container-menu-desktop ">
@@ -91,6 +95,45 @@
                     <a href="#" class="dis-block icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti" data-notify="0">
                         <i class="zmdi zmdi-favorite-outline"></i>
                     </a>
+<<<<<<< HEAD
+=======
+                    <li class="p-l-30 p-r-2 nav-item dropdown" style="right: 1px">
+                        @auth
+                        <!-- Hiển thị khi người dùng đã đăng nhập -->
+                        <div class="d-flex align-items-center">
+                            <img src="{{ asset('template/images/icons/R.png') }}" alt="User Avatar" class="rounded-circle me-4" style="width: 40px; height: 40px;">
+                            <span class="fw-bold dropdown-toggle" style="margin-left: 10px" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                {{ Auth::user()->name }}
+                            </span>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+                                <li><a class="dropdown-item" href="">Thông tin người dùng</a></li>
+                                <li><a class="dropdown-item" href="">Đổi mật khẩu</a></li>
+                                <li>
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                        @csrf
+                                    </form>
+                                    <a class="dropdown-item" href="#" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Đăng xuất</a>
+                                </li>
+                            </ul>
+                        </div>
+                        @endauth
+                        @guest
+                        <!-- Hiển thị khi người dùng chưa đăng nhập -->
+                        <div class="d-flex align-items-center">
+                            <a href="{{ route('login') }}" class="nav-link p-0">Đăng nhập</a>
+                            <span class="px-1">/</span>
+                            <a href="{{ route('register') }}" class="nav-link p-0">Đăng ký</a>
+                        </div>
+                        @endguest
+                    </li>
+                    
+                    <style>
+                        .dropdown:hover .dropdown-menu {
+                            display: block;
+                        }
+                    </style>
+                       
+>>>>>>> logout
                 </div>
             </nav>
         </div>	

@@ -10,18 +10,24 @@ class ProductServiceScreen{
     public function get($page = null){
         return Product::select('id', 'name', 'price', 'price_sale', 'thumb')
 <<<<<<< HEAD
+<<<<<<< HEAD
                             ->where('active', 1)
 =======
 >>>>>>> register
+=======
+>>>>>>> logout
                               ->orderByDesc('id')
                               ->when($page != null, function ($query) use ($page){
                                   $query->offset($page * self::LIMIT);
                               })
                               ->limit(self::LIMIT)
 <<<<<<< HEAD
+<<<<<<< HEAD
                              
 =======
 >>>>>>> register
+=======
+>>>>>>> logout
                               ->get();
     }
 

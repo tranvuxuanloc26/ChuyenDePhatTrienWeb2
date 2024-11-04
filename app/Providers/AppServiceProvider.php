@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Schema;
 
 use App\View\Composers\MenuComposer;
@@ -15,6 +16,8 @@ use App\View\Composers\CartComposer;
 
 
 =======
+=======
+>>>>>>> logout
 use App\View\Composers\MenuComposer;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\Facades\Schema;
@@ -22,7 +25,10 @@ use Illuminate\Support\ServiceProvider;
 use App\View\Composers\CartComposer;
 
 
+<<<<<<< HEAD
 >>>>>>> register
+=======
+>>>>>>> logout
 class AppServiceProvider extends ServiceProvider
 {
     /**
@@ -40,6 +46,7 @@ class AppServiceProvider extends ServiceProvider
     {
         Schema::defaultStringLength(191);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         View::composer('header', MenuComposer::class);
         View::composer('cart', CartComposer::class);
@@ -50,5 +57,10 @@ class AppServiceProvider extends ServiceProvider
         View::composer('cart', CartComposer::class);
 
 >>>>>>> register
+=======
+        View::composer('header', MenuComposer::class);
+        View::composer('cart', CartComposer::class);
+
+>>>>>>> logout
     }
 }

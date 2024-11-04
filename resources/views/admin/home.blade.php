@@ -2,4 +2,11 @@
 
 @section('content')
    Nội dung
+<<<<<<< HEAD
+=======
+
+ 
+  
+
+>>>>>>> logout
 @endsection

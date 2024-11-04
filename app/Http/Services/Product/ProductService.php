@@ -14,9 +14,12 @@ class ProductService
     {
         return Menu::where('active', 1)->get();
 <<<<<<< HEAD
+<<<<<<< HEAD
         
 =======
 >>>>>>> register
+=======
+>>>>>>> logout
     }
     protected function isValidPrice($request){
         if($request->input('price') != 0 && $request->input('price_sale') != 0 
@@ -51,12 +54,16 @@ class ProductService
     public function get(){
         return Product::with('menu')
 <<<<<<< HEAD
+<<<<<<< HEAD
                 
                 ->orderByDesc('id')
                 ->paginate(15);
 =======
                 ->orderByDesc('id')->paginate(15);
 >>>>>>> register
+=======
+                ->orderByDesc('id')->paginate(15);
+>>>>>>> logout
     }
 
     public function update($request, $product)

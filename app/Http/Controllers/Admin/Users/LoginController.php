@@ -33,12 +33,27 @@ class LoginController extends Controller
             
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             return redirect()->route('admin');
 =======
             return redirect()->route('admin')->with('success', 'Đăng nhập thành công!');
 >>>>>>> register
+=======
+            return redirect()->route('home')->with('success', 'Đăng nhập thành công!');
+>>>>>>> logout
         }
                         Session::flash('error','Email or password is not incorrect');
         return redirect()->back();
     }
+<<<<<<< HEAD
+=======
+        //  đăng xuất
+        public function logout(Request $request)
+        {
+            Auth::logout(); // Đăng xuất người dùng
+    
+         
+            return redirect('/'); 
+        }
+>>>>>>> logout
 }                    

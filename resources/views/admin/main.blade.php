@@ -19,11 +19,38 @@
     <ul class="navbar-nav ml-auto">
     
     
+<<<<<<< HEAD
       <li class="nav-item">
         <a class="nav-link" data-widget="fullscreen" href="#" role="button">
           <i class="fas fa-expand-arrows-alt"></i>
         </a>
       </li>
+=======
+    
+      <li class="nav-item dropdown" style="right: 20px">
+        <div class="d-flex align-items-center">
+            <img src="{{ asset('template/images/icons/R.png') }}" alt="User Avatar" class="rounded-circle me-4" style="width: 40px; height: 40px;">
+            <span class="fw-bold dropdown-toggle" style="margin-left: 10px" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                {{ Auth::user()->name }}
+            </span>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+                <li><a class="dropdown-item" href="">Thông tin người dùng</a></li>
+                <li><a class="dropdown-item" href="">Đổi mật khẩu</a></li>
+                <li>
+                  <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                      @csrf
+                  </form>
+                  <a class="dropdown-item" href="#" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Đăng xuất</a>
+              </li>
+            </ul>
+        </div>
+    </li>
+<style>
+  .dropdown:hover .dropdown-menu {
+    display: block;
+}
+  </style>    
+>>>>>>> logout
     
     </ul>
   </nav>

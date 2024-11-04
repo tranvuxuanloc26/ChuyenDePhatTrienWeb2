@@ -26,6 +26,7 @@
             <td>{{ $product->menu ? $product->menu->name : 'Không có danh mục' }}</td>
             <td>{{ $product->price }}</td>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <td style="padding-left: 30px;">{{ $product->price_sale }}</td>
            
             <td>{!! \App\Helpers\Helper::active($product->active)  !!}</td>
@@ -35,6 +36,11 @@
 }">{{ $product->price_sale }}</td>
             <td>{!! \App\Helpers\Helper::active($product->active)  !!}</td>
 >>>>>>> register
+=======
+            <td style="padding-left: 30px;
+}">{{ $product->price_sale }}</td>
+            <td>{!! \App\Helpers\Helper::active($product->active)  !!}</td>
+>>>>>>> logout
             <td>{{ $product->updated_at }}</td>
             <td>
                 <a class="btn btn-primary btn-sm" href="/admin/products/edit/{{ $product->id }}">

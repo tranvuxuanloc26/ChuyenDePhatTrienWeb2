@@ -36,7 +36,11 @@ class RegisterController extends Controller
 
         Auth::login($user);
 
+<<<<<<< HEAD
         return redirect()->route('login')->with('success', 'Đăng ký thành công!');
+=======
+        return redirect()->route('home')->with('success', 'Đăng ký thành công!');
+>>>>>>> logout
     }
     
 }
