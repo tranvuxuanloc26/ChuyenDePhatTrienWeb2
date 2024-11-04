@@ -7,7 +7,11 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
+<<<<<<< HEAD
     <a href="../../index2.html"><b>Admin</b>LTE</a>
+=======
+    <a href="../../index2.html"><b>COZA</b>STORE</a>
+>>>>>>> register
   </div>
   <!-- /.login-logo -->
   <div class="card">
@@ -63,7 +67,11 @@
         <a href="forgot-password.html">I forgot my password</a>
       </p>
       <p class="mb-0">
+<<<<<<< HEAD
         <a href="register.html" class="text-center">Register a new membership</a>
+=======
+        <a href="/admin/users/register" class="text-center">Register a new membership</a>
+>>>>>>> register
       </p>
     </div>
     </div>

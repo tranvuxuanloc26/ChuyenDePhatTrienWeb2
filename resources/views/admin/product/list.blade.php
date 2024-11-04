@@ -25,10 +25,16 @@
             <td class="d-inline-block " style="max-width: 220px;">{{ $product->name }}</td>
             <td>{{ $product->menu ? $product->menu->name : 'Không có danh mục' }}</td>
             <td>{{ $product->price }}</td>
+<<<<<<< HEAD
             <td style="padding-left: 30px;">{{ $product->price_sale }}</td>
            
             <td>{!! \App\Helpers\Helper::active($product->active)  !!}</td>
             
+=======
+            <td style="padding-left: 30px;
+}">{{ $product->price_sale }}</td>
+            <td>{!! \App\Helpers\Helper::active($product->active)  !!}</td>
+>>>>>>> register
             <td>{{ $product->updated_at }}</td>
             <td>
                 <a class="btn btn-primary btn-sm" href="/admin/products/edit/{{ $product->id }}">

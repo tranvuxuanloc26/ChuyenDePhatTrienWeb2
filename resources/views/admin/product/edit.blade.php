@@ -67,12 +67,21 @@
             <label for="">Kích Hoạt</label>
             <div class="custom-control custom-radio">
               <input class="custom-control-input" value="1" type="radio" id="active" name="active" 
+<<<<<<< HEAD
                {{ $product->active == 1 ?'checked' : '' }}>
+=======
+              {{ $product->active == 1 ? 'checked=""' : '' }}>
+>>>>>>> register
               <label for="active" class="custom-control-label">Có</label>
             </div>
             <div class="custom-control custom-radio">
               <input class="custom-control-input" value="0" type="radio" id="no_active" name="active" 
+<<<<<<< HEAD
               {{ $product->active == 0 ?'checked' : '' }}>
+=======
+              
+              {{ $product->active == 0 ? 'checked=""' : '' }}>
+>>>>>>> register
               <label for="no_active" class="custom-control-label">Không</label>
             </div>
            

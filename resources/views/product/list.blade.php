@@ -23,7 +23,10 @@
 
                     <span class="stext-105 cl4">
                         {!! \App\Helpers\Helper::price($product->price, $product->price_sale) !!}
+<<<<<<< HEAD
                         
+=======
+>>>>>>> register
                     </span>
                 </div>
 

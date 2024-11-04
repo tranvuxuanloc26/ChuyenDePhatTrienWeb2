@@ -2,8 +2,13 @@
 Project:  
 Version:  
 Last change:  
+<<<<<<< HEAD
 Assigned to:  Le Xuan Bach
 Primary use:  Company
+=======
+Assigned to:  Vinh Le
+
+>>>>>>> register
 -------------------------------------------------------------------*/
 /*------------------------------------------------------------------
 [LAYOUT]
@@ -11,7 +16,11 @@ Primary use:  Company
 * body
   + Header / header
   + Page Content / .page-content .name-page
+<<<<<<< HEAD
         + Section Layouts / section .name-sectiona
+=======
+        + Section Layouts / section .name-section
+>>>>>>> register
         ...
   + Footer / footer
 

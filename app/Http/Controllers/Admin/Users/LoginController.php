@@ -32,7 +32,11 @@ class LoginController extends Controller
             ], $request->input('remember'))){
             
 
+<<<<<<< HEAD
             return redirect()->route('admin');
+=======
+            return redirect()->route('admin')->with('success', 'Đăng nhập thành công!');
+>>>>>>> register
         }
                         Session::flash('error','Email or password is not incorrect');
         return redirect()->back();
