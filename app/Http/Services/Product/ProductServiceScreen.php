@@ -12,6 +12,7 @@ class ProductServiceScreen{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             ->where('active', 1)
 =======
 >>>>>>> register
@@ -19,11 +20,14 @@ class ProductServiceScreen{
 >>>>>>> logout
 =======
 >>>>>>> phan_quyen
+=======
+>>>>>>> menu_admin_detail
                               ->orderByDesc('id')
                               ->when($page != null, function ($query) use ($page){
                                   $query->offset($page * self::LIMIT);
                               })
                               ->limit(self::LIMIT)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -34,6 +38,8 @@ class ProductServiceScreen{
 >>>>>>> logout
 =======
 >>>>>>> phan_quyen
+=======
+>>>>>>> menu_admin_detail
                               ->get();
     }
 

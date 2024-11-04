@@ -22,15 +22,21 @@ class Kernel extends HttpKernel
         \App\Http\Middleware\TrimStrings::class,
         \Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull::class,
 <<<<<<< HEAD
+<<<<<<< HEAD
     ];
 
 =======
+=======
+>>>>>>> menu_admin_detail
         
     ];
 
 
    
+<<<<<<< HEAD
 >>>>>>> phan_quyen
+=======
+>>>>>>> menu_admin_detail
     /**
      * The application's route middleware groups.
      *
@@ -72,5 +78,10 @@ class Kernel extends HttpKernel
         'signed' => \App\Http\Middleware\ValidateSignature::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
         'verified' => \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,
+<<<<<<< HEAD
+=======
+        'role' => \App\Http\Middleware\CheckRole::class,
+
+>>>>>>> menu_admin_detail
     ];
 }

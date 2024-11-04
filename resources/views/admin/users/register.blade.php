@@ -49,7 +49,10 @@
                         </div>
                     </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> menu_admin_detail
                     <div class="input-group mb-3">
                         <select name="role" class="form-control" required>
                             <option value="" disabled selected>Chọn vai trò</option>
@@ -57,7 +60,10 @@
                             <option value="1">Admin</option>
                         </select>
                     </div>
+<<<<<<< HEAD
 >>>>>>> phan_quyen
+=======
+>>>>>>> menu_admin_detail
                     <div class="row">
                         <div class="col-8">
                             <div class="icheck-primary">

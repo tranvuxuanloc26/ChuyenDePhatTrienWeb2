@@ -39,7 +39,10 @@ class MenuController extends Controller
          'menus' => $this->menuService->getAll()
       ]);
    }
+<<<<<<< HEAD
 
+=======
+>>>>>>> menu_admin_detail
    public function show(Menu $menu){
        // Kiểm tra nếu không tìm thấy menu
     if (!$menu) {
@@ -79,4 +82,26 @@ class MenuController extends Controller
          
       ]);
    }
+<<<<<<< HEAD
+=======
+   public function    showDetail(Menu $menu){
+      // Kiểm tra nếu không tìm thấy menu
+   if (!$menu) {
+     // Tạo một thông báo session
+     Session::flash('error', 'Sản phẩm không tồn tại');
+     
+     // Chuyển hướng về trang danh sách menu hoặc một trang khác
+     return redirect()->route('admin.menus.index');
+ }
+
+     return view('admin.menu.detail', [
+        'title' => 'Chi tiết sản phẩm: ' . $menu->name,
+        'menu' => $menu,
+        'menus' => $this->menuService->getParent(),
+        'parentName' => $menu->parent ? $menu->parent->name : 'Không có danh mục cha',
+       
+
+     ]);
+  }
+>>>>>>> menu_admin_detail
 }

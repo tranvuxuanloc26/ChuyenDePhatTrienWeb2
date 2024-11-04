@@ -1,6 +1,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <header>
 =======
 <header >
@@ -8,6 +9,9 @@
 =======
 <header >
 >>>>>>> phan_quyen
+=======
+<header >
+>>>>>>> menu_admin_detail
     @php $menuHtml = App\Helpers\Helper::menus($menus);     @endphp
     <!-- Header desktop -->
     <div class="container-menu-desktop ">
@@ -101,9 +105,12 @@
                     </a>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> phan_quyen
+=======
+>>>>>>> menu_admin_detail
                     <li class="p-l-30 p-r-2 nav-item dropdown" style="right: 1px">
                         @auth
                         <!-- Hiển thị khi người dùng đã đăng nhập -->
@@ -141,9 +148,12 @@
                     </style>
                        
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> logout
 =======
 >>>>>>> phan_quyen
+=======
+>>>>>>> menu_admin_detail
                 </div>
             </nav>
         </div>	

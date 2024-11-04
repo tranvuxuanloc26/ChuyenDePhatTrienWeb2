@@ -22,4 +22,14 @@ class Menu extends Model
     public function products(){
         return $this->hasMany(Product::class, 'menu_id', 'id');
     }
+<<<<<<< HEAD
+=======
+
+    public function parent()
+    {
+        return $this->belongsTo(Menu::class, 'parent_id');
+    }
+
+ 
+>>>>>>> menu_admin_detail
 }

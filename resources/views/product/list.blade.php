@@ -26,6 +26,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         
 =======
 >>>>>>> register
@@ -33,6 +34,8 @@
 >>>>>>> logout
 =======
 >>>>>>> phan_quyen
+=======
+>>>>>>> menu_admin_detail
                     </span>
                 </div>
 

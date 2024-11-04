@@ -70,6 +70,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                {{ $product->active == 1 ?'checked' : '' }}>
 =======
               {{ $product->active == 1 ? 'checked=""' : '' }}>
@@ -80,10 +81,14 @@
 =======
               {{ $product->active == 1 ? 'checked=""' : '' }}>
 >>>>>>> phan_quyen
+=======
+              {{ $product->active == 1 ? 'checked=""' : '' }}>
+>>>>>>> menu_admin_detail
               <label for="active" class="custom-control-label">Có</label>
             </div>
             <div class="custom-control custom-radio">
               <input class="custom-control-input" value="0" type="radio" id="no_active" name="active" 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -100,6 +105,10 @@
               
               {{ $product->active == 0 ? 'checked=""' : '' }}>
 >>>>>>> phan_quyen
+=======
+              
+              {{ $product->active == 0 ? 'checked=""' : '' }}>
+>>>>>>> menu_admin_detail
               <label for="no_active" class="custom-control-label">Không</label>
             </div>
            

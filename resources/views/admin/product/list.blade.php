@@ -28,6 +28,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <td style="padding-left: 30px;">{{ $product->price_sale }}</td>
            
             <td>{!! \App\Helpers\Helper::active($product->active)  !!}</td>
@@ -47,6 +48,11 @@
 }">{{ $product->price_sale }}</td>
             <td>{!! \App\Helpers\Helper::active($product->active)  !!}</td>
 >>>>>>> phan_quyen
+=======
+            <td style="padding-left: 30px;
+}">{{ $product->price_sale }}</td>
+            <td>{!! \App\Helpers\Helper::active($product->active)  !!}</td>
+>>>>>>> menu_admin_detail
             <td>{{ $product->updated_at }}</td>
             <td>
                 <a class="btn btn-primary btn-sm" href="/admin/products/edit/{{ $product->id }}">

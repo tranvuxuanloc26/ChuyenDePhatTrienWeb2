@@ -20,16 +20,22 @@ class LoginController extends Controller
         ]);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function store(Request $request){
          
 =======
     public function store(Request $request)
     {
 >>>>>>> phan_quyen
+=======
+    public function store(Request $request)
+    {
+>>>>>>> menu_admin_detail
         $this->validate($request, [
             'email' => 'required|email:filter',
             'password' => 'required'
         ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 
         if(Auth::attempt([
@@ -54,6 +60,8 @@ class LoginController extends Controller
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> menu_admin_detail
     
         if (Auth::attempt([
             'email' => $request->input('email'),
@@ -77,7 +85,10 @@ class LoginController extends Controller
         Session::flash('error', 'Email hoặc mật khẩu không chính xác.');
         return redirect()->back();
     }
+<<<<<<< HEAD
 >>>>>>> phan_quyen
+=======
+>>>>>>> menu_admin_detail
         //  đăng xuất
         public function logout(Request $request)
         {
@@ -87,7 +98,10 @@ class LoginController extends Controller
             return redirect('/'); 
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> logout
 =======
 >>>>>>> phan_quyen
+=======
+>>>>>>> menu_admin_detail
 }                    
