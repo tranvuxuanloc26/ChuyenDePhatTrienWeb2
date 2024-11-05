@@ -21,18 +21,7 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
         'role',
->>>>>>> phan_quyen
-=======
-        'role',
->>>>>>> menu_admin_detail
-=======
-        'role',
->>>>>>> product_admin_detail
     ];
 
     /**

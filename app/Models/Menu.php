@@ -22,11 +22,6 @@ class Menu extends Model
     public function products(){
         return $this->hasMany(Product::class, 'menu_id', 'id');
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> product_admin_detail
 
     public function parent()
     {
@@ -34,8 +29,4 @@ class Menu extends Model
     }
 
  
-<<<<<<< HEAD
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
 }

@@ -67,57 +67,13 @@
             <label for="">Kích Hoạt</label>
             <div class="custom-control custom-radio">
               <input class="custom-control-input" value="1" type="radio" id="active" name="active" 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-               {{ $product->active == 1 ?'checked' : '' }}>
-=======
               {{ $product->active == 1 ? 'checked=""' : '' }}>
->>>>>>> register
-=======
-              {{ $product->active == 1 ? 'checked=""' : '' }}>
->>>>>>> logout
-=======
-              {{ $product->active == 1 ? 'checked=""' : '' }}>
->>>>>>> phan_quyen
-=======
-              {{ $product->active == 1 ? 'checked=""' : '' }}>
->>>>>>> menu_admin_detail
-=======
-              {{ $product->active == 1 ? 'checked=""' : '' }}>
->>>>>>> product_admin_detail
               <label for="active" class="custom-control-label">Có</label>
             </div>
             <div class="custom-control custom-radio">
               <input class="custom-control-input" value="0" type="radio" id="no_active" name="active" 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-              {{ $product->active == 0 ?'checked' : '' }}>
-=======
               
               {{ $product->active == 0 ? 'checked=""' : '' }}>
->>>>>>> register
-=======
-              
-              {{ $product->active == 0 ? 'checked=""' : '' }}>
->>>>>>> logout
-=======
-              
-              {{ $product->active == 0 ? 'checked=""' : '' }}>
->>>>>>> phan_quyen
-=======
-              
-              {{ $product->active == 0 ? 'checked=""' : '' }}>
->>>>>>> menu_admin_detail
-=======
-              
-              {{ $product->active == 0 ? 'checked=""' : '' }}>
->>>>>>> product_admin_detail
               <label for="no_active" class="custom-control-label">Không</label>
             </div>
            

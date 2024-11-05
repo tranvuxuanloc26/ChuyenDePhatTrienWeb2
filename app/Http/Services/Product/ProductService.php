@@ -13,22 +13,6 @@ class ProductService
     public function getMenu()
     {
         return Menu::where('active', 1)->get();
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        
-=======
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
     }
     protected function isValidPrice($request){
         if($request->input('price') != 0 && $request->input('price_sale') != 0 
@@ -62,29 +46,7 @@ class ProductService
 
     public function get(){
         return Product::with('menu')
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                
-                ->orderByDesc('id')
-                ->paginate(15);
-=======
                 ->orderByDesc('id')->paginate(15);
->>>>>>> register
-=======
-                ->orderByDesc('id')->paginate(15);
->>>>>>> logout
-=======
-                ->orderByDesc('id')->paginate(15);
->>>>>>> phan_quyen
-=======
-                ->orderByDesc('id')->paginate(15);
->>>>>>> menu_admin_detail
-=======
-                ->orderByDesc('id')->paginate(15);
->>>>>>> product_admin_detail
     }
 
     public function update($request, $product)

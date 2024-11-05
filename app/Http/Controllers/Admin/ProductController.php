@@ -76,8 +76,6 @@ class ProductController extends Controller
 
     }
 
-<<<<<<< HEAD
-=======
     public function showDetail(Product $product)
     {
         return view('admin.product.detail', [
@@ -88,7 +86,6 @@ class ProductController extends Controller
         ]);
     }
 
->>>>>>> product_admin_detail
     /**
      * Remove the specified resource from storage.
      */

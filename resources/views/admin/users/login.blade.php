@@ -7,27 +7,7 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <a href="../../index2.html"><b>Admin</b>LTE</a>
-=======
     <a href="../../index2.html"><b>COZA</b>STORE</a>
->>>>>>> register
-=======
-    <a href="../../index2.html"><b>COZA</b>STORE</a>
->>>>>>> logout
-=======
-    <a href="../../index2.html"><b>COZA</b>STORE</a>
->>>>>>> phan_quyen
-=======
-    <a href="../../index2.html"><b>COZA</b>STORE</a>
->>>>>>> menu_admin_detail
-=======
-    <a href="../../index2.html"><b>COZA</b>STORE</a>
->>>>>>> product_admin_detail
   </div>
   <!-- /.login-logo -->
   <div class="card">
@@ -83,27 +63,7 @@
         <a href="forgot-password.html">I forgot my password</a>
       </p>
       <p class="mb-0">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <a href="register.html" class="text-center">Register a new membership</a>
-=======
         <a href="/admin/users/register" class="text-center">Register a new membership</a>
->>>>>>> register
-=======
-        <a href="/admin/users/register" class="text-center">Register a new membership</a>
->>>>>>> logout
-=======
-        <a href="/admin/users/register" class="text-center">Register a new membership</a>
->>>>>>> phan_quyen
-=======
-        <a href="/admin/users/register" class="text-center">Register a new membership</a>
->>>>>>> menu_admin_detail
-=======
-        <a href="/admin/users/register" class="text-center">Register a new membership</a>
->>>>>>> product_admin_detail
       </p>
     </div>
     </div>

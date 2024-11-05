@@ -1,62 +1,13 @@
-/*------------------------------------------------------------------
-Project:  
-Version:  
-Last change:  
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-Assigned to:  Le Xuan Bach
-Primary use:  Company
-=======
-Assigned to:  Vinh Le
 
->>>>>>> register
-=======
-Assigned to:  Vinh Le
 
->>>>>>> logout
-=======
-Assigned to:  Vinh Le
 
->>>>>>> phan_quyen
-=======
-Assigned to:  Vinh Le
-
->>>>>>> menu_admin_detail
-=======
-Assigned to:  Vinh Le
-
->>>>>>> product_admin_detail
--------------------------------------------------------------------*/
 /*------------------------------------------------------------------
 [LAYOUT]
 
 * body
   + Header / header
   + Page Content / .page-content .name-page
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        + Section Layouts / section .name-sectiona
-=======
         + Section Layouts / section .name-section
->>>>>>> register
-=======
-        + Section Layouts / section .name-section
->>>>>>> logout
-=======
-        + Section Layouts / section .name-section
->>>>>>> phan_quyen
-=======
-        + Section Layouts / section .name-section
->>>>>>> menu_admin_detail
-=======
-        + Section Layouts / section .name-section
->>>>>>> product_admin_detail
         ...
   + Footer / footer
 

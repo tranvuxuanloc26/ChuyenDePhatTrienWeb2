@@ -9,40 +9,11 @@
     <!-- Sidebar -->
     <div class="sidebar">
       <!-- Sidebar user (optional) -->
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
-        <div class="image">
-          <img src="/template/admin/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
-        </div>
-        <div class="info">
-          <a href="#" class="d-block">
-          </a>
-        </div>
-=======
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
       <div class="user-panel ml-3 mt-3 pb-3 mb-3 d-flex">
         <div class="d-flex align-items-center">
           <img src="{{ asset('template/images/icons/R.png') }}" alt="User Avatar" class="rounded-circle me-2" style="width: 40px; height: 40px;">
           <span class="fw-bold" style="margin-left: 10px;color:#9fa5ad">{{ Auth::user()->name }}</span>
       </div>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
       </div>
 
       <!-- SidebarSearch Form -->

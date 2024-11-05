@@ -9,43 +9,11 @@ class ProductServiceScreen{
     const LIMIT =16 ;
     public function get($page = null){
         return Product::select('id', 'name', 'price', 'price_sale', 'thumb')
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                            ->where('active', 1)
-=======
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                               ->orderByDesc('id')
                               ->when($page != null, function ($query) use ($page){
                                   $query->offset($page * self::LIMIT);
                               })
                               ->limit(self::LIMIT)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                             
-=======
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                               ->get();
     }
 

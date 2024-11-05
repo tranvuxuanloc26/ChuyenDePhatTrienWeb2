@@ -153,53 +153,13 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 </div>
 
 <!-- Modal1 -->
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<div class="wrap-modal1 js-modal1 p-t-60 p-b-20">
-=======
  <div class="wrap-modal1 js-modal1 p-t-60 p-b-20">
->>>>>>> register
-=======
- <div class="wrap-modal1 js-modal1 p-t-60 p-b-20">
->>>>>>> logout
-=======
- <div class="wrap-modal1 js-modal1 p-t-60 p-b-20">
->>>>>>> phan_quyen
-=======
- <div class="wrap-modal1 js-modal1 p-t-60 p-b-20">
->>>>>>> menu_admin_detail
-=======
- <div class="wrap-modal1 js-modal1 p-t-60 p-b-20">
->>>>>>> product_admin_detail
     <div class="overlay-modal1 js-hide-modal1"></div>
 
     <div class="container">
         <div class="bg0 p-t-60 p-b-30 p-lr-15-lg how-pos3-parent">
             <button class="how-pos3 hov3 trans-04 js-hide-modal1">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                <img src="images/icons/icon-close.png" alt="CLOSE">
-=======
                 <img src="/template/images/icons/icon-close.png" alt="CLOSE">
->>>>>>> register
-=======
-                <img src="/template/images/icons/icon-close.png" alt="CLOSE">
->>>>>>> logout
-=======
-                <img src="/template/images/icons/icon-close.png" alt="CLOSE">
->>>>>>> phan_quyen
-=======
-                <img src="/template/images/icons/icon-close.png" alt="CLOSE">
->>>>>>> menu_admin_detail
-=======
-                <img src="/template/images/icons/icon-close.png" alt="CLOSE">
->>>>>>> product_admin_detail
             </button>
 
             <div class="row">
@@ -248,27 +208,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                 <div class="col-md-6 col-lg-5 p-b-30">
                     <div class="p-r-50 p-t-5 p-lr-0-lg">
                         <h4 class="mtext-105 cl2 js-name-detail p-b-14">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                            rwerwerwerwer
-=======
                             rwerwerwerddsdsfsd
->>>>>>> register
-=======
-                            rwerwerwerddsdsfsd
->>>>>>> logout
-=======
-                            rwerwerwerddsdsfsd
->>>>>>> phan_quyen
-=======
-                            rwerwerwerddsdsfsd
->>>>>>> menu_admin_detail
-=======
-                            rwerwerwerddsdsfsd
->>>>>>> product_admin_detail
                         </h4>
 
                         <span class="mtext-106 cl2">
@@ -365,27 +305,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
             </div>
         </div>
     </div>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-</div>
-=======
 </div> 
->>>>>>> register
-=======
-</div> 
->>>>>>> logout
-=======
-</div> 
->>>>>>> phan_quyen
-=======
-</div> 
->>>>>>> menu_admin_detail
-=======
-</div> 
->>>>>>> product_admin_detail
 
 <!--===============================================================================================-->	
 <script src="/template/vendor/jquery/jquery-3.2.1.min.js"></script>

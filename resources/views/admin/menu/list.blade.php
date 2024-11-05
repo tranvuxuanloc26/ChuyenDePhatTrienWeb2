@@ -12,15 +12,7 @@
             <th>Name</th>
             <th>Active</th>
             <th>Update</th>
-<<<<<<< HEAD
-<<<<<<< HEAD
-            <th style="width: 100px">&nbsp;</th>
-=======
             <th style="width: 130px">&nbsp;</th>
->>>>>>> menu_admin_detail
-=======
-            <th style="width: 130px">&nbsp;</th>
->>>>>>> product_admin_detail
         </tr>
       </thead>
       <tbody>

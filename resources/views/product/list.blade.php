@@ -23,22 +23,6 @@
 
                     <span class="stext-105 cl4">
                         {!! \App\Helpers\Helper::price($product->price, $product->price_sale) !!}
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                        
-=======
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                     </span>
                 </div>
 

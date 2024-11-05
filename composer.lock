@@ -380,30 +380,6 @@
         },
         {
             "name": "dragonmantank/cron-expression",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "version": "v3.4.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/dragonmantank/cron-expression.git",
-                "reference": "8c784d071debd117328803d86b2097615b457500"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/dragonmantank/cron-expression/zipball/8c784d071debd117328803d86b2097615b457500",
-                "reference": "8c784d071debd117328803d86b2097615b457500",
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             "version": "v3.3.3",
             "source": {
                 "type": "git",
@@ -414,19 +390,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/dragonmantank/cron-expression/zipball/adfb1f505deb6384dc8b39804c5065dd3c8c8c0a",
                 "reference": "adfb1f505deb6384dc8b39804c5065dd3c8c8c0a",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                 "shasum": ""
             },
             "require": {
@@ -439,45 +402,10 @@
             "require-dev": {
                 "phpstan/extension-installer": "^1.0",
                 "phpstan/phpstan": "^1.0",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "phpunit/phpunit": "^7.0|^8.0|^9.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.x-dev"
-                }
-            },
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                 "phpstan/phpstan-webmozart-assert": "^1.0",
                 "phpunit/phpunit": "^7.0|^8.0|^9.0"
             },
             "type": "library",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             "autoload": {
                 "psr-4": {
                     "Cron\\": "src/Cron/"
@@ -501,27 +429,7 @@
             ],
             "support": {
                 "issues": "https://github.com/dragonmantank/cron-expression/issues",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "source": "https://github.com/dragonmantank/cron-expression/tree/v3.4.0"
-=======
                 "source": "https://github.com/dragonmantank/cron-expression/tree/v3.3.3"
->>>>>>> register
-=======
-                "source": "https://github.com/dragonmantank/cron-expression/tree/v3.3.3"
->>>>>>> logout
-=======
-                "source": "https://github.com/dragonmantank/cron-expression/tree/v3.3.3"
->>>>>>> phan_quyen
-=======
-                "source": "https://github.com/dragonmantank/cron-expression/tree/v3.3.3"
->>>>>>> menu_admin_detail
-=======
-                "source": "https://github.com/dragonmantank/cron-expression/tree/v3.3.3"
->>>>>>> product_admin_detail
             },
             "funding": [
                 {
@@ -529,27 +437,7 @@
                     "type": "github"
                 }
             ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "time": "2024-10-09T13:47:03+00:00"
-=======
             "time": "2023-08-10T19:36:49+00:00"
->>>>>>> register
-=======
-            "time": "2023-08-10T19:36:49+00:00"
->>>>>>> logout
-=======
-            "time": "2023-08-10T19:36:49+00:00"
->>>>>>> phan_quyen
-=======
-            "time": "2023-08-10T19:36:49+00:00"
->>>>>>> menu_admin_detail
-=======
-            "time": "2023-08-10T19:36:49+00:00"
->>>>>>> product_admin_detail
         },
         {
             "name": "egulias/email-validator",
@@ -879,30 +767,6 @@
         },
         {
             "name": "guzzlehttp/promises",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "version": "2.0.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/guzzle/promises.git",
-                "reference": "f9c436286ab2892c7db7be8c8da4ef61ccf7b455"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/promises/zipball/f9c436286ab2892c7db7be8c8da4ef61ccf7b455",
-                "reference": "f9c436286ab2892c7db7be8c8da4ef61ccf7b455",
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             "version": "2.0.3",
             "source": {
                 "type": "git",
@@ -913,19 +777,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/guzzle/promises/zipball/6ea8dd08867a2a42619d65c3deb2c0fcbf81c8f8",
                 "reference": "6ea8dd08867a2a42619d65c3deb2c0fcbf81c8f8",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                 "shasum": ""
             },
             "require": {
@@ -979,27 +830,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/promises/issues",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "source": "https://github.com/guzzle/promises/tree/2.0.4"
-=======
                 "source": "https://github.com/guzzle/promises/tree/2.0.3"
->>>>>>> register
-=======
-                "source": "https://github.com/guzzle/promises/tree/2.0.3"
->>>>>>> logout
-=======
-                "source": "https://github.com/guzzle/promises/tree/2.0.3"
->>>>>>> phan_quyen
-=======
-                "source": "https://github.com/guzzle/promises/tree/2.0.3"
->>>>>>> menu_admin_detail
-=======
-                "source": "https://github.com/guzzle/promises/tree/2.0.3"
->>>>>>> product_admin_detail
             },
             "funding": [
                 {
@@ -1015,27 +846,7 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "time": "2024-10-17T10:06:22+00:00"
-=======
             "time": "2024-07-18T10:29:17+00:00"
->>>>>>> register
-=======
-            "time": "2024-07-18T10:29:17+00:00"
->>>>>>> logout
-=======
-            "time": "2024-07-18T10:29:17+00:00"
->>>>>>> phan_quyen
-=======
-            "time": "2024-07-18T10:29:17+00:00"
->>>>>>> menu_admin_detail
-=======
-            "time": "2024-07-18T10:29:17+00:00"
->>>>>>> product_admin_detail
         },
         {
             "name": "guzzlehttp/psr7",
@@ -1241,30 +1052,6 @@
         },
         {
             "name": "laravel/framework",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "version": "v10.48.22",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravel/framework.git",
-                "reference": "c4ea52bb044faef4a103d7dd81746c01b2ec860e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/c4ea52bb044faef4a103d7dd81746c01b2ec860e",
-                "reference": "c4ea52bb044faef4a103d7dd81746c01b2ec860e",
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             "version": "v10.48.20",
             "source": {
                 "type": "git",
@@ -1275,19 +1062,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/framework/zipball/be2be342d4c74db6a8d2bd18469cd6d488ab9c98",
                 "reference": "be2be342d4c74db6a8d2bd18469cd6d488ab9c98",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                 "shasum": ""
             },
             "require": {
@@ -1481,27 +1255,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "time": "2024-09-12T15:00:09+00:00"
-=======
             "time": "2024-08-09T07:55:45+00:00"
->>>>>>> register
-=======
-            "time": "2024-08-09T07:55:45+00:00"
->>>>>>> logout
-=======
-            "time": "2024-08-09T07:55:45+00:00"
->>>>>>> phan_quyen
-=======
-            "time": "2024-08-09T07:55:45+00:00"
->>>>>>> menu_admin_detail
-=======
-            "time": "2024-08-09T07:55:45+00:00"
->>>>>>> product_admin_detail
         },
         {
             "name": "laravel/prompts",
@@ -1629,30 +1383,6 @@
         },
         {
             "name": "laravel/serializable-closure",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "version": "v1.3.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravel/serializable-closure.git",
-                "reference": "1dc4a3dbfa2b7628a3114e43e32120cce7cdda9c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/1dc4a3dbfa2b7628a3114e43e32120cce7cdda9c",
-                "reference": "1dc4a3dbfa2b7628a3114e43e32120cce7cdda9c",
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             "version": "v1.3.4",
             "source": {
                 "type": "git",
@@ -1663,19 +1393,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/61b87392d986dc49ad5ef64e75b1ff5fee24ef81",
                 "reference": "61b87392d986dc49ad5ef64e75b1ff5fee24ef81",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                 "shasum": ""
             },
             "require": {
@@ -1723,34 +1440,6 @@
                 "issues": "https://github.com/laravel/serializable-closure/issues",
                 "source": "https://github.com/laravel/serializable-closure"
             },
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "time": "2024-09-23T13:33:08+00:00"
-        },
-        {
-            "name": "laravel/tinker",
-            "version": "v2.10.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravel/tinker.git",
-                "reference": "ba4d51eb56de7711b3a37d63aa0643e99a339ae5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laravel/tinker/zipball/ba4d51eb56de7711b3a37d63aa0643e99a339ae5",
-                "reference": "ba4d51eb56de7711b3a37d63aa0643e99a339ae5",
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             "time": "2024-08-02T07:48:17+00:00"
         },
         {
@@ -1765,19 +1454,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/tinker/zipball/502e0fe3f0415d06d5db1f83a472f0f3b754bafe",
                 "reference": "502e0fe3f0415d06d5db1f83a472f0f3b754bafe",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                 "shasum": ""
             },
             "require": {
@@ -1828,39 +1504,9 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel/tinker/issues",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "source": "https://github.com/laravel/tinker/tree/v2.10.0"
-            },
-            "time": "2024-09-23T13:32:56+00:00"
-=======
                 "source": "https://github.com/laravel/tinker/tree/v2.9.0"
             },
             "time": "2024-01-04T16:10:04+00:00"
->>>>>>> register
-=======
-                "source": "https://github.com/laravel/tinker/tree/v2.9.0"
-            },
-            "time": "2024-01-04T16:10:04+00:00"
->>>>>>> logout
-=======
-                "source": "https://github.com/laravel/tinker/tree/v2.9.0"
-            },
-            "time": "2024-01-04T16:10:04+00:00"
->>>>>>> phan_quyen
-=======
-                "source": "https://github.com/laravel/tinker/tree/v2.9.0"
-            },
-            "time": "2024-01-04T16:10:04+00:00"
->>>>>>> menu_admin_detail
-=======
-                "source": "https://github.com/laravel/tinker/tree/v2.9.0"
-            },
-            "time": "2024-01-04T16:10:04+00:00"
->>>>>>> product_admin_detail
         },
         {
             "name": "league/commonmark",
@@ -2052,30 +1698,6 @@
         },
         {
             "name": "league/flysystem",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "version": "3.29.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "edc1bb7c86fab0776c3287dbd19b5fa278347319"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/edc1bb7c86fab0776c3287dbd19b5fa278347319",
-                "reference": "edc1bb7c86fab0776c3287dbd19b5fa278347319",
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             "version": "3.28.0",
             "source": {
                 "type": "git",
@@ -2086,19 +1708,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/e611adab2b1ae2e3072fa72d62c62f52c2bf1f0c",
                 "reference": "e611adab2b1ae2e3072fa72d62c62f52c2bf1f0c",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                 "shasum": ""
             },
             "require": {
@@ -2166,36 +1775,6 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/flysystem/issues",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "source": "https://github.com/thephpleague/flysystem/tree/3.29.1"
-            },
-            "time": "2024-10-08T08:58:34+00:00"
-        },
-        {
-            "name": "league/flysystem-local",
-            "version": "3.29.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/thephpleague/flysystem-local.git",
-                "reference": "e0e8d52ce4b2ed154148453d321e97c8e931bd27"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem-local/zipball/e0e8d52ce4b2ed154148453d321e97c8e931bd27",
-                "reference": "e0e8d52ce4b2ed154148453d321e97c8e931bd27",
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                 "source": "https://github.com/thephpleague/flysystem/tree/3.28.0"
             },
             "time": "2024-05-22T10:09:12+00:00"
@@ -2212,19 +1791,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/thephpleague/flysystem-local/zipball/13f22ea8be526ea58c2ddff9e158ef7c296e4f40",
                 "reference": "13f22ea8be526ea58c2ddff9e158ef7c296e4f40",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                 "shasum": ""
             },
             "require": {
@@ -2258,36 +1824,6 @@
                 "local"
             ],
             "support": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "source": "https://github.com/thephpleague/flysystem-local/tree/3.29.0"
-            },
-            "time": "2024-08-09T21:24:39+00:00"
-        },
-        {
-            "name": "league/mime-type-detection",
-            "version": "1.16.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/thephpleague/mime-type-detection.git",
-                "reference": "2d6702ff215bf922936ccc1ad31007edc76451b9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/mime-type-detection/zipball/2d6702ff215bf922936ccc1ad31007edc76451b9",
-                "reference": "2d6702ff215bf922936ccc1ad31007edc76451b9",
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                 "source": "https://github.com/thephpleague/flysystem-local/tree/3.28.0"
             },
             "time": "2024-05-06T20:05:52+00:00"
@@ -2304,19 +1840,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/thephpleague/mime-type-detection/zipball/ce0f4d1e8a6f4eb0ddff33f57c69c50fd09f4301",
                 "reference": "ce0f4d1e8a6f4eb0ddff33f57c69c50fd09f4301",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                 "shasum": ""
             },
             "require": {
@@ -2347,27 +1870,7 @@
             "description": "Mime-type detection for Flysystem",
             "support": {
                 "issues": "https://github.com/thephpleague/mime-type-detection/issues",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "source": "https://github.com/thephpleague/mime-type-detection/tree/1.16.0"
-=======
                 "source": "https://github.com/thephpleague/mime-type-detection/tree/1.15.0"
->>>>>>> register
-=======
-                "source": "https://github.com/thephpleague/mime-type-detection/tree/1.15.0"
->>>>>>> logout
-=======
-                "source": "https://github.com/thephpleague/mime-type-detection/tree/1.15.0"
->>>>>>> phan_quyen
-=======
-                "source": "https://github.com/thephpleague/mime-type-detection/tree/1.15.0"
->>>>>>> menu_admin_detail
-=======
-                "source": "https://github.com/thephpleague/mime-type-detection/tree/1.15.0"
->>>>>>> product_admin_detail
             },
             "funding": [
                 {
@@ -2379,27 +1882,7 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "time": "2024-09-21T08:32:55+00:00"
-=======
             "time": "2024-01-28T23:22:08+00:00"
->>>>>>> register
-=======
-            "time": "2024-01-28T23:22:08+00:00"
->>>>>>> logout
-=======
-            "time": "2024-01-28T23:22:08+00:00"
->>>>>>> phan_quyen
-=======
-            "time": "2024-01-28T23:22:08+00:00"
->>>>>>> menu_admin_detail
-=======
-            "time": "2024-01-28T23:22:08+00:00"
->>>>>>> product_admin_detail
         },
         {
             "name": "monolog/monolog",
@@ -2611,30 +2094,6 @@
         },
         {
             "name": "nette/schema",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "version": "v1.3.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nette/schema.git",
-                "reference": "da801d52f0354f70a638673c4a0f04e16529431d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nette/schema/zipball/da801d52f0354f70a638673c4a0f04e16529431d",
-                "reference": "da801d52f0354f70a638673c4a0f04e16529431d",
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             "version": "v1.3.0",
             "source": {
                 "type": "git",
@@ -2645,58 +2104,14 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/nette/schema/zipball/a6d3a6d1f545f01ef38e60f375d1cf1f4de98188",
                 "reference": "a6d3a6d1f545f01ef38e60f375d1cf1f4de98188",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                 "shasum": ""
             },
             "require": {
                 "nette/utils": "^4.0",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "php": "8.1 - 8.4"
-            },
-            "require-dev": {
-                "nette/tester": "^2.5.2",
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                 "php": "8.1 - 8.3"
             },
             "require-dev": {
                 "nette/tester": "^2.4",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                 "phpstan/phpstan-nette": "^1.0",
                 "tracy/tracy": "^2.8"
             },
@@ -2735,39 +2150,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nette/schema/issues",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "source": "https://github.com/nette/schema/tree/v1.3.2"
-            },
-            "time": "2024-10-06T23:10:23+00:00"
-=======
                 "source": "https://github.com/nette/schema/tree/v1.3.0"
             },
             "time": "2023-12-11T11:54:22+00:00"
->>>>>>> register
-=======
-                "source": "https://github.com/nette/schema/tree/v1.3.0"
-            },
-            "time": "2023-12-11T11:54:22+00:00"
->>>>>>> logout
-=======
-                "source": "https://github.com/nette/schema/tree/v1.3.0"
-            },
-            "time": "2023-12-11T11:54:22+00:00"
->>>>>>> phan_quyen
-=======
-                "source": "https://github.com/nette/schema/tree/v1.3.0"
-            },
-            "time": "2023-12-11T11:54:22+00:00"
->>>>>>> menu_admin_detail
-=======
-                "source": "https://github.com/nette/schema/tree/v1.3.0"
-            },
-            "time": "2023-12-11T11:54:22+00:00"
->>>>>>> product_admin_detail
         },
         {
             "name": "nette/utils",
@@ -2857,30 +2242,6 @@
         },
         {
             "name": "nikic/php-parser",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "version": "v5.3.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "8eea230464783aa9671db8eea6f8c6ac5285794b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/8eea230464783aa9671db8eea6f8c6ac5285794b",
-                "reference": "8eea230464783aa9671db8eea6f8c6ac5285794b",
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             "version": "v5.1.0",
             "source": {
                 "type": "git",
@@ -2891,19 +2252,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/683130c2ff8c2739f4822ff7ac5c873ec529abd1",
                 "reference": "683130c2ff8c2739f4822ff7ac5c873ec529abd1",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                 "shasum": ""
             },
             "require": {
@@ -2946,36 +2294,6 @@
             ],
             "support": {
                 "issues": "https://github.com/nikic/PHP-Parser/issues",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "source": "https://github.com/nikic/PHP-Parser/tree/v5.3.1"
-            },
-            "time": "2024-10-08T18:51:32+00:00"
-        },
-        {
-            "name": "nunomaduro/termwind",
-            "version": "v1.16.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nunomaduro/termwind.git",
-                "reference": "dcf1ec3dfa36137b7ce41d43866644a7ab8fc257"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nunomaduro/termwind/zipball/dcf1ec3dfa36137b7ce41d43866644a7ab8fc257",
-                "reference": "dcf1ec3dfa36137b7ce41d43866644a7ab8fc257",
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                 "source": "https://github.com/nikic/PHP-Parser/tree/v5.1.0"
             },
             "time": "2024-07-01T20:03:41+00:00"
@@ -2992,49 +2310,10 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/nunomaduro/termwind/zipball/8ab0b32c8caa4a2e09700ea32925441385e4a5dc",
                 "reference": "8ab0b32c8caa4a2e09700ea32925441385e4a5dc",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "php": "^8.1",
-                "symfony/console": "^6.4.12"
-            },
-            "require-dev": {
-                "illuminate/console": "^10.48.22",
-                "illuminate/support": "^10.48.22",
-                "laravel/pint": "^1.18.1",
-                "pestphp/pest": "^2",
-                "pestphp/pest-plugin-mock": "2.0.0",
-                "phpstan/phpstan": "^1.12.6",
-                "phpstan/phpstan-strict-rules": "^1.6.1",
-                "symfony/var-dumper": "^6.4.11",
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                 "php": "^8.0",
                 "symfony/console": "^5.3.0|^6.0.0"
             },
@@ -3048,19 +2327,6 @@
                 "phpstan/phpstan": "^1.4.6",
                 "phpstan/phpstan-strict-rules": "^1.1.0",
                 "symfony/var-dumper": "^5.2.7|^6.0.0",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                 "thecodingmachine/phpstan-strict-rules": "^1.0.0"
             },
             "type": "library",
@@ -3100,27 +2366,7 @@
             ],
             "support": {
                 "issues": "https://github.com/nunomaduro/termwind/issues",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "source": "https://github.com/nunomaduro/termwind/tree/v1.16.0"
-=======
                 "source": "https://github.com/nunomaduro/termwind/tree/v1.15.1"
->>>>>>> register
-=======
-                "source": "https://github.com/nunomaduro/termwind/tree/v1.15.1"
->>>>>>> logout
-=======
-                "source": "https://github.com/nunomaduro/termwind/tree/v1.15.1"
->>>>>>> phan_quyen
-=======
-                "source": "https://github.com/nunomaduro/termwind/tree/v1.15.1"
->>>>>>> menu_admin_detail
-=======
-                "source": "https://github.com/nunomaduro/termwind/tree/v1.15.1"
->>>>>>> product_admin_detail
             },
             "funding": [
                 {
@@ -3136,27 +2382,7 @@
                     "type": "github"
                 }
             ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "time": "2024-10-15T15:27:12+00:00"
-=======
             "time": "2023-02-08T01:06:31+00:00"
->>>>>>> register
-=======
-            "time": "2023-02-08T01:06:31+00:00"
->>>>>>> logout
-=======
-            "time": "2023-02-08T01:06:31+00:00"
->>>>>>> phan_quyen
-=======
-            "time": "2023-02-08T01:06:31+00:00"
->>>>>>> menu_admin_detail
-=======
-            "time": "2023-02-08T01:06:31+00:00"
->>>>>>> product_admin_detail
         },
         {
             "name": "phpoption/phpoption",
@@ -3546,30 +2772,6 @@
         },
         {
             "name": "psr/log",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "version": "3.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/php-fig/log.git",
-                "reference": "f16e1d5863e37f8d8c2a01719f5b34baa2b714d3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/f16e1d5863e37f8d8c2a01719f5b34baa2b714d3",
-                "reference": "f16e1d5863e37f8d8c2a01719f5b34baa2b714d3",
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             "version": "3.0.1",
             "source": {
                 "type": "git",
@@ -3580,19 +2782,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/php-fig/log/zipball/79dff0b268932c640297f5208d6298f71855c03e",
                 "reference": "79dff0b268932c640297f5208d6298f71855c03e",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                 "shasum": ""
             },
             "require": {
@@ -3627,39 +2816,9 @@
                 "psr-3"
             ],
             "support": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "source": "https://github.com/php-fig/log/tree/3.0.2"
-            },
-            "time": "2024-09-11T13:17:53+00:00"
-=======
                 "source": "https://github.com/php-fig/log/tree/3.0.1"
             },
             "time": "2024-08-21T13:31:24+00:00"
->>>>>>> register
-=======
-                "source": "https://github.com/php-fig/log/tree/3.0.1"
-            },
-            "time": "2024-08-21T13:31:24+00:00"
->>>>>>> logout
-=======
-                "source": "https://github.com/php-fig/log/tree/3.0.1"
-            },
-            "time": "2024-08-21T13:31:24+00:00"
->>>>>>> phan_quyen
-=======
-                "source": "https://github.com/php-fig/log/tree/3.0.1"
-            },
-            "time": "2024-08-21T13:31:24+00:00"
->>>>>>> menu_admin_detail
-=======
-                "source": "https://github.com/php-fig/log/tree/3.0.1"
-            },
-            "time": "2024-08-21T13:31:24+00:00"
->>>>>>> product_admin_detail
         },
         {
             "name": "psr/simple-cache",
@@ -4018,30 +3177,6 @@
         },
         {
             "name": "symfony/console",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "version": "v6.4.13",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/console.git",
-                "reference": "f793dd5a7d9ae9923e35d0503d08ba734cec1d79"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/f793dd5a7d9ae9923e35d0503d08ba734cec1d79",
-                "reference": "f793dd5a7d9ae9923e35d0503d08ba734cec1d79",
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             "version": "v6.4.10",
             "source": {
                 "type": "git",
@@ -4052,19 +3187,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/console/zipball/504974cbe43d05f83b201d6498c206f16fc0cdbc",
                 "reference": "504974cbe43d05f83b201d6498c206f16fc0cdbc",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                 "shasum": ""
             },
             "require": {
@@ -4129,27 +3251,7 @@
                 "terminal"
             ],
             "support": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "source": "https://github.com/symfony/console/tree/v6.4.13"
-=======
                 "source": "https://github.com/symfony/console/tree/v6.4.10"
->>>>>>> register
-=======
-                "source": "https://github.com/symfony/console/tree/v6.4.10"
->>>>>>> logout
-=======
-                "source": "https://github.com/symfony/console/tree/v6.4.10"
->>>>>>> phan_quyen
-=======
-                "source": "https://github.com/symfony/console/tree/v6.4.10"
->>>>>>> menu_admin_detail
-=======
-                "source": "https://github.com/symfony/console/tree/v6.4.10"
->>>>>>> product_admin_detail
             },
             "funding": [
                 {
@@ -4165,38 +3267,6 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "time": "2024-10-09T08:40:40+00:00"
-        },
-        {
-            "name": "symfony/css-selector",
-            "version": "v7.1.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/css-selector.git",
-                "reference": "4aa4f6b3d6749c14d3aa815eef8226632e7bbc66"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/css-selector/zipball/4aa4f6b3d6749c14d3aa815eef8226632e7bbc66",
-                "reference": "4aa4f6b3d6749c14d3aa815eef8226632e7bbc66",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.2"
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             "time": "2024-07-26T12:30:32+00:00"
         },
         {
@@ -4215,19 +3285,6 @@
             },
             "require": {
                 "php": ">=8.1"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             },
             "type": "library",
             "autoload": {
@@ -4259,27 +3316,7 @@
             "description": "Converts CSS selectors to XPath expressions",
             "homepage": "https://symfony.com",
             "support": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "source": "https://github.com/symfony/css-selector/tree/v7.1.6"
-=======
                 "source": "https://github.com/symfony/css-selector/tree/v6.4.8"
->>>>>>> register
-=======
-                "source": "https://github.com/symfony/css-selector/tree/v6.4.8"
->>>>>>> logout
-=======
-                "source": "https://github.com/symfony/css-selector/tree/v6.4.8"
->>>>>>> phan_quyen
-=======
-                "source": "https://github.com/symfony/css-selector/tree/v6.4.8"
->>>>>>> menu_admin_detail
-=======
-                "source": "https://github.com/symfony/css-selector/tree/v6.4.8"
->>>>>>> product_admin_detail
             },
             "funding": [
                 {
@@ -4295,27 +3332,7 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "time": "2024-09-25T14:20:29+00:00"
-=======
             "time": "2024-05-31T14:49:08+00:00"
->>>>>>> register
-=======
-            "time": "2024-05-31T14:49:08+00:00"
->>>>>>> logout
-=======
-            "time": "2024-05-31T14:49:08+00:00"
->>>>>>> phan_quyen
-=======
-            "time": "2024-05-31T14:49:08+00:00"
->>>>>>> menu_admin_detail
-=======
-            "time": "2024-05-31T14:49:08+00:00"
->>>>>>> product_admin_detail
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -4386,30 +3403,6 @@
         },
         {
             "name": "symfony/error-handler",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "version": "v6.4.13",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/error-handler.git",
-                "reference": "e3c78742f86a5b65fe2ac4c4b6b776d92fd7ca0c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/error-handler/zipball/e3c78742f86a5b65fe2ac4c4b6b776d92fd7ca0c",
-                "reference": "e3c78742f86a5b65fe2ac4c4b6b776d92fd7ca0c",
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             "version": "v6.4.10",
             "source": {
                 "type": "git",
@@ -4420,19 +3413,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/error-handler/zipball/231f1b2ee80f72daa1972f7340297d67439224f0",
                 "reference": "231f1b2ee80f72daa1972f7340297d67439224f0",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                 "shasum": ""
             },
             "require": {
@@ -4478,27 +3458,7 @@
             "description": "Provides tools to manage errors and ease debugging PHP code",
             "homepage": "https://symfony.com",
             "support": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "source": "https://github.com/symfony/error-handler/tree/v6.4.13"
-=======
                 "source": "https://github.com/symfony/error-handler/tree/v6.4.10"
->>>>>>> register
-=======
-                "source": "https://github.com/symfony/error-handler/tree/v6.4.10"
->>>>>>> logout
-=======
-                "source": "https://github.com/symfony/error-handler/tree/v6.4.10"
->>>>>>> phan_quyen
-=======
-                "source": "https://github.com/symfony/error-handler/tree/v6.4.10"
->>>>>>> menu_admin_detail
-=======
-                "source": "https://github.com/symfony/error-handler/tree/v6.4.10"
->>>>>>> product_admin_detail
             },
             "funding": [
                 {
@@ -4514,42 +3474,6 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "time": "2024-09-25T14:18:03+00:00"
-        },
-        {
-            "name": "symfony/event-dispatcher",
-            "version": "v7.1.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "87254c78dd50721cfd015b62277a8281c5589702"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/87254c78dd50721cfd015b62277a8281c5589702",
-                "reference": "87254c78dd50721cfd015b62277a8281c5589702",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.2",
-                "symfony/event-dispatcher-contracts": "^2.5|^3"
-            },
-            "conflict": {
-                "symfony/dependency-injection": "<6.4",
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             "time": "2024-07-26T12:30:32+00:00"
         },
         {
@@ -4572,19 +3496,6 @@
             },
             "conflict": {
                 "symfony/dependency-injection": "<5.4",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                 "symfony/service-contracts": "<2.5"
             },
             "provide": {
@@ -4593,27 +3504,6 @@
             },
             "require-dev": {
                 "psr/log": "^1|^2|^3",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "symfony/config": "^6.4|^7.0",
-                "symfony/dependency-injection": "^6.4|^7.0",
-                "symfony/error-handler": "^6.4|^7.0",
-                "symfony/expression-language": "^6.4|^7.0",
-                "symfony/http-foundation": "^6.4|^7.0",
-                "symfony/service-contracts": "^2.5|^3",
-                "symfony/stopwatch": "^6.4|^7.0"
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                 "symfony/config": "^5.4|^6.0|^7.0",
                 "symfony/dependency-injection": "^5.4|^6.0|^7.0",
                 "symfony/error-handler": "^5.4|^6.0|^7.0",
@@ -4621,19 +3511,6 @@
                 "symfony/http-foundation": "^5.4|^6.0|^7.0",
                 "symfony/service-contracts": "^2.5|^3",
                 "symfony/stopwatch": "^5.4|^6.0|^7.0"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             },
             "type": "library",
             "autoload": {
@@ -4661,27 +3538,7 @@
             "description": "Provides tools that allow your application components to communicate with each other by dispatching events and listening to them",
             "homepage": "https://symfony.com",
             "support": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "source": "https://github.com/symfony/event-dispatcher/tree/v7.1.6"
-=======
                 "source": "https://github.com/symfony/event-dispatcher/tree/v6.4.8"
->>>>>>> register
-=======
-                "source": "https://github.com/symfony/event-dispatcher/tree/v6.4.8"
->>>>>>> logout
-=======
-                "source": "https://github.com/symfony/event-dispatcher/tree/v6.4.8"
->>>>>>> phan_quyen
-=======
-                "source": "https://github.com/symfony/event-dispatcher/tree/v6.4.8"
->>>>>>> menu_admin_detail
-=======
-                "source": "https://github.com/symfony/event-dispatcher/tree/v6.4.8"
->>>>>>> product_admin_detail
             },
             "funding": [
                 {
@@ -4697,27 +3554,7 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "time": "2024-09-25T14:20:29+00:00"
-=======
             "time": "2024-05-31T14:49:08+00:00"
->>>>>>> register
-=======
-            "time": "2024-05-31T14:49:08+00:00"
->>>>>>> logout
-=======
-            "time": "2024-05-31T14:49:08+00:00"
->>>>>>> phan_quyen
-=======
-            "time": "2024-05-31T14:49:08+00:00"
->>>>>>> menu_admin_detail
-=======
-            "time": "2024-05-31T14:49:08+00:00"
->>>>>>> product_admin_detail
         },
         {
             "name": "symfony/event-dispatcher-contracts",
@@ -4797,30 +3634,6 @@
         },
         {
             "name": "symfony/finder",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "version": "v6.4.13",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/finder.git",
-                "reference": "daea9eca0b08d0ed1dc9ab702a46128fd1be4958"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/daea9eca0b08d0ed1dc9ab702a46128fd1be4958",
-                "reference": "daea9eca0b08d0ed1dc9ab702a46128fd1be4958",
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             "version": "v6.4.10",
             "source": {
                 "type": "git",
@@ -4831,19 +3644,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/finder/zipball/af29198d87112bebdd397bd7735fbd115997824c",
                 "reference": "af29198d87112bebdd397bd7735fbd115997824c",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                 "shasum": ""
             },
             "require": {
@@ -4878,27 +3678,7 @@
             "description": "Finds files and directories via an intuitive fluent interface",
             "homepage": "https://symfony.com",
             "support": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "source": "https://github.com/symfony/finder/tree/v6.4.13"
-=======
                 "source": "https://github.com/symfony/finder/tree/v6.4.10"
->>>>>>> register
-=======
-                "source": "https://github.com/symfony/finder/tree/v6.4.10"
->>>>>>> logout
-=======
-                "source": "https://github.com/symfony/finder/tree/v6.4.10"
->>>>>>> phan_quyen
-=======
-                "source": "https://github.com/symfony/finder/tree/v6.4.10"
->>>>>>> menu_admin_detail
-=======
-                "source": "https://github.com/symfony/finder/tree/v6.4.10"
->>>>>>> product_admin_detail
             },
             "funding": [
                 {
@@ -4914,34 +3694,6 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "time": "2024-10-01T08:30:56+00:00"
-        },
-        {
-            "name": "symfony/http-foundation",
-            "version": "v6.4.13",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "4c0341b3e0a7291e752c69d2a1ed9a84b68d604c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/4c0341b3e0a7291e752c69d2a1ed9a84b68d604c",
-                "reference": "4c0341b3e0a7291e752c69d2a1ed9a84b68d604c",
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             "time": "2024-07-24T07:06:38+00:00"
         },
         {
@@ -4956,19 +3708,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/http-foundation/zipball/117f1f20a7ade7bcea28b861fb79160a21a1e37b",
                 "reference": "117f1f20a7ade7bcea28b861fb79160a21a1e37b",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                 "shasum": ""
             },
             "require": {
@@ -5016,27 +3755,7 @@
             "description": "Defines an object-oriented layer for the HTTP specification",
             "homepage": "https://symfony.com",
             "support": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "source": "https://github.com/symfony/http-foundation/tree/v6.4.13"
-=======
                 "source": "https://github.com/symfony/http-foundation/tree/v6.4.10"
->>>>>>> register
-=======
-                "source": "https://github.com/symfony/http-foundation/tree/v6.4.10"
->>>>>>> logout
-=======
-                "source": "https://github.com/symfony/http-foundation/tree/v6.4.10"
->>>>>>> phan_quyen
-=======
-                "source": "https://github.com/symfony/http-foundation/tree/v6.4.10"
->>>>>>> menu_admin_detail
-=======
-                "source": "https://github.com/symfony/http-foundation/tree/v6.4.10"
->>>>>>> product_admin_detail
             },
             "funding": [
                 {
@@ -5052,34 +3771,6 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "time": "2024-10-11T19:20:58+00:00"
-        },
-        {
-            "name": "symfony/http-kernel",
-            "version": "v6.4.13",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/http-kernel.git",
-                "reference": "4474015c363ec0cd3bf47d55657e68630dbae66e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/4474015c363ec0cd3bf47d55657e68630dbae66e",
-                "reference": "4474015c363ec0cd3bf47d55657e68630dbae66e",
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             "time": "2024-07-26T12:36:27+00:00"
         },
         {
@@ -5094,19 +3785,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/http-kernel/zipball/147e0daf618d7575b5007055340d09aece5cf068",
                 "reference": "147e0daf618d7575b5007055340d09aece5cf068",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                 "shasum": ""
             },
             "require": {
@@ -5191,27 +3869,7 @@
             "description": "Provides a structured process for converting a Request into a Response",
             "homepage": "https://symfony.com",
             "support": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "source": "https://github.com/symfony/http-kernel/tree/v6.4.13"
-=======
                 "source": "https://github.com/symfony/http-kernel/tree/v6.4.10"
->>>>>>> register
-=======
-                "source": "https://github.com/symfony/http-kernel/tree/v6.4.10"
->>>>>>> logout
-=======
-                "source": "https://github.com/symfony/http-kernel/tree/v6.4.10"
->>>>>>> phan_quyen
-=======
-                "source": "https://github.com/symfony/http-kernel/tree/v6.4.10"
->>>>>>> menu_admin_detail
-=======
-                "source": "https://github.com/symfony/http-kernel/tree/v6.4.10"
->>>>>>> product_admin_detail
             },
             "funding": [
                 {
@@ -5227,34 +3885,6 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "time": "2024-10-27T13:00:29+00:00"
-        },
-        {
-            "name": "symfony/mailer",
-            "version": "v6.4.13",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/mailer.git",
-                "reference": "c2f7e0d8d7ac8fe25faccf5d8cac462805db2663"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/mailer/zipball/c2f7e0d8d7ac8fe25faccf5d8cac462805db2663",
-                "reference": "c2f7e0d8d7ac8fe25faccf5d8cac462805db2663",
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             "time": "2024-07-26T14:52:04+00:00"
         },
         {
@@ -5269,19 +3899,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/mailer/zipball/e2d56f180f5b8c5e7c0fbea872bb1f529b6d6d45",
                 "reference": "e2d56f180f5b8c5e7c0fbea872bb1f529b6d6d45",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                 "shasum": ""
             },
             "require": {
@@ -5332,27 +3949,7 @@
             "description": "Helps sending emails",
             "homepage": "https://symfony.com",
             "support": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "source": "https://github.com/symfony/mailer/tree/v6.4.13"
-=======
                 "source": "https://github.com/symfony/mailer/tree/v6.4.9"
->>>>>>> register
-=======
-                "source": "https://github.com/symfony/mailer/tree/v6.4.9"
->>>>>>> logout
-=======
-                "source": "https://github.com/symfony/mailer/tree/v6.4.9"
->>>>>>> phan_quyen
-=======
-                "source": "https://github.com/symfony/mailer/tree/v6.4.9"
->>>>>>> menu_admin_detail
-=======
-                "source": "https://github.com/symfony/mailer/tree/v6.4.9"
->>>>>>> product_admin_detail
             },
             "funding": [
                 {
@@ -5368,34 +3965,6 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "time": "2024-09-25T14:18:03+00:00"
-        },
-        {
-            "name": "symfony/mime",
-            "version": "v6.4.13",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/mime.git",
-                "reference": "1de1cf14d99b12c7ebbb850491ec6ae3ed468855"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/mime/zipball/1de1cf14d99b12c7ebbb850491ec6ae3ed468855",
-                "reference": "1de1cf14d99b12c7ebbb850491ec6ae3ed468855",
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             "time": "2024-06-28T07:59:05+00:00"
         },
         {
@@ -5410,19 +3979,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/mime/zipball/7d048964877324debdcb4e0549becfa064a20d43",
                 "reference": "7d048964877324debdcb4e0549becfa064a20d43",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                 "shasum": ""
             },
             "require": {
@@ -5478,27 +4034,7 @@
                 "mime-type"
             ],
             "support": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "source": "https://github.com/symfony/mime/tree/v6.4.13"
-=======
                 "source": "https://github.com/symfony/mime/tree/v6.4.9"
->>>>>>> register
-=======
-                "source": "https://github.com/symfony/mime/tree/v6.4.9"
->>>>>>> logout
-=======
-                "source": "https://github.com/symfony/mime/tree/v6.4.9"
->>>>>>> phan_quyen
-=======
-                "source": "https://github.com/symfony/mime/tree/v6.4.9"
->>>>>>> menu_admin_detail
-=======
-                "source": "https://github.com/symfony/mime/tree/v6.4.9"
->>>>>>> product_admin_detail
             },
             "funding": [
                 {
@@ -5514,38 +4050,6 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "time": "2024-10-25T15:07:50+00:00"
-        },
-        {
-            "name": "symfony/polyfill-ctype",
-            "version": "v1.31.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "a3cc8b044a6ea513310cbd48ef7333b384945638"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/a3cc8b044a6ea513310cbd48ef7333b384945638",
-                "reference": "a3cc8b044a6ea513310cbd48ef7333b384945638",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.2"
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             "time": "2024-06-28T09:49:33+00:00"
         },
         {
@@ -5564,19 +4068,6 @@
             },
             "require": {
                 "php": ">=7.1"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             },
             "provide": {
                 "ext-ctype": "*"
@@ -5622,27 +4113,7 @@
                 "portable"
             ],
             "support": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.31.0"
-=======
                 "source": "https://github.com/symfony/polyfill-ctype/tree/v1.30.0"
->>>>>>> register
-=======
-                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.30.0"
->>>>>>> logout
-=======
-                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.30.0"
->>>>>>> phan_quyen
-=======
-                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.30.0"
->>>>>>> menu_admin_detail
-=======
-                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.30.0"
->>>>>>> product_admin_detail
             },
             "funding": [
                 {
@@ -5658,38 +4129,6 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "time": "2024-09-09T11:45:10+00:00"
-        },
-        {
-            "name": "symfony/polyfill-intl-grapheme",
-            "version": "v1.31.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/polyfill-intl-grapheme.git",
-                "reference": "b9123926e3b7bc2f98c02ad54f6a4b02b91a8abe"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-grapheme/zipball/b9123926e3b7bc2f98c02ad54f6a4b02b91a8abe",
-                "reference": "b9123926e3b7bc2f98c02ad54f6a4b02b91a8abe",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.2"
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             "time": "2024-05-31T15:07:36+00:00"
         },
         {
@@ -5708,19 +4147,6 @@
             },
             "require": {
                 "php": ">=7.1"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             },
             "suggest": {
                 "ext-intl": "For best performance"
@@ -5765,27 +4191,7 @@
                 "shim"
             ],
             "support": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.31.0"
-=======
                 "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.30.0"
->>>>>>> register
-=======
-                "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.30.0"
->>>>>>> logout
-=======
-                "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.30.0"
->>>>>>> phan_quyen
-=======
-                "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.30.0"
->>>>>>> menu_admin_detail
-=======
-                "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.30.0"
->>>>>>> product_admin_detail
             },
             "funding": [
                 {
@@ -5801,39 +4207,6 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "time": "2024-09-09T11:45:10+00:00"
-        },
-        {
-            "name": "symfony/polyfill-intl-idn",
-            "version": "v1.31.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/polyfill-intl-idn.git",
-                "reference": "c36586dcf89a12315939e00ec9b4474adcb1d773"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/c36586dcf89a12315939e00ec9b4474adcb1d773",
-                "reference": "c36586dcf89a12315939e00ec9b4474adcb1d773",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.2",
-                "symfony/polyfill-intl-normalizer": "^1.10"
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             "time": "2024-05-31T15:07:36+00:00"
         },
         {
@@ -5854,19 +4227,6 @@
                 "php": ">=7.1",
                 "symfony/polyfill-intl-normalizer": "^1.10",
                 "symfony/polyfill-php72": "^1.10"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             },
             "suggest": {
                 "ext-intl": "For best performance"
@@ -5915,27 +4275,7 @@
                 "shim"
             ],
             "support": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.31.0"
-=======
                 "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.30.0"
->>>>>>> register
-=======
-                "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.30.0"
->>>>>>> logout
-=======
-                "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.30.0"
->>>>>>> phan_quyen
-=======
-                "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.30.0"
->>>>>>> menu_admin_detail
-=======
-                "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.30.0"
->>>>>>> product_admin_detail
             },
             "funding": [
                 {
@@ -5951,38 +4291,6 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "time": "2024-09-09T11:45:10+00:00"
-        },
-        {
-            "name": "symfony/polyfill-intl-normalizer",
-            "version": "v1.31.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/polyfill-intl-normalizer.git",
-                "reference": "3833d7255cc303546435cb650316bff708a1c75c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-normalizer/zipball/3833d7255cc303546435cb650316bff708a1c75c",
-                "reference": "3833d7255cc303546435cb650316bff708a1c75c",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.2"
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             "time": "2024-05-31T15:07:36+00:00"
         },
         {
@@ -6001,19 +4309,6 @@
             },
             "require": {
                 "php": ">=7.1"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             },
             "suggest": {
                 "ext-intl": "For best performance"
@@ -6061,27 +4356,7 @@
                 "shim"
             ],
             "support": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.31.0"
-=======
                 "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.30.0"
->>>>>>> register
-=======
-                "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.30.0"
->>>>>>> logout
-=======
-                "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.30.0"
->>>>>>> phan_quyen
-=======
-                "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.30.0"
->>>>>>> menu_admin_detail
-=======
-                "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.30.0"
->>>>>>> product_admin_detail
             },
             "funding": [
                 {
@@ -6097,38 +4372,6 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "time": "2024-09-09T11:45:10+00:00"
-        },
-        {
-            "name": "symfony/polyfill-mbstring",
-            "version": "v1.31.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "85181ba99b2345b0ef10ce42ecac37612d9fd341"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/85181ba99b2345b0ef10ce42ecac37612d9fd341",
-                "reference": "85181ba99b2345b0ef10ce42ecac37612d9fd341",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.2"
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             "time": "2024-05-31T15:07:36+00:00"
         },
         {
@@ -6147,19 +4390,6 @@
             },
             "require": {
                 "php": ">=7.1"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             },
             "provide": {
                 "ext-mbstring": "*"
@@ -6206,27 +4436,7 @@
                 "shim"
             ],
             "support": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.31.0"
-=======
                 "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.30.0"
->>>>>>> register
-=======
-                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.30.0"
->>>>>>> logout
-=======
-                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.30.0"
->>>>>>> phan_quyen
-=======
-                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.30.0"
->>>>>>> menu_admin_detail
-=======
-                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.30.0"
->>>>>>> product_admin_detail
             },
             "funding": [
                 {
@@ -6242,38 +4452,6 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "time": "2024-09-09T11:45:10+00:00"
-        },
-        {
-            "name": "symfony/polyfill-php80",
-            "version": "v1.31.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/polyfill-php80.git",
-                "reference": "60328e362d4c2c802a54fcbf04f9d3fb892b4cf8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/60328e362d4c2c802a54fcbf04f9d3fb892b4cf8",
-                "reference": "60328e362d4c2c802a54fcbf04f9d3fb892b4cf8",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.2"
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             "time": "2024-06-19T12:30:46+00:00"
         },
         {
@@ -6365,19 +4543,6 @@
             },
             "require": {
                 "php": ">=7.1"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             },
             "type": "library",
             "extra": {
@@ -6424,27 +4589,7 @@
                 "shim"
             ],
             "support": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "source": "https://github.com/symfony/polyfill-php80/tree/v1.31.0"
-=======
                 "source": "https://github.com/symfony/polyfill-php80/tree/v1.30.0"
->>>>>>> register
-=======
-                "source": "https://github.com/symfony/polyfill-php80/tree/v1.30.0"
->>>>>>> logout
-=======
-                "source": "https://github.com/symfony/polyfill-php80/tree/v1.30.0"
->>>>>>> phan_quyen
-=======
-                "source": "https://github.com/symfony/polyfill-php80/tree/v1.30.0"
->>>>>>> menu_admin_detail
-=======
-                "source": "https://github.com/symfony/polyfill-php80/tree/v1.30.0"
->>>>>>> product_admin_detail
             },
             "funding": [
                 {
@@ -6460,38 +4605,6 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "time": "2024-09-09T11:45:10+00:00"
-        },
-        {
-            "name": "symfony/polyfill-php83",
-            "version": "v1.31.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/polyfill-php83.git",
-                "reference": "2fb86d65e2d424369ad2905e83b236a8805ba491"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php83/zipball/2fb86d65e2d424369ad2905e83b236a8805ba491",
-                "reference": "2fb86d65e2d424369ad2905e83b236a8805ba491",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.2"
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             "time": "2024-05-31T15:07:36+00:00"
         },
         {
@@ -6510,19 +4623,6 @@
             },
             "require": {
                 "php": ">=7.1"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             },
             "type": "library",
             "extra": {
@@ -6565,27 +4665,7 @@
                 "shim"
             ],
             "support": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "source": "https://github.com/symfony/polyfill-php83/tree/v1.31.0"
-=======
                 "source": "https://github.com/symfony/polyfill-php83/tree/v1.30.0"
->>>>>>> register
-=======
-                "source": "https://github.com/symfony/polyfill-php83/tree/v1.30.0"
->>>>>>> logout
-=======
-                "source": "https://github.com/symfony/polyfill-php83/tree/v1.30.0"
->>>>>>> phan_quyen
-=======
-                "source": "https://github.com/symfony/polyfill-php83/tree/v1.30.0"
->>>>>>> menu_admin_detail
-=======
-                "source": "https://github.com/symfony/polyfill-php83/tree/v1.30.0"
->>>>>>> product_admin_detail
             },
             "funding": [
                 {
@@ -6601,38 +4681,6 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "time": "2024-09-09T11:45:10+00:00"
-        },
-        {
-            "name": "symfony/polyfill-uuid",
-            "version": "v1.31.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/polyfill-uuid.git",
-                "reference": "21533be36c24be3f4b1669c4725c7d1d2bab4ae2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-uuid/zipball/21533be36c24be3f4b1669c4725c7d1d2bab4ae2",
-                "reference": "21533be36c24be3f4b1669c4725c7d1d2bab4ae2",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.2"
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             "time": "2024-06-19T12:35:24+00:00"
         },
         {
@@ -6651,19 +4699,6 @@
             },
             "require": {
                 "php": ">=7.1"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             },
             "provide": {
                 "ext-uuid": "*"
@@ -6709,27 +4744,7 @@
                 "uuid"
             ],
             "support": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "source": "https://github.com/symfony/polyfill-uuid/tree/v1.31.0"
-=======
                 "source": "https://github.com/symfony/polyfill-uuid/tree/v1.30.0"
->>>>>>> register
-=======
-                "source": "https://github.com/symfony/polyfill-uuid/tree/v1.30.0"
->>>>>>> logout
-=======
-                "source": "https://github.com/symfony/polyfill-uuid/tree/v1.30.0"
->>>>>>> phan_quyen
-=======
-                "source": "https://github.com/symfony/polyfill-uuid/tree/v1.30.0"
->>>>>>> menu_admin_detail
-=======
-                "source": "https://github.com/symfony/polyfill-uuid/tree/v1.30.0"
->>>>>>> product_admin_detail
             },
             "funding": [
                 {
@@ -6745,34 +4760,6 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "time": "2024-09-09T11:45:10+00:00"
-        },
-        {
-            "name": "symfony/process",
-            "version": "v6.4.13",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/process.git",
-                "reference": "1f9f59b46880201629df3bd950fc5ae8c55b960f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/1f9f59b46880201629df3bd950fc5ae8c55b960f",
-                "reference": "1f9f59b46880201629df3bd950fc5ae8c55b960f",
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             "time": "2024-05-31T15:07:36+00:00"
         },
         {
@@ -6787,19 +4774,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/process/zipball/8d92dd79149f29e89ee0f480254db595f6a6a2c5",
                 "reference": "8d92dd79149f29e89ee0f480254db595f6a6a2c5",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                 "shasum": ""
             },
             "require": {
@@ -6831,27 +4805,7 @@
             "description": "Executes commands in sub-processes",
             "homepage": "https://symfony.com",
             "support": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "source": "https://github.com/symfony/process/tree/v6.4.13"
-=======
                 "source": "https://github.com/symfony/process/tree/v6.4.8"
->>>>>>> register
-=======
-                "source": "https://github.com/symfony/process/tree/v6.4.8"
->>>>>>> logout
-=======
-                "source": "https://github.com/symfony/process/tree/v6.4.8"
->>>>>>> phan_quyen
-=======
-                "source": "https://github.com/symfony/process/tree/v6.4.8"
->>>>>>> menu_admin_detail
-=======
-                "source": "https://github.com/symfony/process/tree/v6.4.8"
->>>>>>> product_admin_detail
             },
             "funding": [
                 {
@@ -6867,34 +4821,6 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "time": "2024-09-25T14:18:03+00:00"
-        },
-        {
-            "name": "symfony/routing",
-            "version": "v6.4.13",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/routing.git",
-                "reference": "640a74250d13f9c30d5ca045b6aaaabcc8215278"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/routing/zipball/640a74250d13f9c30d5ca045b6aaaabcc8215278",
-                "reference": "640a74250d13f9c30d5ca045b6aaaabcc8215278",
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             "time": "2024-05-31T14:49:08+00:00"
         },
         {
@@ -6909,19 +4835,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/routing/zipball/aad19fe10753ba842f0d653a8db819c4b3affa87",
                 "reference": "aad19fe10753ba842f0d653a8db819c4b3affa87",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                 "shasum": ""
             },
             "require": {
@@ -6975,27 +4888,7 @@
                 "url"
             ],
             "support": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "source": "https://github.com/symfony/routing/tree/v6.4.13"
-=======
                 "source": "https://github.com/symfony/routing/tree/v6.4.10"
->>>>>>> register
-=======
-                "source": "https://github.com/symfony/routing/tree/v6.4.10"
->>>>>>> logout
-=======
-                "source": "https://github.com/symfony/routing/tree/v6.4.10"
->>>>>>> phan_quyen
-=======
-                "source": "https://github.com/symfony/routing/tree/v6.4.10"
->>>>>>> menu_admin_detail
-=======
-                "source": "https://github.com/symfony/routing/tree/v6.4.10"
->>>>>>> product_admin_detail
             },
             "funding": [
                 {
@@ -7011,27 +4904,7 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "time": "2024-10-01T08:30:56+00:00"
-=======
             "time": "2024-07-15T09:26:24+00:00"
->>>>>>> register
-=======
-            "time": "2024-07-15T09:26:24+00:00"
->>>>>>> logout
-=======
-            "time": "2024-07-15T09:26:24+00:00"
->>>>>>> phan_quyen
-=======
-            "time": "2024-07-15T09:26:24+00:00"
->>>>>>> menu_admin_detail
-=======
-            "time": "2024-07-15T09:26:24+00:00"
->>>>>>> product_admin_detail
         },
         {
             "name": "symfony/service-contracts",
@@ -7118,34 +4991,6 @@
         },
         {
             "name": "symfony/string",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "version": "v7.1.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/string.git",
-                "reference": "61b72d66bf96c360a727ae6232df5ac83c71f626"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/string/zipball/61b72d66bf96c360a727ae6232df5ac83c71f626",
-                "reference": "61b72d66bf96c360a727ae6232df5ac83c71f626",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.2",
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             "version": "v6.4.10",
             "source": {
                 "type": "git",
@@ -7160,19 +5005,6 @@
             },
             "require": {
                 "php": ">=8.1",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                 "symfony/polyfill-ctype": "~1.8",
                 "symfony/polyfill-intl-grapheme": "~1.0",
                 "symfony/polyfill-intl-normalizer": "~1.0",
@@ -7182,44 +5014,11 @@
                 "symfony/translation-contracts": "<2.5"
             },
             "require-dev": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "symfony/emoji": "^7.1",
-                "symfony/error-handler": "^6.4|^7.0",
-                "symfony/http-client": "^6.4|^7.0",
-                "symfony/intl": "^6.4|^7.0",
-                "symfony/translation-contracts": "^2.5|^3.0",
-                "symfony/var-exporter": "^6.4|^7.0"
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                 "symfony/error-handler": "^5.4|^6.0|^7.0",
                 "symfony/http-client": "^5.4|^6.0|^7.0",
                 "symfony/intl": "^6.2|^7.0",
                 "symfony/translation-contracts": "^2.5|^3.0",
                 "symfony/var-exporter": "^5.4|^6.0|^7.0"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             },
             "type": "library",
             "autoload": {
@@ -7258,27 +5057,7 @@
                 "utf8"
             ],
             "support": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "source": "https://github.com/symfony/string/tree/v7.1.6"
-=======
                 "source": "https://github.com/symfony/string/tree/v6.4.10"
->>>>>>> register
-=======
-                "source": "https://github.com/symfony/string/tree/v6.4.10"
->>>>>>> logout
-=======
-                "source": "https://github.com/symfony/string/tree/v6.4.10"
->>>>>>> phan_quyen
-=======
-                "source": "https://github.com/symfony/string/tree/v6.4.10"
->>>>>>> menu_admin_detail
-=======
-                "source": "https://github.com/symfony/string/tree/v6.4.10"
->>>>>>> product_admin_detail
             },
             "funding": [
                 {
@@ -7294,34 +5073,6 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "time": "2024-09-25T14:20:29+00:00"
-        },
-        {
-            "name": "symfony/translation",
-            "version": "v6.4.13",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/translation.git",
-                "reference": "bee9bfabfa8b4045a66bf82520e492cddbaffa66"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/bee9bfabfa8b4045a66bf82520e492cddbaffa66",
-                "reference": "bee9bfabfa8b4045a66bf82520e492cddbaffa66",
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             "time": "2024-07-22T10:21:14+00:00"
         },
         {
@@ -7336,19 +5087,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/translation/zipball/94041203f8ac200ae9e7c6a18fa6137814ccecc9",
                 "reference": "94041203f8ac200ae9e7c6a18fa6137814ccecc9",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                 "shasum": ""
             },
             "require": {
@@ -7414,27 +5152,7 @@
             "description": "Provides tools to internationalize your application",
             "homepage": "https://symfony.com",
             "support": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "source": "https://github.com/symfony/translation/tree/v6.4.13"
-=======
                 "source": "https://github.com/symfony/translation/tree/v6.4.10"
->>>>>>> register
-=======
-                "source": "https://github.com/symfony/translation/tree/v6.4.10"
->>>>>>> logout
-=======
-                "source": "https://github.com/symfony/translation/tree/v6.4.10"
->>>>>>> phan_quyen
-=======
-                "source": "https://github.com/symfony/translation/tree/v6.4.10"
->>>>>>> menu_admin_detail
-=======
-                "source": "https://github.com/symfony/translation/tree/v6.4.10"
->>>>>>> product_admin_detail
             },
             "funding": [
                 {
@@ -7450,27 +5168,7 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "time": "2024-09-27T18:14:25+00:00"
-=======
             "time": "2024-07-26T12:30:32+00:00"
->>>>>>> register
-=======
-            "time": "2024-07-26T12:30:32+00:00"
->>>>>>> logout
-=======
-            "time": "2024-07-26T12:30:32+00:00"
->>>>>>> phan_quyen
-=======
-            "time": "2024-07-26T12:30:32+00:00"
->>>>>>> menu_admin_detail
-=======
-            "time": "2024-07-26T12:30:32+00:00"
->>>>>>> product_admin_detail
         },
         {
             "name": "symfony/translation-contracts",
@@ -7552,30 +5250,6 @@
         },
         {
             "name": "symfony/uid",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "version": "v6.4.13",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/uid.git",
-                "reference": "18eb207f0436a993fffbdd811b5b8fa35fa5e007"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/uid/zipball/18eb207f0436a993fffbdd811b5b8fa35fa5e007",
-                "reference": "18eb207f0436a993fffbdd811b5b8fa35fa5e007",
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             "version": "v6.4.8",
             "source": {
                 "type": "git",
@@ -7586,19 +5260,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/uid/zipball/35904eca37a84bb764c560cbfcac9f0ac2bcdbdf",
                 "reference": "35904eca37a84bb764c560cbfcac9f0ac2bcdbdf",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                 "shasum": ""
             },
             "require": {
@@ -7643,27 +5304,7 @@
                 "uuid"
             ],
             "support": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "source": "https://github.com/symfony/uid/tree/v6.4.13"
-=======
                 "source": "https://github.com/symfony/uid/tree/v6.4.8"
->>>>>>> register
-=======
-                "source": "https://github.com/symfony/uid/tree/v6.4.8"
->>>>>>> logout
-=======
-                "source": "https://github.com/symfony/uid/tree/v6.4.8"
->>>>>>> phan_quyen
-=======
-                "source": "https://github.com/symfony/uid/tree/v6.4.8"
->>>>>>> menu_admin_detail
-=======
-                "source": "https://github.com/symfony/uid/tree/v6.4.8"
->>>>>>> product_admin_detail
             },
             "funding": [
                 {
@@ -7679,34 +5320,6 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "time": "2024-09-25T14:18:03+00:00"
-        },
-        {
-            "name": "symfony/var-dumper",
-            "version": "v6.4.13",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "2acb151474ed8cb43624e3f41a0bf7c4c8ce4f41"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/2acb151474ed8cb43624e3f41a0bf7c4c8ce4f41",
-                "reference": "2acb151474ed8cb43624e3f41a0bf7c4c8ce4f41",
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             "time": "2024-05-31T14:49:08+00:00"
         },
         {
@@ -7721,19 +5334,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/var-dumper/zipball/a71cc3374f5fb9759da1961d28c452373b343dd4",
                 "reference": "a71cc3374f5fb9759da1961d28c452373b343dd4",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                 "shasum": ""
             },
             "require": {
@@ -7789,27 +5389,7 @@
                 "dump"
             ],
             "support": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "source": "https://github.com/symfony/var-dumper/tree/v6.4.13"
-=======
                 "source": "https://github.com/symfony/var-dumper/tree/v6.4.10"
->>>>>>> register
-=======
-                "source": "https://github.com/symfony/var-dumper/tree/v6.4.10"
->>>>>>> logout
-=======
-                "source": "https://github.com/symfony/var-dumper/tree/v6.4.10"
->>>>>>> phan_quyen
-=======
-                "source": "https://github.com/symfony/var-dumper/tree/v6.4.10"
->>>>>>> menu_admin_detail
-=======
-                "source": "https://github.com/symfony/var-dumper/tree/v6.4.10"
->>>>>>> product_admin_detail
             },
             "funding": [
                 {
@@ -7825,27 +5405,7 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "time": "2024-09-25T14:18:03+00:00"
-=======
             "time": "2024-07-26T12:30:32+00:00"
->>>>>>> register
-=======
-            "time": "2024-07-26T12:30:32+00:00"
->>>>>>> logout
-=======
-            "time": "2024-07-26T12:30:32+00:00"
->>>>>>> phan_quyen
-=======
-            "time": "2024-07-26T12:30:32+00:00"
->>>>>>> menu_admin_detail
-=======
-            "time": "2024-07-26T12:30:32+00:00"
->>>>>>> product_admin_detail
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
@@ -8120,30 +5680,6 @@
     "packages-dev": [
         {
             "name": "barryvdh/laravel-debugbar",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "version": "v3.14.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/barryvdh/laravel-debugbar.git",
-                "reference": "14e4517bd49130d6119228107eb21ae47ae120ab"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/barryvdh/laravel-debugbar/zipball/14e4517bd49130d6119228107eb21ae47ae120ab",
-                "reference": "14e4517bd49130d6119228107eb21ae47ae120ab",
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             "version": "v3.14.2",
             "source": {
                 "type": "git",
@@ -8154,19 +5690,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/barryvdh/laravel-debugbar/zipball/850be4e3c05add22d70a3a3fb564925fd7605973",
                 "reference": "850be4e3c05add22d70a3a3fb564925fd7605973",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                 "shasum": ""
             },
             "require": {
@@ -8225,27 +5748,7 @@
             ],
             "support": {
                 "issues": "https://github.com/barryvdh/laravel-debugbar/issues",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "source": "https://github.com/barryvdh/laravel-debugbar/tree/v3.14.6"
-=======
                 "source": "https://github.com/barryvdh/laravel-debugbar/tree/v3.14.2"
->>>>>>> register
-=======
-                "source": "https://github.com/barryvdh/laravel-debugbar/tree/v3.14.2"
->>>>>>> logout
-=======
-                "source": "https://github.com/barryvdh/laravel-debugbar/tree/v3.14.2"
->>>>>>> phan_quyen
-=======
-                "source": "https://github.com/barryvdh/laravel-debugbar/tree/v3.14.2"
->>>>>>> menu_admin_detail
-=======
-                "source": "https://github.com/barryvdh/laravel-debugbar/tree/v3.14.2"
->>>>>>> product_admin_detail
             },
             "funding": [
                 {
@@ -8257,27 +5760,7 @@
                     "type": "github"
                 }
             ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "time": "2024-10-18T13:15:12+00:00"
-=======
             "time": "2024-09-24T17:03:19+00:00"
->>>>>>> register
-=======
-            "time": "2024-09-24T17:03:19+00:00"
->>>>>>> logout
-=======
-            "time": "2024-09-24T17:03:19+00:00"
->>>>>>> phan_quyen
-=======
-            "time": "2024-09-24T17:03:19+00:00"
->>>>>>> menu_admin_detail
-=======
-            "time": "2024-09-24T17:03:19+00:00"
->>>>>>> product_admin_detail
         },
         {
             "name": "fakerphp/faker",
@@ -8344,40 +5827,6 @@
         },
         {
             "name": "filp/whoops",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "version": "2.16.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/filp/whoops.git",
-                "reference": "befcdc0e5dce67252aa6322d82424be928214fa2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/filp/whoops/zipball/befcdc0e5dce67252aa6322d82424be928214fa2",
-                "reference": "befcdc0e5dce67252aa6322d82424be928214fa2",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.1 || ^8.0",
-                "psr/log": "^1.0.1 || ^2.0 || ^3.0"
-            },
-            "require-dev": {
-                "mockery/mockery": "^1.0",
-                "phpunit/phpunit": "^7.5.20 || ^8.5.8 || ^9.3.3",
-                "symfony/var-dumper": "^4.0 || ^5.0"
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             "version": "2.15.4",
             "source": {
                 "type": "git",
@@ -8398,19 +5847,6 @@
                 "mockery/mockery": "^0.9 || ^1.0",
                 "phpunit/phpunit": "^4.8.36 || ^5.7.27 || ^6.5.14 || ^7.5.20 || ^8.5.8 || ^9.3.3",
                 "symfony/var-dumper": "^2.6 || ^3.0 || ^4.0 || ^5.0"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             },
             "suggest": {
                 "symfony/var-dumper": "Pretty print complex values better with var-dumper available",
@@ -8450,27 +5886,7 @@
             ],
             "support": {
                 "issues": "https://github.com/filp/whoops/issues",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "source": "https://github.com/filp/whoops/tree/2.16.0"
-=======
                 "source": "https://github.com/filp/whoops/tree/2.15.4"
->>>>>>> register
-=======
-                "source": "https://github.com/filp/whoops/tree/2.15.4"
->>>>>>> logout
-=======
-                "source": "https://github.com/filp/whoops/tree/2.15.4"
->>>>>>> phan_quyen
-=======
-                "source": "https://github.com/filp/whoops/tree/2.15.4"
->>>>>>> menu_admin_detail
-=======
-                "source": "https://github.com/filp/whoops/tree/2.15.4"
->>>>>>> product_admin_detail
             },
             "funding": [
                 {
@@ -8478,27 +5894,7 @@
                     "type": "github"
                 }
             ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "time": "2024-09-25T12:00:00+00:00"
-=======
             "time": "2023-11-03T12:00:00+00:00"
->>>>>>> register
-=======
-            "time": "2023-11-03T12:00:00+00:00"
->>>>>>> logout
-=======
-            "time": "2023-11-03T12:00:00+00:00"
->>>>>>> phan_quyen
-=======
-            "time": "2023-11-03T12:00:00+00:00"
->>>>>>> menu_admin_detail
-=======
-            "time": "2023-11-03T12:00:00+00:00"
->>>>>>> product_admin_detail
         },
         {
             "name": "hamcrest/hamcrest-php",
@@ -8553,30 +5949,6 @@
         },
         {
             "name": "laravel/pint",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "version": "v1.18.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravel/pint.git",
-                "reference": "35c00c05ec43e6b46d295efc0f4386ceb30d50d9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laravel/pint/zipball/35c00c05ec43e6b46d295efc0f4386ceb30d50d9",
-                "reference": "35c00c05ec43e6b46d295efc0f4386ceb30d50d9",
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             "version": "v1.17.2",
             "source": {
                 "type": "git",
@@ -8587,19 +5959,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/pint/zipball/e8a88130a25e3f9d4d5785e6a1afca98268ab110",
                 "reference": "e8a88130a25e3f9d4d5785e6a1afca98268ab110",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                 "shasum": ""
             },
             "require": {
@@ -8610,58 +5969,13 @@
                 "php": "^8.1.0"
             },
             "require-dev": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "friendsofphp/php-cs-fixer": "^3.64.0",
-                "illuminate/view": "^10.48.20",
-=======
                 "friendsofphp/php-cs-fixer": "^3.61.1",
                 "illuminate/view": "^10.48.18",
->>>>>>> register
-=======
-                "friendsofphp/php-cs-fixer": "^3.61.1",
-                "illuminate/view": "^10.48.18",
->>>>>>> logout
-=======
-                "friendsofphp/php-cs-fixer": "^3.61.1",
-                "illuminate/view": "^10.48.18",
->>>>>>> phan_quyen
-=======
-                "friendsofphp/php-cs-fixer": "^3.61.1",
-                "illuminate/view": "^10.48.18",
->>>>>>> menu_admin_detail
-=======
-                "friendsofphp/php-cs-fixer": "^3.61.1",
-                "illuminate/view": "^10.48.18",
->>>>>>> product_admin_detail
                 "larastan/larastan": "^2.9.8",
                 "laravel-zero/framework": "^10.4.0",
                 "mockery/mockery": "^1.6.12",
                 "nunomaduro/termwind": "^1.15.1",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "pestphp/pest": "^2.35.1"
-=======
                 "pestphp/pest": "^2.35.0"
->>>>>>> register
-=======
-                "pestphp/pest": "^2.35.0"
->>>>>>> logout
-=======
-                "pestphp/pest": "^2.35.0"
->>>>>>> phan_quyen
-=======
-                "pestphp/pest": "^2.35.0"
->>>>>>> menu_admin_detail
-=======
-                "pestphp/pest": "^2.35.0"
->>>>>>> product_admin_detail
             },
             "bin": [
                 "builds/pint"
@@ -8697,34 +6011,6 @@
                 "issues": "https://github.com/laravel/pint/issues",
                 "source": "https://github.com/laravel/pint"
             },
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "time": "2024-09-24T17:22:50+00:00"
-        },
-        {
-            "name": "laravel/sail",
-            "version": "v1.37.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravel/sail.git",
-                "reference": "7efa151ea0d16f48233d6a6cd69f81270acc6e93"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laravel/sail/zipball/7efa151ea0d16f48233d6a6cd69f81270acc6e93",
-                "reference": "7efa151ea0d16f48233d6a6cd69f81270acc6e93",
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             "time": "2024-08-06T15:11:54+00:00"
         },
         {
@@ -8739,19 +6025,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/sail/zipball/3d06dd18cee8059baa7b388af00ba47f6d96bd85",
                 "reference": "3d06dd18cee8059baa7b388af00ba47f6d96bd85",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                 "shasum": ""
             },
             "require": {
@@ -8801,34 +6074,6 @@
                 "issues": "https://github.com/laravel/sail/issues",
                 "source": "https://github.com/laravel/sail"
             },
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "time": "2024-10-29T20:18:14+00:00"
-        },
-        {
-            "name": "maximebf/debugbar",
-            "version": "v1.23.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/maximebf/php-debugbar.git",
-                "reference": "687400043d77943ef95e8417cb44e1673ee57844"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/maximebf/php-debugbar/zipball/687400043d77943ef95e8417cb44e1673ee57844",
-                "reference": "687400043d77943ef95e8417cb44e1673ee57844",
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             "time": "2024-08-02T07:45:47+00:00"
         },
         {
@@ -8843,19 +6088,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/maximebf/php-debugbar/zipball/689720d724c771ac4add859056744b7b3f2406da",
                 "reference": "689720d724c771ac4add859056744b7b3f2406da",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                 "shasum": ""
             },
             "require": {
@@ -8908,39 +6140,9 @@
             ],
             "support": {
                 "issues": "https://github.com/maximebf/php-debugbar/issues",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "source": "https://github.com/maximebf/php-debugbar/tree/v1.23.3"
-            },
-            "time": "2024-10-29T12:24:25+00:00"
-=======
                 "source": "https://github.com/maximebf/php-debugbar/tree/v1.23.2"
             },
             "time": "2024-09-16T11:23:09+00:00"
->>>>>>> register
-=======
-                "source": "https://github.com/maximebf/php-debugbar/tree/v1.23.2"
-            },
-            "time": "2024-09-16T11:23:09+00:00"
->>>>>>> logout
-=======
-                "source": "https://github.com/maximebf/php-debugbar/tree/v1.23.2"
-            },
-            "time": "2024-09-16T11:23:09+00:00"
->>>>>>> phan_quyen
-=======
-                "source": "https://github.com/maximebf/php-debugbar/tree/v1.23.2"
-            },
-            "time": "2024-09-16T11:23:09+00:00"
->>>>>>> menu_admin_detail
-=======
-                "source": "https://github.com/maximebf/php-debugbar/tree/v1.23.2"
-            },
-            "time": "2024-09-16T11:23:09+00:00"
->>>>>>> product_admin_detail
         },
         {
             "name": "mockery/mockery",
@@ -9087,37 +6289,6 @@
         },
         {
             "name": "nunomaduro/collision",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "version": "v7.11.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nunomaduro/collision.git",
-                "reference": "994ea93df5d4132f69d3f1bd74730509df6e8a05"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nunomaduro/collision/zipball/994ea93df5d4132f69d3f1bd74730509df6e8a05",
-                "reference": "994ea93df5d4132f69d3f1bd74730509df6e8a05",
-                "shasum": ""
-            },
-            "require": {
-                "filp/whoops": "^2.16.0",
-                "nunomaduro/termwind": "^1.15.1",
-                "php": "^8.1.0",
-                "symfony/console": "^6.4.12"
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             "version": "v7.10.0",
             "source": {
                 "type": "git",
@@ -9135,50 +6306,11 @@
                 "nunomaduro/termwind": "^1.15.1",
                 "php": "^8.1.0",
                 "symfony/console": "^6.3.4"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             },
             "conflict": {
                 "laravel/framework": ">=11.0.0"
             },
             "require-dev": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "brianium/paratest": "^7.3.1",
-                "laravel/framework": "^10.48.22",
-                "laravel/pint": "^1.18.1",
-                "laravel/sail": "^1.36.0",
-                "laravel/sanctum": "^3.3.3",
-                "laravel/tinker": "^2.10.0",
-                "nunomaduro/larastan": "^2.9.8",
-                "orchestra/testbench-core": "^8.28.3",
-                "pestphp/pest": "^2.35.1",
-                "phpunit/phpunit": "^10.5.36",
-                "sebastian/environment": "^6.1.0",
-                "spatie/laravel-ignition": "^2.8.0"
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                 "brianium/paratest": "^7.3.0",
                 "laravel/framework": "^10.28.0",
                 "laravel/pint": "^1.13.3",
@@ -9191,19 +6323,6 @@
                 "phpunit/phpunit": "^10.4.1",
                 "sebastian/environment": "^6.0.1",
                 "spatie/laravel-ignition": "^2.3.1"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             },
             "type": "library",
             "extra": {
@@ -9262,27 +6381,7 @@
                     "type": "patreon"
                 }
             ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "time": "2024-10-15T15:12:40+00:00"
-=======
             "time": "2023-10-11T15:45:01+00:00"
->>>>>>> register
-=======
-            "time": "2023-10-11T15:45:01+00:00"
->>>>>>> logout
-=======
-            "time": "2023-10-11T15:45:01+00:00"
->>>>>>> phan_quyen
-=======
-            "time": "2023-10-11T15:45:01+00:00"
->>>>>>> menu_admin_detail
-=======
-            "time": "2023-10-11T15:45:01+00:00"
->>>>>>> product_admin_detail
         },
         {
             "name": "phar-io/manifest",
@@ -9725,30 +6824,6 @@
         },
         {
             "name": "phpunit/phpunit",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "version": "10.5.38",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "a86773b9e887a67bc53efa9da9ad6e3f2498c132"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/a86773b9e887a67bc53efa9da9ad6e3f2498c132",
-                "reference": "a86773b9e887a67bc53efa9da9ad6e3f2498c132",
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             "version": "10.5.30",
             "source": {
                 "type": "git",
@@ -9759,19 +6834,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/b15524febac0153876b4ba9aab3326c2ee94c897",
                 "reference": "b15524febac0153876b4ba9aab3326c2ee94c897",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                 "shasum": ""
             },
             "require": {
@@ -9785,54 +6847,14 @@
                 "phar-io/manifest": "^2.0.4",
                 "phar-io/version": "^3.2.1",
                 "php": ">=8.1",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "phpunit/php-code-coverage": "^10.1.16",
-=======
                 "phpunit/php-code-coverage": "^10.1.15",
->>>>>>> register
-=======
-                "phpunit/php-code-coverage": "^10.1.15",
->>>>>>> logout
-=======
-                "phpunit/php-code-coverage": "^10.1.15",
->>>>>>> phan_quyen
-=======
-                "phpunit/php-code-coverage": "^10.1.15",
->>>>>>> menu_admin_detail
-=======
-                "phpunit/php-code-coverage": "^10.1.15",
->>>>>>> product_admin_detail
                 "phpunit/php-file-iterator": "^4.1.0",
                 "phpunit/php-invoker": "^4.0.0",
                 "phpunit/php-text-template": "^3.0.1",
                 "phpunit/php-timer": "^6.0.0",
                 "sebastian/cli-parser": "^2.0.1",
                 "sebastian/code-unit": "^2.0.0",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "sebastian/comparator": "^5.0.3",
-=======
                 "sebastian/comparator": "^5.0.2",
->>>>>>> register
-=======
-                "sebastian/comparator": "^5.0.2",
->>>>>>> logout
-=======
-                "sebastian/comparator": "^5.0.2",
->>>>>>> phan_quyen
-=======
-                "sebastian/comparator": "^5.0.2",
->>>>>>> menu_admin_detail
-=======
-                "sebastian/comparator": "^5.0.2",
->>>>>>> product_admin_detail
                 "sebastian/diff": "^5.1.1",
                 "sebastian/environment": "^6.1.0",
                 "sebastian/exporter": "^5.1.2",
@@ -9883,27 +6905,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.5.38"
-=======
                 "source": "https://github.com/sebastianbergmann/phpunit/tree/10.5.30"
->>>>>>> register
-=======
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.5.30"
->>>>>>> logout
-=======
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.5.30"
->>>>>>> phan_quyen
-=======
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.5.30"
->>>>>>> menu_admin_detail
-=======
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.5.30"
->>>>>>> product_admin_detail
             },
             "funding": [
                 {
@@ -9919,27 +6921,7 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "time": "2024-10-28T13:06:21+00:00"
-=======
             "time": "2024-08-13T06:09:37+00:00"
->>>>>>> register
-=======
-            "time": "2024-08-13T06:09:37+00:00"
->>>>>>> logout
-=======
-            "time": "2024-08-13T06:09:37+00:00"
->>>>>>> phan_quyen
-=======
-            "time": "2024-08-13T06:09:37+00:00"
->>>>>>> menu_admin_detail
-=======
-            "time": "2024-08-13T06:09:37+00:00"
->>>>>>> product_admin_detail
         },
         {
             "name": "sebastian/cli-parser",
@@ -10111,30 +7093,6 @@
         },
         {
             "name": "sebastian/comparator",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "version": "5.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/comparator.git",
-                "reference": "a18251eb0b7a2dcd2f7aa3d6078b18545ef0558e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/a18251eb0b7a2dcd2f7aa3d6078b18545ef0558e",
-                "reference": "a18251eb0b7a2dcd2f7aa3d6078b18545ef0558e",
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             "version": "5.0.2",
             "source": {
                 "type": "git",
@@ -10145,19 +7103,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/2d3e04c3b4c1e84a5e7382221ad8883c8fbc4f53",
                 "reference": "2d3e04c3b4c1e84a5e7382221ad8883c8fbc4f53",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                 "shasum": ""
             },
             "require": {
@@ -10168,27 +7113,7 @@
                 "sebastian/exporter": "^5.0"
             },
             "require-dev": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "phpunit/phpunit": "^10.5"
-=======
                 "phpunit/phpunit": "^10.4"
->>>>>>> register
-=======
-                "phpunit/phpunit": "^10.4"
->>>>>>> logout
-=======
-                "phpunit/phpunit": "^10.4"
->>>>>>> phan_quyen
-=======
-                "phpunit/phpunit": "^10.4"
->>>>>>> menu_admin_detail
-=======
-                "phpunit/phpunit": "^10.4"
->>>>>>> product_admin_detail
             },
             "type": "library",
             "extra": {
@@ -10233,27 +7158,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/comparator/issues",
                 "security": "https://github.com/sebastianbergmann/comparator/security/policy",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "source": "https://github.com/sebastianbergmann/comparator/tree/5.0.3"
-=======
                 "source": "https://github.com/sebastianbergmann/comparator/tree/5.0.2"
->>>>>>> register
-=======
-                "source": "https://github.com/sebastianbergmann/comparator/tree/5.0.2"
->>>>>>> logout
-=======
-                "source": "https://github.com/sebastianbergmann/comparator/tree/5.0.2"
->>>>>>> phan_quyen
-=======
-                "source": "https://github.com/sebastianbergmann/comparator/tree/5.0.2"
->>>>>>> menu_admin_detail
-=======
-                "source": "https://github.com/sebastianbergmann/comparator/tree/5.0.2"
->>>>>>> product_admin_detail
             },
             "funding": [
                 {
@@ -10261,27 +7166,7 @@
                     "type": "github"
                 }
             ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "time": "2024-10-18T14:56:07+00:00"
-=======
             "time": "2024-08-12T06:03:08+00:00"
->>>>>>> register
-=======
-            "time": "2024-08-12T06:03:08+00:00"
->>>>>>> logout
-=======
-            "time": "2024-08-12T06:03:08+00:00"
->>>>>>> phan_quyen
-=======
-            "time": "2024-08-12T06:03:08+00:00"
->>>>>>> menu_admin_detail
-=======
-            "time": "2024-08-12T06:03:08+00:00"
->>>>>>> product_admin_detail
         },
         {
             "name": "sebastian/complexity",
@@ -11336,41 +8221,6 @@
         },
         {
             "name": "symfony/yaml",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "version": "v7.1.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/yaml.git",
-                "reference": "3ced3f29e4f0d6bce2170ff26719f1fe9aacc671"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/3ced3f29e4f0d6bce2170ff26719f1fe9aacc671",
-                "reference": "3ced3f29e4f0d6bce2170ff26719f1fe9aacc671",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.2",
-                "symfony/polyfill-ctype": "^1.8"
-            },
-            "conflict": {
-                "symfony/console": "<6.4"
-            },
-            "require-dev": {
-                "symfony/console": "^6.4|^7.0"
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             "version": "v6.4.8",
             "source": {
                 "type": "git",
@@ -11393,19 +8243,6 @@
             },
             "require-dev": {
                 "symfony/console": "^5.4|^6.0|^7.0"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             },
             "bin": [
                 "Resources/bin/yaml-lint"
@@ -11436,27 +8273,7 @@
             "description": "Loads and dumps YAML files",
             "homepage": "https://symfony.com",
             "support": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "source": "https://github.com/symfony/yaml/tree/v7.1.6"
-=======
                 "source": "https://github.com/symfony/yaml/tree/v6.4.8"
->>>>>>> register
-=======
-                "source": "https://github.com/symfony/yaml/tree/v6.4.8"
->>>>>>> logout
-=======
-                "source": "https://github.com/symfony/yaml/tree/v6.4.8"
->>>>>>> phan_quyen
-=======
-                "source": "https://github.com/symfony/yaml/tree/v6.4.8"
->>>>>>> menu_admin_detail
-=======
-                "source": "https://github.com/symfony/yaml/tree/v6.4.8"
->>>>>>> product_admin_detail
             },
             "funding": [
                 {
@@ -11472,27 +8289,7 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "time": "2024-09-25T14:20:29+00:00"
-=======
             "time": "2024-05-31T14:49:08+00:00"
->>>>>>> register
-=======
-            "time": "2024-05-31T14:49:08+00:00"
->>>>>>> logout
-=======
-            "time": "2024-05-31T14:49:08+00:00"
->>>>>>> phan_quyen
-=======
-            "time": "2024-05-31T14:49:08+00:00"
->>>>>>> menu_admin_detail
-=======
-            "time": "2024-05-31T14:49:08+00:00"
->>>>>>> product_admin_detail
         },
         {
             "name": "theseer/tokenizer",
@@ -11554,25 +8351,5 @@
         "php": "^8.1"
     },
     "platform-dev": [],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "plugin-api-version": "2.6.0"
-=======
     "plugin-api-version": "2.3.0"
->>>>>>> register
-=======
-    "plugin-api-version": "2.3.0"
->>>>>>> logout
-=======
-    "plugin-api-version": "2.3.0"
->>>>>>> phan_quyen
-=======
-    "plugin-api-version": "2.3.0"
->>>>>>> menu_admin_detail
-=======
-    "plugin-api-version": "2.3.0"
->>>>>>> product_admin_detail
 }

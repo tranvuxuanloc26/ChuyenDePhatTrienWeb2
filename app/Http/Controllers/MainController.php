@@ -12,96 +12,22 @@ class MainController extends Controller
     protected $slider;
     protected $menu;
     protected $product;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-   
-   
-=======
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
     public function __construct(SliderService $slider, MenuService $menu, ProductServiceScreen $product)
     {
         $this->slider = $slider;
         $this->menu = $menu;
         $this->product = $product;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
     }
     public function index()
     {
 
         return view('home', [
             'title' => 'Shop Nước Hoa',
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-            'sliders' => $this->slider->show(),
-            'menus' => $this->menu->show(),
-            'products' => $this->product->get(),
-
-
-          
-           
-        ]);
-
-       
-           
-
-=======
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
             'sliders' => $this->slider->show(),
             'menus' => $this->menu->show(),
             'products' => $this->product->get(),
            
         ]);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> register
-=======
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
     }
 
     public function loadProduct(Request $request)
@@ -115,39 +41,4 @@ class MainController extends Controller
         }
         return response()->json(['html' => '' ]);
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-
-
-           
-      
-    }
-
-
-    
-
-   
-    
-
-   
-
-
-=======
 }
->>>>>>> register
-=======
-}
->>>>>>> logout
-=======
-}
->>>>>>> phan_quyen
-=======
-}
->>>>>>> menu_admin_detail
-=======
-}
->>>>>>> product_admin_detail

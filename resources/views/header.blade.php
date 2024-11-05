@@ -1,21 +1,5 @@
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<header>
-=======
 <header >
->>>>>>> logout
-=======
-<header >
->>>>>>> phan_quyen
-=======
-<header >
->>>>>>> menu_admin_detail
-=======
-<header >
->>>>>>> product_admin_detail
     @php $menuHtml = App\Helpers\Helper::menus($menus);     @endphp
     <!-- Header desktop -->
     <div class="container-menu-desktop ">
@@ -107,17 +91,6 @@
                     <a href="#" class="dis-block icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti" data-notify="0">
                         <i class="zmdi zmdi-favorite-outline"></i>
                     </a>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                     <li class="p-l-30 p-r-2 nav-item dropdown" style="right: 1px">
                         @auth
                         <!-- Hiển thị khi người dùng đã đăng nhập -->
@@ -154,16 +127,6 @@
                         }
                     </style>
                        
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> logout
-=======
->>>>>>> phan_quyen
-=======
->>>>>>> menu_admin_detail
-=======
->>>>>>> product_admin_detail
                 </div>
             </nav>
         </div>	
