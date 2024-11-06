@@ -16,11 +16,15 @@
             <th>Active</th>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             <th>Feature</th>
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
+=======
+            <th>Feature</th>
+>>>>>>> origin/search_product_admin
             <th>Update</th>
             <th style="width: 130px">&nbsp;</th>
         </tr>
@@ -41,8 +45,11 @@
             <td style="max-width: 200px;">{{ $product->content }}</td>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <td>{!! \App\Helpers\Helper::active($product->active)  !!}</td>
 =======
+=======
+>>>>>>> origin/search_product_admin
             <td>{{ $product->price }}</td>
             <td style="padding-left: 30px;
 }">{{ $product->price_sale }}</td>
@@ -54,10 +61,13 @@
                   <span class="badge badge-success btn-xs">YES</span>
               @endif
           </td>
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
             <td>{!! \App\Helpers\Helper::active($product->active)  !!}</td>
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
+=======
+>>>>>>> origin/search_product_admin
             <td>{{ $product->updated_at }}</td>
         </tr>
 

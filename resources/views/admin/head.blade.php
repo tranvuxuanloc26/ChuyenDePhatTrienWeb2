@@ -15,6 +15,7 @@
 <link rel="stylesheet" href="/template/admin/dist/css/adminlte.min.css">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <link rel="stylesheet" href="/template/admin/dist/css/togglebutton.css">
 
@@ -23,6 +24,10 @@
 <link rel="stylesheet" href="/template/admin/dist/css/togglebutton.css">
 
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
+=======
+<link rel="stylesheet" href="/template/admin/dist/css/togglebutton.css">
+
+>>>>>>> origin/search_product_admin
 
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 

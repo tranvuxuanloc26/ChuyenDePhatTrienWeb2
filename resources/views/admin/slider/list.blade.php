@@ -12,6 +12,7 @@
             <th>Tiêu Đề</th>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <th>Link</th>
             <th>Ảnh</th>
             <th>Trạng Thái</th>
@@ -23,6 +24,10 @@
             <th>Ảnh</th>
             <th>Role</th>
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
+=======
+            <th>Ảnh</th>
+            <th>Role</th>
+>>>>>>> origin/search_product_admin
             <th>Cập Nhật</th>
             <th style="width: 100px">&nbsp;</th>
         </tr>
@@ -55,6 +60,7 @@
    </table>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    {!!  $sliders->links()  !!}
 =======
    {!!  $sliders->links('pagination::bootstrap-4')  !!}
@@ -62,5 +68,8 @@
 =======
    {!!  $sliders->links('pagination::bootstrap-4')  !!}
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
+=======
+   {!!  $sliders->links('pagination::bootstrap-4')  !!}
+>>>>>>> origin/search_product_admin
 @endsection
 

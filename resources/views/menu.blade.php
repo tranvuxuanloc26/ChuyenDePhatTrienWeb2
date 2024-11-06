@@ -52,6 +52,7 @@
                             <li class="p-b-6">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <a href="#" class="filter-link stext-106 trans-04">
 =======
                                 <a href="#" id="filter-popularity" class="filter-link stext-106 trans-04">
@@ -59,10 +60,14 @@
 =======
                                 <a href="#" class="filter-link stext-106 trans-04">
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
+=======
+                                <a href="#" id="filter-popularity" class="filter-link stext-106 trans-04">
+>>>>>>> origin/search_product_admin
                                     Popularity
                                 </a>
                             </li>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -77,13 +82,18 @@
                                 <a href="#" class="filter-link stext-106 trans-04 filter-link-active">
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> origin/search_product_admin
                          
 
                             <li class="p-b-6">
                                 <a href="{{ route('products.newest') }}" class="filter-link stext-106 trans-04 filter-link-active">
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
+=======
+>>>>>>> origin/search_product_admin
                                     Newness
                                 </a>
                             </li>
@@ -146,6 +156,7 @@
                         </ul>
                     </div>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -251,6 +262,9 @@
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
+=======
+                  
+>>>>>>> origin/search_product_admin
                 </div>
             </div>
         </div>
@@ -258,19 +272,26 @@
       @include('product.list')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
+=======
+
+>>>>>>> origin/search_product_admin
       {{ $products->links('pagination::bootstrap-4')  }}
 
     </div>
 </div>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @endsection
 =======
+=======
+>>>>>>> origin/search_product_admin
 @endsection
 
 
@@ -293,8 +314,12 @@
             });
         });
     });
+<<<<<<< HEAD
 </script>
 >>>>>>> origin/tim_kiem_user_admin
 =======
 @endsection
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
+=======
+</script>
+>>>>>>> origin/search_product_admin

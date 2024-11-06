@@ -9,6 +9,7 @@
   <div class="login-logo">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <a href="../../index2.html"><b>COZA</b>STORE</a>
 =======
     <a href="/"><b>COZA</b>STORE</a>
@@ -16,6 +17,9 @@
 =======
     <a href="/"><b>COZA</b>STORE</a>
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
+=======
+    <a href="/"><b>COZA</b>STORE</a>
+>>>>>>> origin/search_product_admin
   </div>
   <!-- /.login-logo -->
   <div class="card">
@@ -60,6 +64,7 @@
         <p>- OR -</p>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <a href="#" class="btn btn-block btn-primary">
           <i class="fab fa-facebook mr-2"></i> Sign in using Facebook
         </a>
@@ -67,20 +72,26 @@
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
+=======
+>>>>>>> origin/search_product_admin
         <a href="{{ route('facebook.login') }}" class="btn btn-block btn-primary">
           <i class="fab fa-facebook mr-2"></i> Sign in using Facebook
         </a>
         <a href="{{ url('auth/google') }}" class="btn btn-block btn-danger">
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
+=======
+>>>>>>> origin/search_product_admin
           <i class="fab fa-google-plus mr-2"></i> Sign in using Google+
         </a>
       </div>
       <!-- /.social-auth-links -->
 
       <p class="mb-1">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <a href="forgot-password.html">I forgot my password</a>
@@ -90,6 +101,9 @@
 =======
         <a href="forgot-password.html">I forgot my password</a>
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
+=======
+        <a href="/forgot-password">I forgot my password</a>
+>>>>>>> origin/search_product_admin
       </p>
       <p class="mb-0">
         <a href="/admin/users/register" class="text-center">Register a new membership</a>

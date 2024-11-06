@@ -26,6 +26,7 @@ class RegisterController extends Controller
             'password' => 'required|min:6|confirmed',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'role' => 'required|in:0,1', // Thêm xác nhận vai trò
 =======
           
@@ -33,6 +34,9 @@ class RegisterController extends Controller
 =======
           
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
+=======
+          
+>>>>>>> origin/search_product_admin
 
         ]);
 
@@ -42,16 +46,20 @@ class RegisterController extends Controller
             'password' => bcrypt($request->input('password')),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'role' => $request->input('role'), // Lưu vai trò
 =======
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
+=======
+>>>>>>> origin/search_product_admin
             'terms' => 'accepted' // Người dùng phải chọn checkbox
         ]);
 
         Auth::login($user);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
           // Kiểm tra vai trò và điều hướng đến trang tương ứng
@@ -70,5 +78,10 @@ class RegisterController extends Controller
         return redirect()->route('home')->with('success', 'Đăng ký thành công!');
     
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
+=======
+ 
+        return redirect()->route('home')->with('success', 'Đăng ký thành công!');
+    
+>>>>>>> origin/search_product_admin
     }
 }

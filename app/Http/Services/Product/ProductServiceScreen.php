@@ -16,6 +16,7 @@ class ProductServiceScreen{
                               ->limit(self::LIMIT)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                               ->get();
 =======
                               ->get()
@@ -24,6 +25,10 @@ class ProductServiceScreen{
 =======
                               ->get();
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
+=======
+                              ->get()
+                              ;
+>>>>>>> origin/search_product_admin
     }
 
     public function show($id){

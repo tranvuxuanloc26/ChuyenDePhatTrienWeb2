@@ -19,6 +19,7 @@ class Product extends Model
         'active',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
     ];
@@ -29,6 +30,8 @@ class Product extends Model
 <<<<<<< HEAD
 }
 =======
+=======
+>>>>>>> origin/search_product_admin
         'is_featured'
     ];
     public function menu()
@@ -41,6 +44,7 @@ class Product extends Model
         return $this->hasMany(Wishlist::class);
     }
 }
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 
@@ -49,3 +53,5 @@ class Product extends Model
     }
 }
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
+=======
+>>>>>>> origin/search_product_admin

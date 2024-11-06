@@ -309,9 +309,12 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
+=======
+>>>>>>> origin/search_product_admin
 
 <script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -319,9 +322,12 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
 </script>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
+=======
+>>>>>>> origin/search_product_admin
 <!--===============================================================================================-->	
 <script src="/template/vendor/jquery/jquery-3.2.1.min.js"></script>
 <!--===============================================================================================-->
@@ -375,6 +381,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     $('.js-addwish-b2').each(function(){
         var nameProduct = $(this).parent().parent().find('.js-name-b2').html();
         $(this).on('click', function(){
@@ -387,6 +394,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
+=======
+>>>>>>> origin/search_product_admin
     // $('.js-addwish-b2').each(function(){
     //     var nameProduct = $(this).parent().parent().find('.js-name-b2').html();
     //     $(this).on('click', function(){
@@ -397,9 +406,12 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     //     });
     // });
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
+=======
+>>>>>>> origin/search_product_admin
 
     $('.js-addwish-detail').each(function(){
         var nameProduct = $(this).parent().parent().parent().find('.js-name-detail').html();

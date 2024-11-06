@@ -102,19 +102,29 @@ class ProductController extends Controller
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> origin/search_product_admin
 
     public function search(Request $request)
 {
     $query = $request->input('query');
     $products = Product::where('name', 'like', "%$query%")
+<<<<<<< HEAD
+=======
+                ->orWhere('description', 'like', "%$query%")
+>>>>>>> origin/search_product_admin
                 ->paginate(10);
 
     return view('admin.product.list',[
         'title' => 'Kết quả tìm kiếm'
     ], compact('products'))->with('query', $query);
 }
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
+=======
+>>>>>>> origin/search_product_admin
 }

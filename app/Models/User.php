@@ -24,12 +24,16 @@ class User extends Authenticatable
         'role',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
          'thumb',
 >>>>>>> origin/tim_kiem_user_admin
 =======
          'thumb',
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
+=======
+         'thumb',
+>>>>>>> origin/search_product_admin
     ];
 
     /**

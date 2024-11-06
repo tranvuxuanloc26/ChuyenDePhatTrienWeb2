@@ -8,6 +8,7 @@
         <div class="register-logo">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <a href="#"><b>COZA</b>STORE</a>
 =======
             <a href="/"><b>COZA</b>STORE</a>
@@ -15,6 +16,9 @@
 =======
             <a href="/"><b>COZA</b>STORE</a>
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
+=======
+            <a href="/"><b>COZA</b>STORE</a>
+>>>>>>> origin/search_product_admin
         </div>
       
         <div class="card">
@@ -58,6 +62,7 @@
                     </div>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <div class="input-group mb-3">
                         <select name="role" class="form-control" required>
                             <option value="" disabled selected>Chọn vai trò</option>
@@ -71,6 +76,9 @@
 =======
                  
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
+=======
+                 
+>>>>>>> origin/search_product_admin
                     <div class="row">
                         <div class="col-8">
                             <div class="icheck-primary">
@@ -90,6 +98,7 @@
                     <p>- OR -</p>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <a href="#" class="btn btn-block btn-primary">
                         <i class="fab fa-facebook mr-2"></i>
                         Sign up using Facebook
@@ -98,15 +107,20 @@
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
+=======
+>>>>>>> origin/search_product_admin
                     <a href="{{ route('facebook.login') }}" class="btn btn-block btn-primary">
                         <i class="fab fa-facebook mr-2"></i>
                         Sign up using Facebook
                     </a>
                     <a href="{{ url('auth/google') }}" class="btn btn-block btn-danger">
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
+=======
+>>>>>>> origin/search_product_admin
                         <i class="fab fa-google-plus mr-2"></i>
                         Sign up using Google+
                     </a>

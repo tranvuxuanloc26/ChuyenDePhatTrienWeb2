@@ -146,6 +146,7 @@
                                 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <div class="flex-w">
                                     <div class="flex-c-m stext-101 cl2 size-115 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer">
                                         Update Totals
@@ -157,6 +158,9 @@
 =======
                             
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
+=======
+                            
+>>>>>>> origin/search_product_admin
                                     
                             </div>
                         </div>
