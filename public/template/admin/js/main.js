@@ -71,6 +71,7 @@ $('#upload').change(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   
 
@@ -96,3 +97,8 @@ $('#upload').change(function () {
 
 
 >>>>>>> origin/san_pham_noi_bat
+=======
+  
+
+
+>>>>>>> origin/san_pham_mơi_nhat

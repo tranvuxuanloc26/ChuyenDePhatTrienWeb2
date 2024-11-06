@@ -149,6 +149,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <div class="flex-w">
                                     <div class="flex-c-m stext-101 cl2 size-115 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer">
                                         Update Totals
@@ -169,6 +170,9 @@
 =======
                             
 >>>>>>> origin/san_pham_noi_bat
+=======
+                            
+>>>>>>> origin/san_pham_mơi_nhat
                                     
                             </div>
                         </div>

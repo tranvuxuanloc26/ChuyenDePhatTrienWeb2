@@ -105,6 +105,7 @@ class ProductController extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/search_product_admin
@@ -133,4 +134,6 @@ class ProductController extends Controller
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
 }

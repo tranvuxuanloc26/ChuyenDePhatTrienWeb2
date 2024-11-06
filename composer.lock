@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "content-hash": "89ef30d8b0d976566bda7189c381dafc",
 =======
     "content-hash": "fab5f53365c3419fb61ad550dd332793",
@@ -25,6 +26,9 @@
 =======
     "content-hash": "fab5f53365c3419fb61ad550dd332793",
 >>>>>>> origin/san_pham_noi_bat
+=======
+    "content-hash": "fab5f53365c3419fb61ad550dd332793",
+>>>>>>> origin/san_pham_mơi_nhat
     "packages": [
         {
             "name": "brick/math",
@@ -405,6 +409,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "version": "v3.3.3",
             "source": {
                 "type": "git",
@@ -424,6 +429,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "version": "v3.4.0",
             "source": {
                 "type": "git",
@@ -438,6 +445,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -447,6 +455,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                 "shasum": ""
             },
             "require": {
@@ -459,6 +469,7 @@
             "require-dev": {
                 "phpstan/extension-installer": "^1.0",
                 "phpstan/phpstan": "^1.0",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -477,6 +488,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                 "phpunit/phpunit": "^7.0|^8.0|^9.0"
             },
             "type": "library",
@@ -485,6 +498,7 @@
                     "dev-master": "3.x-dev"
                 }
             },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -498,6 +512,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "autoload": {
                 "psr-4": {
                     "Cron\\": "src/Cron/"
@@ -526,6 +542,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/dragonmantank/cron-expression/tree/v3.3.3"
 =======
                 "source": "https://github.com/dragonmantank/cron-expression/tree/v3.4.0"
@@ -542,6 +559,9 @@
 =======
                 "source": "https://github.com/dragonmantank/cron-expression/tree/v3.4.0"
 >>>>>>> origin/san_pham_noi_bat
+=======
+                "source": "https://github.com/dragonmantank/cron-expression/tree/v3.4.0"
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "funding": [
                 {
@@ -549,6 +569,7 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -570,6 +591,9 @@
 =======
             "time": "2024-10-09T13:47:03+00:00"
 >>>>>>> origin/san_pham_noi_bat
+=======
+            "time": "2024-10-09T13:47:03+00:00"
+>>>>>>> origin/san_pham_mơi_nhat
         },
         {
             "name": "egulias/email-validator",
@@ -644,6 +668,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -653,6 +678,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "name": "firebase/php-jwt",
             "version": "v6.10.1",
             "source": {
@@ -720,6 +747,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -729,6 +757,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "name": "fruitcake/php-cors",
             "version": "v1.3.0",
             "source": {
@@ -994,6 +1024,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "version": "2.0.3",
             "source": {
                 "type": "git",
@@ -1013,6 +1044,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "version": "2.0.4",
             "source": {
                 "type": "git",
@@ -1027,6 +1060,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -1036,6 +1070,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                 "shasum": ""
             },
             "require": {
@@ -1094,6 +1130,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/guzzle/promises/tree/2.0.3"
 =======
                 "source": "https://github.com/guzzle/promises/tree/2.0.4"
@@ -1110,6 +1147,9 @@
 =======
                 "source": "https://github.com/guzzle/promises/tree/2.0.4"
 >>>>>>> origin/san_pham_noi_bat
+=======
+                "source": "https://github.com/guzzle/promises/tree/2.0.4"
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "funding": [
                 {
@@ -1125,6 +1165,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1146,6 +1187,9 @@
 =======
             "time": "2024-10-17T10:06:22+00:00"
 >>>>>>> origin/san_pham_noi_bat
+=======
+            "time": "2024-10-17T10:06:22+00:00"
+>>>>>>> origin/san_pham_mơi_nhat
         },
         {
             "name": "guzzlehttp/psr7",
@@ -1356,6 +1400,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "version": "v10.48.20",
             "source": {
                 "type": "git",
@@ -1375,6 +1420,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "version": "v10.48.22",
             "source": {
                 "type": "git",
@@ -1389,6 +1436,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -1398,6 +1446,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                 "shasum": ""
             },
             "require": {
@@ -1596,6 +1646,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2024-08-09T07:55:45+00:00"
 =======
             "time": "2024-09-12T15:00:09+00:00"
@@ -1612,6 +1663,9 @@
 =======
             "time": "2024-09-12T15:00:09+00:00"
 >>>>>>> origin/san_pham_noi_bat
+=======
+            "time": "2024-09-12T15:00:09+00:00"
+>>>>>>> origin/san_pham_mơi_nhat
         },
         {
             "name": "laravel/prompts",
@@ -1744,6 +1798,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "version": "v1.3.4",
             "source": {
                 "type": "git",
@@ -1763,6 +1818,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "version": "v1.3.5",
             "source": {
                 "type": "git",
@@ -1777,6 +1834,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -1786,6 +1844,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                 "shasum": ""
             },
             "require": {
@@ -1838,6 +1898,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2024-08-02T07:48:17+00:00"
         },
         {
@@ -1861,6 +1922,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "time": "2024-09-23T13:33:08+00:00"
         },
         {
@@ -1951,6 +2014,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -1960,6 +2024,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                 "shasum": ""
             },
             "require": {
@@ -2015,6 +2081,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/laravel/tinker/tree/v2.9.0"
             },
             "time": "2024-01-04T16:10:04+00:00"
@@ -2043,6 +2110,11 @@
             },
             "time": "2024-09-23T13:32:56+00:00"
 >>>>>>> origin/san_pham_noi_bat
+=======
+                "source": "https://github.com/laravel/tinker/tree/v2.10.0"
+            },
+            "time": "2024-09-23T13:32:56+00:00"
+>>>>>>> origin/san_pham_mơi_nhat
         },
         {
             "name": "league/commonmark",
@@ -2239,6 +2311,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "version": "3.28.0",
             "source": {
                 "type": "git",
@@ -2258,6 +2331,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "version": "3.29.1",
             "source": {
                 "type": "git",
@@ -2272,6 +2347,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -2281,6 +2357,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                 "shasum": ""
             },
             "require": {
@@ -2353,6 +2431,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/thephpleague/flysystem/tree/3.28.0"
             },
             "time": "2024-05-22T10:09:12+00:00"
@@ -2378,6 +2457,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                 "source": "https://github.com/thephpleague/flysystem/tree/3.29.1"
             },
             "time": "2024-10-08T08:58:34+00:00"
@@ -2398,6 +2479,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -2407,6 +2489,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                 "shasum": ""
             },
             "require": {
@@ -2445,6 +2529,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/thephpleague/flysystem-local/tree/3.28.0"
             },
             "time": "2024-05-06T20:05:52+00:00"
@@ -2470,6 +2555,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                 "source": "https://github.com/thephpleague/flysystem-local/tree/3.29.0"
             },
             "time": "2024-08-09T21:24:39+00:00"
@@ -2490,6 +2577,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -2499,6 +2587,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                 "shasum": ""
             },
             "require": {
@@ -2534,6 +2624,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/thephpleague/mime-type-detection/tree/1.15.0"
 =======
                 "source": "https://github.com/thephpleague/mime-type-detection/tree/1.16.0"
@@ -2550,6 +2641,9 @@
 =======
                 "source": "https://github.com/thephpleague/mime-type-detection/tree/1.16.0"
 >>>>>>> origin/san_pham_noi_bat
+=======
+                "source": "https://github.com/thephpleague/mime-type-detection/tree/1.16.0"
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "funding": [
                 {
@@ -2566,6 +2660,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2024-01-28T23:22:08+00:00"
 =======
 =======
@@ -2576,6 +2671,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "time": "2024-09-21T08:32:55+00:00"
         },
         {
@@ -2657,6 +2754,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -2666,6 +2764,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
         },
         {
             "name": "monolog/monolog",
@@ -2882,6 +2982,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "version": "v1.3.0",
             "source": {
                 "type": "git",
@@ -2901,6 +3002,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "version": "v1.3.2",
             "source": {
                 "type": "git",
@@ -2915,6 +3018,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -2924,10 +3028,13 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                 "shasum": ""
             },
             "require": {
                 "nette/utils": "^4.0",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2946,10 +3053,13 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                 "php": "8.1 - 8.4"
             },
             "require-dev": {
                 "nette/tester": "^2.5.2",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2963,6 +3073,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                 "phpstan/phpstan-nette": "^1.0",
                 "tracy/tracy": "^2.8"
             },
@@ -3006,6 +3118,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/nette/schema/tree/v1.3.0"
             },
             "time": "2023-12-11T11:54:22+00:00"
@@ -3034,6 +3147,11 @@
             },
             "time": "2024-10-06T23:10:23+00:00"
 >>>>>>> origin/san_pham_noi_bat
+=======
+                "source": "https://github.com/nette/schema/tree/v1.3.2"
+            },
+            "time": "2024-10-06T23:10:23+00:00"
+>>>>>>> origin/san_pham_mơi_nhat
         },
         {
             "name": "nette/utils",
@@ -3128,6 +3246,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "version": "v5.1.0",
             "source": {
                 "type": "git",
@@ -3147,6 +3266,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "version": "v5.3.1",
             "source": {
                 "type": "git",
@@ -3161,6 +3282,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -3170,6 +3292,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                 "shasum": ""
             },
             "require": {
@@ -3217,6 +3341,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/nikic/PHP-Parser/tree/v5.1.0"
             },
             "time": "2024-07-01T20:03:41+00:00"
@@ -3242,6 +3367,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                 "source": "https://github.com/nikic/PHP-Parser/tree/v5.3.1"
             },
             "time": "2024-10-08T18:51:32+00:00"
@@ -3262,6 +3389,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -3271,10 +3399,13 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3302,6 +3433,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                 "php": "^8.1",
                 "symfony/console": "^6.4.12"
             },
@@ -3318,6 +3451,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -3327,6 +3461,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                 "thecodingmachine/phpstan-strict-rules": "^1.0.0"
             },
             "type": "library",
@@ -3371,6 +3507,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/nunomaduro/termwind/tree/v1.15.1"
 =======
                 "source": "https://github.com/nunomaduro/termwind/tree/v1.16.0"
@@ -3387,6 +3524,9 @@
 =======
                 "source": "https://github.com/nunomaduro/termwind/tree/v1.16.0"
 >>>>>>> origin/san_pham_noi_bat
+=======
+                "source": "https://github.com/nunomaduro/termwind/tree/v1.16.0"
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "funding": [
                 {
@@ -3407,6 +3547,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2023-02-08T01:06:31+00:00"
 =======
 =======
@@ -3417,6 +3558,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "time": "2024-10-15T15:27:12+00:00"
         },
         {
@@ -3539,6 +3682,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -3548,6 +3692,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
         },
         {
             "name": "phpoption/phpoption",
@@ -3630,6 +3776,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -3639,6 +3786,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "name": "phpseclib/phpseclib",
             "version": "3.0.42",
             "source": {
@@ -3753,6 +3902,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -3762,6 +3912,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "name": "psr/clock",
             "version": "1.0.0",
             "source": {
@@ -4079,6 +4231,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "version": "3.0.1",
             "source": {
                 "type": "git",
@@ -4098,6 +4251,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "version": "3.0.2",
             "source": {
                 "type": "git",
@@ -4112,6 +4267,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -4121,6 +4277,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                 "shasum": ""
             },
             "require": {
@@ -4160,6 +4318,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/php-fig/log/tree/3.0.1"
             },
             "time": "2024-08-21T13:31:24+00:00"
@@ -4188,6 +4347,11 @@
             },
             "time": "2024-09-11T13:17:53+00:00"
 >>>>>>> origin/san_pham_noi_bat
+=======
+                "source": "https://github.com/php-fig/log/tree/3.0.2"
+            },
+            "time": "2024-09-11T13:17:53+00:00"
+>>>>>>> origin/san_pham_mơi_nhat
         },
         {
             "name": "psr/simple-cache",
@@ -4551,6 +4715,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "version": "v6.4.10",
             "source": {
                 "type": "git",
@@ -4570,6 +4735,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "version": "v6.4.13",
             "source": {
                 "type": "git",
@@ -4584,6 +4751,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -4593,6 +4761,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                 "shasum": ""
             },
             "require": {
@@ -4662,6 +4832,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/console/tree/v6.4.10"
 =======
                 "source": "https://github.com/symfony/console/tree/v6.4.13"
@@ -4678,6 +4849,9 @@
 =======
                 "source": "https://github.com/symfony/console/tree/v6.4.13"
 >>>>>>> origin/san_pham_noi_bat
+=======
+                "source": "https://github.com/symfony/console/tree/v6.4.13"
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "funding": [
                 {
@@ -4693,6 +4867,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4725,6 +4900,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "time": "2024-10-09T08:40:40+00:00"
         },
         {
@@ -4747,6 +4924,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -4756,6 +4934,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "type": "library",
             "autoload": {
@@ -4792,6 +4972,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/css-selector/tree/v6.4.8"
 =======
                 "source": "https://github.com/symfony/css-selector/tree/v7.1.6"
@@ -4808,6 +4989,9 @@
 =======
                 "source": "https://github.com/symfony/css-selector/tree/v7.1.6"
 >>>>>>> origin/san_pham_noi_bat
+=======
+                "source": "https://github.com/symfony/css-selector/tree/v7.1.6"
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "funding": [
                 {
@@ -4823,6 +5007,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4844,6 +5029,9 @@
 =======
             "time": "2024-09-25T14:20:29+00:00"
 >>>>>>> origin/san_pham_noi_bat
+=======
+            "time": "2024-09-25T14:20:29+00:00"
+>>>>>>> origin/san_pham_mơi_nhat
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -4919,6 +5107,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "version": "v6.4.10",
             "source": {
                 "type": "git",
@@ -4938,6 +5127,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "version": "v6.4.13",
             "source": {
                 "type": "git",
@@ -4952,6 +5143,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -4961,6 +5153,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                 "shasum": ""
             },
             "require": {
@@ -5011,6 +5205,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/error-handler/tree/v6.4.10"
 =======
                 "source": "https://github.com/symfony/error-handler/tree/v6.4.13"
@@ -5027,6 +5222,9 @@
 =======
                 "source": "https://github.com/symfony/error-handler/tree/v6.4.13"
 >>>>>>> origin/san_pham_noi_bat
+=======
+                "source": "https://github.com/symfony/error-handler/tree/v6.4.13"
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "funding": [
                 {
@@ -5042,6 +5240,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5078,6 +5277,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "time": "2024-09-25T14:18:03+00:00"
         },
         {
@@ -5104,6 +5305,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -5113,6 +5315,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                 "symfony/service-contracts": "<2.5"
             },
             "provide": {
@@ -5121,6 +5325,7 @@
             },
             "require-dev": {
                 "psr/log": "^1|^2|^3",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5142,6 +5347,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                 "symfony/config": "^6.4|^7.0",
                 "symfony/dependency-injection": "^6.4|^7.0",
                 "symfony/error-handler": "^6.4|^7.0",
@@ -5149,6 +5356,7 @@
                 "symfony/http-foundation": "^6.4|^7.0",
                 "symfony/service-contracts": "^2.5|^3",
                 "symfony/stopwatch": "^6.4|^7.0"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5162,6 +5370,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "type": "library",
             "autoload": {
@@ -5194,6 +5404,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/event-dispatcher/tree/v6.4.8"
 =======
                 "source": "https://github.com/symfony/event-dispatcher/tree/v7.1.6"
@@ -5210,6 +5421,9 @@
 =======
                 "source": "https://github.com/symfony/event-dispatcher/tree/v7.1.6"
 >>>>>>> origin/san_pham_noi_bat
+=======
+                "source": "https://github.com/symfony/event-dispatcher/tree/v7.1.6"
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "funding": [
                 {
@@ -5225,6 +5439,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5246,6 +5461,9 @@
 =======
             "time": "2024-09-25T14:20:29+00:00"
 >>>>>>> origin/san_pham_noi_bat
+=======
+            "time": "2024-09-25T14:20:29+00:00"
+>>>>>>> origin/san_pham_mơi_nhat
         },
         {
             "name": "symfony/event-dispatcher-contracts",
@@ -5330,6 +5548,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "version": "v6.4.10",
             "source": {
                 "type": "git",
@@ -5349,6 +5568,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "version": "v6.4.13",
             "source": {
                 "type": "git",
@@ -5363,6 +5584,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -5372,6 +5594,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                 "shasum": ""
             },
             "require": {
@@ -5411,6 +5635,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/finder/tree/v6.4.10"
 =======
                 "source": "https://github.com/symfony/finder/tree/v6.4.13"
@@ -5427,6 +5652,9 @@
 =======
                 "source": "https://github.com/symfony/finder/tree/v6.4.13"
 >>>>>>> origin/san_pham_noi_bat
+=======
+                "source": "https://github.com/symfony/finder/tree/v6.4.13"
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "funding": [
                 {
@@ -5442,6 +5670,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5470,6 +5699,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "time": "2024-10-01T08:30:56+00:00"
         },
         {
@@ -5488,6 +5719,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -5497,6 +5729,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                 "shasum": ""
             },
             "require": {
@@ -5549,6 +5783,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/http-foundation/tree/v6.4.10"
 =======
                 "source": "https://github.com/symfony/http-foundation/tree/v6.4.13"
@@ -5565,6 +5800,9 @@
 =======
                 "source": "https://github.com/symfony/http-foundation/tree/v6.4.13"
 >>>>>>> origin/san_pham_noi_bat
+=======
+                "source": "https://github.com/symfony/http-foundation/tree/v6.4.13"
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "funding": [
                 {
@@ -5580,6 +5818,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5608,6 +5847,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "time": "2024-10-11T19:20:58+00:00"
         },
         {
@@ -5626,6 +5867,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -5635,6 +5877,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                 "shasum": ""
             },
             "require": {
@@ -5724,6 +5968,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/http-kernel/tree/v6.4.10"
 =======
                 "source": "https://github.com/symfony/http-kernel/tree/v6.4.13"
@@ -5740,6 +5985,9 @@
 =======
                 "source": "https://github.com/symfony/http-kernel/tree/v6.4.13"
 >>>>>>> origin/san_pham_noi_bat
+=======
+                "source": "https://github.com/symfony/http-kernel/tree/v6.4.13"
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "funding": [
                 {
@@ -5755,6 +6003,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5783,6 +6032,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "time": "2024-10-27T13:00:29+00:00"
         },
         {
@@ -5801,6 +6052,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -5810,6 +6062,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                 "shasum": ""
             },
             "require": {
@@ -5865,6 +6119,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/mailer/tree/v6.4.9"
 =======
                 "source": "https://github.com/symfony/mailer/tree/v6.4.13"
@@ -5881,6 +6136,9 @@
 =======
                 "source": "https://github.com/symfony/mailer/tree/v6.4.13"
 >>>>>>> origin/san_pham_noi_bat
+=======
+                "source": "https://github.com/symfony/mailer/tree/v6.4.13"
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "funding": [
                 {
@@ -5896,6 +6154,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5924,6 +6183,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "time": "2024-09-25T14:18:03+00:00"
         },
         {
@@ -5942,6 +6203,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -5951,6 +6213,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                 "shasum": ""
             },
             "require": {
@@ -6011,6 +6275,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/mime/tree/v6.4.9"
 =======
                 "source": "https://github.com/symfony/mime/tree/v6.4.13"
@@ -6027,6 +6292,9 @@
 =======
                 "source": "https://github.com/symfony/mime/tree/v6.4.13"
 >>>>>>> origin/san_pham_noi_bat
+=======
+                "source": "https://github.com/symfony/mime/tree/v6.4.13"
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "funding": [
                 {
@@ -6042,6 +6310,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6074,6 +6343,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "time": "2024-10-25T15:07:50+00:00"
         },
         {
@@ -6096,6 +6367,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -6105,6 +6377,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "provide": {
                 "ext-ctype": "*"
@@ -6155,6 +6429,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/polyfill-ctype/tree/v1.30.0"
 =======
                 "source": "https://github.com/symfony/polyfill-ctype/tree/v1.31.0"
@@ -6171,6 +6446,9 @@
 =======
                 "source": "https://github.com/symfony/polyfill-ctype/tree/v1.31.0"
 >>>>>>> origin/san_pham_noi_bat
+=======
+                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.31.0"
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "funding": [
                 {
@@ -6186,6 +6464,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6218,6 +6497,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "time": "2024-09-09T11:45:10+00:00"
         },
         {
@@ -6240,6 +6521,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -6249,6 +6531,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "suggest": {
                 "ext-intl": "For best performance"
@@ -6298,6 +6582,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.30.0"
 =======
                 "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.31.0"
@@ -6314,6 +6599,9 @@
 =======
                 "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.31.0"
 >>>>>>> origin/san_pham_noi_bat
+=======
+                "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.31.0"
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "funding": [
                 {
@@ -6329,6 +6617,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6363,6 +6652,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "time": "2024-09-09T11:45:10+00:00"
         },
         {
@@ -6386,6 +6677,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -6395,6 +6687,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "suggest": {
                 "ext-intl": "For best performance"
@@ -6448,6 +6742,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.30.0"
 =======
                 "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.31.0"
@@ -6464,6 +6759,9 @@
 =======
                 "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.31.0"
 >>>>>>> origin/san_pham_noi_bat
+=======
+                "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.31.0"
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "funding": [
                 {
@@ -6479,6 +6777,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6511,6 +6810,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "time": "2024-09-09T11:45:10+00:00"
         },
         {
@@ -6533,6 +6834,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -6542,6 +6844,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "suggest": {
                 "ext-intl": "For best performance"
@@ -6594,6 +6898,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.30.0"
 =======
                 "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.31.0"
@@ -6610,6 +6915,9 @@
 =======
                 "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.31.0"
 >>>>>>> origin/san_pham_noi_bat
+=======
+                "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.31.0"
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "funding": [
                 {
@@ -6625,6 +6933,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6657,6 +6966,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "time": "2024-09-09T11:45:10+00:00"
         },
         {
@@ -6679,6 +6990,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -6688,6 +7000,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "provide": {
                 "ext-mbstring": "*"
@@ -6739,6 +7053,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.30.0"
 =======
                 "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.31.0"
@@ -6755,6 +7070,9 @@
 =======
                 "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.31.0"
 >>>>>>> origin/san_pham_noi_bat
+=======
+                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.31.0"
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "funding": [
                 {
@@ -6770,6 +7088,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6875,6 +7194,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "time": "2024-09-09T11:45:10+00:00"
         },
         {
@@ -6897,6 +7218,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -6906,6 +7228,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "type": "library",
             "extra": {
@@ -6957,6 +7281,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/polyfill-php80/tree/v1.30.0"
 =======
                 "source": "https://github.com/symfony/polyfill-php80/tree/v1.31.0"
@@ -6973,6 +7298,9 @@
 =======
                 "source": "https://github.com/symfony/polyfill-php80/tree/v1.31.0"
 >>>>>>> origin/san_pham_noi_bat
+=======
+                "source": "https://github.com/symfony/polyfill-php80/tree/v1.31.0"
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "funding": [
                 {
@@ -6988,6 +7316,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7020,6 +7349,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "time": "2024-09-09T11:45:10+00:00"
         },
         {
@@ -7042,6 +7373,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -7051,6 +7383,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "type": "library",
             "extra": {
@@ -7098,6 +7432,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/polyfill-php83/tree/v1.30.0"
 =======
                 "source": "https://github.com/symfony/polyfill-php83/tree/v1.31.0"
@@ -7114,6 +7449,9 @@
 =======
                 "source": "https://github.com/symfony/polyfill-php83/tree/v1.31.0"
 >>>>>>> origin/san_pham_noi_bat
+=======
+                "source": "https://github.com/symfony/polyfill-php83/tree/v1.31.0"
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "funding": [
                 {
@@ -7129,6 +7467,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7161,6 +7500,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "time": "2024-09-09T11:45:10+00:00"
         },
         {
@@ -7183,6 +7524,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -7192,6 +7534,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "provide": {
                 "ext-uuid": "*"
@@ -7242,6 +7586,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/polyfill-uuid/tree/v1.30.0"
 =======
                 "source": "https://github.com/symfony/polyfill-uuid/tree/v1.31.0"
@@ -7258,6 +7603,9 @@
 =======
                 "source": "https://github.com/symfony/polyfill-uuid/tree/v1.31.0"
 >>>>>>> origin/san_pham_noi_bat
+=======
+                "source": "https://github.com/symfony/polyfill-uuid/tree/v1.31.0"
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "funding": [
                 {
@@ -7273,6 +7621,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7301,6 +7650,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "time": "2024-09-09T11:45:10+00:00"
         },
         {
@@ -7319,6 +7670,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -7328,6 +7680,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                 "shasum": ""
             },
             "require": {
@@ -7364,6 +7718,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/process/tree/v6.4.8"
 =======
                 "source": "https://github.com/symfony/process/tree/v6.4.13"
@@ -7380,6 +7735,9 @@
 =======
                 "source": "https://github.com/symfony/process/tree/v6.4.13"
 >>>>>>> origin/san_pham_noi_bat
+=======
+                "source": "https://github.com/symfony/process/tree/v6.4.13"
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "funding": [
                 {
@@ -7395,6 +7753,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7423,6 +7782,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "time": "2024-09-25T14:18:03+00:00"
         },
         {
@@ -7441,6 +7802,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -7450,6 +7812,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                 "shasum": ""
             },
             "require": {
@@ -7508,6 +7872,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/routing/tree/v6.4.10"
 =======
                 "source": "https://github.com/symfony/routing/tree/v6.4.13"
@@ -7524,6 +7889,9 @@
 =======
                 "source": "https://github.com/symfony/routing/tree/v6.4.13"
 >>>>>>> origin/san_pham_noi_bat
+=======
+                "source": "https://github.com/symfony/routing/tree/v6.4.13"
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "funding": [
                 {
@@ -7539,6 +7907,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7560,6 +7929,9 @@
 =======
             "time": "2024-10-01T08:30:56+00:00"
 >>>>>>> origin/san_pham_noi_bat
+=======
+            "time": "2024-10-01T08:30:56+00:00"
+>>>>>>> origin/san_pham_mơi_nhat
         },
         {
             "name": "symfony/service-contracts",
@@ -7651,6 +8023,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "version": "v6.4.10",
             "source": {
                 "type": "git",
@@ -7674,6 +8047,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "version": "v7.1.6",
             "source": {
                 "type": "git",
@@ -7692,6 +8067,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -7701,6 +8077,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                 "symfony/polyfill-ctype": "~1.8",
                 "symfony/polyfill-intl-grapheme": "~1.0",
                 "symfony/polyfill-intl-normalizer": "~1.0",
@@ -7710,6 +8088,7 @@
                 "symfony/translation-contracts": "<2.5"
             },
             "require-dev": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7729,12 +8108,15 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                 "symfony/emoji": "^7.1",
                 "symfony/error-handler": "^6.4|^7.0",
                 "symfony/http-client": "^6.4|^7.0",
                 "symfony/intl": "^6.4|^7.0",
                 "symfony/translation-contracts": "^2.5|^3.0",
                 "symfony/var-exporter": "^6.4|^7.0"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7748,6 +8130,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "type": "library",
             "autoload": {
@@ -7791,6 +8175,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/string/tree/v6.4.10"
 =======
                 "source": "https://github.com/symfony/string/tree/v7.1.6"
@@ -7807,6 +8192,9 @@
 =======
                 "source": "https://github.com/symfony/string/tree/v7.1.6"
 >>>>>>> origin/san_pham_noi_bat
+=======
+                "source": "https://github.com/symfony/string/tree/v7.1.6"
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "funding": [
                 {
@@ -7822,6 +8210,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7850,6 +8239,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "time": "2024-09-25T14:20:29+00:00"
         },
         {
@@ -7868,6 +8259,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -7877,6 +8269,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                 "shasum": ""
             },
             "require": {
@@ -7947,6 +8341,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/translation/tree/v6.4.10"
 =======
                 "source": "https://github.com/symfony/translation/tree/v6.4.13"
@@ -7963,6 +8358,9 @@
 =======
                 "source": "https://github.com/symfony/translation/tree/v6.4.13"
 >>>>>>> origin/san_pham_noi_bat
+=======
+                "source": "https://github.com/symfony/translation/tree/v6.4.13"
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "funding": [
                 {
@@ -7978,6 +8376,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7999,6 +8398,9 @@
 =======
             "time": "2024-09-27T18:14:25+00:00"
 >>>>>>> origin/san_pham_noi_bat
+=======
+            "time": "2024-09-27T18:14:25+00:00"
+>>>>>>> origin/san_pham_mơi_nhat
         },
         {
             "name": "symfony/translation-contracts",
@@ -8085,6 +8487,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "version": "v6.4.8",
             "source": {
                 "type": "git",
@@ -8104,6 +8507,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "version": "v6.4.13",
             "source": {
                 "type": "git",
@@ -8118,6 +8523,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -8127,6 +8533,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                 "shasum": ""
             },
             "require": {
@@ -8176,6 +8584,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/uid/tree/v6.4.8"
 =======
                 "source": "https://github.com/symfony/uid/tree/v6.4.13"
@@ -8192,6 +8601,9 @@
 =======
                 "source": "https://github.com/symfony/uid/tree/v6.4.13"
 >>>>>>> origin/san_pham_noi_bat
+=======
+                "source": "https://github.com/symfony/uid/tree/v6.4.13"
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "funding": [
                 {
@@ -8207,6 +8619,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8235,6 +8648,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "time": "2024-09-25T14:18:03+00:00"
         },
         {
@@ -8253,6 +8668,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -8262,6 +8678,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                 "shasum": ""
             },
             "require": {
@@ -8322,6 +8740,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/var-dumper/tree/v6.4.10"
 =======
                 "source": "https://github.com/symfony/var-dumper/tree/v6.4.13"
@@ -8338,6 +8757,9 @@
 =======
                 "source": "https://github.com/symfony/var-dumper/tree/v6.4.13"
 >>>>>>> origin/san_pham_noi_bat
+=======
+                "source": "https://github.com/symfony/var-dumper/tree/v6.4.13"
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "funding": [
                 {
@@ -8353,6 +8775,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8374,6 +8797,9 @@
 =======
             "time": "2024-09-25T14:18:03+00:00"
 >>>>>>> origin/san_pham_noi_bat
+=======
+            "time": "2024-09-25T14:18:03+00:00"
+>>>>>>> origin/san_pham_mơi_nhat
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
@@ -8653,6 +9079,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "version": "v3.14.2",
             "source": {
                 "type": "git",
@@ -8672,6 +9099,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "version": "v3.14.6",
             "source": {
                 "type": "git",
@@ -8686,6 +9115,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -8695,6 +9125,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                 "shasum": ""
             },
             "require": {
@@ -8758,6 +9190,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/barryvdh/laravel-debugbar/tree/v3.14.2"
 =======
                 "source": "https://github.com/barryvdh/laravel-debugbar/tree/v3.14.6"
@@ -8774,6 +9207,9 @@
 =======
                 "source": "https://github.com/barryvdh/laravel-debugbar/tree/v3.14.6"
 >>>>>>> origin/san_pham_noi_bat
+=======
+                "source": "https://github.com/barryvdh/laravel-debugbar/tree/v3.14.6"
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "funding": [
                 {
@@ -8785,6 +9221,7 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8806,6 +9243,9 @@
 =======
             "time": "2024-10-18T13:15:12+00:00"
 >>>>>>> origin/san_pham_noi_bat
+=======
+            "time": "2024-10-18T13:15:12+00:00"
+>>>>>>> origin/san_pham_mơi_nhat
         },
         {
             "name": "fakerphp/faker",
@@ -8877,6 +9317,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "version": "2.15.4",
             "source": {
                 "type": "git",
@@ -8906,6 +9347,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "version": "2.16.0",
             "source": {
                 "type": "git",
@@ -8930,6 +9373,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -8939,6 +9383,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "suggest": {
                 "symfony/var-dumper": "Pretty print complex values better with var-dumper available",
@@ -8983,6 +9429,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/filp/whoops/tree/2.15.4"
 =======
                 "source": "https://github.com/filp/whoops/tree/2.16.0"
@@ -8999,6 +9446,9 @@
 =======
                 "source": "https://github.com/filp/whoops/tree/2.16.0"
 >>>>>>> origin/san_pham_noi_bat
+=======
+                "source": "https://github.com/filp/whoops/tree/2.16.0"
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "funding": [
                 {
@@ -9006,6 +9456,7 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9027,6 +9478,9 @@
 =======
             "time": "2024-09-25T12:00:00+00:00"
 >>>>>>> origin/san_pham_noi_bat
+=======
+            "time": "2024-09-25T12:00:00+00:00"
+>>>>>>> origin/san_pham_mơi_nhat
         },
         {
             "name": "hamcrest/hamcrest-php",
@@ -9086,6 +9540,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "version": "v1.17.2",
             "source": {
                 "type": "git",
@@ -9105,6 +9560,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "version": "v1.18.1",
             "source": {
                 "type": "git",
@@ -9119,6 +9576,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -9128,6 +9586,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                 "shasum": ""
             },
             "require": {
@@ -9138,6 +9598,7 @@
                 "php": "^8.1.0"
             },
             "require-dev": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9165,10 +9626,15 @@
                 "friendsofphp/php-cs-fixer": "^3.64.0",
                 "illuminate/view": "^10.48.20",
 >>>>>>> origin/san_pham_noi_bat
+=======
+                "friendsofphp/php-cs-fixer": "^3.64.0",
+                "illuminate/view": "^10.48.20",
+>>>>>>> origin/san_pham_mơi_nhat
                 "larastan/larastan": "^2.9.8",
                 "laravel-zero/framework": "^10.4.0",
                 "mockery/mockery": "^1.6.12",
                 "nunomaduro/termwind": "^1.15.1",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9190,6 +9656,9 @@
 =======
                 "pestphp/pest": "^2.35.1"
 >>>>>>> origin/san_pham_noi_bat
+=======
+                "pestphp/pest": "^2.35.1"
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "bin": [
                 "builds/pint"
@@ -9230,6 +9699,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2024-08-06T15:11:54+00:00"
         },
         {
@@ -9253,6 +9723,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "time": "2024-09-24T17:22:50+00:00"
         },
         {
@@ -9271,6 +9743,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -9280,6 +9753,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                 "shasum": ""
             },
             "require": {
@@ -9334,6 +9809,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2024-08-02T07:45:47+00:00"
         },
         {
@@ -9357,6 +9833,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "time": "2024-10-29T20:18:14+00:00"
         },
         {
@@ -9375,6 +9853,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -9384,6 +9863,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                 "shasum": ""
             },
             "require": {
@@ -9441,6 +9922,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/maximebf/php-debugbar/tree/v1.23.2"
             },
             "time": "2024-09-16T11:23:09+00:00"
@@ -9469,6 +9951,11 @@
             },
             "time": "2024-10-29T12:24:25+00:00"
 >>>>>>> origin/san_pham_noi_bat
+=======
+                "source": "https://github.com/maximebf/php-debugbar/tree/v1.23.3"
+            },
+            "time": "2024-10-29T12:24:25+00:00"
+>>>>>>> origin/san_pham_mơi_nhat
         },
         {
             "name": "mockery/mockery",
@@ -9620,6 +10107,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "version": "v7.10.0",
             "source": {
                 "type": "git",
@@ -9646,6 +10134,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "version": "v7.11.0",
             "source": {
                 "type": "git",
@@ -9667,6 +10157,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -9676,11 +10167,14 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "conflict": {
                 "laravel/framework": ">=11.0.0"
             },
             "require-dev": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9707,6 +10201,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                 "brianium/paratest": "^7.3.1",
                 "laravel/framework": "^10.48.22",
                 "laravel/pint": "^1.18.1",
@@ -9723,6 +10219,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -9732,6 +10229,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "type": "library",
             "extra": {
@@ -9795,6 +10294,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2023-10-11T15:45:01+00:00"
 =======
             "time": "2024-10-15T15:12:40+00:00"
@@ -9811,6 +10311,9 @@
 =======
             "time": "2024-10-15T15:12:40+00:00"
 >>>>>>> origin/san_pham_noi_bat
+=======
+            "time": "2024-10-15T15:12:40+00:00"
+>>>>>>> origin/san_pham_mơi_nhat
         },
         {
             "name": "phar-io/manifest",
@@ -10258,6 +10761,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "version": "10.5.30",
             "source": {
                 "type": "git",
@@ -10277,6 +10781,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "version": "10.5.38",
             "source": {
                 "type": "git",
@@ -10291,6 +10797,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -10300,6 +10807,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                 "shasum": ""
             },
             "require": {
@@ -10313,6 +10822,7 @@
                 "phar-io/manifest": "^2.0.4",
                 "phar-io/version": "^3.2.1",
                 "php": ">=8.1",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10334,12 +10844,16 @@
 =======
                 "phpunit/php-code-coverage": "^10.1.16",
 >>>>>>> origin/san_pham_noi_bat
+=======
+                "phpunit/php-code-coverage": "^10.1.16",
+>>>>>>> origin/san_pham_mơi_nhat
                 "phpunit/php-file-iterator": "^4.1.0",
                 "phpunit/php-invoker": "^4.0.0",
                 "phpunit/php-text-template": "^3.0.1",
                 "phpunit/php-timer": "^6.0.0",
                 "sebastian/cli-parser": "^2.0.1",
                 "sebastian/code-unit": "^2.0.0",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10361,6 +10875,9 @@
 =======
                 "sebastian/comparator": "^5.0.3",
 >>>>>>> origin/san_pham_noi_bat
+=======
+                "sebastian/comparator": "^5.0.3",
+>>>>>>> origin/san_pham_mơi_nhat
                 "sebastian/diff": "^5.1.1",
                 "sebastian/environment": "^6.1.0",
                 "sebastian/exporter": "^5.1.2",
@@ -10416,6 +10933,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/phpunit/tree/10.5.30"
 =======
                 "source": "https://github.com/sebastianbergmann/phpunit/tree/10.5.38"
@@ -10432,6 +10950,9 @@
 =======
                 "source": "https://github.com/sebastianbergmann/phpunit/tree/10.5.38"
 >>>>>>> origin/san_pham_noi_bat
+=======
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.5.38"
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "funding": [
                 {
@@ -10447,6 +10968,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10468,6 +10990,9 @@
 =======
             "time": "2024-10-28T13:06:21+00:00"
 >>>>>>> origin/san_pham_noi_bat
+=======
+            "time": "2024-10-28T13:06:21+00:00"
+>>>>>>> origin/san_pham_mơi_nhat
         },
         {
             "name": "sebastian/cli-parser",
@@ -10644,6 +11169,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "version": "5.0.2",
             "source": {
                 "type": "git",
@@ -10663,6 +11189,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "version": "5.0.3",
             "source": {
                 "type": "git",
@@ -10677,6 +11205,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -10686,6 +11215,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                 "shasum": ""
             },
             "require": {
@@ -10696,6 +11227,7 @@
                 "sebastian/exporter": "^5.0"
             },
             "require-dev": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10717,6 +11249,9 @@
 =======
                 "phpunit/phpunit": "^10.5"
 >>>>>>> origin/san_pham_noi_bat
+=======
+                "phpunit/phpunit": "^10.5"
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "type": "library",
             "extra": {
@@ -10766,6 +11301,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/comparator/tree/5.0.2"
 =======
                 "source": "https://github.com/sebastianbergmann/comparator/tree/5.0.3"
@@ -10782,6 +11318,9 @@
 =======
                 "source": "https://github.com/sebastianbergmann/comparator/tree/5.0.3"
 >>>>>>> origin/san_pham_noi_bat
+=======
+                "source": "https://github.com/sebastianbergmann/comparator/tree/5.0.3"
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "funding": [
                 {
@@ -10789,6 +11328,7 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10810,6 +11350,9 @@
 =======
             "time": "2024-10-18T14:56:07+00:00"
 >>>>>>> origin/san_pham_noi_bat
+=======
+            "time": "2024-10-18T14:56:07+00:00"
+>>>>>>> origin/san_pham_mơi_nhat
         },
         {
             "name": "sebastian/complexity",
@@ -11869,6 +12412,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "version": "v6.4.8",
             "source": {
                 "type": "git",
@@ -11900,6 +12444,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             "version": "v7.1.6",
             "source": {
                 "type": "git",
@@ -11925,6 +12471,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -11934,6 +12481,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "bin": [
                 "Resources/bin/yaml-lint"
@@ -11969,6 +12518,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/yaml/tree/v6.4.8"
 =======
                 "source": "https://github.com/symfony/yaml/tree/v7.1.6"
@@ -11985,6 +12535,9 @@
 =======
                 "source": "https://github.com/symfony/yaml/tree/v7.1.6"
 >>>>>>> origin/san_pham_noi_bat
+=======
+                "source": "https://github.com/symfony/yaml/tree/v7.1.6"
+>>>>>>> origin/san_pham_mơi_nhat
             },
             "funding": [
                 {
@@ -12000,6 +12553,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12021,6 +12575,9 @@
 =======
             "time": "2024-09-25T14:20:29+00:00"
 >>>>>>> origin/san_pham_noi_bat
+=======
+            "time": "2024-09-25T14:20:29+00:00"
+>>>>>>> origin/san_pham_mơi_nhat
         },
         {
             "name": "theseer/tokenizer",

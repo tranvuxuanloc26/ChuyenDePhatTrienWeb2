@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -31,10 +32,14 @@
 =======
 
 >>>>>>> origin/san_pham_noi_bat
+=======
+
+>>>>>>> origin/san_pham_mơi_nhat
    <table>
       <thead>
         <tr>
             <th style="width: 50px; padding-left: 15px;">ID</th>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -56,6 +61,9 @@
 =======
             <th style="width: 23%;">Tên Sản Phẩm </th>
 >>>>>>> origin/san_pham_noi_bat
+=======
+            <th style="width: 23%;">Tên Sản Phẩm </th>
+>>>>>>> origin/san_pham_mơi_nhat
             <th>Danh Mục</th>
             <th>Giá Gốc</th>
             <th>Giá Khuyễn Mãi</th>
@@ -66,6 +74,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             <th>Feature</th>
 >>>>>>> origin/tim_kiem_user_admin
@@ -80,6 +89,9 @@
 =======
             <th>Feature</th>
 >>>>>>> origin/san_pham_noi_bat
+=======
+            <th>Feature</th>
+>>>>>>> origin/san_pham_mơi_nhat
             <th style="width: 130px">&nbsp;</th>
         </tr>
       </thead>
@@ -100,6 +112,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/search_product_admin
@@ -107,6 +120,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                 @if ($product->is_featured == 0)
                     <span class="badge badge-danger btn-xs">NO</span>
                 @else
@@ -114,6 +129,7 @@
                 @endif
             </td>
             <td>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -126,6 +142,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                 <a class="btn btn-primary btn-sm" href="/admin/products/edit/{{ $product->id }}">
                     <i class="fas fa-edit"></i>
                 </a>
@@ -146,6 +164,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    {{  $products->links('pagination::bootstrap-4')  }}
 @endsection
 =======
@@ -166,4 +185,8 @@
    {{  $products->links('pagination::bootstrap-4')  }}
 @endsection
 >>>>>>> origin/san_pham_noi_bat
+=======
+   {{  $products->links('pagination::bootstrap-4')  }}
+@endsection
+>>>>>>> origin/san_pham_mơi_nhat
 

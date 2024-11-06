@@ -55,6 +55,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <a href="#" class="filter-link stext-106 trans-04">
 =======
                                 <a href="#" id="filter-popularity" class="filter-link stext-106 trans-04">
@@ -71,10 +72,14 @@
 =======
                                 <a href="#" id="filter-popularity" class="filter-link stext-106 trans-04">
 >>>>>>> origin/san_pham_noi_bat
+=======
+                                <a href="#" id="filter-popularity" class="filter-link stext-106 trans-04">
+>>>>>>> origin/san_pham_mơi_nhat
                                     Popularity
                                 </a>
                             </li>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -99,10 +104,13 @@
 >>>>>>> origin/search_product_admin
 =======
 >>>>>>> origin/search_product
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                          
 
                             <li class="p-b-6">
                                 <a href="{{ route('products.newest') }}" class="filter-link stext-106 trans-04 filter-link-active">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
@@ -114,6 +122,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
                                     Newness
                                 </a>
                             </li>
@@ -176,6 +186,7 @@
                         </ul>
                     </div>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -293,11 +304,15 @@
 =======
                   
 >>>>>>> origin/san_pham_noi_bat
+=======
+                  
+>>>>>>> origin/san_pham_mơi_nhat
                 </div>
             </div>
         </div>
 
       @include('product.list')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -316,10 +331,14 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+
+>>>>>>> origin/san_pham_mơi_nhat
       {{ $products->links('pagination::bootstrap-4')  }}
 
     </div>
 </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -333,6 +352,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
 @endsection
 
 
@@ -358,6 +379,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 </script>
 >>>>>>> origin/tim_kiem_user_admin
 =======
@@ -372,3 +394,6 @@
 =======
 </script>
 >>>>>>> origin/san_pham_noi_bat
+=======
+</script>
+>>>>>>> origin/san_pham_mơi_nhat

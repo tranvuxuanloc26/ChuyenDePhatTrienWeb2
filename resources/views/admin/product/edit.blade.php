@@ -83,6 +83,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/search_product_admin
@@ -90,6 +91,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
 
           <div class="form-group">
             <label for="">Nổi Bật</label>
@@ -109,6 +112,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -118,6 +122,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/san_pham_mơi_nhat
         
 
       </div>

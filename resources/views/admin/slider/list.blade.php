@@ -15,6 +15,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <th>Link</th>
             <th>Ảnh</th>
             <th>Trạng Thái</th>
@@ -38,6 +39,10 @@
             <th>Ảnh</th>
             <th>Role</th>
 >>>>>>> origin/san_pham_noi_bat
+=======
+            <th>Ảnh</th>
+            <th>Role</th>
+>>>>>>> origin/san_pham_mơi_nhat
             <th>Cập Nhật</th>
             <th style="width: 100px">&nbsp;</th>
         </tr>
@@ -73,6 +78,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    {!!  $sliders->links()  !!}
 =======
    {!!  $sliders->links('pagination::bootstrap-4')  !!}
@@ -89,5 +95,8 @@
 =======
    {!!  $sliders->links('pagination::bootstrap-4')  !!}
 >>>>>>> origin/san_pham_noi_bat
+=======
+   {!!  $sliders->links('pagination::bootstrap-4')  !!}
+>>>>>>> origin/san_pham_mơi_nhat
 @endsection
 

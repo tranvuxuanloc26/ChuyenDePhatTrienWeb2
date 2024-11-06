@@ -25,6 +25,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <li class="nav-item dropdown" style="right: 60px">
 =======
       <li class="nav-item dropdown" style="right: 90px;max-width:200px">
@@ -51,12 +52,18 @@
         <div class="d-flex align-items-center">
             <img src="{{ asset('template/images/icons/R.png') }}" alt="User Avatar" class="rounded-circle me-4" style="width: 40px; height: 40px;max-width:300px">
 >>>>>>> origin/san_pham_noi_bat
+=======
+      <li class="nav-item dropdown" style="right: 60px;max-width:200px">
+        <div class="d-flex align-items-center">
+            <img src="{{ asset('template/images/icons/R.png') }}" alt="User Avatar" class="rounded-circle me-4" style="width: 40px; height: 40px;max-width:300px">
+>>>>>>> origin/san_pham_mơi_nhat
             <span class="fw-bold dropdown-toggle" style="margin-left: 10px" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 {{ Auth::user()->name }}
             </span>
             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
                 <li><a class="dropdown-item" href="">Thông tin người dùng</a></li>
                 <li><a class="dropdown-item" href="">Đổi mật khẩu</a></li>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -77,6 +84,9 @@
 =======
                 <li><a class="dropdown-item" href="/">Về Trang Chủ</a></li>
 >>>>>>> origin/san_pham_noi_bat
+=======
+                <li><a class="dropdown-item" href="/">Về Trang Chủ</a></li>
+>>>>>>> origin/san_pham_mơi_nhat
                 <li>
                   <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                       @csrf
