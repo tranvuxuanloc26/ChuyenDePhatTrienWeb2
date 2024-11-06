@@ -319,6 +319,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -376,6 +377,56 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 >>>>>>> origin/doi_mat_khau
 =======
 >>>>>>> origin/dang_nhap_google
+=======
+
+<fb:login-button 
+  scope="public_profile,email"
+  onlogin="checkLoginState();">
+</fb:login-button>
+
+<script>
+    
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '{your-app-id}',
+      cookie     : true,
+      xfbml      : true,
+      version    : '{api-version}'
+    });
+      
+    FB.AppEvents.logPageView();   
+      
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+
+   
+FB.getLoginStatus(function(response) {
+    statusChangeCallback(response);
+});
+
+
+FB.getLoginStatus(function(response) {
+    statusChangeCallback(response);
+});
+
+
+function checkLoginState() {
+  FB.getLoginStatus(function(response) {
+    statusChangeCallback(response);
+  });
+}
+</script>
+</script>
+
+>>>>>>> origin/dang_nhap_facebook
 <!--===============================================================================================-->	
 <script src="/template/vendor/jquery/jquery-3.2.1.min.js"></script>
 <!--===============================================================================================-->
@@ -439,10 +490,13 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/quan_ly_user
 =======
 >>>>>>> origin/dang_nhap_google
+=======
+>>>>>>> origin/dang_nhap_facebook
     $('.js-addwish-b2').each(function(){
         var nameProduct = $(this).parent().parent().find('.js-name-b2').html();
         $(this).on('click', function(){
@@ -452,6 +506,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
             $(this).off('click');
         });
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -514,6 +569,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 >>>>>>> origin/doi_mat_khau
 =======
 >>>>>>> origin/dang_nhap_google
+=======
+>>>>>>> origin/dang_nhap_facebook
 
     $('.js-addwish-detail').each(function(){
         var nameProduct = $(this).parent().parent().parent().find('.js-name-detail').html();

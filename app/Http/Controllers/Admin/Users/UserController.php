@@ -10,6 +10,7 @@ use App\Http\Controllers\Controller;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Illuminate\Support\Facades\Auth;
 >>>>>>> origin/profile
@@ -21,6 +22,8 @@ use Illuminate\Support\Facades\Auth;
 >>>>>>> origin/doi_mat_khau
 =======
 >>>>>>> origin/dang_nhap_google
+=======
+>>>>>>> origin/dang_nhap_facebook
 use App\Http\Services\User\UserService;
 
 
@@ -66,6 +69,7 @@ class UserController extends Controller
 
         return response()->json(['success' => false], 404);
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -152,4 +156,6 @@ class UserController extends Controller
 >>>>>>> origin/doi_mat_khau
 =======
 >>>>>>> origin/dang_nhap_google
+=======
+>>>>>>> origin/dang_nhap_facebook
 }

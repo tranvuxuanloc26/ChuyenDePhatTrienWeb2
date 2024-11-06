@@ -26,6 +26,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             <th>Feature</th>
 >>>>>>> origin/tim_kiem_user_admin
@@ -57,6 +58,8 @@
 >>>>>>> origin/doi_mat_khau
 =======
 >>>>>>> origin/dang_nhap_google
+=======
+>>>>>>> origin/dang_nhap_facebook
             <th>Update</th>
             <th style="width: 130px">&nbsp;</th>
         </tr>
@@ -75,6 +78,7 @@
             <td> {{ $product->menu ? $product->menu->name : 'Không có danh mục' }}</td>
             <td> {{ $product->description }}</td>
             <td style="max-width: 200px;">{{ $product->content }}</td>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -146,6 +150,9 @@
 =======
             <td>{!! \App\Helpers\Helper::active($product->active)  !!}</td>
 >>>>>>> origin/dang_nhap_google
+=======
+            <td>{!! \App\Helpers\Helper::active($product->active)  !!}</td>
+>>>>>>> origin/dang_nhap_facebook
             <td>{{ $product->updated_at }}</td>
         </tr>
 

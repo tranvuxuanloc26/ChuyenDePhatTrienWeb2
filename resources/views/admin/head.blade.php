@@ -25,6 +25,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <link rel="stylesheet" href="/template/admin/dist/css/togglebutton.css">
 
@@ -73,6 +74,10 @@
 <link rel="stylesheet" href="/template/admin/dist/css/togglebutton.css">
 
 >>>>>>> origin/dang_nhap_google
+=======
+<link rel="stylesheet" href="/template/admin/dist/css/togglebutton.css">
+
+>>>>>>> origin/dang_nhap_facebook
 
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 

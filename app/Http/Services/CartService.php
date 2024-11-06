@@ -152,6 +152,7 @@ class CartService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -249,4 +250,6 @@ class CartService
 >>>>>>> origin/doi_mat_khau
 =======
 >>>>>>> origin/dang_nhap_google
+=======
+>>>>>>> origin/dang_nhap_facebook
 }

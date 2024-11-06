@@ -53,6 +53,7 @@ class MainController extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -76,6 +77,8 @@ class MainController extends Controller
 >>>>>>> origin/doi_mat_khau
 =======
 >>>>>>> origin/dang_nhap_google
+=======
+>>>>>>> origin/dang_nhap_facebook
 
     // Ví dụ trong controller
 public function setLanguage($lang)
@@ -84,6 +87,7 @@ public function setLanguage($lang)
     return redirect()->back();
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -118,4 +122,6 @@ public function setLanguage($lang)
 >>>>>>> origin/doi_mat_khau
 =======
 >>>>>>> origin/dang_nhap_google
+=======
+>>>>>>> origin/dang_nhap_facebook
 }

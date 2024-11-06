@@ -62,6 +62,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <a href="#" class="filter-link stext-106 trans-04">
 =======
                                 <a href="#" id="filter-popularity" class="filter-link stext-106 trans-04">
@@ -99,10 +100,14 @@
 =======
                                 <a href="#" class="filter-link stext-106 trans-04">
 >>>>>>> origin/dang_nhap_google
+=======
+                                <a href="#" class="filter-link stext-106 trans-04">
+>>>>>>> origin/dang_nhap_facebook
                                     Popularity
                                 </a>
                             </li>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -123,6 +128,8 @@
 >>>>>>> origin/quan_ly_user
 =======
 >>>>>>> origin/dang_nhap_google
+=======
+>>>>>>> origin/dang_nhap_facebook
                             <li class="p-b-6">
                                 <a href="#" class="filter-link stext-106 trans-04">
                                     Average rating
@@ -131,6 +138,7 @@
 
                             <li class="p-b-6">
                                 <a href="#" class="filter-link stext-106 trans-04 filter-link-active">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -184,6 +192,8 @@
 >>>>>>> origin/doi_mat_khau
 =======
 >>>>>>> origin/dang_nhap_google
+=======
+>>>>>>> origin/dang_nhap_facebook
                                     Newness
                                 </a>
                             </li>
@@ -258,12 +268,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
 =======
 >>>>>>> origin/quan_ly_user
 =======
 >>>>>>> origin/dang_nhap_google
+=======
+>>>>>>> origin/dang_nhap_facebook
                     <div class="filter-col3 p-r-15 p-b-27">
                         <div class="mtext-102 cl2 p-b-15">
                             Color
@@ -362,6 +375,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                   
 >>>>>>> origin/tim_kiem_user_admin
@@ -395,6 +409,8 @@
 >>>>>>> origin/doi_mat_khau
 =======
 >>>>>>> origin/dang_nhap_google
+=======
+>>>>>>> origin/dang_nhap_facebook
                 </div>
             </div>
         </div>
@@ -412,6 +428,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> origin/tim_kiem_user_admin
@@ -444,10 +461,13 @@
 >>>>>>> origin/doi_mat_khau
 =======
 >>>>>>> origin/dang_nhap_google
+=======
+>>>>>>> origin/dang_nhap_facebook
       {{ $products->links('pagination::bootstrap-4')  }}
 
     </div>
 </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -543,3 +563,6 @@
 =======
 @endsection
 >>>>>>> origin/dang_nhap_google
+=======
+@endsection
+>>>>>>> origin/dang_nhap_facebook

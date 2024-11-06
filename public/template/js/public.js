@@ -15,6 +15,7 @@ $.ajaxSetup({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
 =======
@@ -25,6 +26,8 @@ $.ajaxSetup({
 >>>>>>> origin/quan_ly_user
 =======
 >>>>>>> origin/dang_nhap_google
+=======
+>>>>>>> origin/dang_nhap_facebook
  function loadMore(){
     const page = $('#page').val();
     $.ajax({
@@ -43,6 +46,7 @@ $.ajaxSetup({
             }
         }
     })
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -120,3 +124,6 @@ function loadMore() {
 =======
  }
 >>>>>>> origin/dang_nhap_google
+=======
+ }
+>>>>>>> origin/dang_nhap_facebook

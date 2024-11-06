@@ -32,6 +32,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <li class="nav-item dropdown" style="right: 60px">
 =======
       <li class="nav-item dropdown" style="right: 90px;max-width:200px">
@@ -93,11 +94,17 @@
         <div class="d-flex align-items-center">
             <img src="{{ asset('template/images/icons/R.png') }}" alt="User Avatar" class="rounded-circle me-4" style="width: 40px; height: 40px;">
 >>>>>>> origin/dang_nhap_google
+=======
+      <li class="nav-item dropdown" style="right: 60px;max-width:200px">
+        <div class="d-flex align-items-center">
+            <img src="{{ asset('template/images/icons/R.png') }}" alt="User Avatar" class="rounded-circle me-4" style="width: 40px; height: 40px;">
+>>>>>>> origin/dang_nhap_facebook
             <span class="fw-bold dropdown-toggle" style="margin-left: 10px" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 {{ Auth::user()->name }}
             </span>
             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
                 <li><a class="dropdown-item" href="">Thông tin người dùng</a></li>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -152,6 +159,10 @@
                 <li><a class="dropdown-item" href="">Đổi mật khẩu</a></li>
                 <li><a class="dropdown-item" href="/">Về Trang Chủ</a></li>
 >>>>>>> origin/dang_nhap_google
+=======
+                <li><a class="dropdown-item" href="">Đổi mật khẩu</a></li>
+                <li><a class="dropdown-item" href="/">Về Trang Chủ</a></li>
+>>>>>>> origin/dang_nhap_facebook
                 <li>
                   <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                       @csrf

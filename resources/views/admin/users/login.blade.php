@@ -19,6 +19,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <a href="../../index2.html"><b>COZA</b>STORE</a>
 =======
     <a href="/"><b>COZA</b>STORE</a>
@@ -56,6 +57,9 @@
 =======
     <a href="../../index2.html"><b>COZA</b>STORE</a>
 >>>>>>> origin/dang_nhap_google
+=======
+    <a href="../../index2.html"><b>COZA</b>STORE</a>
+>>>>>>> origin/dang_nhap_facebook
   </div>
   <!-- /.login-logo -->
   <div class="card">
@@ -110,6 +114,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/quan_ly_user
         <a href="#" class="btn btn-block btn-primary">
@@ -136,10 +141,13 @@
 >>>>>>> origin/forgot_password
 =======
 >>>>>>> origin/doi_mat_khau
+=======
+>>>>>>> origin/dang_nhap_facebook
         <a href="{{ route('facebook.login') }}" class="btn btn-block btn-primary">
           <i class="fab fa-facebook mr-2"></i> Sign in using Facebook
         </a>
         <a href="{{ url('auth/google') }}" class="btn btn-block btn-danger">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -176,12 +184,15 @@
         </a>
         <a href="{{ url('auth/google') }}" class="btn btn-block btn-danger">
 >>>>>>> origin/dang_nhap_google
+=======
+>>>>>>> origin/dang_nhap_facebook
           <i class="fab fa-google-plus mr-2"></i> Sign in using Google+
         </a>
       </div>
       <!-- /.social-auth-links -->
 
       <p class="mb-1">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -231,6 +242,9 @@
 =======
         <a href="forgot-password.html">I forgot my password</a>
 >>>>>>> origin/dang_nhap_google
+=======
+        <a href="forgot-password.html">I forgot my password</a>
+>>>>>>> origin/dang_nhap_facebook
       </p>
       <p class="mb-0">
         <a href="/admin/users/register" class="text-center">Register a new membership</a>

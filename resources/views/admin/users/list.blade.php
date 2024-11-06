@@ -13,6 +13,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/profile
 =======
@@ -50,6 +51,8 @@
 >>>>>>> origin/doi_mat_khau
 =======
 >>>>>>> origin/dang_nhap_google
+=======
+>>>>>>> origin/dang_nhap_facebook
 
 <table>
     <thead>
@@ -108,6 +111,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 {!! $users->appends(['query' => request('query')])->links('pagination::bootstrap-4') !!}
 =======
 {!! $users->links('pagination::bootstrap-4') !!}
@@ -142,6 +146,9 @@
 =======
 {!! $users->links('pagination::bootstrap-4') !!}
 >>>>>>> origin/dang_nhap_google
+=======
+{!! $users->links('pagination::bootstrap-4') !!}
+>>>>>>> origin/dang_nhap_facebook
 @endsection
 
 <script>

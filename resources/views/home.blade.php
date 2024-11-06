@@ -55,6 +55,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -78,6 +79,8 @@
 >>>>>>> origin/doi_mat_khau
 =======
 >>>>>>> origin/dang_nhap_google
+=======
+>>>>>>> origin/dang_nhap_facebook
 	<a href="{{ route('set.language', 'en') }}" class="flex-c-m trans-04 p-lr-25">
 		EN
 	</a>
@@ -91,6 +94,7 @@
 		{{ __('messages.shipping_message') }}
 	</div>
 	
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -125,6 +129,8 @@
 >>>>>>> origin/doi_mat_khau
 =======
 >>>>>>> origin/dang_nhap_google
+=======
+>>>>>>> origin/dang_nhap_facebook
 
 	<!-- Banner -->
 	<div class="sec-banner bg0 p-t-80 p-b-50">

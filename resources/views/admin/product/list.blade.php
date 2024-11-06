@@ -16,6 +16,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -65,10 +66,14 @@
 =======
 
 >>>>>>> origin/dang_nhap_google
+=======
+
+>>>>>>> origin/dang_nhap_facebook
    <table>
       <thead>
         <tr>
             <th style="width: 50px; padding-left: 15px;">ID</th>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -118,6 +123,9 @@
 =======
             <th style="width: 27%;">Tên Sản Phẩm </th>
 >>>>>>> origin/dang_nhap_google
+=======
+            <th style="width: 27%;">Tên Sản Phẩm </th>
+>>>>>>> origin/dang_nhap_facebook
             <th>Danh Mục</th>
             <th>Giá Gốc</th>
             <th>Giá Khuyễn Mãi</th>
@@ -135,6 +143,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             <th>Feature</th>
 >>>>>>> origin/tim_kiem_user_admin
@@ -168,6 +177,8 @@
 >>>>>>> origin/doi_mat_khau
 =======
 >>>>>>> origin/dang_nhap_google
+=======
+>>>>>>> origin/dang_nhap_facebook
             <th style="width: 130px">&nbsp;</th>
         </tr>
       </thead>
@@ -183,6 +194,7 @@
             <td>{!! \App\Helpers\Helper::active($product->active)  !!}</td>
             <td>{{ $product->updated_at }}</td>
             <td>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -250,6 +262,8 @@
 >>>>>>> origin/doi_mat_khau
 =======
 >>>>>>> origin/dang_nhap_google
+=======
+>>>>>>> origin/dang_nhap_facebook
                 <a class="btn btn-primary btn-sm" href="/admin/products/edit/{{ $product->id }}">
                     <i class="fas fa-edit"></i>
                 </a>
@@ -265,6 +279,7 @@
         
       </tbody>
    </table>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -322,4 +337,8 @@
    {{  $products->links('pagination::bootstrap-4')  }}
 @endsection
 >>>>>>> origin/dang_nhap_google
+=======
+   {{  $products->links('pagination::bootstrap-4')  }}
+@endsection
+>>>>>>> origin/dang_nhap_facebook
 

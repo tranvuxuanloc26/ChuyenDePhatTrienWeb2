@@ -16,6 +16,7 @@ use App\Http\Controllers\MainController;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/quan_ly_user
 use App\Http\Controllers\Admin\MenuController;
@@ -100,11 +101,22 @@ use App\Http\Controllers\Admin\UploadController;
 use App\Http\Controllers\Admin\ProductController;
 
 >>>>>>> origin/dang_nhap_google
+=======
+use App\Http\Controllers\Admin\MenuController;
+use App\Http\Controllers\MenuControllerScreen;
+use App\Http\Controllers\Auth\GoogleController;
+use App\Http\Controllers\Admin\SliderController;
+use App\Http\Controllers\Admin\UploadController;
+use App\Http\Controllers\Admin\ProductController;
+use App\Http\Controllers\Auth\FacebookController;
+
+>>>>>>> origin/dang_nhap_facebook
 use App\Http\Controllers\ProductControllerScreen;
 use App\Http\Controllers\Admin\CartAdminController;
 use App\Http\Controllers\Admin\MainAdminController;
 use App\Http\Controllers\Admin\Users\UserController;
 use App\Http\Controllers\Admin\Users\LoginController;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -147,6 +159,8 @@ use App\Http\Controllers\Auth\ForgotPasswordController;
 >>>>>>> origin/doi_mat_khau
 =======
 >>>>>>> origin/dang_nhap_google
+=======
+>>>>>>> origin/dang_nhap_facebook
 use App\Http\Controllers\Admin\Users\RegisterController;
 
     #Login
@@ -159,6 +173,7 @@ use App\Http\Controllers\Admin\Users\RegisterController;
 #Register
 Route::get('admin/users/register', [RegisterController::class,'index'])->name('register');
 Route::post('admin/users/register/store', [RegisterController::class, 'store']);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -260,6 +275,11 @@ Route::post('/admin/users/toggle-role/{id}', [UserController::class, 'toggleRole
 Route::post('/admin/users/toggle-role/{id}', [UserController::class, 'toggleRole']);
 
 >>>>>>> origin/dang_nhap_google
+=======
+#Role
+Route::post('/admin/users/toggle-role/{id}', [UserController::class, 'toggleRole']);
+
+>>>>>>> origin/dang_nhap_facebook
 #Admin
 Route::middleware(['auth', 'role:1,2'])->group(function () {
 
@@ -267,6 +287,7 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
         Route::get('/', [MainAdminController::class, 'index'])->name('admin');
         Route::get('main', [MainAdminController::class, 'index'])->name('admin');
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -313,11 +334,14 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 >>>>>>> origin/doi_mat_khau
 =======
 >>>>>>> origin/dang_nhap_google
+=======
+>>>>>>> origin/dang_nhap_facebook
 
 
         // Các route dành cho cả role 1 và role 2 (chỉ truy cập menu, sản phẩm, slider)
         Route::middleware('role:1,2')->group(function () {
       
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -352,6 +376,8 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 >>>>>>> origin/doi_mat_khau
 =======
 >>>>>>> origin/dang_nhap_google
+=======
+>>>>>>> origin/dang_nhap_facebook
         #Product
         Route::prefix('products')->group(function () {
             Route::get('add', [ProductController::class, 'create']);
@@ -372,6 +398,7 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             Route::get('/admin/products', [ProductController::class, 'index'])->name('admin.products.index');
 
@@ -411,6 +438,8 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 >>>>>>> origin/doi_mat_khau
 =======
 >>>>>>> origin/dang_nhap_google
+=======
+>>>>>>> origin/dang_nhap_facebook
 
             Route::DELETE('destroy', [ProductController::class, 'destroy']);
 
@@ -438,6 +467,7 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -467,6 +497,8 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 >>>>>>> origin/doi_mat_khau
 =======
 >>>>>>> origin/dang_nhap_google
+=======
+>>>>>>> origin/dang_nhap_facebook
     });
 
       // Các route chỉ dành cho role 2 (truy cập được tất cả các route)
@@ -482,6 +514,7 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      
 =======
         Route::prefix('admin')->group(function () {
@@ -514,6 +547,8 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 >>>>>>> origin/doi_mat_khau
 =======
 >>>>>>> origin/dang_nhap_google
+=======
+>>>>>>> origin/dang_nhap_facebook
 
           #Menu
           Route::prefix('menus')->group(function () {
@@ -526,6 +561,7 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 
             Route::DELETE('destroy', [MenuController::class, 'destroy']);
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -568,10 +604,13 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 =======
 =======
 >>>>>>> origin/dang_nhap_google
+=======
+>>>>>>> origin/dang_nhap_facebook
            #User
            Route::prefix('users')->group(function () {
           
             Route::get('list', [UserController::class, 'index']);
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> origin/quan_ly_user
 =======
@@ -587,11 +626,14 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 >>>>>>> origin/doi_mat_khau
 =======
 >>>>>>> origin/dang_nhap_google
+=======
+>>>>>>> origin/dang_nhap_facebook
             Route::DELETE('destroy', [UserController::class, 'destroy']);
 
 
 
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -653,6 +695,9 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 =======
     });
 >>>>>>> origin/dang_nhap_google
+=======
+    });
+>>>>>>> origin/dang_nhap_facebook
         #Upload
         Route::post('upload/services', [UploadController::class, 'store']);
 
@@ -671,6 +716,7 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
      
@@ -732,6 +778,11 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 
    #Role
 >>>>>>> origin/dang_nhap_google
+=======
+     
+
+   #Role
+>>>>>>> origin/dang_nhap_facebook
 
     });
 
@@ -749,6 +800,7 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #Trang chủ
 Route::get('/', [MainController::class, 'index'])->name('home');
 =======
@@ -774,11 +826,14 @@ Route::get('/', [MainController::class, 'index'])->name('home');
 >>>>>>> origin/doi_mat_khau
 =======
 >>>>>>> origin/dang_nhap_google
+=======
+>>>>>>> origin/dang_nhap_facebook
 
 #Trang chủ
 Route::get('/', [MainController::class, 'index'])->name('home');
 Route::get('/lang/{lang}', [MainController::class , 'setLanguage'])->name('set.language');
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -813,11 +868,14 @@ Route::get('/lang/{lang}', [MainController::class , 'setLanguage'])->name('set.l
 >>>>>>> origin/doi_mat_khau
 =======
 >>>>>>> origin/dang_nhap_google
+=======
+>>>>>>> origin/dang_nhap_facebook
 Route::post('/services/load-product', [MainController::class, 'loadProduct']);
 
 
 Route::get('/danh-muc/{id}-{slug}.html', [MenuControllerScreen::class, 'index']);
 Route::get('/san-pham/{id}-{slug}.html', [ProductControllerScreen::class, 'index']);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -881,6 +939,8 @@ Route::get('/products/newest', [ProductControllerScreen::class, 'getNewestProduc
 >>>>>>> origin/doi_mat_khau
 =======
 >>>>>>> origin/dang_nhap_google
+=======
+>>>>>>> origin/dang_nhap_facebook
 // Route::post('/san-pham/{id}-{slug}.html', [ProductControllerScreen::class, 'indexQuickView']);
 
 
@@ -891,6 +951,7 @@ Route::post('update-cart', [CartController::class, 'update']);
 Route::get('carts/delete/{id}', [CartController::class, 'remove']);
 Route::post('carts', [CartController::class, 'addCart']);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -924,18 +985,24 @@ Route::post('carts', [CartController::class, 'addCart']);
 >>>>>>> origin/doi_mat_khau
 =======
 >>>>>>> origin/dang_nhap_google
+=======
+>>>>>>> origin/dang_nhap_facebook
 #Đăng nhập gmail 
 Route::get('auth/google', [GoogleController::class, 'redirectToGoogle']);
 Route::get('auth/google/callback', [GoogleController::class, 'handleGoogleCallback']);
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/dang_nhap_facebook
 #Đăng nhập facebook
 
 Route::get('auth/facebook', [FacebookController::class, 'redirectToFacebook'])->name('facebook.login');
 Route::get('auth/facebook/callback', [FacebookController::class, 'handleFacebookCallback']);
 
 
+<<<<<<< HEAD
 Route::middleware(['auth'])->group(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1005,5 +1072,7 @@ Route::post('/contact', [ContactController::class, 'send'])->name('contact.send'
 
 =======
 >>>>>>> origin/dang_nhap_google
+=======
+>>>>>>> origin/dang_nhap_facebook
 
 
