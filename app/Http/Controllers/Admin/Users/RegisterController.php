@@ -25,10 +25,14 @@ class RegisterController extends Controller
             'email' => 'required|email|unique:users,email',
             'password' => 'required|min:6|confirmed',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'role' => 'required|in:0,1', // Thêm xác nhận vai trò
 =======
           
 >>>>>>> origin/tim_kiem_user_admin
+=======
+          
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
 
         ]);
 
@@ -37,14 +41,18 @@ class RegisterController extends Controller
             'email' => $request->input('email'),
             'password' => bcrypt($request->input('password')),
 <<<<<<< HEAD
+<<<<<<< HEAD
             'role' => $request->input('role'), // Lưu vai trò
 =======
 >>>>>>> origin/tim_kiem_user_admin
+=======
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
             'terms' => 'accepted' // Người dùng phải chọn checkbox
         ]);
 
         Auth::login($user);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
           // Kiểm tra vai trò và điều hướng đến trang tương ứng
     if ($user->role == 1) { // Nếu là Admin
@@ -57,5 +65,10 @@ class RegisterController extends Controller
         return redirect()->route('home')->with('success', 'Đăng ký thành công!');
     
 >>>>>>> origin/tim_kiem_user_admin
+=======
+ 
+        return redirect()->route('home')->with('success', 'Đăng ký thành công!');
+    
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
     }
 }

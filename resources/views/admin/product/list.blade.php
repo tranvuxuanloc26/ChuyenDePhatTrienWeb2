@@ -5,6 +5,7 @@
     <a href="/admin/products/add" class="btn btn-primary">Tạo Sản Phẩm</a>
   </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <!-- Form tìm kiếm -->
@@ -13,24 +14,34 @@
     <button type="submit" class="btn btn-primary ml-2">Tìm kiếm</button>
 </form>
 >>>>>>> origin/tim_kiem_user_admin
+=======
+
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
    <table>
       <thead>
         <tr>
             <th style="width: 50px; padding-left: 15px;">ID</th>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <th style="width: 27%;">Tên Sản Phẩm </th>
 =======
             <th style="width: 23%;">Tên Sản Phẩm </th>
 >>>>>>> origin/tim_kiem_user_admin
+=======
+            <th style="width: 27%;">Tên Sản Phẩm </th>
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
             <th>Danh Mục</th>
             <th>Giá Gốc</th>
             <th>Giá Khuyễn Mãi</th>
             <th>Active</th>
             <th>Update</th>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             <th>Feature</th>
 >>>>>>> origin/tim_kiem_user_admin
+=======
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
             <th style="width: 130px">&nbsp;</th>
         </tr>
       </thead>
@@ -47,6 +58,7 @@
             <td>{{ $product->updated_at }}</td>
             <td>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 @if ($product->is_featured == 0)
                     <span class="badge badge-danger btn-xs">NO</span>
@@ -56,6 +68,8 @@
             </td>
             <td>
 >>>>>>> origin/tim_kiem_user_admin
+=======
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
                 <a class="btn btn-primary btn-sm" href="/admin/products/edit/{{ $product->id }}">
                     <i class="fas fa-edit"></i>
                 </a>
@@ -72,9 +86,14 @@
       </tbody>
    </table>
 <<<<<<< HEAD
+<<<<<<< HEAD
    {{  $products->links('pagination::bootstrap-4')  }}
 @endsection
 =======
    {{ $products->appends(['query' => request('query')])->links('pagination::bootstrap-4') }}@endsection
 >>>>>>> origin/tim_kiem_user_admin
+=======
+   {{  $products->links('pagination::bootstrap-4')  }}
+@endsection
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
 

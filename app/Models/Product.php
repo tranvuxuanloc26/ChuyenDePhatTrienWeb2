@@ -18,11 +18,15 @@ class Product extends Model
         'thumb',
         'active',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
     ];
     public function menu()
      {
         return $this->hasOne(Menu::class, 'id', 'menu_id');
     }
+<<<<<<< HEAD
 }
 =======
         'is_featured'
@@ -38,3 +42,10 @@ class Product extends Model
     }
 }
 >>>>>>> origin/tim_kiem_user_admin
+=======
+
+    public function wishlists(){
+        return $this->hasMany(Wishlist::class);
+    }
+}
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich

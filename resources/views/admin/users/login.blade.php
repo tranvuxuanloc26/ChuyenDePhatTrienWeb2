@@ -8,10 +8,14 @@
 <div class="login-box">
   <div class="login-logo">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <a href="../../index2.html"><b>COZA</b>STORE</a>
 =======
     <a href="/"><b>COZA</b>STORE</a>
 >>>>>>> origin/tim_kiem_user_admin
+=======
+    <a href="/"><b>COZA</b>STORE</a>
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
   </div>
   <!-- /.login-logo -->
   <div class="card">
@@ -55,16 +59,22 @@
       <div class="social-auth-links text-center mb-3">
         <p>- OR -</p>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <a href="#" class="btn btn-block btn-primary">
           <i class="fab fa-facebook mr-2"></i> Sign in using Facebook
         </a>
         <a href="#" class="btn btn-block btn-danger">
 =======
+=======
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
         <a href="{{ route('facebook.login') }}" class="btn btn-block btn-primary">
           <i class="fab fa-facebook mr-2"></i> Sign in using Facebook
         </a>
         <a href="{{ url('auth/google') }}" class="btn btn-block btn-danger">
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
+=======
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
           <i class="fab fa-google-plus mr-2"></i> Sign in using Google+
         </a>
       </div>
@@ -72,10 +82,14 @@
 
       <p class="mb-1">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <a href="forgot-password.html">I forgot my password</a>
 =======
         <a href="/forgot-password">I forgot my password</a>
 >>>>>>> origin/tim_kiem_user_admin
+=======
+        <a href="forgot-password.html">I forgot my password</a>
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
       </p>
       <p class="mb-0">
         <a href="/admin/users/register" class="text-center">Register a new membership</a>

@@ -2,12 +2,15 @@
 
 @section('content')
 
+<<<<<<< HEAD
 <!-- Form tìm kiếm -->
 <form action="{{ route('admin.users.search') }}" method="GET" class="form-inline mb-3">
     <input type="text" name="query" class="form-control" placeholder="Tìm kiếm người dùng..." value="{{ request('query') }}">
     <button type="submit" class="btn btn-primary ml-2">Tìm kiếm</button>
 </form>
 
+=======
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
 
 <table>
     <thead>
@@ -55,7 +58,11 @@
         @endforeach
     </tbody>
 </table>
+<<<<<<< HEAD
 {!! $users->appends(['query' => request('query')])->links('pagination::bootstrap-4') !!}
+=======
+{!! $users->links('pagination::bootstrap-4') !!}
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
 @endsection
 
 <script>

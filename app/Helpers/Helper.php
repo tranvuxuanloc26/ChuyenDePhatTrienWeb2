@@ -22,10 +22,13 @@ class Helper
                                 <i class="fas fa-edit"></i>
                             </a>
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <a class="btn btn-danger btn-sm" href="#" onClick="removeRow(' . $menu->id . ', \'/admin/menus/destroy\')">
                                 <i class="fas fa-trash"></i>
                             </a>
 =======
+=======
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
                               <a class="btn btn-primary btn-sm" href="/admin/menus/detail/' . $menu->id . '">
                                  <i class="fas fa-eye"></i>
                             </a>
@@ -33,7 +36,10 @@ class Helper
                                 <i class="fas fa-trash"></i>
                             </a>
 
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
+=======
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
                         </td>
                     </tr>
                 ';

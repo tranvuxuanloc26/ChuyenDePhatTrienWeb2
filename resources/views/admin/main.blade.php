@@ -21,12 +21,18 @@
     
     
 <<<<<<< HEAD
+<<<<<<< HEAD
       <li class="nav-item dropdown" style="right: 60px">
 =======
       <li class="nav-item dropdown" style="right: 90px;max-width:200px">
 >>>>>>> origin/tim_kiem_user_admin
         <div class="d-flex align-items-center">
             <img src="{{ asset('template/images/icons/R.png') }}" alt="User Avatar" class="rounded-circle me-4" style="width: 40px; height: 40px;">
+=======
+      <li class="nav-item dropdown" style="right: 60px;max-width:200px">
+        <div class="d-flex align-items-center">
+            <img src="{{ asset('template/images/icons/R.png') }}" alt="User Avatar" class="rounded-circle me-4" style="width: 40px; height: 40px;max-width:300px">
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
             <span class="fw-bold dropdown-toggle" style="margin-left: 10px" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 {{ Auth::user()->name }}
             </span>
@@ -34,9 +40,13 @@
                 <li><a class="dropdown-item" href="">Thông tin người dùng</a></li>
                 <li><a class="dropdown-item" href="">Đổi mật khẩu</a></li>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 <li><a class="dropdown-item" href="/">Về Trang Chủ</a></li>
 >>>>>>> origin/tim_kiem_user_admin
+=======
+                <li><a class="dropdown-item" href="/">Về Trang Chủ</a></li>
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
                 <li>
                   <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                       @csrf

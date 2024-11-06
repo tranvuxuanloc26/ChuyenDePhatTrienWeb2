@@ -11,6 +11,7 @@
                     Quick View
                 </a> --}}
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <button  class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
                     Quick View
                 </button>
@@ -35,6 +36,8 @@
                 </div>
             </div>
 =======
+=======
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
                 {{-- <button  class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
                     Quick View
                 </button> --}}
@@ -66,7 +69,10 @@
     </div>
 </div>
 
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
+=======
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
         </div>
     </div>
    
@@ -74,8 +80,11 @@
     @endif
 </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
   
 =======
+=======
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
     $(document).ready(function() {
@@ -132,6 +141,9 @@
 
 
 
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
+=======
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
 
 

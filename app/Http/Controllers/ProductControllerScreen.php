@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Http\Request;
 use App\Http\Services\Product\ProductServiceScreen;
 =======
@@ -11,6 +12,10 @@ use Illuminate\Http\Request;
 use App\Http\Services\Product\ProductServiceScreen;
 
 >>>>>>> origin/tim_kiem_user_admin
+=======
+use Illuminate\Http\Request;
+use App\Http\Services\Product\ProductServiceScreen;
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
 class ProductControllerScreen extends Controller
 {
      protected $productServiceScreen;
@@ -47,6 +52,7 @@ class ProductControllerScreen extends Controller
      //      ]);
      // }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
      public function getFeaturedProducts()
@@ -82,5 +88,8 @@ public function getNewestProducts(Request $request) {
 }
      
 >>>>>>> origin/tim_kiem_user_admin
+=======
+
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
 
 }

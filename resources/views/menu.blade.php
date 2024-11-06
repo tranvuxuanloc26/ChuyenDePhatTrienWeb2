@@ -51,15 +51,22 @@
 
                             <li class="p-b-6">
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <a href="#" class="filter-link stext-106 trans-04">
 =======
                                 <a href="#" id="filter-popularity" class="filter-link stext-106 trans-04">
 >>>>>>> origin/tim_kiem_user_admin
+=======
+                                <a href="#" class="filter-link stext-106 trans-04">
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
                                     Popularity
                                 </a>
                             </li>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
                             <li class="p-b-6">
                                 <a href="#" class="filter-link stext-106 trans-04">
                                     Average rating
@@ -68,12 +75,15 @@
 
                             <li class="p-b-6">
                                 <a href="#" class="filter-link stext-106 trans-04 filter-link-active">
+<<<<<<< HEAD
 =======
                          
 
                             <li class="p-b-6">
                                 <a href="{{ route('products.newest') }}" class="filter-link stext-106 trans-04 filter-link-active">
 >>>>>>> origin/tim_kiem_user_admin
+=======
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
                                     Newness
                                 </a>
                             </li>
@@ -137,6 +147,9 @@
                     </div>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
                     <div class="filter-col3 p-r-15 p-b-27">
                         <div class="mtext-102 cl2 p-b-15">
                             Color
@@ -232,22 +245,29 @@
                             </a>
                         </div>
                     </div>
+<<<<<<< HEAD
 =======
                   
 >>>>>>> origin/tim_kiem_user_admin
+=======
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
                 </div>
             </div>
         </div>
 
       @include('product.list')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> origin/tim_kiem_user_admin
+=======
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
       {{ $products->links('pagination::bootstrap-4')  }}
 
     </div>
 </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 @endsection
 =======
@@ -275,3 +295,6 @@
     });
 </script>
 >>>>>>> origin/tim_kiem_user_admin
+=======
+@endsection
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich

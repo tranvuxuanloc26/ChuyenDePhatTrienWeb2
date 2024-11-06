@@ -101,6 +101,7 @@ class ProductController extends Controller
         return response()->json([ 'error' => false]);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
     public function search(Request $request)
@@ -114,4 +115,6 @@ class ProductController extends Controller
     ], compact('products'))->with('query', $query);
 }
 >>>>>>> origin/tim_kiem_user_admin
+=======
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
 }

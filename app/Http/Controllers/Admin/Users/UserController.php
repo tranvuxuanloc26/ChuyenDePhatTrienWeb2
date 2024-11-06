@@ -50,6 +50,7 @@ class UserController extends Controller
 
         return response()->json(['success' => false], 404);
     }
+<<<<<<< HEAD
 
     public function search(Request $request)
     {
@@ -62,4 +63,6 @@ class UserController extends Controller
             'title' => 'Kết quả tìm kiếm'
         ], compact('users'))->with('query', $query);
     }
+=======
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
 }

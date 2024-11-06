@@ -308,14 +308,20 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 </div> 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
 
 <script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 
 </script>
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
+=======
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
 <!--===============================================================================================-->	
 <script src="/template/vendor/jquery/jquery-3.2.1.min.js"></script>
 <!--===============================================================================================-->
@@ -368,6 +374,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     $('.js-addwish-b2').each(function(){
         var nameProduct = $(this).parent().parent().find('.js-name-b2').html();
         $(this).on('click', function(){
@@ -378,6 +385,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         });
     });
 =======
+=======
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
     // $('.js-addwish-b2').each(function(){
     //     var nameProduct = $(this).parent().parent().find('.js-name-b2').html();
     //     $(this).on('click', function(){
@@ -387,7 +396,10 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     //         $(this).off('click');
     //     });
     // });
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
+=======
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
 
     $('.js-addwish-detail').each(function(){
         var nameProduct = $(this).parent().parent().parent().find('.js-name-detail').html();

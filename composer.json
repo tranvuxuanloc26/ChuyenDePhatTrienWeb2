@@ -10,9 +10,13 @@
         "laravel/framework": "^10.10",
         "laravel/sanctum": "^3.3",
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         "laravel/socialite": "^5.16",
 >>>>>>> origin/tim_kiem_user_admin
+=======
+        "laravel/socialite": "^5.16",
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
         "laravel/tinker": "^2.8"
     },
     "require-dev": {

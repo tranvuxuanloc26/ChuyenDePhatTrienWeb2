@@ -15,11 +15,15 @@ class ProductServiceScreen{
                               })
                               ->limit(self::LIMIT)
 <<<<<<< HEAD
+<<<<<<< HEAD
                               ->get();
 =======
                               ->get()
                               ;
 >>>>>>> origin/tim_kiem_user_admin
+=======
+                              ->get();
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
     }
 
     public function show($id){

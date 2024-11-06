@@ -10,10 +10,14 @@
     <div class="sidebar">
       <!-- Sidebar user (optional) -->
 <<<<<<< HEAD
+<<<<<<< HEAD
       <div class="user-panel ml-3 mt-3 pb-3 mb-3 d-flex">
 =======
       <div class="user-panel ml-3 mt-3 pb-3 mb-3 d-flex" style="max-width: 300px">
 >>>>>>> origin/tim_kiem_user_admin
+=======
+      <div class="user-panel ml-3 mt-3 pb-3 mb-3 d-flex" style="max-width: 300px">
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
         <div class="d-flex align-items-center">
           <img src="{{ asset('template/images/icons/R.png') }}" alt="User Avatar" class="rounded-circle me-2" style="width: 40px; height: 40px;">
           <span class="fw-bold" style="margin-left: 10px;color:#9fa5ad">{{ Auth::user()->name }}</span>
@@ -38,9 +42,13 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                @if(Auth::user()->role == 2)
 >>>>>>> origin/tim_kiem_user_admin
+=======
+               @if(Auth::user()->role == 2)
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
           <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-tachometer-alt"></i>
@@ -65,9 +73,13 @@
             </ul>
           </li>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
           @endif
 >>>>>>> origin/tim_kiem_user_admin
+=======
+          @endif
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
 
           <li class="nav-item">
             <a href="#" class="nav-link">
@@ -117,7 +129,10 @@
             </ul>
           </li>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
           @if(Auth::user()->role == 2)
           <li class="nav-item">
             <a href="#" class="nav-link">
@@ -137,7 +152,10 @@
             </ul>
           </li>
           @endif
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
+=======
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
 
           <li class="nav-item">
             <a href="#" class="nav-link">

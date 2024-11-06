@@ -23,9 +23,13 @@ class User extends Authenticatable
         'password',
         'role',
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
          'thumb',
 >>>>>>> origin/tim_kiem_user_admin
+=======
+         'thumb',
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
     ];
 
     /**

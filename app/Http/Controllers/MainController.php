@@ -42,7 +42,10 @@ class MainController extends Controller
         return response()->json(['html' => '' ]);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
 
     // Ví dụ trong controller
 public function setLanguage($lang)
@@ -51,5 +54,8 @@ public function setLanguage($lang)
     return redirect()->back();
 }
 
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
+=======
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
 }

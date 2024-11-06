@@ -4,6 +4,9 @@ $.ajaxSetup({
     }
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
  function loadMore(){
     const page = $('#page').val();
     $.ajax({
@@ -22,6 +25,7 @@ $.ajaxSetup({
             }
         }
     })
+<<<<<<< HEAD
  }
 =======
 
@@ -49,3 +53,6 @@ function loadMore() {
     });
 }
 >>>>>>> origin/tim_kiem_user_admin
+=======
+ }
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich

@@ -15,9 +15,12 @@
             <th>Price Sale</th>
             <th>Active</th>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             <th>Feature</th>
 >>>>>>> origin/tim_kiem_user_admin
+=======
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
             <th>Update</th>
             <th style="width: 130px">&nbsp;</th>
         </tr>
@@ -37,6 +40,7 @@
             <td> {{ $product->description }}</td>
             <td style="max-width: 200px;">{{ $product->content }}</td>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <td>{!! \App\Helpers\Helper::active($product->active)  !!}</td>
 =======
             <td>{{ $product->price }}</td>
@@ -51,6 +55,9 @@
               @endif
           </td>
 >>>>>>> origin/tim_kiem_user_admin
+=======
+            <td>{!! \App\Helpers\Helper::active($product->active)  !!}</td>
+>>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
             <td>{{ $product->updated_at }}</td>
         </tr>
 
