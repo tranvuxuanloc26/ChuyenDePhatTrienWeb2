@@ -23,13 +23,17 @@ class Product extends Model
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
+=======
+>>>>>>> origin/quan_ly_user
     ];
     public function menu()
      {
         return $this->hasOne(Menu::class, 'id', 'menu_id');
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 }
 =======
@@ -73,3 +77,6 @@ class Product extends Model
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+}
+>>>>>>> origin/quan_ly_user

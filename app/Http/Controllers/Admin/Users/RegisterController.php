@@ -30,6 +30,7 @@ class RegisterController extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'role' => 'required|in:0,1', // Thêm xác nhận vai trò
 =======
           
@@ -49,6 +50,9 @@ class RegisterController extends Controller
 =======
           
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+          
+>>>>>>> origin/quan_ly_user
 
         ]);
 
@@ -56,6 +60,7 @@ class RegisterController extends Controller
             'name' => $request->input('name'),
             'email' => $request->input('email'),
             'password' => bcrypt($request->input('password')),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -75,11 +80,14 @@ class RegisterController extends Controller
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
             'terms' => 'accepted' // Người dùng phải chọn checkbox
         ]);
 
         Auth::login($user);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -122,5 +130,10 @@ class RegisterController extends Controller
         return redirect()->route('home')->with('success', 'Đăng ký thành công!');
     
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+ 
+        return redirect()->route('home')->with('success', 'Đăng ký thành công!');
+    
+>>>>>>> origin/quan_ly_user
     }
 }

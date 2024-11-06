@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <a href="#"><b>COZA</b>STORE</a>
 =======
             <a href="/"><b>COZA</b>STORE</a>
@@ -31,6 +32,9 @@
 =======
             <a href="/"><b>COZA</b>STORE</a>
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+            <a href="#"><b>COZA</b>STORE</a>
+>>>>>>> origin/quan_ly_user
         </div>
       
         <div class="card">
@@ -78,6 +82,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <div class="input-group mb-3">
                         <select name="role" class="form-control" required>
                             <option value="" disabled selected>Chọn vai trò</option>
@@ -103,6 +108,9 @@
 =======
                  
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+                 
+>>>>>>> origin/quan_ly_user
                     <div class="row">
                         <div class="col-8">
                             <div class="icheck-primary">
@@ -126,11 +134,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
                     <a href="#" class="btn btn-block btn-primary">
                         <i class="fab fa-facebook mr-2"></i>
                         Sign up using Facebook
                     </a>
                     <a href="#" class="btn btn-block btn-danger">
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -163,6 +175,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
                         <i class="fab fa-google-plus mr-2"></i>
                         Sign up using Google+
                     </a>

@@ -9,12 +9,15 @@ $.ajaxSetup({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
 =======
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
  function loadMore(){
     const page = $('#page').val();
     $.ajax({
@@ -33,6 +36,7 @@ $.ajaxSetup({
             }
         }
     })
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -82,3 +86,6 @@ function loadMore() {
 =======
  }
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+ }
+>>>>>>> origin/quan_ly_user

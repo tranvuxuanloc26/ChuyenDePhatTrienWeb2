@@ -10,6 +10,9 @@ use App\Http\Controllers\MainController;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
 use App\Http\Controllers\Admin\MenuController;
 use App\Http\Controllers\MenuControllerScreen;
 use App\Http\Controllers\Admin\SliderController;
@@ -19,6 +22,7 @@ use App\Http\Controllers\ProductControllerScreen;
 
 use App\Http\Controllers\Admin\CartAdminController;
 use App\Http\Controllers\Admin\MainAdminController;
+<<<<<<< HEAD
 use App\Http\Controllers\Admin\Users\LoginController;
 =======
 =======
@@ -65,6 +69,10 @@ use App\Http\Controllers\Auth\ForgotPasswordController;
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+use App\Http\Controllers\Admin\Users\UserController;
+use App\Http\Controllers\Admin\Users\LoginController;
+>>>>>>> origin/quan_ly_user
 use App\Http\Controllers\Admin\Users\RegisterController;
 
     #Login
@@ -77,6 +85,7 @@ use App\Http\Controllers\Admin\Users\RegisterController;
 #Register
 Route::get('admin/users/register', [RegisterController::class,'index'])->name('register');
 Route::post('admin/users/register/store', [RegisterController::class, 'store']);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -134,6 +143,11 @@ Route::post('/admin/users/toggle-role/{id}', [UserController::class, 'toggleRole
 Route::post('/admin/users/toggle-role/{id}', [UserController::class, 'toggleRole']);
 
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+#Role
+Route::post('/admin/users/toggle-role/{id}', [UserController::class, 'toggleRole']);
+
+>>>>>>> origin/quan_ly_user
 #Admin
 Route::middleware(['auth', 'role:1,2'])->group(function () {
 
@@ -141,6 +155,7 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
         Route::get('/', [MainAdminController::class, 'index'])->name('admin');
         Route::get('main', [MainAdminController::class, 'index'])->name('admin');
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -169,11 +184,14 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
 
 
         // Các route dành cho cả role 1 và role 2 (chỉ truy cập menu, sản phẩm, slider)
         Route::middleware('role:1,2')->group(function () {
       
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -190,6 +208,8 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
         #Product
         Route::prefix('products')->group(function () {
             Route::get('add', [ProductController::class, 'create']);
@@ -204,6 +224,7 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             Route::get('/admin/products', [ProductController::class, 'index'])->name('admin.products.index');
 
@@ -222,6 +243,8 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
 
             Route::DELETE('destroy', [ProductController::class, 'destroy']);
 
@@ -243,6 +266,7 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -256,10 +280,13 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 =======
 >>>>>>> origin/san_pham_mơi_nhat
       
+=======
+>>>>>>> origin/quan_ly_user
     });
 
       // Các route chỉ dành cho role 2 (truy cập được tất cả các route)
       Route::middleware('role:2')->group(function () {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -281,6 +308,8 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 =======
         Route::prefix('admin')->group(function () {
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
 
           #Menu
           Route::prefix('menus')->group(function () {
@@ -293,6 +322,7 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 
             Route::DELETE('destroy', [MenuController::class, 'destroy']);
         });
+<<<<<<< HEAD
 
            #User
          Route::prefix('users')->group(function () {
@@ -314,11 +344,18 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+           #User
+           Route::prefix('users')->group(function () {
+          
+            Route::get('list', [UserController::class, 'index']);
+>>>>>>> origin/quan_ly_user
             Route::DELETE('destroy', [UserController::class, 'destroy']);
 
 
 
         });
+<<<<<<< HEAD
           
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -348,6 +385,9 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
     });
     });
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+    });
+>>>>>>> origin/quan_ly_user
         #Upload
         Route::post('upload/services', [UploadController::class, 'store']);
 
@@ -360,6 +400,7 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
      
@@ -391,6 +432,11 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 
    #Role
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+     
+
+   #Role
+>>>>>>> origin/quan_ly_user
 
     });
 
@@ -402,6 +448,7 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #Trang chủ
 Route::get('/', [MainController::class, 'index'])->name('home');
 =======
@@ -415,11 +462,14 @@ Route::get('/', [MainController::class, 'index'])->name('home');
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
 
 #Trang chủ
 Route::get('/', [MainController::class, 'index'])->name('home');
 Route::get('/lang/{lang}', [MainController::class , 'setLanguage'])->name('set.language');
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -436,11 +486,14 @@ Route::get('/lang/{lang}', [MainController::class , 'setLanguage'])->name('set.l
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
 Route::post('/services/load-product', [MainController::class, 'loadProduct']);
 
 
 Route::get('/danh-muc/{id}-{slug}.html', [MenuControllerScreen::class, 'index']);
 Route::get('/san-pham/{id}-{slug}.html', [ProductControllerScreen::class, 'index']);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -474,6 +527,8 @@ Route::get('/products/popularity', [ProductControllerScreen::class, 'getFeatured
 Route::get('/products/newest', [ProductControllerScreen::class, 'getNewestProducts'])->name('products.newest');
 
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
 // Route::post('/san-pham/{id}-{slug}.html', [ProductControllerScreen::class, 'indexQuickView']);
 
 
@@ -484,6 +539,7 @@ Route::post('update-cart', [CartController::class, 'update']);
 Route::get('carts/delete/{id}', [CartController::class, 'remove']);
 Route::post('carts', [CartController::class, 'addCart']);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -535,6 +591,8 @@ Route::middleware(['auth'])->group(function () {
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
 
 
 

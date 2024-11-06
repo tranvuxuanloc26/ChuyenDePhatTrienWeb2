@@ -56,6 +56,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <a href="#" class="filter-link stext-106 trans-04">
 =======
                                 <a href="#" id="filter-popularity" class="filter-link stext-106 trans-04">
@@ -75,6 +76,9 @@
 =======
                                 <a href="#" id="filter-popularity" class="filter-link stext-106 trans-04">
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+                                <a href="#" class="filter-link stext-106 trans-04">
+>>>>>>> origin/quan_ly_user
                                     Popularity
                                 </a>
                             </li>
@@ -85,10 +89,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
 =======
 >>>>>>> origin/san_pham_noi_bat
+=======
+>>>>>>> origin/quan_ly_user
                             <li class="p-b-6">
                                 <a href="#" class="filter-link stext-106 trans-04">
                                     Average rating
@@ -97,6 +104,7 @@
 
                             <li class="p-b-6">
                                 <a href="#" class="filter-link stext-106 trans-04 filter-link-active">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -124,6 +132,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
                                     Newness
                                 </a>
                             </li>
@@ -192,8 +202,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
+=======
+>>>>>>> origin/quan_ly_user
                     <div class="filter-col3 p-r-15 p-b-27">
                         <div class="mtext-102 cl2 p-b-15">
                             Color
@@ -290,6 +303,7 @@
                         </div>
                     </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                   
 >>>>>>> origin/tim_kiem_user_admin
@@ -307,6 +321,8 @@
 =======
                   
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
                 </div>
             </div>
         </div>
@@ -318,6 +334,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> origin/tim_kiem_user_admin
@@ -334,10 +351,13 @@
 =======
 
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
       {{ $products->links('pagination::bootstrap-4')  }}
 
     </div>
 </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -397,3 +417,6 @@
 =======
 </script>
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+@endsection
+>>>>>>> origin/quan_ly_user

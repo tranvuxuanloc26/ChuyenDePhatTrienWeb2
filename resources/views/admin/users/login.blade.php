@@ -13,6 +13,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <a href="../../index2.html"><b>COZA</b>STORE</a>
 =======
     <a href="/"><b>COZA</b>STORE</a>
@@ -32,6 +33,9 @@
 =======
     <a href="/"><b>COZA</b>STORE</a>
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+    <a href="../../index2.html"><b>COZA</b>STORE</a>
+>>>>>>> origin/quan_ly_user
   </div>
   <!-- /.login-logo -->
   <div class="card">
@@ -80,10 +84,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
         <a href="#" class="btn btn-block btn-primary">
           <i class="fab fa-facebook mr-2"></i> Sign in using Facebook
         </a>
         <a href="#" class="btn btn-block btn-danger">
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -115,12 +123,15 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
           <i class="fab fa-google-plus mr-2"></i> Sign in using Google+
         </a>
       </div>
       <!-- /.social-auth-links -->
 
       <p class="mb-1">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -146,6 +157,9 @@
 =======
         <a href="forgot-password.html">I forgot my password</a>
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+        <a href="forgot-password.html">I forgot my password</a>
+>>>>>>> origin/quan_ly_user
       </p>
       <p class="mb-0">
         <a href="/admin/users/register" class="text-center">Register a new membership</a>

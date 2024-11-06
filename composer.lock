@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "content-hash": "89ef30d8b0d976566bda7189c381dafc",
 =======
     "content-hash": "fab5f53365c3419fb61ad550dd332793",
@@ -29,6 +30,9 @@
 =======
     "content-hash": "fab5f53365c3419fb61ad550dd332793",
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+    "content-hash": "89ef30d8b0d976566bda7189c381dafc",
+>>>>>>> origin/quan_ly_user
     "packages": [
         {
             "name": "brick/math",
@@ -410,6 +414,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
             "version": "v3.3.3",
             "source": {
                 "type": "git",
@@ -420,6 +427,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/dragonmantank/cron-expression/zipball/adfb1f505deb6384dc8b39804c5065dd3c8c8c0a",
                 "reference": "adfb1f505deb6384dc8b39804c5065dd3c8c8c0a",
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -457,6 +465,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
                 "shasum": ""
             },
             "require": {
@@ -475,10 +485,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
                 "phpstan/phpstan-webmozart-assert": "^1.0",
                 "phpunit/phpunit": "^7.0|^8.0|^9.0"
             },
             "type": "library",
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -514,6 +528,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
             "autoload": {
                 "psr-4": {
                     "Cron\\": "src/Cron/"
@@ -543,6 +559,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/dragonmantank/cron-expression/tree/v3.3.3"
 =======
                 "source": "https://github.com/dragonmantank/cron-expression/tree/v3.4.0"
@@ -562,6 +579,9 @@
 =======
                 "source": "https://github.com/dragonmantank/cron-expression/tree/v3.4.0"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+                "source": "https://github.com/dragonmantank/cron-expression/tree/v3.3.3"
+>>>>>>> origin/quan_ly_user
             },
             "funding": [
                 {
@@ -569,6 +589,7 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -594,6 +615,9 @@
 =======
             "time": "2024-10-09T13:47:03+00:00"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+            "time": "2023-08-10T19:36:49+00:00"
+>>>>>>> origin/quan_ly_user
         },
         {
             "name": "egulias/email-validator",
@@ -663,6 +687,7 @@
             "time": "2023-10-06T06:47:41+00:00"
         },
         {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -759,6 +784,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
             "name": "fruitcake/php-cors",
             "version": "v1.3.0",
             "source": {
@@ -1025,6 +1052,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
             "version": "2.0.3",
             "source": {
                 "type": "git",
@@ -1035,6 +1065,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/guzzle/promises/zipball/6ea8dd08867a2a42619d65c3deb2c0fcbf81c8f8",
                 "reference": "6ea8dd08867a2a42619d65c3deb2c0fcbf81c8f8",
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -1072,6 +1103,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
                 "shasum": ""
             },
             "require": {
@@ -1131,6 +1164,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/guzzle/promises/tree/2.0.3"
 =======
                 "source": "https://github.com/guzzle/promises/tree/2.0.4"
@@ -1150,6 +1184,9 @@
 =======
                 "source": "https://github.com/guzzle/promises/tree/2.0.4"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+                "source": "https://github.com/guzzle/promises/tree/2.0.3"
+>>>>>>> origin/quan_ly_user
             },
             "funding": [
                 {
@@ -1165,6 +1202,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1190,6 +1228,9 @@
 =======
             "time": "2024-10-17T10:06:22+00:00"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+            "time": "2024-07-18T10:29:17+00:00"
+>>>>>>> origin/quan_ly_user
         },
         {
             "name": "guzzlehttp/psr7",
@@ -1401,6 +1442,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
             "version": "v10.48.20",
             "source": {
                 "type": "git",
@@ -1411,6 +1455,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/framework/zipball/be2be342d4c74db6a8d2bd18469cd6d488ab9c98",
                 "reference": "be2be342d4c74db6a8d2bd18469cd6d488ab9c98",
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -1448,6 +1493,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
                 "shasum": ""
             },
             "require": {
@@ -1647,6 +1694,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2024-08-09T07:55:45+00:00"
 =======
             "time": "2024-09-12T15:00:09+00:00"
@@ -1666,6 +1714,9 @@
 =======
             "time": "2024-09-12T15:00:09+00:00"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+            "time": "2024-08-09T07:55:45+00:00"
+>>>>>>> origin/quan_ly_user
         },
         {
             "name": "laravel/prompts",
@@ -1799,6 +1850,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
             "version": "v1.3.4",
             "source": {
                 "type": "git",
@@ -1809,6 +1863,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/61b87392d986dc49ad5ef64e75b1ff5fee24ef81",
                 "reference": "61b87392d986dc49ad5ef64e75b1ff5fee24ef81",
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -1846,6 +1901,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
                 "shasum": ""
             },
             "require": {
@@ -1899,6 +1956,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
             "time": "2024-08-02T07:48:17+00:00"
         },
         {
@@ -1913,6 +1973,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/tinker/zipball/502e0fe3f0415d06d5db1f83a472f0f3b754bafe",
                 "reference": "502e0fe3f0415d06d5db1f83a472f0f3b754bafe",
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -2026,6 +2087,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
                 "shasum": ""
             },
             "require": {
@@ -2082,6 +2145,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/laravel/tinker/tree/v2.9.0"
             },
             "time": "2024-01-04T16:10:04+00:00"
@@ -2115,6 +2179,11 @@
             },
             "time": "2024-09-23T13:32:56+00:00"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+                "source": "https://github.com/laravel/tinker/tree/v2.9.0"
+            },
+            "time": "2024-01-04T16:10:04+00:00"
+>>>>>>> origin/quan_ly_user
         },
         {
             "name": "league/commonmark",
@@ -2312,6 +2381,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
             "version": "3.28.0",
             "source": {
                 "type": "git",
@@ -2322,6 +2394,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/e611adab2b1ae2e3072fa72d62c62f52c2bf1f0c",
                 "reference": "e611adab2b1ae2e3072fa72d62c62f52c2bf1f0c",
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -2359,6 +2432,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
                 "shasum": ""
             },
             "require": {
@@ -2432,6 +2507,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
                 "source": "https://github.com/thephpleague/flysystem/tree/3.28.0"
             },
             "time": "2024-05-22T10:09:12+00:00"
@@ -2448,6 +2526,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/thephpleague/flysystem-local/zipball/13f22ea8be526ea58c2ddff9e158ef7c296e4f40",
                 "reference": "13f22ea8be526ea58c2ddff9e158ef7c296e4f40",
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -2491,6 +2570,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
                 "shasum": ""
             },
             "require": {
@@ -2530,6 +2611,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
                 "source": "https://github.com/thephpleague/flysystem-local/tree/3.28.0"
             },
             "time": "2024-05-06T20:05:52+00:00"
@@ -2546,6 +2630,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/thephpleague/mime-type-detection/zipball/ce0f4d1e8a6f4eb0ddff33f57c69c50fd09f4301",
                 "reference": "ce0f4d1e8a6f4eb0ddff33f57c69c50fd09f4301",
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -2589,6 +2674,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
                 "shasum": ""
             },
             "require": {
@@ -2625,6 +2712,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/thephpleague/mime-type-detection/tree/1.15.0"
 =======
                 "source": "https://github.com/thephpleague/mime-type-detection/tree/1.16.0"
@@ -2644,6 +2732,9 @@
 =======
                 "source": "https://github.com/thephpleague/mime-type-detection/tree/1.16.0"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+                "source": "https://github.com/thephpleague/mime-type-detection/tree/1.15.0"
+>>>>>>> origin/quan_ly_user
             },
             "funding": [
                 {
@@ -2655,6 +2746,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2766,6 +2858,9 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+            "time": "2024-01-28T23:22:08+00:00"
+>>>>>>> origin/quan_ly_user
         },
         {
             "name": "monolog/monolog",
@@ -2983,6 +3078,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
             "version": "v1.3.0",
             "source": {
                 "type": "git",
@@ -2993,6 +3091,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/nette/schema/zipball/a6d3a6d1f545f01ef38e60f375d1cf1f4de98188",
                 "reference": "a6d3a6d1f545f01ef38e60f375d1cf1f4de98188",
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -3030,6 +3129,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
                 "shasum": ""
             },
             "require": {
@@ -3040,10 +3141,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
                 "php": "8.1 - 8.3"
             },
             "require-dev": {
                 "nette/tester": "^2.4",
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -3075,6 +3180,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
                 "phpstan/phpstan-nette": "^1.0",
                 "tracy/tracy": "^2.8"
             },
@@ -3119,6 +3226,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/nette/schema/tree/v1.3.0"
             },
             "time": "2023-12-11T11:54:22+00:00"
@@ -3152,6 +3260,11 @@
             },
             "time": "2024-10-06T23:10:23+00:00"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+                "source": "https://github.com/nette/schema/tree/v1.3.0"
+            },
+            "time": "2023-12-11T11:54:22+00:00"
+>>>>>>> origin/quan_ly_user
         },
         {
             "name": "nette/utils",
@@ -3247,6 +3360,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
             "version": "v5.1.0",
             "source": {
                 "type": "git",
@@ -3257,6 +3373,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/683130c2ff8c2739f4822ff7ac5c873ec529abd1",
                 "reference": "683130c2ff8c2739f4822ff7ac5c873ec529abd1",
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -3294,6 +3411,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
                 "shasum": ""
             },
             "require": {
@@ -3342,6 +3461,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
                 "source": "https://github.com/nikic/PHP-Parser/tree/v5.1.0"
             },
             "time": "2024-07-01T20:03:41+00:00"
@@ -3358,6 +3480,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/nunomaduro/termwind/zipball/8ab0b32c8caa4a2e09700ea32925441385e4a5dc",
                 "reference": "8ab0b32c8caa4a2e09700ea32925441385e4a5dc",
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -3401,6 +3524,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
                 "shasum": ""
             },
             "require": {
@@ -3411,6 +3536,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
                 "php": "^8.0",
                 "symfony/console": "^5.3.0|^6.0.0"
             },
@@ -3424,6 +3552,7 @@
                 "phpstan/phpstan": "^1.4.6",
                 "phpstan/phpstan-strict-rules": "^1.1.0",
                 "symfony/var-dumper": "^5.2.7|^6.0.0",
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -3463,6 +3592,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
                 "thecodingmachine/phpstan-strict-rules": "^1.0.0"
             },
             "type": "library",
@@ -3508,6 +3639,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/nunomaduro/termwind/tree/v1.15.1"
 =======
                 "source": "https://github.com/nunomaduro/termwind/tree/v1.16.0"
@@ -3527,6 +3659,9 @@
 =======
                 "source": "https://github.com/nunomaduro/termwind/tree/v1.16.0"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+                "source": "https://github.com/nunomaduro/termwind/tree/v1.15.1"
+>>>>>>> origin/quan_ly_user
             },
             "funding": [
                 {
@@ -3542,6 +3677,7 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3694,6 +3830,9 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+            "time": "2023-02-08T01:06:31+00:00"
+>>>>>>> origin/quan_ly_user
         },
         {
             "name": "phpoption/phpoption",
@@ -3771,6 +3910,7 @@
             "time": "2024-07-20T21:41:07+00:00"
         },
         {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3914,6 +4054,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
             "name": "psr/clock",
             "version": "1.0.0",
             "source": {
@@ -4232,6 +4374,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
             "version": "3.0.1",
             "source": {
                 "type": "git",
@@ -4242,6 +4387,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/php-fig/log/zipball/79dff0b268932c640297f5208d6298f71855c03e",
                 "reference": "79dff0b268932c640297f5208d6298f71855c03e",
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -4279,6 +4425,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
                 "shasum": ""
             },
             "require": {
@@ -4319,6 +4467,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/php-fig/log/tree/3.0.1"
             },
             "time": "2024-08-21T13:31:24+00:00"
@@ -4352,6 +4501,11 @@
             },
             "time": "2024-09-11T13:17:53+00:00"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+                "source": "https://github.com/php-fig/log/tree/3.0.1"
+            },
+            "time": "2024-08-21T13:31:24+00:00"
+>>>>>>> origin/quan_ly_user
         },
         {
             "name": "psr/simple-cache",
@@ -4716,6 +4870,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
             "version": "v6.4.10",
             "source": {
                 "type": "git",
@@ -4726,6 +4883,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/console/zipball/504974cbe43d05f83b201d6498c206f16fc0cdbc",
                 "reference": "504974cbe43d05f83b201d6498c206f16fc0cdbc",
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -4763,6 +4921,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
                 "shasum": ""
             },
             "require": {
@@ -4833,6 +4993,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/console/tree/v6.4.10"
 =======
                 "source": "https://github.com/symfony/console/tree/v6.4.13"
@@ -4852,6 +5013,9 @@
 =======
                 "source": "https://github.com/symfony/console/tree/v6.4.13"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+                "source": "https://github.com/symfony/console/tree/v6.4.10"
+>>>>>>> origin/quan_ly_user
             },
             "funding": [
                 {
@@ -4873,6 +5037,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
             "time": "2024-07-26T12:30:32+00:00"
         },
         {
@@ -4891,6 +5058,7 @@
             },
             "require": {
                 "php": ">=8.1"
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -4936,6 +5104,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
             },
             "type": "library",
             "autoload": {
@@ -4973,6 +5143,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/css-selector/tree/v6.4.8"
 =======
                 "source": "https://github.com/symfony/css-selector/tree/v7.1.6"
@@ -4992,6 +5163,9 @@
 =======
                 "source": "https://github.com/symfony/css-selector/tree/v7.1.6"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+                "source": "https://github.com/symfony/css-selector/tree/v6.4.8"
+>>>>>>> origin/quan_ly_user
             },
             "funding": [
                 {
@@ -5007,6 +5181,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5032,6 +5207,9 @@
 =======
             "time": "2024-09-25T14:20:29+00:00"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+            "time": "2024-05-31T14:49:08+00:00"
+>>>>>>> origin/quan_ly_user
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -5108,6 +5286,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
             "version": "v6.4.10",
             "source": {
                 "type": "git",
@@ -5118,6 +5299,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/error-handler/zipball/231f1b2ee80f72daa1972f7340297d67439224f0",
                 "reference": "231f1b2ee80f72daa1972f7340297d67439224f0",
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -5155,6 +5337,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
                 "shasum": ""
             },
             "require": {
@@ -5206,6 +5390,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/error-handler/tree/v6.4.10"
 =======
                 "source": "https://github.com/symfony/error-handler/tree/v6.4.13"
@@ -5225,6 +5410,9 @@
 =======
                 "source": "https://github.com/symfony/error-handler/tree/v6.4.13"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+                "source": "https://github.com/symfony/error-handler/tree/v6.4.10"
+>>>>>>> origin/quan_ly_user
             },
             "funding": [
                 {
@@ -5246,6 +5434,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
             "time": "2024-07-26T12:30:32+00:00"
         },
         {
@@ -5268,6 +5459,7 @@
             },
             "conflict": {
                 "symfony/dependency-injection": "<5.4",
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -5317,6 +5509,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
                 "symfony/service-contracts": "<2.5"
             },
             "provide": {
@@ -5331,6 +5525,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
                 "symfony/config": "^5.4|^6.0|^7.0",
                 "symfony/dependency-injection": "^5.4|^6.0|^7.0",
                 "symfony/error-handler": "^5.4|^6.0|^7.0",
@@ -5338,6 +5535,7 @@
                 "symfony/http-foundation": "^5.4|^6.0|^7.0",
                 "symfony/service-contracts": "^2.5|^3",
                 "symfony/stopwatch": "^5.4|^6.0|^7.0"
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -5372,6 +5570,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
             },
             "type": "library",
             "autoload": {
@@ -5405,6 +5605,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/event-dispatcher/tree/v6.4.8"
 =======
                 "source": "https://github.com/symfony/event-dispatcher/tree/v7.1.6"
@@ -5424,6 +5625,9 @@
 =======
                 "source": "https://github.com/symfony/event-dispatcher/tree/v7.1.6"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+                "source": "https://github.com/symfony/event-dispatcher/tree/v6.4.8"
+>>>>>>> origin/quan_ly_user
             },
             "funding": [
                 {
@@ -5439,6 +5643,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5464,6 +5669,9 @@
 =======
             "time": "2024-09-25T14:20:29+00:00"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+            "time": "2024-05-31T14:49:08+00:00"
+>>>>>>> origin/quan_ly_user
         },
         {
             "name": "symfony/event-dispatcher-contracts",
@@ -5549,6 +5757,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
             "version": "v6.4.10",
             "source": {
                 "type": "git",
@@ -5559,6 +5770,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/finder/zipball/af29198d87112bebdd397bd7735fbd115997824c",
                 "reference": "af29198d87112bebdd397bd7735fbd115997824c",
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -5596,6 +5808,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
                 "shasum": ""
             },
             "require": {
@@ -5636,6 +5850,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/finder/tree/v6.4.10"
 =======
                 "source": "https://github.com/symfony/finder/tree/v6.4.13"
@@ -5655,6 +5870,9 @@
 =======
                 "source": "https://github.com/symfony/finder/tree/v6.4.13"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+                "source": "https://github.com/symfony/finder/tree/v6.4.10"
+>>>>>>> origin/quan_ly_user
             },
             "funding": [
                 {
@@ -5676,6 +5894,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
             "time": "2024-07-24T07:06:38+00:00"
         },
         {
@@ -5690,6 +5911,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/http-foundation/zipball/117f1f20a7ade7bcea28b861fb79160a21a1e37b",
                 "reference": "117f1f20a7ade7bcea28b861fb79160a21a1e37b",
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -5731,6 +5953,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
                 "shasum": ""
             },
             "require": {
@@ -5784,6 +6008,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/http-foundation/tree/v6.4.10"
 =======
                 "source": "https://github.com/symfony/http-foundation/tree/v6.4.13"
@@ -5803,6 +6028,9 @@
 =======
                 "source": "https://github.com/symfony/http-foundation/tree/v6.4.13"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+                "source": "https://github.com/symfony/http-foundation/tree/v6.4.10"
+>>>>>>> origin/quan_ly_user
             },
             "funding": [
                 {
@@ -5824,6 +6052,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
             "time": "2024-07-26T12:36:27+00:00"
         },
         {
@@ -5838,6 +6069,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/http-kernel/zipball/147e0daf618d7575b5007055340d09aece5cf068",
                 "reference": "147e0daf618d7575b5007055340d09aece5cf068",
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -5879,6 +6111,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
                 "shasum": ""
             },
             "require": {
@@ -5969,6 +6203,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/http-kernel/tree/v6.4.10"
 =======
                 "source": "https://github.com/symfony/http-kernel/tree/v6.4.13"
@@ -5988,6 +6223,9 @@
 =======
                 "source": "https://github.com/symfony/http-kernel/tree/v6.4.13"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+                "source": "https://github.com/symfony/http-kernel/tree/v6.4.10"
+>>>>>>> origin/quan_ly_user
             },
             "funding": [
                 {
@@ -6009,6 +6247,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
             "time": "2024-07-26T14:52:04+00:00"
         },
         {
@@ -6023,6 +6264,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/mailer/zipball/e2d56f180f5b8c5e7c0fbea872bb1f529b6d6d45",
                 "reference": "e2d56f180f5b8c5e7c0fbea872bb1f529b6d6d45",
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -6064,6 +6306,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
                 "shasum": ""
             },
             "require": {
@@ -6120,6 +6364,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/mailer/tree/v6.4.9"
 =======
                 "source": "https://github.com/symfony/mailer/tree/v6.4.13"
@@ -6139,6 +6384,9 @@
 =======
                 "source": "https://github.com/symfony/mailer/tree/v6.4.13"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+                "source": "https://github.com/symfony/mailer/tree/v6.4.9"
+>>>>>>> origin/quan_ly_user
             },
             "funding": [
                 {
@@ -6160,6 +6408,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
             "time": "2024-06-28T07:59:05+00:00"
         },
         {
@@ -6174,6 +6425,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/mime/zipball/7d048964877324debdcb4e0549becfa064a20d43",
                 "reference": "7d048964877324debdcb4e0549becfa064a20d43",
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -6215,6 +6467,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
                 "shasum": ""
             },
             "require": {
@@ -6276,6 +6530,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/mime/tree/v6.4.9"
 =======
                 "source": "https://github.com/symfony/mime/tree/v6.4.13"
@@ -6295,6 +6550,9 @@
 =======
                 "source": "https://github.com/symfony/mime/tree/v6.4.13"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+                "source": "https://github.com/symfony/mime/tree/v6.4.9"
+>>>>>>> origin/quan_ly_user
             },
             "funding": [
                 {
@@ -6316,6 +6574,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
             "time": "2024-06-28T09:49:33+00:00"
         },
         {
@@ -6334,6 +6595,7 @@
             },
             "require": {
                 "php": ">=7.1"
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -6379,6 +6641,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
             },
             "provide": {
                 "ext-ctype": "*"
@@ -6430,6 +6694,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/polyfill-ctype/tree/v1.30.0"
 =======
                 "source": "https://github.com/symfony/polyfill-ctype/tree/v1.31.0"
@@ -6449,6 +6714,9 @@
 =======
                 "source": "https://github.com/symfony/polyfill-ctype/tree/v1.31.0"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.30.0"
+>>>>>>> origin/quan_ly_user
             },
             "funding": [
                 {
@@ -6470,6 +6738,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
             "time": "2024-05-31T15:07:36+00:00"
         },
         {
@@ -6488,6 +6759,7 @@
             },
             "require": {
                 "php": ">=7.1"
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -6533,6 +6805,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
             },
             "suggest": {
                 "ext-intl": "For best performance"
@@ -6583,6 +6857,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.30.0"
 =======
                 "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.31.0"
@@ -6602,6 +6877,9 @@
 =======
                 "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.31.0"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+                "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.30.0"
+>>>>>>> origin/quan_ly_user
             },
             "funding": [
                 {
@@ -6623,6 +6901,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
             "time": "2024-05-31T15:07:36+00:00"
         },
         {
@@ -6643,6 +6924,7 @@
                 "php": ">=7.1",
                 "symfony/polyfill-intl-normalizer": "^1.10",
                 "symfony/polyfill-php72": "^1.10"
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -6689,6 +6971,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
             },
             "suggest": {
                 "ext-intl": "For best performance"
@@ -6743,6 +7027,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.30.0"
 =======
                 "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.31.0"
@@ -6762,6 +7047,9 @@
 =======
                 "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.31.0"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+                "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.30.0"
+>>>>>>> origin/quan_ly_user
             },
             "funding": [
                 {
@@ -6783,6 +7071,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
             "time": "2024-05-31T15:07:36+00:00"
         },
         {
@@ -6801,6 +7092,7 @@
             },
             "require": {
                 "php": ">=7.1"
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -6846,6 +7138,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
             },
             "suggest": {
                 "ext-intl": "For best performance"
@@ -6899,6 +7193,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.30.0"
 =======
                 "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.31.0"
@@ -6918,6 +7213,9 @@
 =======
                 "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.31.0"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+                "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.30.0"
+>>>>>>> origin/quan_ly_user
             },
             "funding": [
                 {
@@ -6939,6 +7237,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
             "time": "2024-05-31T15:07:36+00:00"
         },
         {
@@ -6957,6 +7258,7 @@
             },
             "require": {
                 "php": ">=7.1"
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -7002,6 +7304,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
             },
             "provide": {
                 "ext-mbstring": "*"
@@ -7054,6 +7358,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.30.0"
 =======
                 "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.31.0"
@@ -7073,6 +7378,9 @@
 =======
                 "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.31.0"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.30.0"
+>>>>>>> origin/quan_ly_user
             },
             "funding": [
                 {
@@ -7094,6 +7402,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
             "time": "2024-06-19T12:30:46+00:00"
         },
         {
@@ -7185,6 +7496,7 @@
             },
             "require": {
                 "php": ">=7.1"
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -7230,6 +7542,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
             },
             "type": "library",
             "extra": {
@@ -7282,6 +7596,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/polyfill-php80/tree/v1.30.0"
 =======
                 "source": "https://github.com/symfony/polyfill-php80/tree/v1.31.0"
@@ -7301,6 +7616,9 @@
 =======
                 "source": "https://github.com/symfony/polyfill-php80/tree/v1.31.0"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+                "source": "https://github.com/symfony/polyfill-php80/tree/v1.30.0"
+>>>>>>> origin/quan_ly_user
             },
             "funding": [
                 {
@@ -7322,6 +7640,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
             "time": "2024-05-31T15:07:36+00:00"
         },
         {
@@ -7340,6 +7661,7 @@
             },
             "require": {
                 "php": ">=7.1"
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -7385,6 +7707,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
             },
             "type": "library",
             "extra": {
@@ -7433,6 +7757,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/polyfill-php83/tree/v1.30.0"
 =======
                 "source": "https://github.com/symfony/polyfill-php83/tree/v1.31.0"
@@ -7452,6 +7777,9 @@
 =======
                 "source": "https://github.com/symfony/polyfill-php83/tree/v1.31.0"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+                "source": "https://github.com/symfony/polyfill-php83/tree/v1.30.0"
+>>>>>>> origin/quan_ly_user
             },
             "funding": [
                 {
@@ -7473,6 +7801,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
             "time": "2024-06-19T12:35:24+00:00"
         },
         {
@@ -7491,6 +7822,7 @@
             },
             "require": {
                 "php": ">=7.1"
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -7536,6 +7868,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
             },
             "provide": {
                 "ext-uuid": "*"
@@ -7587,6 +7921,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/polyfill-uuid/tree/v1.30.0"
 =======
                 "source": "https://github.com/symfony/polyfill-uuid/tree/v1.31.0"
@@ -7606,6 +7941,9 @@
 =======
                 "source": "https://github.com/symfony/polyfill-uuid/tree/v1.31.0"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+                "source": "https://github.com/symfony/polyfill-uuid/tree/v1.30.0"
+>>>>>>> origin/quan_ly_user
             },
             "funding": [
                 {
@@ -7627,6 +7965,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
             "time": "2024-05-31T15:07:36+00:00"
         },
         {
@@ -7641,6 +7982,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/process/zipball/8d92dd79149f29e89ee0f480254db595f6a6a2c5",
                 "reference": "8d92dd79149f29e89ee0f480254db595f6a6a2c5",
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -7682,6 +8024,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
                 "shasum": ""
             },
             "require": {
@@ -7719,6 +8063,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/process/tree/v6.4.8"
 =======
                 "source": "https://github.com/symfony/process/tree/v6.4.13"
@@ -7738,6 +8083,9 @@
 =======
                 "source": "https://github.com/symfony/process/tree/v6.4.13"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+                "source": "https://github.com/symfony/process/tree/v6.4.8"
+>>>>>>> origin/quan_ly_user
             },
             "funding": [
                 {
@@ -7759,6 +8107,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
             "time": "2024-05-31T14:49:08+00:00"
         },
         {
@@ -7773,6 +8124,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/routing/zipball/aad19fe10753ba842f0d653a8db819c4b3affa87",
                 "reference": "aad19fe10753ba842f0d653a8db819c4b3affa87",
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -7814,6 +8166,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
                 "shasum": ""
             },
             "require": {
@@ -7873,6 +8227,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/routing/tree/v6.4.10"
 =======
                 "source": "https://github.com/symfony/routing/tree/v6.4.13"
@@ -7892,6 +8247,9 @@
 =======
                 "source": "https://github.com/symfony/routing/tree/v6.4.13"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+                "source": "https://github.com/symfony/routing/tree/v6.4.10"
+>>>>>>> origin/quan_ly_user
             },
             "funding": [
                 {
@@ -7907,6 +8265,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7932,6 +8291,9 @@
 =======
             "time": "2024-10-01T08:30:56+00:00"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+            "time": "2024-07-15T09:26:24+00:00"
+>>>>>>> origin/quan_ly_user
         },
         {
             "name": "symfony/service-contracts",
@@ -8024,6 +8386,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
             "version": "v6.4.10",
             "source": {
                 "type": "git",
@@ -8038,6 +8403,7 @@
             },
             "require": {
                 "php": ">=8.1",
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -8079,6 +8445,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
                 "symfony/polyfill-ctype": "~1.8",
                 "symfony/polyfill-intl-grapheme": "~1.0",
                 "symfony/polyfill-intl-normalizer": "~1.0",
@@ -8094,11 +8462,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
                 "symfony/error-handler": "^5.4|^6.0|^7.0",
                 "symfony/http-client": "^5.4|^6.0|^7.0",
                 "symfony/intl": "^6.2|^7.0",
                 "symfony/translation-contracts": "^2.5|^3.0",
                 "symfony/var-exporter": "^5.4|^6.0|^7.0"
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -8132,6 +8504,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
             },
             "type": "library",
             "autoload": {
@@ -8176,6 +8550,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/string/tree/v6.4.10"
 =======
                 "source": "https://github.com/symfony/string/tree/v7.1.6"
@@ -8195,6 +8570,9 @@
 =======
                 "source": "https://github.com/symfony/string/tree/v7.1.6"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+                "source": "https://github.com/symfony/string/tree/v6.4.10"
+>>>>>>> origin/quan_ly_user
             },
             "funding": [
                 {
@@ -8216,6 +8594,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
             "time": "2024-07-22T10:21:14+00:00"
         },
         {
@@ -8230,6 +8611,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/translation/zipball/94041203f8ac200ae9e7c6a18fa6137814ccecc9",
                 "reference": "94041203f8ac200ae9e7c6a18fa6137814ccecc9",
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -8271,6 +8653,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
                 "shasum": ""
             },
             "require": {
@@ -8342,6 +8726,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/translation/tree/v6.4.10"
 =======
                 "source": "https://github.com/symfony/translation/tree/v6.4.13"
@@ -8361,6 +8746,9 @@
 =======
                 "source": "https://github.com/symfony/translation/tree/v6.4.13"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+                "source": "https://github.com/symfony/translation/tree/v6.4.10"
+>>>>>>> origin/quan_ly_user
             },
             "funding": [
                 {
@@ -8376,6 +8764,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8401,6 +8790,9 @@
 =======
             "time": "2024-09-27T18:14:25+00:00"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+            "time": "2024-07-26T12:30:32+00:00"
+>>>>>>> origin/quan_ly_user
         },
         {
             "name": "symfony/translation-contracts",
@@ -8488,6 +8880,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
             "version": "v6.4.8",
             "source": {
                 "type": "git",
@@ -8498,6 +8893,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/uid/zipball/35904eca37a84bb764c560cbfcac9f0ac2bcdbdf",
                 "reference": "35904eca37a84bb764c560cbfcac9f0ac2bcdbdf",
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -8535,6 +8931,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
                 "shasum": ""
             },
             "require": {
@@ -8585,6 +8983,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/uid/tree/v6.4.8"
 =======
                 "source": "https://github.com/symfony/uid/tree/v6.4.13"
@@ -8604,6 +9003,9 @@
 =======
                 "source": "https://github.com/symfony/uid/tree/v6.4.13"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+                "source": "https://github.com/symfony/uid/tree/v6.4.8"
+>>>>>>> origin/quan_ly_user
             },
             "funding": [
                 {
@@ -8625,6 +9027,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
             "time": "2024-05-31T14:49:08+00:00"
         },
         {
@@ -8639,6 +9044,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/var-dumper/zipball/a71cc3374f5fb9759da1961d28c452373b343dd4",
                 "reference": "a71cc3374f5fb9759da1961d28c452373b343dd4",
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -8680,6 +9086,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
                 "shasum": ""
             },
             "require": {
@@ -8741,6 +9149,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/var-dumper/tree/v6.4.10"
 =======
                 "source": "https://github.com/symfony/var-dumper/tree/v6.4.13"
@@ -8760,6 +9169,9 @@
 =======
                 "source": "https://github.com/symfony/var-dumper/tree/v6.4.13"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+                "source": "https://github.com/symfony/var-dumper/tree/v6.4.10"
+>>>>>>> origin/quan_ly_user
             },
             "funding": [
                 {
@@ -8775,6 +9187,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8800,6 +9213,9 @@
 =======
             "time": "2024-09-25T14:18:03+00:00"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+            "time": "2024-07-26T12:30:32+00:00"
+>>>>>>> origin/quan_ly_user
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
@@ -9080,6 +9496,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
             "version": "v3.14.2",
             "source": {
                 "type": "git",
@@ -9090,6 +9509,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/barryvdh/laravel-debugbar/zipball/850be4e3c05add22d70a3a3fb564925fd7605973",
                 "reference": "850be4e3c05add22d70a3a3fb564925fd7605973",
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -9127,6 +9547,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
                 "shasum": ""
             },
             "require": {
@@ -9191,6 +9613,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/barryvdh/laravel-debugbar/tree/v3.14.2"
 =======
                 "source": "https://github.com/barryvdh/laravel-debugbar/tree/v3.14.6"
@@ -9210,6 +9633,9 @@
 =======
                 "source": "https://github.com/barryvdh/laravel-debugbar/tree/v3.14.6"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+                "source": "https://github.com/barryvdh/laravel-debugbar/tree/v3.14.2"
+>>>>>>> origin/quan_ly_user
             },
             "funding": [
                 {
@@ -9221,6 +9647,7 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9246,6 +9673,9 @@
 =======
             "time": "2024-10-18T13:15:12+00:00"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+            "time": "2024-09-24T17:03:19+00:00"
+>>>>>>> origin/quan_ly_user
         },
         {
             "name": "fakerphp/faker",
@@ -9318,6 +9748,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
             "version": "2.15.4",
             "source": {
                 "type": "git",
@@ -9338,6 +9771,7 @@
                 "mockery/mockery": "^0.9 || ^1.0",
                 "phpunit/phpunit": "^4.8.36 || ^5.7.27 || ^6.5.14 || ^7.5.20 || ^8.5.8 || ^9.3.3",
                 "symfony/var-dumper": "^2.6 || ^3.0 || ^4.0 || ^5.0"
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -9385,6 +9819,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
             },
             "suggest": {
                 "symfony/var-dumper": "Pretty print complex values better with var-dumper available",
@@ -9430,6 +9866,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/filp/whoops/tree/2.15.4"
 =======
                 "source": "https://github.com/filp/whoops/tree/2.16.0"
@@ -9449,6 +9886,9 @@
 =======
                 "source": "https://github.com/filp/whoops/tree/2.16.0"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+                "source": "https://github.com/filp/whoops/tree/2.15.4"
+>>>>>>> origin/quan_ly_user
             },
             "funding": [
                 {
@@ -9456,6 +9896,7 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9481,6 +9922,9 @@
 =======
             "time": "2024-09-25T12:00:00+00:00"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+            "time": "2023-11-03T12:00:00+00:00"
+>>>>>>> origin/quan_ly_user
         },
         {
             "name": "hamcrest/hamcrest-php",
@@ -9541,6 +9985,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
             "version": "v1.17.2",
             "source": {
                 "type": "git",
@@ -9551,6 +9998,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/pint/zipball/e8a88130a25e3f9d4d5785e6a1afca98268ab110",
                 "reference": "e8a88130a25e3f9d4d5785e6a1afca98268ab110",
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -9588,6 +10036,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
                 "shasum": ""
             },
             "require": {
@@ -9598,6 +10048,7 @@
                 "php": "^8.1.0"
             },
             "require-dev": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9630,10 +10081,15 @@
                 "friendsofphp/php-cs-fixer": "^3.64.0",
                 "illuminate/view": "^10.48.20",
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+                "friendsofphp/php-cs-fixer": "^3.61.1",
+                "illuminate/view": "^10.48.18",
+>>>>>>> origin/quan_ly_user
                 "larastan/larastan": "^2.9.8",
                 "laravel-zero/framework": "^10.4.0",
                 "mockery/mockery": "^1.6.12",
                 "nunomaduro/termwind": "^1.15.1",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9659,6 +10115,9 @@
 =======
                 "pestphp/pest": "^2.35.1"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+                "pestphp/pest": "^2.35.0"
+>>>>>>> origin/quan_ly_user
             },
             "bin": [
                 "builds/pint"
@@ -9700,6 +10159,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
             "time": "2024-08-06T15:11:54+00:00"
         },
         {
@@ -9714,6 +10176,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/sail/zipball/3d06dd18cee8059baa7b388af00ba47f6d96bd85",
                 "reference": "3d06dd18cee8059baa7b388af00ba47f6d96bd85",
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -9755,6 +10218,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
                 "shasum": ""
             },
             "require": {
@@ -9810,6 +10275,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
             "time": "2024-08-02T07:45:47+00:00"
         },
         {
@@ -9824,6 +10292,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/maximebf/php-debugbar/zipball/689720d724c771ac4add859056744b7b3f2406da",
                 "reference": "689720d724c771ac4add859056744b7b3f2406da",
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -9865,6 +10334,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
                 "shasum": ""
             },
             "require": {
@@ -9923,6 +10394,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/maximebf/php-debugbar/tree/v1.23.2"
             },
             "time": "2024-09-16T11:23:09+00:00"
@@ -9956,6 +10428,11 @@
             },
             "time": "2024-10-29T12:24:25+00:00"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+                "source": "https://github.com/maximebf/php-debugbar/tree/v1.23.2"
+            },
+            "time": "2024-09-16T11:23:09+00:00"
+>>>>>>> origin/quan_ly_user
         },
         {
             "name": "mockery/mockery",
@@ -10108,6 +10585,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
             "version": "v7.10.0",
             "source": {
                 "type": "git",
@@ -10125,6 +10605,7 @@
                 "nunomaduro/termwind": "^1.15.1",
                 "php": "^8.1.0",
                 "symfony/console": "^6.3.4"
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -10169,6 +10650,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
             },
             "conflict": {
                 "laravel/framework": ">=11.0.0"
@@ -10180,6 +10663,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
                 "brianium/paratest": "^7.3.0",
                 "laravel/framework": "^10.28.0",
                 "laravel/pint": "^1.13.3",
@@ -10192,6 +10678,7 @@
                 "phpunit/phpunit": "^10.4.1",
                 "sebastian/environment": "^6.0.1",
                 "spatie/laravel-ignition": "^2.3.1"
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -10231,6 +10718,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
             },
             "type": "library",
             "extra": {
@@ -10295,6 +10784,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2023-10-11T15:45:01+00:00"
 =======
             "time": "2024-10-15T15:12:40+00:00"
@@ -10314,6 +10804,9 @@
 =======
             "time": "2024-10-15T15:12:40+00:00"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+            "time": "2023-10-11T15:45:01+00:00"
+>>>>>>> origin/quan_ly_user
         },
         {
             "name": "phar-io/manifest",
@@ -10762,6 +11255,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
             "version": "10.5.30",
             "source": {
                 "type": "git",
@@ -10772,6 +11268,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/b15524febac0153876b4ba9aab3326c2ee94c897",
                 "reference": "b15524febac0153876b4ba9aab3326c2ee94c897",
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -10809,6 +11306,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
                 "shasum": ""
             },
             "require": {
@@ -10822,6 +11321,7 @@
                 "phar-io/manifest": "^2.0.4",
                 "phar-io/version": "^3.2.1",
                 "php": ">=8.1",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10847,12 +11347,16 @@
 =======
                 "phpunit/php-code-coverage": "^10.1.16",
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+                "phpunit/php-code-coverage": "^10.1.15",
+>>>>>>> origin/quan_ly_user
                 "phpunit/php-file-iterator": "^4.1.0",
                 "phpunit/php-invoker": "^4.0.0",
                 "phpunit/php-text-template": "^3.0.1",
                 "phpunit/php-timer": "^6.0.0",
                 "sebastian/cli-parser": "^2.0.1",
                 "sebastian/code-unit": "^2.0.0",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10878,6 +11382,9 @@
 =======
                 "sebastian/comparator": "^5.0.3",
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+                "sebastian/comparator": "^5.0.2",
+>>>>>>> origin/quan_ly_user
                 "sebastian/diff": "^5.1.1",
                 "sebastian/environment": "^6.1.0",
                 "sebastian/exporter": "^5.1.2",
@@ -10934,6 +11441,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/phpunit/tree/10.5.30"
 =======
                 "source": "https://github.com/sebastianbergmann/phpunit/tree/10.5.38"
@@ -10953,6 +11461,9 @@
 =======
                 "source": "https://github.com/sebastianbergmann/phpunit/tree/10.5.38"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.5.30"
+>>>>>>> origin/quan_ly_user
             },
             "funding": [
                 {
@@ -10968,6 +11479,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10993,6 +11505,9 @@
 =======
             "time": "2024-10-28T13:06:21+00:00"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+            "time": "2024-08-13T06:09:37+00:00"
+>>>>>>> origin/quan_ly_user
         },
         {
             "name": "sebastian/cli-parser",
@@ -11170,6 +11685,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
             "version": "5.0.2",
             "source": {
                 "type": "git",
@@ -11180,6 +11698,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/2d3e04c3b4c1e84a5e7382221ad8883c8fbc4f53",
                 "reference": "2d3e04c3b4c1e84a5e7382221ad8883c8fbc4f53",
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -11217,6 +11736,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
                 "shasum": ""
             },
             "require": {
@@ -11227,6 +11748,7 @@
                 "sebastian/exporter": "^5.0"
             },
             "require-dev": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11252,6 +11774,9 @@
 =======
                 "phpunit/phpunit": "^10.5"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+                "phpunit/phpunit": "^10.4"
+>>>>>>> origin/quan_ly_user
             },
             "type": "library",
             "extra": {
@@ -11302,6 +11827,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/comparator/tree/5.0.2"
 =======
                 "source": "https://github.com/sebastianbergmann/comparator/tree/5.0.3"
@@ -11321,6 +11847,9 @@
 =======
                 "source": "https://github.com/sebastianbergmann/comparator/tree/5.0.3"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+                "source": "https://github.com/sebastianbergmann/comparator/tree/5.0.2"
+>>>>>>> origin/quan_ly_user
             },
             "funding": [
                 {
@@ -11328,6 +11857,7 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11353,6 +11883,9 @@
 =======
             "time": "2024-10-18T14:56:07+00:00"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+            "time": "2024-08-12T06:03:08+00:00"
+>>>>>>> origin/quan_ly_user
         },
         {
             "name": "sebastian/complexity",
@@ -12413,6 +12946,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/quan_ly_user
             "version": "v6.4.8",
             "source": {
                 "type": "git",
@@ -12435,6 +12971,7 @@
             },
             "require-dev": {
                 "symfony/console": "^5.4|^6.0|^7.0"
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -12483,6 +13020,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/quan_ly_user
             },
             "bin": [
                 "Resources/bin/yaml-lint"
@@ -12519,6 +13058,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/yaml/tree/v6.4.8"
 =======
                 "source": "https://github.com/symfony/yaml/tree/v7.1.6"
@@ -12538,6 +13078,9 @@
 =======
                 "source": "https://github.com/symfony/yaml/tree/v7.1.6"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+                "source": "https://github.com/symfony/yaml/tree/v6.4.8"
+>>>>>>> origin/quan_ly_user
             },
             "funding": [
                 {
@@ -12553,6 +13096,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12578,6 +13122,9 @@
 =======
             "time": "2024-09-25T14:20:29+00:00"
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+            "time": "2024-05-31T14:49:08+00:00"
+>>>>>>> origin/quan_ly_user
         },
         {
             "name": "theseer/tokenizer",
