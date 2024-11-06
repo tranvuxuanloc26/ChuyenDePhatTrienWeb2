@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         "laravel/socialite": "^5.16",
 >>>>>>> origin/tim_kiem_user_admin
@@ -21,6 +22,9 @@
 =======
         "laravel/socialite": "^5.16",
 >>>>>>> origin/search_product_admin
+=======
+        "laravel/socialite": "^5.16",
+>>>>>>> origin/search_product
         "laravel/tinker": "^2.8"
     },
     "require-dev": {

@@ -52,6 +52,7 @@ class UserController extends Controller
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     public function search(Request $request)
     {
@@ -68,4 +69,6 @@ class UserController extends Controller
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
 =======
 >>>>>>> origin/search_product_admin
+=======
+>>>>>>> origin/search_product
 }

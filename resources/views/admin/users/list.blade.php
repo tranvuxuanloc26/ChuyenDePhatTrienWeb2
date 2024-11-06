@@ -4,6 +4,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <!-- Form tìm kiếm -->
 <form action="{{ route('admin.users.search') }}" method="GET" class="form-inline mb-3">
     <input type="text" name="query" class="form-control" placeholder="Tìm kiếm người dùng..." value="{{ request('query') }}">
@@ -14,6 +15,8 @@
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
 =======
 >>>>>>> origin/search_product_admin
+=======
+>>>>>>> origin/search_product
 
 <table>
     <thead>
@@ -63,6 +66,7 @@
 </table>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 {!! $users->appends(['query' => request('query')])->links('pagination::bootstrap-4') !!}
 =======
 {!! $users->links('pagination::bootstrap-4') !!}
@@ -70,6 +74,9 @@
 =======
 {!! $users->links('pagination::bootstrap-4') !!}
 >>>>>>> origin/search_product_admin
+=======
+{!! $users->links('pagination::bootstrap-4') !!}
+>>>>>>> origin/search_product
 @endsection
 
 <script>

@@ -53,6 +53,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <a href="#" class="filter-link stext-106 trans-04">
 =======
                                 <a href="#" id="filter-popularity" class="filter-link stext-106 trans-04">
@@ -63,10 +64,14 @@
 =======
                                 <a href="#" id="filter-popularity" class="filter-link stext-106 trans-04">
 >>>>>>> origin/search_product_admin
+=======
+                                <a href="#" id="filter-popularity" class="filter-link stext-106 trans-04">
+>>>>>>> origin/search_product
                                     Popularity
                                 </a>
                             </li>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -84,16 +89,21 @@
 =======
 =======
 >>>>>>> origin/search_product_admin
+=======
+>>>>>>> origin/search_product
                          
 
                             <li class="p-b-6">
                                 <a href="{{ route('products.newest') }}" class="filter-link stext-106 trans-04 filter-link-active">
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
 =======
 >>>>>>> origin/search_product_admin
+=======
+>>>>>>> origin/search_product
                                     Newness
                                 </a>
                             </li>
@@ -156,6 +166,7 @@
                         </ul>
                     </div>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -265,11 +276,15 @@
 =======
                   
 >>>>>>> origin/search_product_admin
+=======
+                  
+>>>>>>> origin/search_product
                 </div>
             </div>
         </div>
 
       @include('product.list')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -281,6 +296,9 @@
 =======
 
 >>>>>>> origin/search_product_admin
+=======
+
+>>>>>>> origin/search_product
       {{ $products->links('pagination::bootstrap-4')  }}
 
     </div>
@@ -288,10 +306,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @endsection
 =======
 =======
 >>>>>>> origin/search_product_admin
+=======
+>>>>>>> origin/search_product
 @endsection
 
 
@@ -315,6 +336,7 @@
         });
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
 </script>
 >>>>>>> origin/tim_kiem_user_admin
 =======
@@ -323,3 +345,6 @@
 =======
 </script>
 >>>>>>> origin/search_product_admin
+=======
+</script>
+>>>>>>> origin/search_product

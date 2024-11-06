@@ -17,6 +17,7 @@ class ProductServiceScreen{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                               ->get();
 =======
                               ->get()
@@ -29,6 +30,10 @@ class ProductServiceScreen{
                               ->get()
                               ;
 >>>>>>> origin/search_product_admin
+=======
+                              ->get()
+                              ;
+>>>>>>> origin/search_product
     }
 
     public function show($id){

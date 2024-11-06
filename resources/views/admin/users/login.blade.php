@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <a href="../../index2.html"><b>COZA</b>STORE</a>
 =======
     <a href="/"><b>COZA</b>STORE</a>
@@ -20,6 +21,9 @@
 =======
     <a href="/"><b>COZA</b>STORE</a>
 >>>>>>> origin/search_product_admin
+=======
+    <a href="/"><b>COZA</b>STORE</a>
+>>>>>>> origin/search_product
   </div>
   <!-- /.login-logo -->
   <div class="card">
@@ -65,6 +69,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <a href="#" class="btn btn-block btn-primary">
           <i class="fab fa-facebook mr-2"></i> Sign in using Facebook
         </a>
@@ -74,10 +79,13 @@
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
 =======
 >>>>>>> origin/search_product_admin
+=======
+>>>>>>> origin/search_product
         <a href="{{ route('facebook.login') }}" class="btn btn-block btn-primary">
           <i class="fab fa-facebook mr-2"></i> Sign in using Facebook
         </a>
         <a href="{{ url('auth/google') }}" class="btn btn-block btn-danger">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
@@ -85,6 +93,8 @@
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
 =======
 >>>>>>> origin/search_product_admin
+=======
+>>>>>>> origin/search_product
           <i class="fab fa-google-plus mr-2"></i> Sign in using Google+
         </a>
       </div>
@@ -94,6 +104,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <a href="forgot-password.html">I forgot my password</a>
 =======
         <a href="/forgot-password">I forgot my password</a>
@@ -104,6 +115,9 @@
 =======
         <a href="/forgot-password">I forgot my password</a>
 >>>>>>> origin/search_product_admin
+=======
+        <a href="/forgot-password">I forgot my password</a>
+>>>>>>> origin/search_product
       </p>
       <p class="mb-0">
         <a href="/admin/users/register" class="text-center">Register a new membership</a>

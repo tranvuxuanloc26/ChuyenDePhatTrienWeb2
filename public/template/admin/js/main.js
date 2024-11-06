@@ -69,6 +69,7 @@ $('#upload').change(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   
 
@@ -84,3 +85,8 @@ $('#upload').change(function () {
 
 
 >>>>>>> origin/search_product_admin
+=======
+  
+
+
+>>>>>>> origin/search_product

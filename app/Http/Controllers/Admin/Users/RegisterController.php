@@ -27,6 +27,7 @@ class RegisterController extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'role' => 'required|in:0,1', // Thêm xác nhận vai trò
 =======
           
@@ -37,6 +38,9 @@ class RegisterController extends Controller
 =======
           
 >>>>>>> origin/search_product_admin
+=======
+          
+>>>>>>> origin/search_product
 
         ]);
 
@@ -47,6 +51,7 @@ class RegisterController extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'role' => $request->input('role'), // Lưu vai trò
 =======
 >>>>>>> origin/tim_kiem_user_admin
@@ -54,11 +59,14 @@ class RegisterController extends Controller
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
 =======
 >>>>>>> origin/search_product_admin
+=======
+>>>>>>> origin/search_product
             'terms' => 'accepted' // Người dùng phải chọn checkbox
         ]);
 
         Auth::login($user);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -83,5 +91,10 @@ class RegisterController extends Controller
         return redirect()->route('home')->with('success', 'Đăng ký thành công!');
     
 >>>>>>> origin/search_product_admin
+=======
+ 
+        return redirect()->route('home')->with('success', 'Đăng ký thành công!');
+    
+>>>>>>> origin/search_product
     }
 }

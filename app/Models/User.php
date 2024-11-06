@@ -25,6 +25,7 @@ class User extends Authenticatable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
          'thumb',
 >>>>>>> origin/tim_kiem_user_admin
@@ -34,6 +35,9 @@ class User extends Authenticatable
 =======
          'thumb',
 >>>>>>> origin/search_product_admin
+=======
+         'thumb',
+>>>>>>> origin/search_product
     ];
 
     /**

@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <a href="#"><b>COZA</b>STORE</a>
 =======
             <a href="/"><b>COZA</b>STORE</a>
@@ -19,6 +20,9 @@
 =======
             <a href="/"><b>COZA</b>STORE</a>
 >>>>>>> origin/search_product_admin
+=======
+            <a href="/"><b>COZA</b>STORE</a>
+>>>>>>> origin/search_product
         </div>
       
         <div class="card">
@@ -63,6 +67,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <div class="input-group mb-3">
                         <select name="role" class="form-control" required>
                             <option value="" disabled selected>Chọn vai trò</option>
@@ -79,6 +84,9 @@
 =======
                  
 >>>>>>> origin/search_product_admin
+=======
+                 
+>>>>>>> origin/search_product
                     <div class="row">
                         <div class="col-8">
                             <div class="icheck-primary">
@@ -99,6 +107,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <a href="#" class="btn btn-block btn-primary">
                         <i class="fab fa-facebook mr-2"></i>
                         Sign up using Facebook
@@ -109,6 +118,8 @@
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
 =======
 >>>>>>> origin/search_product_admin
+=======
+>>>>>>> origin/search_product
                     <a href="{{ route('facebook.login') }}" class="btn btn-block btn-primary">
                         <i class="fab fa-facebook mr-2"></i>
                         Sign up using Facebook
@@ -116,11 +127,14 @@
                     <a href="{{ url('auth/google') }}" class="btn btn-block btn-danger">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
 =======
 >>>>>>> origin/search_product_admin
+=======
+>>>>>>> origin/search_product
                         <i class="fab fa-google-plus mr-2"></i>
                         Sign up using Google+
                     </a>

@@ -7,6 +7,7 @@ use App\Http\Controllers\MainController;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use App\Http\Controllers\Admin\MenuController;
 use App\Http\Controllers\MenuControllerScreen;
 use App\Http\Controllers\Admin\SliderController;
@@ -22,6 +23,8 @@ use App\Http\Controllers\Admin\Users\LoginController;
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
 =======
 >>>>>>> origin/search_product_admin
+=======
+>>>>>>> origin/search_product
 use App\Http\Controllers\WishController;
 use App\Http\Controllers\WishlistController;
 use App\Http\Controllers\Admin\MenuController;
@@ -39,6 +42,7 @@ use App\Http\Controllers\Admin\Users\UserController;
 use App\Http\Controllers\Admin\Users\LoginController;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use App\Http\Controllers\Auth\ForgotPasswordController;
 >>>>>>> origin/tim_kiem_user_admin
 =======
@@ -46,6 +50,9 @@ use App\Http\Controllers\Auth\ForgotPasswordController;
 =======
 use App\Http\Controllers\Auth\ForgotPasswordController;
 >>>>>>> origin/search_product_admin
+=======
+use App\Http\Controllers\Auth\ForgotPasswordController;
+>>>>>>> origin/search_product
 use App\Http\Controllers\Admin\Users\RegisterController;
 
     #Login
@@ -61,9 +68,12 @@ Route::post('admin/users/register/store', [RegisterController::class, 'store']);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/search_product_admin
+=======
+>>>>>>> origin/search_product
 #Role
 Route::post('/admin/users/toggle-role/{id}', [UserController::class, 'toggleRole']);
 
@@ -83,6 +93,7 @@ Route::get('reset-password/{token}', [ForgotPasswordController::class, 'showRese
 // Route xử lý reset mật khẩu
 Route::post('reset-password', [ForgotPasswordController::class, 'resetPassword'])->name('password.update');
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 
 
@@ -95,6 +106,10 @@ Route::post('/admin/users/toggle-role/{id}', [UserController::class, 'toggleRole
 
 
 >>>>>>> origin/search_product_admin
+=======
+
+
+>>>>>>> origin/search_product
 #Admin
 Route::middleware(['auth', 'role:1,2'])->group(function () {
 
@@ -102,6 +117,7 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
         Route::get('/', [MainAdminController::class, 'index'])->name('admin');
         Route::get('main', [MainAdminController::class, 'index'])->name('admin');
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -121,6 +137,8 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
 =======
 >>>>>>> origin/search_product_admin
+=======
+>>>>>>> origin/search_product
 
 
         // Các route dành cho cả role 1 và role 2 (chỉ truy cập menu, sản phẩm, slider)
@@ -128,11 +146,14 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
       
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
 =======
 >>>>>>> origin/search_product_admin
+=======
+>>>>>>> origin/search_product
         #Product
         Route::prefix('products')->group(function () {
             Route::get('add', [ProductController::class, 'create']);
@@ -144,6 +165,7 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             Route::get('/admin/products', [ProductController::class, 'index'])->name('admin.products.index');
 
@@ -156,6 +178,8 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 
             Route::get('/search', [ProductController::class, 'search'])->name('admin.products.search');
 >>>>>>> origin/search_product_admin
+=======
+>>>>>>> origin/search_product
 
             Route::DELETE('destroy', [ProductController::class, 'destroy']);
 
@@ -174,17 +198,21 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
 =======
 >>>>>>> origin/search_product_admin
+=======
+>>>>>>> origin/search_product
       
     });
 
       // Các route chỉ dành cho role 2 (truy cập được tất cả các route)
       Route::middleware('role:2')->group(function () {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
      
@@ -194,6 +222,9 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 =======
      
 >>>>>>> origin/search_product_admin
+=======
+     
+>>>>>>> origin/search_product
 
           #Menu
           Route::prefix('menus')->group(function () {
@@ -213,17 +244,21 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
             Route::get('list', [UserController::class, 'index']);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             Route::get('search', [UserController::class, 'search'])->name('admin.users.search'); // Route tìm kiếm
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
 =======
 >>>>>>> origin/search_product_admin
+=======
+>>>>>>> origin/search_product
             Route::DELETE('destroy', [UserController::class, 'destroy']);
 
 
 
         });
           
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     
@@ -237,6 +272,10 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
     
     });
 >>>>>>> origin/search_product_admin
+=======
+    
+    });
+>>>>>>> origin/search_product
         #Upload
         Route::post('upload/services', [UploadController::class, 'store']);
 
@@ -246,6 +285,7 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
      
@@ -262,6 +302,11 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 
    #Role
 >>>>>>> origin/search_product_admin
+=======
+     
+
+   #Role
+>>>>>>> origin/search_product
 
     });
 
@@ -270,6 +315,7 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #Trang chủ
 Route::get('/', [MainController::class, 'index'])->name('home');
 =======
@@ -277,6 +323,8 @@ Route::get('/', [MainController::class, 'index'])->name('home');
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
 =======
 >>>>>>> origin/search_product_admin
+=======
+>>>>>>> origin/search_product
 
 #Trang chủ
 Route::get('/', [MainController::class, 'index'])->name('home');
@@ -284,11 +332,14 @@ Route::get('/lang/{lang}', [MainController::class , 'setLanguage'])->name('set.l
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
 =======
 >>>>>>> origin/search_product_admin
+=======
+>>>>>>> origin/search_product
 Route::post('/services/load-product', [MainController::class, 'loadProduct']);
 
 
@@ -297,19 +348,25 @@ Route::get('/san-pham/{id}-{slug}.html', [ProductControllerScreen::class, 'index
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/search_product_admin
+=======
+>>>>>>> origin/search_product
 Route::get('/products/popularity', [ProductControllerScreen::class, 'getFeaturedProducts'])->name('products.popularity');
 Route::get('/products/newest', [ProductControllerScreen::class, 'getNewestProducts'])->name('products.newest');
 Route::get('/search', [ProductControllerScreen::class, 'search'])->name('search');
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
 =======
 >>>>>>> origin/search_product_admin
+=======
+>>>>>>> origin/search_product
 // Route::post('/san-pham/{id}-{slug}.html', [ProductControllerScreen::class, 'indexQuickView']);
 
 
@@ -323,11 +380,14 @@ Route::post('carts', [CartController::class, 'addCart']);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
 =======
 >>>>>>> origin/search_product_admin
+=======
+>>>>>>> origin/search_product
 #Đăng nhập gmail 
 Route::get('auth/google', [GoogleController::class, 'redirectToGoogle']);
 Route::get('auth/google/callback', [GoogleController::class, 'handleGoogleCallback']);
@@ -348,11 +408,14 @@ Route::middleware(['auth'])->group(function () {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
 =======
 >>>>>>> origin/search_product_admin
+=======
+>>>>>>> origin/search_product
 
 
 
