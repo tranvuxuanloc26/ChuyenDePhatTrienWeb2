@@ -140,4 +140,53 @@ class CartService
     }
 
 
+<<<<<<< HEAD
+=======
+    #WishLish
+
+    public function createWish($request){
+        $qty = (int)$request->input('num_product');
+        $product_id = (int)$request->input('product_id');
+
+        if($qty <= 0 || $product_id <= 0){
+               Session::flash('error', 'Số lượng sản phẩm không chính xác');
+               return false;
+        }
+
+        $wishlishs = Session::get('wishlishs');
+        // dd($carts);
+        if(is_null($wishlishs)){        
+           Session::put('wishlishs', [
+                $product_id => $qty
+            ]);
+        return true;
+        }
+    
+        $exists = Arr::exists($wishlishs, $product_id);
+        if($exists){
+            $wishlishs[$product_id]  =  $wishlishs[$product_id] + $qty ;
+            Session::put('wishlishs', $wishlishs);
+            return true;
+          }
+          $wishlishs[$product_id] = $qty;
+          Session::put('wishlishs', $wishlishs);
+
+        return true;
+    
+    }
+
+    public function getProductWish(){
+        $wishlishs = Session::get('wishlishs');
+        if(is_null($wishlishs)) return [] ;
+
+        $productId = array_keys($wishlishs);
+        return Product::select('id', 'name', 'price', 'price_sale', 'thumb')
+        ->where('active', 1)
+        ->whereIn('id', $productId)
+        ->get();
+    }
+
+
+
+>>>>>>> origin/tim_kiem_user_admin
 }

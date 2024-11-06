@@ -50,11 +50,16 @@
                             </li>
 
                             <li class="p-b-6">
+<<<<<<< HEAD
                                 <a href="#" class="filter-link stext-106 trans-04">
+=======
+                                <a href="#" id="filter-popularity" class="filter-link stext-106 trans-04">
+>>>>>>> origin/tim_kiem_user_admin
                                     Popularity
                                 </a>
                             </li>
 
+<<<<<<< HEAD
                             <li class="p-b-6">
                                 <a href="#" class="filter-link stext-106 trans-04">
                                     Average rating
@@ -63,6 +68,12 @@
 
                             <li class="p-b-6">
                                 <a href="#" class="filter-link stext-106 trans-04 filter-link-active">
+=======
+                         
+
+                            <li class="p-b-6">
+                                <a href="{{ route('products.newest') }}" class="filter-link stext-106 trans-04 filter-link-active">
+>>>>>>> origin/tim_kiem_user_admin
                                     Newness
                                 </a>
                             </li>
@@ -125,6 +136,7 @@
                         </ul>
                     </div>
 
+<<<<<<< HEAD
                     <div class="filter-col3 p-r-15 p-b-27">
                         <div class="mtext-102 cl2 p-b-15">
                             Color
@@ -220,13 +232,46 @@
                             </a>
                         </div>
                     </div>
+=======
+                  
+>>>>>>> origin/tim_kiem_user_admin
                 </div>
             </div>
         </div>
 
       @include('product.list')
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/tim_kiem_user_admin
       {{ $products->links('pagination::bootstrap-4')  }}
 
     </div>
 </div>
+<<<<<<< HEAD
 @endsection
+=======
+@endsection
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('#filter-popularity').on('click', function(e) {
+            e.preventDefault();
+
+            $.ajax({
+                url: '{{ route('products.popularity') }}',
+                type: 'GET',
+                success: function(response) {
+                    $('#loadProduct').html(response);
+                },
+                error: function() {
+                    alert('Lỗi khi tải sản phẩm nổi bật.');
+                }
+            });
+        });
+    });
+</script>
+>>>>>>> origin/tim_kiem_user_admin

@@ -10,9 +10,14 @@
         <tr>
             <th style="width: 50px; padding-left: 15px;">ID</th>
             <th>Tiêu Đề</th>
+<<<<<<< HEAD
             <th>Link</th>
             <th>Ảnh</th>
             <th>Trạng Thái</th>
+=======
+            <th>Ảnh</th>
+            <th>Role</th>
+>>>>>>> origin/tim_kiem_user_admin
             <th>Cập Nhật</th>
             <th style="width: 100px">&nbsp;</th>
         </tr>
@@ -43,6 +48,10 @@
         
       </tbody>
    </table>
+<<<<<<< HEAD
    {!!  $sliders->links()  !!}
+=======
+   {!!  $sliders->links('pagination::bootstrap-4')  !!}
+>>>>>>> origin/tim_kiem_user_admin
 @endsection
 

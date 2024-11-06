@@ -41,4 +41,15 @@ class MainController extends Controller
         }
         return response()->json(['html' => '' ]);
     }
+<<<<<<< HEAD
+=======
+
+    // Ví dụ trong controller
+public function setLanguage($lang)
+{
+    session(['applocale' => $lang]);
+    return redirect()->back();
+}
+
+>>>>>>> origin/tim_kiem_user_admin
 }

@@ -6,7 +6,11 @@
 <body class="register-page" style="min-height: 570.781px;">
     <div class="register-box">
         <div class="register-logo">
+<<<<<<< HEAD
             <a href="#"><b>COZA</b>STORE</a>
+=======
+            <a href="/"><b>COZA</b>STORE</a>
+>>>>>>> origin/tim_kiem_user_admin
         </div>
       
         <div class="card">
@@ -48,6 +52,7 @@
                             </div>
                         </div>
                     </div>
+<<<<<<< HEAD
                     <div class="input-group mb-3">
                         <select name="role" class="form-control" required>
                             <option value="" disabled selected>Chọn vai trò</option>
@@ -55,6 +60,9 @@
                             <option value="1">Admin</option>
                         </select>
                     </div>
+=======
+                 
+>>>>>>> origin/tim_kiem_user_admin
                     <div class="row">
                         <div class="col-8">
                             <div class="icheck-primary">
@@ -72,11 +80,19 @@
 
                 <div class="social-auth-links text-center">
                     <p>- OR -</p>
+<<<<<<< HEAD
                     <a href="#" class="btn btn-block btn-primary">
                         <i class="fab fa-facebook mr-2"></i>
                         Sign up using Facebook
                     </a>
                     <a href="#" class="btn btn-block btn-danger">
+=======
+                    <a href="{{ route('facebook.login') }}" class="btn btn-block btn-primary">
+                        <i class="fab fa-facebook mr-2"></i>
+                        Sign up using Facebook
+                    </a>
+                    <a href="{{ url('auth/google') }}" class="btn btn-block btn-danger">
+>>>>>>> origin/tim_kiem_user_admin
                         <i class="fab fa-google-plus mr-2"></i>
                         Sign up using Google+
                     </a>

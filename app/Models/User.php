@@ -22,6 +22,10 @@ class User extends Authenticatable
         'email',
         'password',
         'role',
+<<<<<<< HEAD
+=======
+         'thumb',
+>>>>>>> origin/tim_kiem_user_admin
     ];
 
     /**

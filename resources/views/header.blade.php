@@ -19,12 +19,21 @@
                         My Account
                     </a>
 
+<<<<<<< HEAD
                     <a href="#" class="flex-c-m trans-04 p-lr-25">
                         EN
                     </a>
 
                     <a href="#" class="flex-c-m trans-04 p-lr-25">
                         USD
+=======
+                    <a href="{{ route('set.language', 'en') }}" class="flex-c-m trans-04 p-lr-25">
+                        EN
+                    </a>
+
+                    <a href="{{ route('set.language', 'vi') }}" class="flex-c-m trans-04 p-lr-25">
+                        Vi
+>>>>>>> origin/tim_kiem_user_admin
                     </a>
                 </div>
             </div>
@@ -84,6 +93,7 @@
                         <i class="zmdi zmdi-search"></i>
                     </div>
 
+<<<<<<< HEAD
                     <div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti js-show-cart" data-notify="{{!is_null(\Session::get('carts')) ? count(\Session::get('carts')) : 0 }}">
                         <i class="zmdi zmdi-shopping-cart"></i>
                     </div>
@@ -91,17 +101,43 @@
                     <a href="#" class="dis-block icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti" data-notify="0">
                         <i class="zmdi zmdi-favorite-outline"></i>
                     </a>
+=======
+                    <div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti1 js-show-cart" data-notify="{{!is_null(\Session::get('carts')) ? count(\Session::get('carts')) : 0 }}">
+                        <i class="zmdi zmdi-shopping-cart"></i>
+                    </div>
+
+                    <a href="{{ route('wishlist.show') }}" class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti" data-notify="{{ session('wishlists') ? count(session('wishlists')) : 0 }}">
+                        <i class="zmdi zmdi-favorite-outline"></i>
+                    </a>
+                    
+>>>>>>> origin/tim_kiem_user_admin
                     <li class="p-l-30 p-r-2 nav-item dropdown" style="right: 1px">
                         @auth
                         <!-- Hiển thị khi người dùng đã đăng nhập -->
                         <div class="d-flex align-items-center">
+<<<<<<< HEAD
                             <img src="{{ asset('template/images/icons/R.png') }}" alt="User Avatar" class="rounded-circle me-4" style="width: 40px; height: 40px;">
+=======
+                        @if (Auth::user() && Auth::user()->thumb)
+                            <img src="{{ Auth::user()->thumb }}" alt="{{ Auth::user()->name }}" class="rounded-circle me-4" style="width: 40px; height: 40px;">
+                        @else
+                            <img src="{{ asset('template/images/icons/R.png') }}" alt="User Avatar" class="rounded-circle me-4" style="width: 40px; height: 40px;">
+                        @endif
+                        
+>>>>>>> origin/tim_kiem_user_admin
                             <span class="fw-bold dropdown-toggle" style="margin-left: 10px" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 {{ Auth::user()->name }}
                             </span>
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
                                 <li><a class="dropdown-item" href="">Thông tin người dùng</a></li>
                                 <li><a class="dropdown-item" href="">Đổi mật khẩu</a></li>
+<<<<<<< HEAD
+=======
+                                <!-- Kiểm tra nếu người dùng có role là 1 hoặc 2 thì hiển thị -->
+                                @if(Auth::check() && (Auth::user()->role == 1 || Auth::user()->role == 2))
+                                    <li><a class="dropdown-item" href="{{ route('admin') }}">Về trang Admin</a></li>
+                                @endif
+>>>>>>> origin/tim_kiem_user_admin
                                 <li>
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                         @csrf
@@ -234,7 +270,11 @@
                 <img src="/template/images/icons/icon-close2.png" alt="CLOSE">
             </button>
 
+<<<<<<< HEAD
             <form class="wrap-search-header flex-w p-l-15">
+=======
+            <form action="{{ route('search') }}" method="GET" class="wrap-search-header flex-w p-l-15">
+>>>>>>> origin/tim_kiem_user_admin
                 <button class="flex-c-m trans-04">
                     <i class="zmdi zmdi-search"></i>
                 </button>

@@ -1,6 +1,16 @@
+<<<<<<< HEAD
 
 
 
+=======
+/*------------------------------------------------------------------
+Project:  
+Version:  
+Last change:  
+Assigned to:  Vinh Le
+
+-------------------------------------------------------------------*/
+>>>>>>> origin/tim_kiem_user_admin
 /*------------------------------------------------------------------
 [LAYOUT]
 
@@ -504,6 +514,28 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   background-color: #717fe0;
 }
 
+<<<<<<< HEAD
+=======
+.icon-header-noti1::after {
+  content: attr(data-notify);
+  font-family: Poppins-Regular;
+  font-size: 12px;
+  color: #fff;
+  line-height: 15px;
+  text-align: center;
+
+  display: block;
+  position: absolute;
+  top: -7px;
+  right: 0;
+  min-width: 15px;
+  height: 15px;
+  padding: 0 3px;
+  background-color: #717fe0;
+}
+
+
+>>>>>>> origin/tim_kiem_user_admin
 /*---------------------------------------------*/
 .wrap-header-mobile .wrap-icon-header {
   flex-grow: unset;

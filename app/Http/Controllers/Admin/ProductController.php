@@ -100,4 +100,18 @@ class ProductController extends Controller
         }
         return response()->json([ 'error' => false]);
     }
+<<<<<<< HEAD
+=======
+
+    public function search(Request $request)
+{
+    $query = $request->input('query');
+    $products = Product::where('name', 'like', "%$query%")
+                ->paginate(10);
+
+    return view('admin.product.list',[
+        'title' => 'Kết quả tìm kiếm'
+    ], compact('products'))->with('query', $query);
+}
+>>>>>>> origin/tim_kiem_user_admin
 }

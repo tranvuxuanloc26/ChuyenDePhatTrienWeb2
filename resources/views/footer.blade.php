@@ -307,6 +307,15 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     </div>
 </div> 
 
+<<<<<<< HEAD
+=======
+
+<script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+</script>
+>>>>>>> origin/tim_kiem_user_admin
 <!--===============================================================================================-->	
 <script src="/template/vendor/jquery/jquery-3.2.1.min.js"></script>
 <!--===============================================================================================-->
@@ -358,6 +367,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         e.preventDefault();
     });
 
+<<<<<<< HEAD
     $('.js-addwish-b2').each(function(){
         var nameProduct = $(this).parent().parent().find('.js-name-b2').html();
         $(this).on('click', function(){
@@ -367,6 +377,17 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
             $(this).off('click');
         });
     });
+=======
+    // $('.js-addwish-b2').each(function(){
+    //     var nameProduct = $(this).parent().parent().find('.js-name-b2').html();
+    //     $(this).on('click', function(){
+    //         swal(nameProduct, "is added to wishlist !", "success");
+
+    //         $(this).addClass('js-addedwish-b2');
+    //         $(this).off('click');
+    //     });
+    // });
+>>>>>>> origin/tim_kiem_user_admin
 
     $('.js-addwish-detail').each(function(){
         var nameProduct = $(this).parent().parent().parent().find('.js-name-detail').html();

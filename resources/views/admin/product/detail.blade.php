@@ -14,6 +14,10 @@
             <th>Price</th>
             <th>Price Sale</th>
             <th>Active</th>
+<<<<<<< HEAD
+=======
+            <th>Feature</th>
+>>>>>>> origin/tim_kiem_user_admin
             <th>Update</th>
             <th style="width: 130px">&nbsp;</th>
         </tr>
@@ -32,7 +36,21 @@
             <td> {{ $product->menu ? $product->menu->name : 'Không có danh mục' }}</td>
             <td> {{ $product->description }}</td>
             <td style="max-width: 200px;">{{ $product->content }}</td>
+<<<<<<< HEAD
             <td>{!! \App\Helpers\Helper::active($product->active)  !!}</td>
+=======
+            <td>{{ $product->price }}</td>
+            <td style="padding-left: 30px;
+}">{{ $product->price_sale }}</td>
+            <td>{!! \App\Helpers\Helper::active($product->active)  !!}</td>
+            <td>
+              @if ($product->is_featured == 0)
+                  <span class="badge badge-danger btn-xs">NO</span>
+              @else
+                  <span class="badge badge-success btn-xs">YES</span>
+              @endif
+          </td>
+>>>>>>> origin/tim_kiem_user_admin
             <td>{{ $product->updated_at }}</td>
         </tr>
 

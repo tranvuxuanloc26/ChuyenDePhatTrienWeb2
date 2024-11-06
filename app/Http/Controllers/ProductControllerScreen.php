@@ -2,8 +2,15 @@
 
 namespace App\Http\Controllers;
 
+<<<<<<< HEAD
 use Illuminate\Http\Request;
 use App\Http\Services\Product\ProductServiceScreen;
+=======
+use App\Models\Product;
+use Illuminate\Http\Request;
+use App\Http\Services\Product\ProductServiceScreen;
+
+>>>>>>> origin/tim_kiem_user_admin
 class ProductControllerScreen extends Controller
 {
      protected $productServiceScreen;
@@ -39,6 +46,41 @@ class ProductControllerScreen extends Controller
 
      //      ]);
      // }
+<<<<<<< HEAD
 
+=======
+     public function getFeaturedProducts()
+{
+    $featuredProducts = Product::where('is_featured', true)->get();
+
+    // Trả về partial view chứa danh sách sản phẩm nổi bật
+    return view('product.featured_products', compact('featuredProducts'))->render();
+}
+
+public function getNewestProducts(Request $request) {
+     $products = Product::orderBy('updated_at', 'desc')->paginate(16); // Lấy sản phẩm mới nhất theo thời gian tạo
+ 
+     return view('product.newest_products',[
+          'title' => 'Sản phẩm mới nhất'
+     ], compact('products'));
+ }
+
+ public function search(Request $request)
+{
+    // Lấy giá trị tìm kiếm từ request
+    $search = $request->input('search');
+
+    // Tìm kiếm theo tên và email trong bảng `products`
+    $products = Product::where('name', 'like', '%' . $search . '%')
+                ->orWhere('description', 'like', '%' . $search . '%')
+                ->get();
+
+    // Trả về view kèm dữ liệu
+    return view('search_results', compact('products'),[
+     'title' => 'Kết quả tìm kiếm'
+    ]);
+}
+     
+>>>>>>> origin/tim_kiem_user_admin
 
 }

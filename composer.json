@@ -9,6 +9,10 @@
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^10.10",
         "laravel/sanctum": "^3.3",
+<<<<<<< HEAD
+=======
+        "laravel/socialite": "^5.16",
+>>>>>>> origin/tim_kiem_user_admin
         "laravel/tinker": "^2.8"
     },
     "require-dev": {

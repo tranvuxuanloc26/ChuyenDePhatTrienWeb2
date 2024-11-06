@@ -17,9 +17,24 @@ class Product extends Model
         'price_sale',
         'thumb',
         'active',
+<<<<<<< HEAD
     ];
     public function menu()
      {
         return $this->hasOne(Menu::class, 'id', 'menu_id');
     }
 }
+=======
+        'is_featured'
+    ];
+    public function menu()
+    {
+        return $this->hasOne(Menu::class, 'id', 'menu_id');
+    }
+
+    public function wishlists()
+    {
+        return $this->hasMany(Wishlist::class);
+    }
+}
+>>>>>>> origin/tim_kiem_user_admin

@@ -21,9 +21,19 @@ class Helper
                             <a class="btn btn-primary btn-sm" href="/admin/menus/edit/' . $menu->id . '">
                                 <i class="fas fa-edit"></i>
                             </a>
+<<<<<<< HEAD
                             <a class="btn btn-danger btn-sm" href="#" onClick="removeRow(' . $menu->id . ', \'/admin/menus/destroy\')">
                                 <i class="fas fa-trash"></i>
                             </a>
+=======
+                              <a class="btn btn-primary btn-sm" href="/admin/menus/detail/' . $menu->id . '">
+                                 <i class="fas fa-eye"></i>
+                            </a>
+                            <a class="btn btn-danger btn-sm" href="#" onClick="removeRow(' . $menu->id . ', \'/admin/menus/destroy\')">
+                                <i class="fas fa-trash"></i>
+                            </a>
+
+>>>>>>> origin/tim_kiem_user_admin
                         </td>
                     </tr>
                 ';

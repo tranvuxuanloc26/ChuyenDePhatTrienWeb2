@@ -14,7 +14,12 @@ class ProductServiceScreen{
                                   $query->offset($page * self::LIMIT);
                               })
                               ->limit(self::LIMIT)
+<<<<<<< HEAD
                               ->get();
+=======
+                              ->get()
+                              ;
+>>>>>>> origin/tim_kiem_user_admin
     }
 
     public function show($id){

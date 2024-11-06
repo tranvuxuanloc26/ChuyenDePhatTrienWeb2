@@ -78,6 +78,25 @@
             </div>
            
           </div>
+<<<<<<< HEAD
+=======
+
+          <div class="form-group">
+            <label for="">Nổi Bật</label>
+            <div class="custom-control custom-radio">
+              <input class="custom-control-input" value="1" type="radio" id="is_featured" name="is_featured" 
+              {{ $product->is_featured == 1 ? 'checked=""' : '' }}>
+              <label for="is_featured" class="custom-control-label">Có</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input class="custom-control-input" value="0" type="radio" id="no_is_featured" name="is_featured" 
+              
+              {{ $product->is_featured == 0 ? 'checked=""' : '' }}>
+              <label for="no_is_featured" class="custom-control-label">Không</label>
+            </div>
+           
+          </div>
+>>>>>>> origin/tim_kiem_user_admin
         
 
       </div>

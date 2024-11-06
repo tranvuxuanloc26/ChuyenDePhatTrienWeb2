@@ -9,7 +9,11 @@
     <!-- Sidebar -->
     <div class="sidebar">
       <!-- Sidebar user (optional) -->
+<<<<<<< HEAD
       <div class="user-panel ml-3 mt-3 pb-3 mb-3 d-flex">
+=======
+      <div class="user-panel ml-3 mt-3 pb-3 mb-3 d-flex" style="max-width: 300px">
+>>>>>>> origin/tim_kiem_user_admin
         <div class="d-flex align-items-center">
           <img src="{{ asset('template/images/icons/R.png') }}" alt="User Avatar" class="rounded-circle me-2" style="width: 40px; height: 40px;">
           <span class="fw-bold" style="margin-left: 10px;color:#9fa5ad">{{ Auth::user()->name }}</span>
@@ -33,6 +37,10 @@
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
+<<<<<<< HEAD
+=======
+               @if(Auth::user()->role == 2)
+>>>>>>> origin/tim_kiem_user_admin
           <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-tachometer-alt"></i>
@@ -56,6 +64,10 @@
               </li>
             </ul>
           </li>
+<<<<<<< HEAD
+=======
+          @endif
+>>>>>>> origin/tim_kiem_user_admin
 
           <li class="nav-item">
             <a href="#" class="nav-link">
@@ -104,6 +116,28 @@
               </li>
             </ul>
           </li>
+<<<<<<< HEAD
+=======
+          @if(Auth::user()->role == 2)
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-users"></i>
+              <p>
+                Users
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="/admin/users/list" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Danh sách Users</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          @endif
+>>>>>>> origin/tim_kiem_user_admin
 
           <li class="nav-item">
             <a href="#" class="nav-link">
