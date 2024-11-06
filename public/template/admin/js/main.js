@@ -3,6 +3,10 @@ $.ajaxSetup({
         'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
     }
 });
+<<<<<<< HEAD
+=======
+console.log($('meta[name="csrf-token"]').attr('content')); // Kiểm tra giá trị CSRF token
+>>>>>>> origin/profile
 
 function removeRow(id, url) {
     swal({
@@ -73,6 +77,7 @@ $('#upload').change(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   
 
@@ -108,3 +113,8 @@ $('#upload').change(function () {
 
 
 >>>>>>> origin/quan_ly_user
+=======
+  
+
+
+>>>>>>> origin/profile

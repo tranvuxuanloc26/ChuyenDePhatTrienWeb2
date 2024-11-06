@@ -20,6 +20,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <link rel="stylesheet" href="/template/admin/dist/css/togglebutton.css">
 
@@ -48,6 +49,10 @@
 <link rel="stylesheet" href="/template/admin/dist/css/togglebutton.css">
 
 >>>>>>> origin/quan_ly_user
+=======
+<link rel="stylesheet" href="/template/admin/dist/css/togglebutton.css">
+
+>>>>>>> origin/profile
 
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 

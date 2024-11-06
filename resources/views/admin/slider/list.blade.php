@@ -17,6 +17,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <th>Link</th>
             <th>Ảnh</th>
             <th>Trạng Thái</th>
@@ -48,6 +49,10 @@
             <th>Ảnh</th>
             <th>Role</th>
 >>>>>>> origin/quan_ly_user
+=======
+            <th>Ảnh</th>
+            <th>Role</th>
+>>>>>>> origin/profile
             <th>Cập Nhật</th>
             <th style="width: 100px">&nbsp;</th>
         </tr>
@@ -85,6 +90,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    {!!  $sliders->links()  !!}
 =======
    {!!  $sliders->links('pagination::bootstrap-4')  !!}
@@ -107,5 +113,8 @@
 =======
    {!!  $sliders->links('pagination::bootstrap-4')  !!}
 >>>>>>> origin/quan_ly_user
+=======
+   {!!  $sliders->links('pagination::bootstrap-4')  !!}
+>>>>>>> origin/profile
 @endsection
 

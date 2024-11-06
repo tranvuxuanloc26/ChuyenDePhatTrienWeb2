@@ -9,6 +9,7 @@ namespace App\Http\Controllers;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Http\Request;
 use App\Http\Services\Product\ProductServiceScreen;
 =======
@@ -20,10 +21,13 @@ use App\Http\Services\Product\ProductServiceScreen;
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/profile
 use App\Models\Product;
 use Illuminate\Http\Request;
 use App\Http\Services\Product\ProductServiceScreen;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -45,6 +49,8 @@ use App\Http\Services\Product\ProductServiceScreen;
 use Illuminate\Http\Request;
 use App\Http\Services\Product\ProductServiceScreen;
 >>>>>>> origin/quan_ly_user
+=======
+>>>>>>> origin/profile
 class ProductControllerScreen extends Controller
 {
      protected $productServiceScreen;
@@ -87,6 +93,7 @@ class ProductControllerScreen extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -97,6 +104,8 @@ class ProductControllerScreen extends Controller
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/profile
      public function getFeaturedProducts()
 {
     $featuredProducts = Product::where('is_featured', true)->get();
@@ -106,14 +115,20 @@ class ProductControllerScreen extends Controller
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/profile
 
 public function getNewestProducts(Request $request) {
      $products = Product::orderBy('updated_at', 'desc')->paginate(16); // Lấy sản phẩm mới nhất theo thời gian tạo
  
      return view('product.newest_products',[
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/profile
           'title' => 'Sản phẩm mới nhất'
      ], compact('products'));
  }
@@ -136,6 +151,7 @@ public function getNewestProducts(Request $request) {
      
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 
@@ -156,5 +172,7 @@ public function getNewestProducts(Request $request) {
 =======
 
 >>>>>>> origin/quan_ly_user
+=======
+>>>>>>> origin/profile
 
 }

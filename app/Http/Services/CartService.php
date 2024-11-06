@@ -147,6 +147,7 @@ class CartService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -158,6 +159,8 @@ class CartService
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/profile
     #WishLish
 
     public function createWish($request){
@@ -209,6 +212,7 @@ class CartService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -222,4 +226,6 @@ class CartService
 >>>>>>> origin/san_pham_mơi_nhat
 =======
 >>>>>>> origin/quan_ly_user
+=======
+>>>>>>> origin/profile
 }

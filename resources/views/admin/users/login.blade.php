@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <a href="../../index2.html"><b>COZA</b>STORE</a>
 =======
     <a href="/"><b>COZA</b>STORE</a>
@@ -36,6 +37,9 @@
 =======
     <a href="../../index2.html"><b>COZA</b>STORE</a>
 >>>>>>> origin/quan_ly_user
+=======
+    <a href="/"><b>COZA</b>STORE</a>
+>>>>>>> origin/profile
   </div>
   <!-- /.login-logo -->
   <div class="card">
@@ -85,6 +89,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/quan_ly_user
         <a href="#" class="btn btn-block btn-primary">
@@ -103,10 +108,13 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/profile
         <a href="{{ route('facebook.login') }}" class="btn btn-block btn-primary">
           <i class="fab fa-facebook mr-2"></i> Sign in using Facebook
         </a>
         <a href="{{ url('auth/google') }}" class="btn btn-block btn-danger">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -125,6 +133,8 @@
 >>>>>>> origin/san_pham_mơi_nhat
 =======
 >>>>>>> origin/quan_ly_user
+=======
+>>>>>>> origin/profile
           <i class="fab fa-google-plus mr-2"></i> Sign in using Google+
         </a>
       </div>
@@ -138,6 +148,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <a href="forgot-password.html">I forgot my password</a>
 =======
         <a href="/forgot-password">I forgot my password</a>
@@ -160,6 +171,9 @@
 =======
         <a href="forgot-password.html">I forgot my password</a>
 >>>>>>> origin/quan_ly_user
+=======
+        <a href="/forgot-password">I forgot my password</a>
+>>>>>>> origin/profile
       </p>
       <p class="mb-0">
         <a href="/admin/users/register" class="text-center">Register a new membership</a>

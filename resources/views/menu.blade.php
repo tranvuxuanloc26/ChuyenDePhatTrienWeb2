@@ -57,6 +57,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <a href="#" class="filter-link stext-106 trans-04">
 =======
                                 <a href="#" id="filter-popularity" class="filter-link stext-106 trans-04">
@@ -79,10 +80,14 @@
 =======
                                 <a href="#" class="filter-link stext-106 trans-04">
 >>>>>>> origin/quan_ly_user
+=======
+                                <a href="#" id="filter-popularity" class="filter-link stext-106 trans-04">
+>>>>>>> origin/profile
                                     Popularity
                                 </a>
                             </li>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -114,10 +119,13 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/profile
                          
 
                             <li class="p-b-6">
                                 <a href="{{ route('products.newest') }}" class="filter-link stext-106 trans-04 filter-link-active">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -134,6 +142,8 @@
 >>>>>>> origin/san_pham_mơi_nhat
 =======
 >>>>>>> origin/quan_ly_user
+=======
+>>>>>>> origin/profile
                                     Newness
                                 </a>
                             </li>
@@ -196,6 +206,7 @@
                         </ul>
                     </div>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -323,11 +334,15 @@
 >>>>>>> origin/san_pham_mơi_nhat
 =======
 >>>>>>> origin/quan_ly_user
+=======
+                  
+>>>>>>> origin/profile
                 </div>
             </div>
         </div>
 
       @include('product.list')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -353,10 +368,14 @@
 >>>>>>> origin/san_pham_mơi_nhat
 =======
 >>>>>>> origin/quan_ly_user
+=======
+
+>>>>>>> origin/profile
       {{ $products->links('pagination::bootstrap-4')  }}
 
     </div>
 </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -374,6 +393,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/profile
 @endsection
 
 
@@ -400,6 +421,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 </script>
 >>>>>>> origin/tim_kiem_user_admin
 =======
@@ -420,3 +442,6 @@
 =======
 @endsection
 >>>>>>> origin/quan_ly_user
+=======
+</script>
+>>>>>>> origin/profile

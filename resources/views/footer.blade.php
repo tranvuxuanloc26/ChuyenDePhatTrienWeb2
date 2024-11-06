@@ -314,6 +314,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -325,12 +326,15 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/profile
 
 <script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 
 </script>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -349,6 +353,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 >>>>>>> origin/san_pham_mơi_nhat
 =======
 >>>>>>> origin/quan_ly_user
+=======
+>>>>>>> origin/profile
 <!--===============================================================================================-->	
 <script src="/template/vendor/jquery/jquery-3.2.1.min.js"></script>
 <!--===============================================================================================-->
@@ -407,6 +413,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/quan_ly_user
     $('.js-addwish-b2').each(function(){
@@ -430,6 +437,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/profile
     // $('.js-addwish-b2').each(function(){
     //     var nameProduct = $(this).parent().parent().find('.js-name-b2').html();
     //     $(this).on('click', function(){
@@ -439,6 +448,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     //         $(this).off('click');
     //     });
     // });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -457,6 +467,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 >>>>>>> origin/san_pham_mơi_nhat
 =======
 >>>>>>> origin/quan_ly_user
+=======
+>>>>>>> origin/profile
 
     $('.js-addwish-detail').each(function(){
         var nameProduct = $(this).parent().parent().parent().find('.js-name-detail').html();

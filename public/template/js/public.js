@@ -10,6 +10,7 @@ $.ajaxSetup({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
 =======
@@ -46,6 +47,8 @@ $.ajaxSetup({
 >>>>>>> origin/search_product_admin
 =======
 >>>>>>> origin/search_product
+=======
+>>>>>>> origin/profile
 
 function loadMore() {
     const page = $('#page').val();
@@ -72,6 +75,7 @@ function loadMore() {
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
  }
@@ -89,3 +93,5 @@ function loadMore() {
 =======
  }
 >>>>>>> origin/quan_ly_user
+=======
+>>>>>>> origin/profile

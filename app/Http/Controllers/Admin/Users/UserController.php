@@ -5,6 +5,10 @@ namespace App\Http\Controllers\Admin\Users;
 use App\Models\User;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+<<<<<<< HEAD
+=======
+use Illuminate\Support\Facades\Auth;
+>>>>>>> origin/profile
 use App\Http\Services\User\UserService;
 
 
@@ -56,6 +60,9 @@ class UserController extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/profile
 
     public function search(Request $request)
     {
@@ -68,6 +75,7 @@ class UserController extends Controller
             'title' => 'Kết quả tìm kiếm'
         ], compact('users'))->with('query', $query);
     }
+<<<<<<< HEAD
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
 =======
@@ -80,4 +88,38 @@ class UserController extends Controller
 >>>>>>> origin/san_pham_mơi_nhat
 =======
 >>>>>>> origin/quan_ly_user
+=======
+
+    public function editProfile()
+    {
+        $user = Auth::user();
+        return view('admin.users.profile',[
+            'title' => 'Thông tin người dùng'
+        ], compact('user'));
+    }
+
+    public function updateProfile(Request $request)
+    {
+    
+    
+        $request->validate([
+            'name' => 'required|string|max:255',
+            'phone' => 'nullable|string|max:15',
+            'thumb' => 'nullable|string',
+        ]);
+    
+        $user = Auth::user();
+        $user->name = $request->name;
+        $user->phone = $request->phone;
+        if ($request->thumb) {
+            $user->thumb = $request->thumb;
+        }
+      
+        $user->save();
+        \Log::info($request->all());  // Kiểm tra dữ liệu gửi lên
+
+    
+        return redirect()->route('user.profile')->with('success', 'Profile updated successfully');
+    }
+>>>>>>> origin/profile
 }

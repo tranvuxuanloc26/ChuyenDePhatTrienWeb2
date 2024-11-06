@@ -11,15 +11,19 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
 >>>>>>> origin/search_product_admin
+=======
+>>>>>>> origin/profile
 <!-- Form tìm kiếm -->
 <form action="{{ route('admin.products.search') }}" method="GET" class="form-inline mb-3">
     <input type="text" name="query" class="form-control" placeholder="Tìm kiếm sản phẩm..." value="{{ request('query') }}">
     <button type="submit" class="btn btn-primary ml-2">Tìm kiếm</button>
 </form>
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
@@ -39,6 +43,8 @@
 =======
 
 >>>>>>> origin/quan_ly_user
+=======
+>>>>>>> origin/profile
    <table>
       <thead>
         <tr>
@@ -50,6 +56,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <th style="width: 27%;">Tên Sản Phẩm </th>
 =======
             <th style="width: 23%;">Tên Sản Phẩm </th>
@@ -72,6 +79,9 @@
 =======
             <th style="width: 27%;">Tên Sản Phẩm </th>
 >>>>>>> origin/quan_ly_user
+=======
+            <th style="width: 23%;">Tên Sản Phẩm </th>
+>>>>>>> origin/profile
             <th>Danh Mục</th>
             <th>Giá Gốc</th>
             <th>Giá Khuyễn Mãi</th>
@@ -84,6 +94,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             <th>Feature</th>
 >>>>>>> origin/tim_kiem_user_admin
@@ -103,6 +114,9 @@
 >>>>>>> origin/san_pham_mơi_nhat
 =======
 >>>>>>> origin/quan_ly_user
+=======
+            <th>Feature</th>
+>>>>>>> origin/profile
             <th style="width: 130px">&nbsp;</th>
         </tr>
       </thead>
@@ -125,6 +139,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/search_product_admin
@@ -134,6 +149,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/san_pham_mơi_nhat
+=======
+>>>>>>> origin/profile
                 @if ($product->is_featured == 0)
                     <span class="badge badge-danger btn-xs">NO</span>
                 @else
@@ -141,6 +158,7 @@
                 @endif
             </td>
             <td>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -158,6 +176,8 @@
 >>>>>>> origin/san_pham_mơi_nhat
 =======
 >>>>>>> origin/quan_ly_user
+=======
+>>>>>>> origin/profile
                 <a class="btn btn-primary btn-sm" href="/admin/products/edit/{{ $product->id }}">
                     <i class="fas fa-edit"></i>
                 </a>
@@ -180,6 +200,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    {{  $products->links('pagination::bootstrap-4')  }}
 @endsection
 =======
@@ -208,4 +229,7 @@
    {{  $products->links('pagination::bootstrap-4')  }}
 @endsection
 >>>>>>> origin/quan_ly_user
+=======
+   {{ $products->appends(['query' => request('query')])->links('pagination::bootstrap-4') }}@endsection
+>>>>>>> origin/profile
 

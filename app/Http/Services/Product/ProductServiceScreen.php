@@ -21,6 +21,7 @@ class ProductServiceScreen{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                               ->get();
 =======
                               ->get()
@@ -47,6 +48,10 @@ class ProductServiceScreen{
 =======
                               ->get();
 >>>>>>> origin/quan_ly_user
+=======
+                              ->get()
+                              ;
+>>>>>>> origin/profile
     }
 
     public function show($id){
