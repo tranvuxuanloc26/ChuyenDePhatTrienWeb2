@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/profile
 =======
@@ -47,6 +48,8 @@
 >>>>>>> origin/forgot_password
 =======
 >>>>>>> origin/doi_mat_khau
+=======
+>>>>>>> origin/dang_nhap_google
 
 <table>
     <thead>
@@ -104,6 +107,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 {!! $users->appends(['query' => request('query')])->links('pagination::bootstrap-4') !!}
 =======
 {!! $users->links('pagination::bootstrap-4') !!}
@@ -135,6 +139,9 @@
 =======
 {!! $users->appends(['query' => request('query')])->links('pagination::bootstrap-4') !!}
 >>>>>>> origin/doi_mat_khau
+=======
+{!! $users->links('pagination::bootstrap-4') !!}
+>>>>>>> origin/dang_nhap_google
 @endsection
 
 <script>

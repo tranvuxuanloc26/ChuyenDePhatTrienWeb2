@@ -25,6 +25,7 @@ class ProductServiceScreen{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                               ->get();
 =======
                               ->get()
@@ -67,6 +68,9 @@ class ProductServiceScreen{
                               ->get()
                               ;
 >>>>>>> origin/doi_mat_khau
+=======
+                              ->get();
+>>>>>>> origin/dang_nhap_google
     }
 
     public function show($id){

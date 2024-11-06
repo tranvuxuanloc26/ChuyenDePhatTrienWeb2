@@ -21,6 +21,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <th>Link</th>
             <th>Ảnh</th>
             <th>Trạng Thái</th>
@@ -68,6 +69,10 @@
             <th>Ảnh</th>
             <th>Role</th>
 >>>>>>> origin/doi_mat_khau
+=======
+            <th>Ảnh</th>
+            <th>Role</th>
+>>>>>>> origin/dang_nhap_google
             <th>Cập Nhật</th>
             <th style="width: 100px">&nbsp;</th>
         </tr>
@@ -98,6 +103,7 @@
         
       </tbody>
    </table>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -143,5 +149,8 @@
 =======
    {!!  $sliders->links('pagination::bootstrap-4')  !!}
 >>>>>>> origin/doi_mat_khau
+=======
+   {!!  $sliders->links('pagination::bootstrap-4')  !!}
+>>>>>>> origin/dang_nhap_google
 @endsection
 

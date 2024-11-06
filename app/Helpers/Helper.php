@@ -32,6 +32,7 @@ class Helper
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <a class="btn btn-danger btn-sm" href="#" onClick="removeRow(' . $menu->id . ', \'/admin/menus/destroy\')">
                                 <i class="fas fa-trash"></i>
                             </a>
@@ -56,6 +57,8 @@ class Helper
 >>>>>>> origin/forgot_password
 =======
 >>>>>>> origin/doi_mat_khau
+=======
+>>>>>>> origin/dang_nhap_google
                               <a class="btn btn-primary btn-sm" href="/admin/menus/detail/' . $menu->id . '">
                                  <i class="fas fa-eye"></i>
                             </a>
@@ -63,6 +66,7 @@ class Helper
                                 <i class="fas fa-trash"></i>
                             </a>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -94,6 +98,8 @@ class Helper
 >>>>>>> origin/forgot_password
 =======
 >>>>>>> origin/doi_mat_khau
+=======
+>>>>>>> origin/dang_nhap_google
                         </td>
                     </tr>
                 ';
@@ -158,6 +164,7 @@ class Helper
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return '<a href="/lien-he.html">Liên Hệ</a>';
 =======
         return '<a href="/contact">Liên Hệ</a>';
@@ -171,6 +178,9 @@ class Helper
 =======
         return '<a href="/contact">Liên Hệ</a>';
 >>>>>>> origin/doi_mat_khau
+=======
+        return '<a href="/lien-he.html">Liên Hệ</a>';
+>>>>>>> origin/dang_nhap_google
     }
     
 }

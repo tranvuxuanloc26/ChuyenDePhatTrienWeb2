@@ -7,6 +7,7 @@ $.ajaxSetup({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 console.log($('meta[name="csrf-token"]').attr('content')); // Kiểm tra giá trị CSRF token
 >>>>>>> origin/profile
@@ -16,6 +17,8 @@ console.log($('meta[name="csrf-token"]').attr('content')); // Kiểm tra giá tr
 >>>>>>> origin/forgot_password
 =======
 >>>>>>> origin/doi_mat_khau
+=======
+>>>>>>> origin/dang_nhap_google
 
 function removeRow(id, url) {
     swal({
@@ -90,6 +93,7 @@ $('#upload').change(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   
 
@@ -145,3 +149,8 @@ $('#upload').change(function () {
 
 
 >>>>>>> origin/doi_mat_khau
+=======
+  
+
+
+>>>>>>> origin/dang_nhap_google

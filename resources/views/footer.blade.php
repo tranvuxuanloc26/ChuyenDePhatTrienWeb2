@@ -318,6 +318,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -373,6 +374,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 >>>>>>> origin/forgot_password
 =======
 >>>>>>> origin/doi_mat_khau
+=======
+>>>>>>> origin/dang_nhap_google
 <!--===============================================================================================-->	
 <script src="/template/vendor/jquery/jquery-3.2.1.min.js"></script>
 <!--===============================================================================================-->
@@ -435,8 +438,11 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/quan_ly_user
+=======
+>>>>>>> origin/dang_nhap_google
     $('.js-addwish-b2').each(function(){
         var nameProduct = $(this).parent().parent().find('.js-name-b2').html();
         $(this).on('click', function(){
@@ -446,6 +452,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
             $(this).off('click');
         });
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -505,6 +512,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 >>>>>>> origin/forgot_password
 =======
 >>>>>>> origin/doi_mat_khau
+=======
+>>>>>>> origin/dang_nhap_google
 
     $('.js-addwish-detail').each(function(){
         var nameProduct = $(this).parent().parent().parent().find('.js-name-detail').html();

@@ -61,6 +61,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <a href="#" class="filter-link stext-106 trans-04">
 =======
                                 <a href="#" id="filter-popularity" class="filter-link stext-106 trans-04">
@@ -95,10 +96,14 @@
 =======
                                 <a href="#" id="filter-popularity" class="filter-link stext-106 trans-04">
 >>>>>>> origin/doi_mat_khau
+=======
+                                <a href="#" class="filter-link stext-106 trans-04">
+>>>>>>> origin/dang_nhap_google
                                     Popularity
                                 </a>
                             </li>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -116,6 +121,8 @@
 >>>>>>> origin/san_pham_noi_bat
 =======
 >>>>>>> origin/quan_ly_user
+=======
+>>>>>>> origin/dang_nhap_google
                             <li class="p-b-6">
                                 <a href="#" class="filter-link stext-106 trans-04">
                                     Average rating
@@ -124,6 +131,7 @@
 
                             <li class="p-b-6">
                                 <a href="#" class="filter-link stext-106 trans-04 filter-link-active">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -174,6 +182,8 @@
 >>>>>>> origin/forgot_password
 =======
 >>>>>>> origin/doi_mat_khau
+=======
+>>>>>>> origin/dang_nhap_google
                                     Newness
                                 </a>
                             </li>
@@ -247,10 +257,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
 =======
 >>>>>>> origin/quan_ly_user
+=======
+>>>>>>> origin/dang_nhap_google
                     <div class="filter-col3 p-r-15 p-b-27">
                         <div class="mtext-102 cl2 p-b-15">
                             Color
@@ -348,6 +361,7 @@
                     </div>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                   
 >>>>>>> origin/tim_kiem_user_admin
@@ -379,6 +393,8 @@
 =======
                   
 >>>>>>> origin/doi_mat_khau
+=======
+>>>>>>> origin/dang_nhap_google
                 </div>
             </div>
         </div>
@@ -395,6 +411,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> origin/tim_kiem_user_admin
@@ -425,10 +442,13 @@
 =======
 
 >>>>>>> origin/doi_mat_khau
+=======
+>>>>>>> origin/dang_nhap_google
       {{ $products->links('pagination::bootstrap-4')  }}
 
     </div>
 </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -520,3 +540,6 @@
 =======
 </script>
 >>>>>>> origin/doi_mat_khau
+=======
+@endsection
+>>>>>>> origin/dang_nhap_google

@@ -33,6 +33,7 @@ class User extends Authenticatable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
          'thumb',
 >>>>>>> origin/tim_kiem_user_admin
@@ -66,6 +67,9 @@ class User extends Authenticatable
 =======
          'thumb',
 >>>>>>> origin/doi_mat_khau
+=======
+         'thumb',
+>>>>>>> origin/dang_nhap_google
     ];
 
     /**

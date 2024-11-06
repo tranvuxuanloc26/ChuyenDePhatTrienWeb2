@@ -15,6 +15,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -61,10 +62,14 @@
 >>>>>>> origin/forgot_password
 =======
 >>>>>>> origin/doi_mat_khau
+=======
+
+>>>>>>> origin/dang_nhap_google
    <table>
       <thead>
         <tr>
             <th style="width: 50px; padding-left: 15px;">ID</th>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -110,6 +115,9 @@
 =======
             <th style="width: 23%;">Tên Sản Phẩm </th>
 >>>>>>> origin/doi_mat_khau
+=======
+            <th style="width: 27%;">Tên Sản Phẩm </th>
+>>>>>>> origin/dang_nhap_google
             <th>Danh Mục</th>
             <th>Giá Gốc</th>
             <th>Giá Khuyễn Mãi</th>
@@ -126,6 +134,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             <th>Feature</th>
 >>>>>>> origin/tim_kiem_user_admin
@@ -157,6 +166,8 @@
 =======
             <th>Feature</th>
 >>>>>>> origin/doi_mat_khau
+=======
+>>>>>>> origin/dang_nhap_google
             <th style="width: 130px">&nbsp;</th>
         </tr>
       </thead>
@@ -172,6 +183,7 @@
             <td>{!! \App\Helpers\Helper::active($product->active)  !!}</td>
             <td>{{ $product->updated_at }}</td>
             <td>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -236,6 +248,8 @@
 >>>>>>> origin/forgot_password
 =======
 >>>>>>> origin/doi_mat_khau
+=======
+>>>>>>> origin/dang_nhap_google
                 <a class="btn btn-primary btn-sm" href="/admin/products/edit/{{ $product->id }}">
                     <i class="fas fa-edit"></i>
                 </a>
@@ -251,6 +265,7 @@
         
       </tbody>
    </table>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -303,4 +318,8 @@
 =======
    {{ $products->appends(['query' => request('query')])->links('pagination::bootstrap-4') }}@endsection
 >>>>>>> origin/doi_mat_khau
+=======
+   {{  $products->links('pagination::bootstrap-4')  }}
+@endsection
+>>>>>>> origin/dang_nhap_google
 

@@ -13,6 +13,7 @@ namespace App\Http\Controllers;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Http\Request;
 use App\Http\Services\Product\ProductServiceScreen;
 =======
@@ -69,6 +70,10 @@ use App\Http\Services\Product\ProductServiceScreen;
 >>>>>>> origin/forgot_password
 =======
 >>>>>>> origin/doi_mat_khau
+=======
+use Illuminate\Http\Request;
+use App\Http\Services\Product\ProductServiceScreen;
+>>>>>>> origin/dang_nhap_google
 class ProductControllerScreen extends Controller
 {
      protected $productServiceScreen;
@@ -104,6 +109,7 @@ class ProductControllerScreen extends Controller
 
      //      ]);
      // }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -229,5 +235,8 @@ public function getNewestProducts(Request $request) {
 >>>>>>> origin/forgot_password
 =======
 >>>>>>> origin/doi_mat_khau
+=======
+
+>>>>>>> origin/dang_nhap_google
 
 }

@@ -25,6 +25,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             <th>Feature</th>
 >>>>>>> origin/tim_kiem_user_admin
@@ -54,6 +55,8 @@
 =======
             <th>Feature</th>
 >>>>>>> origin/doi_mat_khau
+=======
+>>>>>>> origin/dang_nhap_google
             <th>Update</th>
             <th style="width: 130px">&nbsp;</th>
         </tr>
@@ -72,6 +75,7 @@
             <td> {{ $product->menu ? $product->menu->name : 'Không có danh mục' }}</td>
             <td> {{ $product->description }}</td>
             <td style="max-width: 200px;">{{ $product->content }}</td>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -139,6 +143,9 @@
 >>>>>>> origin/forgot_password
 =======
 >>>>>>> origin/doi_mat_khau
+=======
+            <td>{!! \App\Helpers\Helper::active($product->active)  !!}</td>
+>>>>>>> origin/dang_nhap_google
             <td>{{ $product->updated_at }}</td>
         </tr>
 

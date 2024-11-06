@@ -18,6 +18,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <a href="../../index2.html"><b>COZA</b>STORE</a>
 =======
     <a href="/"><b>COZA</b>STORE</a>
@@ -52,6 +53,9 @@
 =======
     <a href="/"><b>COZA</b>STORE</a>
 >>>>>>> origin/doi_mat_khau
+=======
+    <a href="../../index2.html"><b>COZA</b>STORE</a>
+>>>>>>> origin/dang_nhap_google
   </div>
   <!-- /.login-logo -->
   <div class="card">
@@ -94,6 +98,7 @@
       </form>
       <div class="social-auth-links text-center mb-3">
         <p>- OR -</p>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -165,12 +170,19 @@
 >>>>>>> origin/forgot_password
 =======
 >>>>>>> origin/doi_mat_khau
+=======
+        <a href="#" class="btn btn-block btn-primary">
+          <i class="fab fa-facebook mr-2"></i> Sign in using Facebook
+        </a>
+        <a href="{{ url('auth/google') }}" class="btn btn-block btn-danger">
+>>>>>>> origin/dang_nhap_google
           <i class="fab fa-google-plus mr-2"></i> Sign in using Google+
         </a>
       </div>
       <!-- /.social-auth-links -->
 
       <p class="mb-1">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -216,6 +228,9 @@
 =======
         <a href="/forgot-password">I forgot my password</a>
 >>>>>>> origin/doi_mat_khau
+=======
+        <a href="forgot-password.html">I forgot my password</a>
+>>>>>>> origin/dang_nhap_google
       </p>
       <p class="mb-0">
         <a href="/admin/users/register" class="text-center">Register a new membership</a>

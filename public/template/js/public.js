@@ -14,6 +14,7 @@ $.ajaxSetup({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
 =======
@@ -22,6 +23,8 @@ $.ajaxSetup({
 >>>>>>> origin/san_pham_mơi_nhat
 =======
 >>>>>>> origin/quan_ly_user
+=======
+>>>>>>> origin/dang_nhap_google
  function loadMore(){
     const page = $('#page').val();
     $.ajax({
@@ -40,6 +43,7 @@ $.ajaxSetup({
             }
         }
     })
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -113,3 +117,6 @@ function loadMore() {
 >>>>>>> origin/forgot_password
 =======
 >>>>>>> origin/doi_mat_khau
+=======
+ }
+>>>>>>> origin/dang_nhap_google

@@ -21,8 +21,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/quan_ly_user
+=======
+>>>>>>> origin/dang_nhap_google
                 <button  class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
                     Quick View
                 </button>
@@ -46,6 +49,7 @@
                     </a>
                 </div>
             </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -127,12 +131,15 @@
 >>>>>>> origin/forgot_password
 =======
 >>>>>>> origin/doi_mat_khau
+=======
+>>>>>>> origin/dang_nhap_google
         </div>
     </div>
    
     @endforeach
     @endif
 </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -251,5 +258,8 @@
 >>>>>>> origin/forgot_password
 =======
 >>>>>>> origin/doi_mat_khau
+=======
+  
+>>>>>>> origin/dang_nhap_google
 
 
