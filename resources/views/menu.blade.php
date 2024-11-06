@@ -58,6 +58,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <a href="#" class="filter-link stext-106 trans-04">
 =======
                                 <a href="#" id="filter-popularity" class="filter-link stext-106 trans-04">
@@ -83,10 +84,14 @@
 =======
                                 <a href="#" id="filter-popularity" class="filter-link stext-106 trans-04">
 >>>>>>> origin/profile
+=======
+                                <a href="#" id="filter-popularity" class="filter-link stext-106 trans-04">
+>>>>>>> origin/lien_he_email
                                     Popularity
                                 </a>
                             </li>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -121,10 +126,13 @@
 >>>>>>> origin/san_pham_mơi_nhat
 =======
 >>>>>>> origin/profile
+=======
+>>>>>>> origin/lien_he_email
                          
 
                             <li class="p-b-6">
                                 <a href="{{ route('products.newest') }}" class="filter-link stext-106 trans-04 filter-link-active">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -144,6 +152,8 @@
 >>>>>>> origin/quan_ly_user
 =======
 >>>>>>> origin/profile
+=======
+>>>>>>> origin/lien_he_email
                                     Newness
                                 </a>
                             </li>
@@ -206,6 +216,7 @@
                         </ul>
                     </div>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -337,11 +348,15 @@
 =======
                   
 >>>>>>> origin/profile
+=======
+                  
+>>>>>>> origin/lien_he_email
                 </div>
             </div>
         </div>
 
       @include('product.list')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -371,10 +386,14 @@
 =======
 
 >>>>>>> origin/profile
+=======
+
+>>>>>>> origin/lien_he_email
       {{ $products->links('pagination::bootstrap-4')  }}
 
     </div>
 </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -395,6 +414,8 @@
 >>>>>>> origin/san_pham_mơi_nhat
 =======
 >>>>>>> origin/profile
+=======
+>>>>>>> origin/lien_he_email
 @endsection
 
 
@@ -422,6 +443,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 </script>
 >>>>>>> origin/tim_kiem_user_admin
 =======
@@ -445,3 +467,6 @@
 =======
 </script>
 >>>>>>> origin/profile
+=======
+</script>
+>>>>>>> origin/lien_he_email

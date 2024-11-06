@@ -22,6 +22,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             <th>Feature</th>
 >>>>>>> origin/tim_kiem_user_admin
@@ -42,6 +43,9 @@
 =======
             <th>Feature</th>
 >>>>>>> origin/profile
+=======
+            <th>Feature</th>
+>>>>>>> origin/lien_he_email
             <th>Update</th>
             <th style="width: 130px">&nbsp;</th>
         </tr>
@@ -68,6 +72,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <td>{!! \App\Helpers\Helper::active($product->active)  !!}</td>
 =======
 =======
@@ -76,6 +81,8 @@
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/profile
+=======
+>>>>>>> origin/lien_he_email
             <td>{{ $product->price }}</td>
             <td style="padding-left: 30px;
 }">{{ $product->price_sale }}</td>
@@ -87,6 +94,7 @@
                   <span class="badge badge-success btn-xs">YES</span>
               @endif
           </td>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -109,6 +117,8 @@
 >>>>>>> origin/quan_ly_user
 =======
 >>>>>>> origin/profile
+=======
+>>>>>>> origin/lien_he_email
             <td>{{ $product->updated_at }}</td>
         </tr>
 

@@ -108,11 +108,14 @@ class ProductController extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/search_product_admin
 =======
 >>>>>>> origin/profile
+=======
+>>>>>>> origin/lien_he_email
 
     public function search(Request $request)
 {
@@ -120,17 +123,21 @@ class ProductController extends Controller
     $products = Product::where('name', 'like', "%$query%")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 ->orWhere('description', 'like', "%$query%")
 >>>>>>> origin/search_product_admin
 =======
 >>>>>>> origin/profile
+=======
+>>>>>>> origin/lien_he_email
                 ->paginate(10);
 
     return view('admin.product.list',[
         'title' => 'Kết quả tìm kiếm'
     ], compact('products'))->with('query', $query);
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
@@ -148,4 +155,6 @@ class ProductController extends Controller
 >>>>>>> origin/quan_ly_user
 =======
 >>>>>>> origin/profile
+=======
+>>>>>>> origin/lien_he_email
 }

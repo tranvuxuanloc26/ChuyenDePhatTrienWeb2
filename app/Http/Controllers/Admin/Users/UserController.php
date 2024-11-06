@@ -6,9 +6,12 @@ use App\Models\User;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Illuminate\Support\Facades\Auth;
 >>>>>>> origin/profile
+=======
+>>>>>>> origin/lien_he_email
 use App\Http\Services\User\UserService;
 
 
@@ -61,8 +64,11 @@ class UserController extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/profile
+=======
+>>>>>>> origin/lien_he_email
 
     public function search(Request $request)
     {
@@ -75,6 +81,7 @@ class UserController extends Controller
             'title' => 'Kết quả tìm kiếm'
         ], compact('users'))->with('query', $query);
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -122,4 +129,6 @@ class UserController extends Controller
         return redirect()->route('user.profile')->with('success', 'Profile updated successfully');
     }
 >>>>>>> origin/profile
+=======
+>>>>>>> origin/lien_he_email
 }

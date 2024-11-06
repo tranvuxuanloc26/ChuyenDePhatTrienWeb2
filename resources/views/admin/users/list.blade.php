@@ -9,14 +9,18 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/profile
+=======
+>>>>>>> origin/lien_he_email
 <!-- Form tìm kiếm -->
 <form action="{{ route('admin.users.search') }}" method="GET" class="form-inline mb-3">
     <input type="text" name="query" class="form-control" placeholder="Tìm kiếm người dùng..." value="{{ request('query') }}">
     <button type="submit" class="btn btn-primary ml-2">Tìm kiếm</button>
 </form>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -32,6 +36,8 @@
 >>>>>>> origin/quan_ly_user
 =======
 >>>>>>> origin/profile
+=======
+>>>>>>> origin/lien_he_email
 
 <table>
     <thead>
@@ -86,6 +92,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 {!! $users->appends(['query' => request('query')])->links('pagination::bootstrap-4') !!}
 =======
 {!! $users->links('pagination::bootstrap-4') !!}
@@ -108,6 +115,9 @@
 =======
 {!! $users->appends(['query' => request('query')])->links('pagination::bootstrap-4') !!}
 >>>>>>> origin/profile
+=======
+{!! $users->appends(['query' => request('query')])->links('pagination::bootstrap-4') !!}
+>>>>>>> origin/lien_he_email
 @endsection
 
 <script>

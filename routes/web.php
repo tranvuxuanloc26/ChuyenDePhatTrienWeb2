@@ -12,6 +12,7 @@ use App\Http\Controllers\MainController;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/quan_ly_user
 use App\Http\Controllers\Admin\MenuController;
@@ -42,10 +43,15 @@ use App\Http\Controllers\WishController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\PasswordController;
 >>>>>>> origin/profile
+=======
+use App\Http\Controllers\WishController;
+use App\Http\Controllers\ContactController;
+>>>>>>> origin/lien_he_email
 use App\Http\Controllers\WishlistController;
 use App\Http\Controllers\Admin\MenuController;
 use App\Http\Controllers\MenuControllerScreen;
 use App\Http\Controllers\Auth\GoogleController;
+<<<<<<< HEAD
 <<<<<<< HEAD
 use App\Http\Controllers\Admin\SliderController;
 use App\Http\Controllers\Admin\UploadController;
@@ -55,6 +61,11 @@ use App\Http\Controllers\Admin\UploadController;
 use App\Http\Controllers\Admin\SliderController;
 use App\Http\Controllers\Admin\UploadController;
 >>>>>>> origin/profile
+=======
+use App\Http\Controllers\Admin\SliderController;
+
+use App\Http\Controllers\Admin\UploadController;
+>>>>>>> origin/lien_he_email
 use App\Http\Controllers\Admin\ProductController;
 use App\Http\Controllers\Auth\FacebookController;
 use App\Http\Controllers\ProductControllerScreen;
@@ -62,6 +73,7 @@ use App\Http\Controllers\Admin\CartAdminController;
 use App\Http\Controllers\Admin\MainAdminController;
 use App\Http\Controllers\Admin\Users\UserController;
 use App\Http\Controllers\Admin\Users\LoginController;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -89,6 +101,9 @@ use App\Http\Controllers\Admin\Users\LoginController;
 =======
 use App\Http\Controllers\Auth\ForgotPasswordController;
 >>>>>>> origin/profile
+=======
+use App\Http\Controllers\Auth\ForgotPasswordController;
+>>>>>>> origin/lien_he_email
 use App\Http\Controllers\Admin\Users\RegisterController;
 
     #Login
@@ -109,6 +124,7 @@ Route::post('admin/users/register/store', [RegisterController::class, 'store']);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/search_product_admin
@@ -116,6 +132,8 @@ Route::post('admin/users/register/store', [RegisterController::class, 'store']);
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/profile
+=======
+>>>>>>> origin/lien_he_email
 #Role
 Route::post('/admin/users/toggle-role/{id}', [UserController::class, 'toggleRole']);
 
@@ -137,6 +155,7 @@ Route::post('reset-password', [ForgotPasswordController::class, 'resetPassword']
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 
 
@@ -172,6 +191,10 @@ Route::post('/admin/users/toggle-role/{id}', [UserController::class, 'toggleRole
 
 
 >>>>>>> origin/profile
+=======
+
+
+>>>>>>> origin/lien_he_email
 #Admin
 Route::middleware(['auth', 'role:1,2'])->group(function () {
 
@@ -179,6 +202,7 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
         Route::get('/', [MainAdminController::class, 'index'])->name('admin');
         Route::get('main', [MainAdminController::class, 'index'])->name('admin');
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -213,11 +237,14 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 >>>>>>> origin/quan_ly_user
 =======
 >>>>>>> origin/profile
+=======
+>>>>>>> origin/lien_he_email
 
 
         // Các route dành cho cả role 1 và role 2 (chỉ truy cập menu, sản phẩm, slider)
         Route::middleware('role:1,2')->group(function () {
       
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -240,6 +267,8 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 >>>>>>> origin/quan_ly_user
 =======
 >>>>>>> origin/profile
+=======
+>>>>>>> origin/lien_he_email
         #Product
         Route::prefix('products')->group(function () {
             Route::get('add', [ProductController::class, 'create']);
@@ -256,6 +285,7 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             Route::get('/admin/products', [ProductController::class, 'index'])->name('admin.products.index');
 
@@ -281,6 +311,11 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 
             Route::get('/search', [ProductController::class, 'search'])->name('admin.products.search');
 >>>>>>> origin/profile
+=======
+            Route::get('/admin/products', [ProductController::class, 'index'])->name('admin.products.index');
+
+            Route::get('/search', [ProductController::class, 'search'])->name('admin.products.search');
+>>>>>>> origin/lien_he_email
 
             Route::DELETE('destroy', [ProductController::class, 'destroy']);
 
@@ -304,6 +339,7 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -322,6 +358,9 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 =======
       
 >>>>>>> origin/profile
+=======
+      
+>>>>>>> origin/lien_he_email
     });
 
       // Các route chỉ dành cho role 2 (truy cập được tất cả các route)
@@ -333,6 +372,7 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      
 =======
         Route::prefix('admin')->group(function () {
@@ -354,6 +394,9 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 =======
      
 >>>>>>> origin/profile
+=======
+     
+>>>>>>> origin/lien_he_email
 
           #Menu
           Route::prefix('menus')->group(function () {
@@ -368,13 +411,17 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
         });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/profile
+=======
+>>>>>>> origin/lien_he_email
 
            #User
          Route::prefix('users')->group(function () {
           
             Route::get('list', [UserController::class, 'index']);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -401,11 +448,15 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 =======
             Route::get('search', [UserController::class, 'search'])->name('admin.users.search'); // Route tìm kiếm
 >>>>>>> origin/profile
+=======
+            Route::get('search', [UserController::class, 'search'])->name('admin.users.search'); // Route tìm kiếm
+>>>>>>> origin/lien_he_email
             Route::DELETE('destroy', [UserController::class, 'destroy']);
 
 
 
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
           
@@ -445,6 +496,11 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
     
     });
 >>>>>>> origin/profile
+=======
+          
+    
+    });
+>>>>>>> origin/lien_he_email
         #Upload
         Route::post('upload/services', [UploadController::class, 'store']);
 
@@ -459,6 +515,7 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
      
@@ -500,6 +557,11 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 
    #Role
 >>>>>>> origin/profile
+=======
+     
+
+   #Role
+>>>>>>> origin/lien_he_email
 
     });
 
@@ -513,6 +575,7 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #Trang chủ
 Route::get('/', [MainController::class, 'index'])->name('home');
 =======
@@ -530,11 +593,14 @@ Route::get('/', [MainController::class, 'index'])->name('home');
 >>>>>>> origin/quan_ly_user
 =======
 >>>>>>> origin/profile
+=======
+>>>>>>> origin/lien_he_email
 
 #Trang chủ
 Route::get('/', [MainController::class, 'index'])->name('home');
 Route::get('/lang/{lang}', [MainController::class , 'setLanguage'])->name('set.language');
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -557,6 +623,8 @@ Route::get('/lang/{lang}', [MainController::class , 'setLanguage'])->name('set.l
 >>>>>>> origin/quan_ly_user
 =======
 >>>>>>> origin/profile
+=======
+>>>>>>> origin/lien_he_email
 Route::post('/services/load-product', [MainController::class, 'loadProduct']);
 
 
@@ -570,6 +638,7 @@ Route::get('/san-pham/{id}-{slug}.html', [ProductControllerScreen::class, 'index
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/search_product_admin
@@ -577,10 +646,13 @@ Route::get('/san-pham/{id}-{slug}.html', [ProductControllerScreen::class, 'index
 >>>>>>> origin/search_product
 =======
 >>>>>>> origin/profile
+=======
+>>>>>>> origin/lien_he_email
 Route::get('/products/popularity', [ProductControllerScreen::class, 'getFeaturedProducts'])->name('products.popularity');
 Route::get('/products/newest', [ProductControllerScreen::class, 'getNewestProducts'])->name('products.newest');
 Route::get('/search', [ProductControllerScreen::class, 'search'])->name('search');
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -604,6 +676,8 @@ Route::get('/products/newest', [ProductControllerScreen::class, 'getNewestProduc
 >>>>>>> origin/quan_ly_user
 =======
 >>>>>>> origin/profile
+=======
+>>>>>>> origin/lien_he_email
 // Route::post('/san-pham/{id}-{slug}.html', [ProductControllerScreen::class, 'indexQuickView']);
 
 
@@ -622,6 +696,7 @@ Route::post('carts', [CartController::class, 'addCart']);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -635,6 +710,8 @@ Route::post('carts', [CartController::class, 'addCart']);
 >>>>>>> origin/san_pham_mơi_nhat
 =======
 >>>>>>> origin/profile
+=======
+>>>>>>> origin/lien_he_email
 #Đăng nhập gmail 
 Route::get('auth/google', [GoogleController::class, 'redirectToGoogle']);
 Route::get('auth/google/callback', [GoogleController::class, 'handleGoogleCallback']);
@@ -648,16 +725,20 @@ Route::get('auth/facebook/callback', [FacebookController::class, 'handleFacebook
 
 Route::middleware(['auth'])->group(function () {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     Route::get('/user/profile', [UserController::class, 'editProfile'])->name('user.profile');
 Route::post('/user/profile', [UserController::class, 'updateProfile'])->name('user.profile.update');
     Route::get('/change-password', [PasswordController::class, 'showChangePasswordForm'])->name('password.change');
     Route::post('/change-password', [PasswordController::class, 'updatePassword'])->name('password.update');
 >>>>>>> origin/profile
+=======
+>>>>>>> origin/lien_he_email
     Route::post('wish-list', [WishlistController::class, 'index'])->name('wishlist.add');
     Route::get('wishlists', [WishlistController::class, 'show'])->name('wishlist.show');
 });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 
@@ -684,6 +765,11 @@ Route::get('/contact', [ContactController::class, 'index'])->name('contact.index
 Route::post('/contact', [ContactController::class, 'send'])->name('contact.send');
 
 >>>>>>> origin/profile
+=======
+Route::get('/contact', [ContactController::class, 'index'])->name('contact.index');
+Route::post('/contact', [ContactController::class, 'send'])->name('contact.send');
+
+>>>>>>> origin/lien_he_email
 
 
 

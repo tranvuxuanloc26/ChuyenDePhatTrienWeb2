@@ -10,6 +10,7 @@ namespace App\Http\Controllers;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Http\Request;
 use App\Http\Services\Product\ProductServiceScreen;
 =======
@@ -23,10 +24,13 @@ use App\Http\Services\Product\ProductServiceScreen;
 >>>>>>> origin/san_pham_mơi_nhat
 =======
 >>>>>>> origin/profile
+=======
+>>>>>>> origin/lien_he_email
 use App\Models\Product;
 use Illuminate\Http\Request;
 use App\Http\Services\Product\ProductServiceScreen;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -51,6 +55,8 @@ use App\Http\Services\Product\ProductServiceScreen;
 >>>>>>> origin/quan_ly_user
 =======
 >>>>>>> origin/profile
+=======
+>>>>>>> origin/lien_he_email
 class ProductControllerScreen extends Controller
 {
      protected $productServiceScreen;
@@ -94,6 +100,7 @@ class ProductControllerScreen extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -106,6 +113,8 @@ class ProductControllerScreen extends Controller
 >>>>>>> origin/san_pham_mơi_nhat
 =======
 >>>>>>> origin/profile
+=======
+>>>>>>> origin/lien_he_email
      public function getFeaturedProducts()
 {
     $featuredProducts = Product::where('is_featured', true)->get();
@@ -116,10 +125,13 @@ class ProductControllerScreen extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/san_pham_mơi_nhat
 =======
 >>>>>>> origin/profile
+=======
+>>>>>>> origin/lien_he_email
 
 public function getNewestProducts(Request $request) {
      $products = Product::orderBy('updated_at', 'desc')->paginate(16); // Lấy sản phẩm mới nhất theo thời gian tạo
@@ -127,8 +139,11 @@ public function getNewestProducts(Request $request) {
      return view('product.newest_products',[
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/profile
+=======
+>>>>>>> origin/lien_he_email
           'title' => 'Sản phẩm mới nhất'
      ], compact('products'));
  }
@@ -149,6 +164,7 @@ public function getNewestProducts(Request $request) {
     ]);
 }
      
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -174,5 +190,7 @@ public function getNewestProducts(Request $request) {
 >>>>>>> origin/quan_ly_user
 =======
 >>>>>>> origin/profile
+=======
+>>>>>>> origin/lien_he_email
 
 }

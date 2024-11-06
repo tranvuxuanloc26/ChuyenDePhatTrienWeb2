@@ -22,6 +22,7 @@ class ProductServiceScreen{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                               ->get();
 =======
                               ->get()
@@ -52,6 +53,10 @@ class ProductServiceScreen{
                               ->get()
                               ;
 >>>>>>> origin/profile
+=======
+                              ->get()
+                              ;
+>>>>>>> origin/lien_he_email
     }
 
     public function show($id){

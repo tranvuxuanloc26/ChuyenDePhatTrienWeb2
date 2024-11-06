@@ -4,9 +4,12 @@ $.ajaxSetup({
     }
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 console.log($('meta[name="csrf-token"]').attr('content')); // Kiểm tra giá trị CSRF token
 >>>>>>> origin/profile
+=======
+>>>>>>> origin/lien_he_email
 
 function removeRow(id, url) {
     swal({
@@ -78,6 +81,7 @@ $('#upload').change(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   
 
@@ -118,3 +122,8 @@ $('#upload').change(function () {
 
 
 >>>>>>> origin/profile
+=======
+  
+
+
+>>>>>>> origin/lien_he_email

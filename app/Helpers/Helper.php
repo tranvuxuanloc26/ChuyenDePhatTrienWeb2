@@ -29,6 +29,7 @@ class Helper
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <a class="btn btn-danger btn-sm" href="#" onClick="removeRow(' . $menu->id . ', \'/admin/menus/destroy\')">
                                 <i class="fas fa-trash"></i>
                             </a>
@@ -47,6 +48,8 @@ class Helper
 >>>>>>> origin/quan_ly_user
 =======
 >>>>>>> origin/profile
+=======
+>>>>>>> origin/lien_he_email
                               <a class="btn btn-primary btn-sm" href="/admin/menus/detail/' . $menu->id . '">
                                  <i class="fas fa-eye"></i>
                             </a>
@@ -54,6 +57,7 @@ class Helper
                                 <i class="fas fa-trash"></i>
                             </a>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -76,6 +80,8 @@ class Helper
 >>>>>>> origin/quan_ly_user
 =======
 >>>>>>> origin/profile
+=======
+>>>>>>> origin/lien_he_email
                         </td>
                     </tr>
                 ';
@@ -137,10 +143,14 @@ class Helper
         }
         
 <<<<<<< HEAD
+<<<<<<< HEAD
         return '<a href="/lien-he.html">Liên Hệ</a>';
 =======
         return '<a href="/contact">Liên Hệ</a>';
 >>>>>>> origin/profile
+=======
+        return '<a href="/contact">Liên Hệ</a>';
+>>>>>>> origin/lien_he_email
     }
     
 }
