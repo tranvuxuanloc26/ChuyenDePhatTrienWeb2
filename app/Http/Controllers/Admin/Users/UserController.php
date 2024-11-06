@@ -8,6 +8,7 @@ use App\Http\Controllers\Controller;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Illuminate\Support\Facades\Auth;
 >>>>>>> origin/profile
@@ -15,6 +16,8 @@ use Illuminate\Support\Facades\Auth;
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
 use App\Http\Services\User\UserService;
 
 
@@ -69,10 +72,13 @@ class UserController extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/profile
 =======
 >>>>>>> origin/lien_he_email
+=======
+>>>>>>> origin/doi_mat_khau
 
     public function search(Request $request)
     {
@@ -85,6 +91,7 @@ class UserController extends Controller
             'title' => 'Kết quả tìm kiếm'
         ], compact('users'))->with('query', $query);
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -137,4 +144,6 @@ class UserController extends Controller
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
 }

@@ -13,6 +13,7 @@ $.ajaxSetup({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
 =======
@@ -55,6 +56,8 @@ $.ajaxSetup({
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
 
 function loadMore() {
     const page = $('#page').val();
@@ -84,6 +87,7 @@ function loadMore() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
  }
@@ -107,3 +111,5 @@ function loadMore() {
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau

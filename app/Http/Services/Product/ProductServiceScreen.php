@@ -24,6 +24,7 @@ class ProductServiceScreen{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                               ->get();
 =======
                               ->get()
@@ -62,6 +63,10 @@ class ProductServiceScreen{
                               ->get()
                               ;
 >>>>>>> origin/forgot_password
+=======
+                              ->get()
+                              ;
+>>>>>>> origin/doi_mat_khau
     }
 
     public function show($id){

@@ -60,6 +60,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <a href="#" class="filter-link stext-106 trans-04">
 =======
                                 <a href="#" id="filter-popularity" class="filter-link stext-106 trans-04">
@@ -91,10 +92,14 @@
 =======
                                 <a href="#" id="filter-popularity" class="filter-link stext-106 trans-04">
 >>>>>>> origin/forgot_password
+=======
+                                <a href="#" id="filter-popularity" class="filter-link stext-106 trans-04">
+>>>>>>> origin/doi_mat_khau
                                     Popularity
                                 </a>
                             </li>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -135,10 +140,13 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                          
 
                             <li class="p-b-6">
                                 <a href="{{ route('products.newest') }}" class="filter-link stext-106 trans-04 filter-link-active">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -164,6 +172,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                                     Newness
                                 </a>
                             </li>
@@ -226,6 +236,7 @@
                         </ul>
                     </div>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -365,11 +376,15 @@
 =======
                   
 >>>>>>> origin/forgot_password
+=======
+                  
+>>>>>>> origin/doi_mat_khau
                 </div>
             </div>
         </div>
 
       @include('product.list')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -407,10 +422,14 @@
 =======
 
 >>>>>>> origin/forgot_password
+=======
+
+>>>>>>> origin/doi_mat_khau
       {{ $products->links('pagination::bootstrap-4')  }}
 
     </div>
 </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -437,6 +456,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
 @endsection
 
 
@@ -466,6 +487,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 </script>
 >>>>>>> origin/tim_kiem_user_admin
 =======
@@ -495,3 +517,6 @@
 =======
 </script>
 >>>>>>> origin/forgot_password
+=======
+</script>
+>>>>>>> origin/doi_mat_khau

@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -22,11 +23,14 @@
 >>>>>>> origin/profile
 =======
 >>>>>>> origin/lien_he_email
+=======
+>>>>>>> origin/doi_mat_khau
 <!-- Form tìm kiếm -->
 <form action="{{ route('admin.products.search') }}" method="GET" class="form-inline mb-3">
     <input type="text" name="query" class="form-control" placeholder="Tìm kiếm sản phẩm..." value="{{ request('query') }}">
     <button type="submit" class="btn btn-primary ml-2">Tìm kiếm</button>
 </form>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -55,6 +59,8 @@
 =======
 
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
    <table>
       <thead>
         <tr>
@@ -69,6 +75,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <th style="width: 27%;">Tên Sản Phẩm </th>
 =======
             <th style="width: 23%;">Tên Sản Phẩm </th>
@@ -100,6 +107,9 @@
 =======
             <th style="width: 23%;">Tên Sản Phẩm </th>
 >>>>>>> origin/forgot_password
+=======
+            <th style="width: 23%;">Tên Sản Phẩm </th>
+>>>>>>> origin/doi_mat_khau
             <th>Danh Mục</th>
             <th>Giá Gốc</th>
             <th>Giá Khuyễn Mãi</th>
@@ -115,6 +125,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             <th>Feature</th>
 >>>>>>> origin/tim_kiem_user_admin
@@ -143,6 +154,9 @@
 =======
             <th>Feature</th>
 >>>>>>> origin/forgot_password
+=======
+            <th>Feature</th>
+>>>>>>> origin/doi_mat_khau
             <th style="width: 130px">&nbsp;</th>
         </tr>
       </thead>
@@ -168,6 +182,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/search_product_admin
@@ -183,6 +198,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                 @if ($product->is_featured == 0)
                     <span class="badge badge-danger btn-xs">NO</span>
                 @else
@@ -190,6 +207,7 @@
                 @endif
             </td>
             <td>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -216,6 +234,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                 <a class="btn btn-primary btn-sm" href="/admin/products/edit/{{ $product->id }}">
                     <i class="fas fa-edit"></i>
                 </a>
@@ -241,6 +261,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    {{  $products->links('pagination::bootstrap-4')  }}
 @endsection
 =======
@@ -279,4 +300,7 @@
    {{  $products->links('pagination::bootstrap-4')  }}
 @endsection
 >>>>>>> origin/forgot_password
+=======
+   {{ $products->appends(['query' => request('query')])->links('pagination::bootstrap-4') }}@endsection
+>>>>>>> origin/doi_mat_khau
 

@@ -23,6 +23,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <link rel="stylesheet" href="/template/admin/dist/css/togglebutton.css">
 
@@ -63,6 +64,10 @@
 <link rel="stylesheet" href="/template/admin/dist/css/togglebutton.css">
 
 >>>>>>> origin/forgot_password
+=======
+<link rel="stylesheet" href="/template/admin/dist/css/togglebutton.css">
+
+>>>>>>> origin/doi_mat_khau
 
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 

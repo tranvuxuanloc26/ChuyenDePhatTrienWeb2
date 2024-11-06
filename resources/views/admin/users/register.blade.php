@@ -16,6 +16,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <a href="#"><b>COZA</b>STORE</a>
 =======
             <a href="/"><b>COZA</b>STORE</a>
@@ -47,6 +48,9 @@
 =======
             <a href="/"><b>COZA</b>STORE</a>
 >>>>>>> origin/forgot_password
+=======
+            <a href="/"><b>COZA</b>STORE</a>
+>>>>>>> origin/doi_mat_khau
         </div>
       
         <div class="card">
@@ -98,6 +102,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <div class="input-group mb-3">
                         <select name="role" class="form-control" required>
                             <option value="" disabled selected>Chọn vai trò</option>
@@ -135,6 +140,9 @@
 =======
                  
 >>>>>>> origin/forgot_password
+=======
+                 
+>>>>>>> origin/doi_mat_khau
                     <div class="row">
                         <div class="col-8">
                             <div class="icheck-primary">
@@ -152,6 +160,7 @@
 
                 <div class="social-auth-links text-center">
                     <p>- OR -</p>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -187,11 +196,14 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                     <a href="{{ route('facebook.login') }}" class="btn btn-block btn-primary">
                         <i class="fab fa-facebook mr-2"></i>
                         Sign up using Facebook
                     </a>
                     <a href="{{ url('auth/google') }}" class="btn btn-block btn-danger">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -219,6 +231,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                         <i class="fab fa-google-plus mr-2"></i>
                         Sign up using Google+
                     </a>

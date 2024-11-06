@@ -30,6 +30,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <li class="nav-item dropdown" style="right: 60px">
 =======
       <li class="nav-item dropdown" style="right: 90px;max-width:200px">
@@ -81,11 +82,17 @@
         <div class="d-flex align-items-center">
             <img src="{{ asset('template/images/icons/R.png') }}" alt="User Avatar" class="rounded-circle me-4" style="width: 40px; height: 40px;">
 >>>>>>> origin/forgot_password
+=======
+      <li class="nav-item dropdown" style="right: 90px;max-width:200px">
+        <div class="d-flex align-items-center">
+            <img src="{{ asset('template/images/icons/R.png') }}" alt="User Avatar" class="rounded-circle me-4" style="width: 40px; height: 40px;">
+>>>>>>> origin/doi_mat_khau
             <span class="fw-bold dropdown-toggle" style="margin-left: 10px" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 {{ Auth::user()->name }}
             </span>
             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
                 <li><a class="dropdown-item" href="">Thông tin người dùng</a></li>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -130,6 +137,10 @@
                 <li><a class="dropdown-item" href="">Đổi mật khẩu</a></li>
                 <li><a class="dropdown-item" href="/">Về Trang Chủ</a></li>
 >>>>>>> origin/forgot_password
+=======
+                <li><a class="dropdown-item" href="/change-password">Đổi mật khẩu</a></li>
+                <li><a class="dropdown-item" href="/">Về Trang Chủ</a></li>
+>>>>>>> origin/doi_mat_khau
                 <li>
                   <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                       @csrf

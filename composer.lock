@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "content-hash": "89ef30d8b0d976566bda7189c381dafc",
 =======
     "content-hash": "fab5f53365c3419fb61ad550dd332793",
@@ -45,6 +46,9 @@
 =======
     "content-hash": "fab5f53365c3419fb61ad550dd332793",
 >>>>>>> origin/forgot_password
+=======
+    "content-hash": "fab5f53365c3419fb61ad550dd332793",
+>>>>>>> origin/doi_mat_khau
     "packages": [
         {
             "name": "brick/math",
@@ -430,6 +434,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/quan_ly_user
             "version": "v3.3.3",
@@ -460,6 +465,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "version": "v3.4.0",
             "source": {
                 "type": "git",
@@ -470,6 +477,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/dragonmantank/cron-expression/zipball/8c784d071debd117328803d86b2097615b457500",
                 "reference": "8c784d071debd117328803d86b2097615b457500",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -497,6 +505,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                 "shasum": ""
             },
             "require": {
@@ -509,6 +519,7 @@
             "require-dev": {
                 "phpstan/extension-installer": "^1.0",
                 "phpstan/phpstan": "^1.0",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -543,6 +554,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                 "phpunit/phpunit": "^7.0|^8.0|^9.0"
             },
             "type": "library",
@@ -551,6 +564,7 @@
                     "dev-master": "3.x-dev"
                 }
             },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -578,6 +592,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "autoload": {
                 "psr-4": {
                     "Cron\\": "src/Cron/"
@@ -611,6 +627,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/dragonmantank/cron-expression/tree/v3.3.3"
 =======
                 "source": "https://github.com/dragonmantank/cron-expression/tree/v3.4.0"
@@ -642,6 +659,9 @@
 =======
                 "source": "https://github.com/dragonmantank/cron-expression/tree/v3.4.0"
 >>>>>>> origin/forgot_password
+=======
+                "source": "https://github.com/dragonmantank/cron-expression/tree/v3.4.0"
+>>>>>>> origin/doi_mat_khau
             },
             "funding": [
                 {
@@ -659,6 +679,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2023-08-10T19:36:49+00:00"
 =======
             "time": "2024-10-09T13:47:03+00:00"
@@ -690,6 +711,9 @@
 =======
             "time": "2024-10-09T13:47:03+00:00"
 >>>>>>> origin/forgot_password
+=======
+            "time": "2024-10-09T13:47:03+00:00"
+>>>>>>> origin/doi_mat_khau
         },
         {
             "name": "egulias/email-validator",
@@ -769,6 +793,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -786,6 +811,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "name": "firebase/php-jwt",
             "version": "v6.10.1",
             "source": {
@@ -857,6 +884,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -876,6 +904,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "name": "fruitcake/php-cors",
             "version": "v1.3.0",
             "source": {
@@ -1146,6 +1176,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/quan_ly_user
             "version": "2.0.3",
@@ -1176,6 +1207,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "version": "2.0.4",
             "source": {
                 "type": "git",
@@ -1186,6 +1219,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/guzzle/promises/zipball/f9c436286ab2892c7db7be8c8da4ef61ccf7b455",
                 "reference": "f9c436286ab2892c7db7be8c8da4ef61ccf7b455",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1213,6 +1247,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                 "shasum": ""
             },
             "require": {
@@ -1276,6 +1312,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/guzzle/promises/tree/2.0.3"
 =======
                 "source": "https://github.com/guzzle/promises/tree/2.0.4"
@@ -1307,6 +1344,9 @@
 =======
                 "source": "https://github.com/guzzle/promises/tree/2.0.4"
 >>>>>>> origin/forgot_password
+=======
+                "source": "https://github.com/guzzle/promises/tree/2.0.4"
+>>>>>>> origin/doi_mat_khau
             },
             "funding": [
                 {
@@ -1332,6 +1372,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2024-07-18T10:29:17+00:00"
 =======
             "time": "2024-10-17T10:06:22+00:00"
@@ -1363,6 +1404,9 @@
 =======
             "time": "2024-10-17T10:06:22+00:00"
 >>>>>>> origin/forgot_password
+=======
+            "time": "2024-10-17T10:06:22+00:00"
+>>>>>>> origin/doi_mat_khau
         },
         {
             "name": "guzzlehttp/psr7",
@@ -1578,6 +1622,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/quan_ly_user
             "version": "v10.48.20",
@@ -1608,6 +1653,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "version": "v10.48.22",
             "source": {
                 "type": "git",
@@ -1618,6 +1665,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/framework/zipball/c4ea52bb044faef4a103d7dd81746c01b2ec860e",
                 "reference": "c4ea52bb044faef4a103d7dd81746c01b2ec860e",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1645,6 +1693,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                 "shasum": ""
             },
             "require": {
@@ -1848,6 +1898,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2024-08-09T07:55:45+00:00"
 =======
             "time": "2024-09-12T15:00:09+00:00"
@@ -1879,6 +1930,9 @@
 =======
             "time": "2024-09-12T15:00:09+00:00"
 >>>>>>> origin/forgot_password
+=======
+            "time": "2024-09-12T15:00:09+00:00"
+>>>>>>> origin/doi_mat_khau
         },
         {
             "name": "laravel/prompts",
@@ -2016,6 +2070,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/quan_ly_user
             "version": "v1.3.4",
@@ -2046,6 +2101,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "version": "v1.3.5",
             "source": {
                 "type": "git",
@@ -2056,6 +2113,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/1dc4a3dbfa2b7628a3114e43e32120cce7cdda9c",
                 "reference": "1dc4a3dbfa2b7628a3114e43e32120cce7cdda9c",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2083,6 +2141,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                 "shasum": ""
             },
             "require": {
@@ -2140,6 +2200,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/quan_ly_user
             "time": "2024-08-02T07:48:17+00:00"
@@ -2174,6 +2235,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "time": "2024-09-23T13:33:08+00:00"
         },
         {
@@ -2268,6 +2331,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -2287,6 +2351,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                 "shasum": ""
             },
             "require": {
@@ -2347,6 +2413,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/laravel/tinker/tree/v2.9.0"
             },
             "time": "2024-01-04T16:10:04+00:00"
@@ -2400,6 +2467,11 @@
             },
             "time": "2024-09-23T13:32:56+00:00"
 >>>>>>> origin/forgot_password
+=======
+                "source": "https://github.com/laravel/tinker/tree/v2.10.0"
+            },
+            "time": "2024-09-23T13:32:56+00:00"
+>>>>>>> origin/doi_mat_khau
         },
         {
             "name": "league/commonmark",
@@ -2601,6 +2673,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/quan_ly_user
             "version": "3.28.0",
@@ -2631,6 +2704,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "version": "3.29.1",
             "source": {
                 "type": "git",
@@ -2641,6 +2716,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/edc1bb7c86fab0776c3287dbd19b5fa278347319",
                 "reference": "edc1bb7c86fab0776c3287dbd19b5fa278347319",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2668,6 +2744,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                 "shasum": ""
             },
             "require": {
@@ -2745,6 +2823,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/quan_ly_user
                 "source": "https://github.com/thephpleague/flysystem/tree/3.28.0"
@@ -2781,6 +2860,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                 "source": "https://github.com/thephpleague/flysystem/tree/3.29.1"
             },
             "time": "2024-10-08T08:58:34+00:00"
@@ -2797,6 +2878,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/thephpleague/flysystem-local/zipball/e0e8d52ce4b2ed154148453d321e97c8e931bd27",
                 "reference": "e0e8d52ce4b2ed154148453d321e97c8e931bd27",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2824,6 +2906,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                 "shasum": ""
             },
             "require": {
@@ -2857,6 +2941,7 @@
                 "local"
             ],
             "support": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2903,6 +2988,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                 "source": "https://github.com/thephpleague/flysystem-local/tree/3.29.0"
             },
             "time": "2024-08-09T21:24:39+00:00"
@@ -2919,6 +3006,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/thephpleague/mime-type-detection/zipball/2d6702ff215bf922936ccc1ad31007edc76451b9",
                 "reference": "2d6702ff215bf922936ccc1ad31007edc76451b9",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2946,6 +3034,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                 "shasum": ""
             },
             "require": {
@@ -2986,6 +3076,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/thephpleague/mime-type-detection/tree/1.15.0"
 =======
                 "source": "https://github.com/thephpleague/mime-type-detection/tree/1.16.0"
@@ -3017,6 +3108,9 @@
 =======
                 "source": "https://github.com/thephpleague/mime-type-detection/tree/1.16.0"
 >>>>>>> origin/forgot_password
+=======
+                "source": "https://github.com/thephpleague/mime-type-detection/tree/1.16.0"
+>>>>>>> origin/doi_mat_khau
             },
             "funding": [
                 {
@@ -3028,6 +3122,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3056,6 +3151,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "time": "2024-09-21T08:32:55+00:00"
         },
         {
@@ -3141,6 +3238,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -3161,6 +3259,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
         },
         {
             "name": "monolog/monolog",
@@ -3382,6 +3482,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/quan_ly_user
             "version": "v1.3.0",
@@ -3412,6 +3513,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "version": "v1.3.2",
             "source": {
                 "type": "git",
@@ -3422,6 +3525,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/nette/schema/zipball/da801d52f0354f70a638673c4a0f04e16529431d",
                 "reference": "da801d52f0354f70a638673c4a0f04e16529431d",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3449,10 +3553,13 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                 "shasum": ""
             },
             "require": {
                 "nette/utils": "^4.0",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3487,10 +3594,13 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                 "php": "8.1 - 8.4"
             },
             "require-dev": {
                 "nette/tester": "^2.5.2",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3518,6 +3628,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                 "phpstan/phpstan-nette": "^1.0",
                 "tracy/tracy": "^2.8"
             },
@@ -3566,6 +3678,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/nette/schema/tree/v1.3.0"
             },
             "time": "2023-12-11T11:54:22+00:00"
@@ -3619,6 +3732,11 @@
             },
             "time": "2024-10-06T23:10:23+00:00"
 >>>>>>> origin/forgot_password
+=======
+                "source": "https://github.com/nette/schema/tree/v1.3.2"
+            },
+            "time": "2024-10-06T23:10:23+00:00"
+>>>>>>> origin/doi_mat_khau
         },
         {
             "name": "nette/utils",
@@ -3718,6 +3836,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/quan_ly_user
             "version": "v5.1.0",
@@ -3748,6 +3867,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "version": "v5.3.1",
             "source": {
                 "type": "git",
@@ -3758,6 +3879,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/8eea230464783aa9671db8eea6f8c6ac5285794b",
                 "reference": "8eea230464783aa9671db8eea6f8c6ac5285794b",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3785,6 +3907,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                 "shasum": ""
             },
             "require": {
@@ -3837,6 +3961,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/quan_ly_user
                 "source": "https://github.com/nikic/PHP-Parser/tree/v5.1.0"
@@ -3873,6 +3998,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                 "source": "https://github.com/nikic/PHP-Parser/tree/v5.3.1"
             },
             "time": "2024-10-08T18:51:32+00:00"
@@ -3889,6 +4016,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/nunomaduro/termwind/zipball/dcf1ec3dfa36137b7ce41d43866644a7ab8fc257",
                 "reference": "dcf1ec3dfa36137b7ce41d43866644a7ab8fc257",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3916,10 +4044,13 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3963,6 +4094,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                 "php": "^8.1",
                 "symfony/console": "^6.4.12"
             },
@@ -3975,6 +4108,7 @@
                 "phpstan/phpstan": "^1.12.6",
                 "phpstan/phpstan-strict-rules": "^1.6.1",
                 "symfony/var-dumper": "^6.4.11",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4002,6 +4136,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                 "thecodingmachine/phpstan-strict-rules": "^1.0.0"
             },
             "type": "library",
@@ -4051,6 +4187,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/nunomaduro/termwind/tree/v1.15.1"
 =======
                 "source": "https://github.com/nunomaduro/termwind/tree/v1.16.0"
@@ -4082,6 +4219,9 @@
 =======
                 "source": "https://github.com/nunomaduro/termwind/tree/v1.16.0"
 >>>>>>> origin/forgot_password
+=======
+                "source": "https://github.com/nunomaduro/termwind/tree/v1.16.0"
+>>>>>>> origin/doi_mat_khau
             },
             "funding": [
                 {
@@ -4097,6 +4237,7 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4125,6 +4266,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "time": "2024-10-15T15:27:12+00:00"
         },
         {
@@ -4251,6 +4394,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -4271,6 +4415,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
         },
         {
             "name": "phpoption/phpoption",
@@ -4358,6 +4504,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -4375,6 +4522,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "name": "phpseclib/phpseclib",
             "version": "3.0.42",
             "source": {
@@ -4493,6 +4642,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -4512,6 +4662,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "name": "psr/clock",
             "version": "1.0.0",
             "source": {
@@ -4834,6 +4986,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/quan_ly_user
             "version": "3.0.1",
@@ -4864,6 +5017,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "version": "3.0.2",
             "source": {
                 "type": "git",
@@ -4874,6 +5029,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/php-fig/log/zipball/f16e1d5863e37f8d8c2a01719f5b34baa2b714d3",
                 "reference": "f16e1d5863e37f8d8c2a01719f5b34baa2b714d3",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4901,6 +5057,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                 "shasum": ""
             },
             "require": {
@@ -4945,6 +5103,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/php-fig/log/tree/3.0.1"
             },
             "time": "2024-08-21T13:31:24+00:00"
@@ -4998,6 +5157,11 @@
             },
             "time": "2024-09-11T13:17:53+00:00"
 >>>>>>> origin/forgot_password
+=======
+                "source": "https://github.com/php-fig/log/tree/3.0.2"
+            },
+            "time": "2024-09-11T13:17:53+00:00"
+>>>>>>> origin/doi_mat_khau
         },
         {
             "name": "psr/simple-cache",
@@ -5366,6 +5530,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/quan_ly_user
             "version": "v6.4.10",
@@ -5396,6 +5561,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "version": "v6.4.13",
             "source": {
                 "type": "git",
@@ -5406,6 +5573,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/console/zipball/f793dd5a7d9ae9923e35d0503d08ba734cec1d79",
                 "reference": "f793dd5a7d9ae9923e35d0503d08ba734cec1d79",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5433,6 +5601,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                 "shasum": ""
             },
             "require": {
@@ -5507,6 +5677,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/console/tree/v6.4.10"
 =======
                 "source": "https://github.com/symfony/console/tree/v6.4.13"
@@ -5538,6 +5709,9 @@
 =======
                 "source": "https://github.com/symfony/console/tree/v6.4.13"
 >>>>>>> origin/forgot_password
+=======
+                "source": "https://github.com/symfony/console/tree/v6.4.13"
+>>>>>>> origin/doi_mat_khau
             },
             "funding": [
                 {
@@ -5553,6 +5727,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5601,6 +5776,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "time": "2024-10-09T08:40:40+00:00"
         },
         {
@@ -5619,6 +5796,7 @@
             },
             "require": {
                 "php": ">=8.2"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5646,6 +5824,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             },
             "type": "library",
             "autoload": {
@@ -5687,6 +5867,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/css-selector/tree/v6.4.8"
 =======
                 "source": "https://github.com/symfony/css-selector/tree/v7.1.6"
@@ -5718,6 +5899,9 @@
 =======
                 "source": "https://github.com/symfony/css-selector/tree/v7.1.6"
 >>>>>>> origin/forgot_password
+=======
+                "source": "https://github.com/symfony/css-selector/tree/v7.1.6"
+>>>>>>> origin/doi_mat_khau
             },
             "funding": [
                 {
@@ -5743,6 +5927,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2024-05-31T14:49:08+00:00"
 =======
             "time": "2024-09-25T14:20:29+00:00"
@@ -5774,6 +5959,9 @@
 =======
             "time": "2024-09-25T14:20:29+00:00"
 >>>>>>> origin/forgot_password
+=======
+            "time": "2024-09-25T14:20:29+00:00"
+>>>>>>> origin/doi_mat_khau
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -5854,6 +6042,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/quan_ly_user
             "version": "v6.4.10",
@@ -5884,6 +6073,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "version": "v6.4.13",
             "source": {
                 "type": "git",
@@ -5894,6 +6085,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/error-handler/zipball/e3c78742f86a5b65fe2ac4c4b6b776d92fd7ca0c",
                 "reference": "e3c78742f86a5b65fe2ac4c4b6b776d92fd7ca0c",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5921,6 +6113,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                 "shasum": ""
             },
             "require": {
@@ -5976,6 +6170,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/error-handler/tree/v6.4.10"
 =======
                 "source": "https://github.com/symfony/error-handler/tree/v6.4.13"
@@ -6007,6 +6202,9 @@
 =======
                 "source": "https://github.com/symfony/error-handler/tree/v6.4.13"
 >>>>>>> origin/forgot_password
+=======
+                "source": "https://github.com/symfony/error-handler/tree/v6.4.13"
+>>>>>>> origin/doi_mat_khau
             },
             "funding": [
                 {
@@ -6022,6 +6220,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6074,6 +6273,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "time": "2024-09-25T14:18:03+00:00"
         },
         {
@@ -6104,6 +6305,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -6123,6 +6325,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                 "symfony/service-contracts": "<2.5"
             },
             "provide": {
@@ -6131,6 +6335,7 @@
             },
             "require-dev": {
                 "psr/log": "^1|^2|^3",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6168,6 +6373,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                 "symfony/config": "^6.4|^7.0",
                 "symfony/dependency-injection": "^6.4|^7.0",
                 "symfony/error-handler": "^6.4|^7.0",
@@ -6175,6 +6382,7 @@
                 "symfony/http-foundation": "^6.4|^7.0",
                 "symfony/service-contracts": "^2.5|^3",
                 "symfony/stopwatch": "^6.4|^7.0"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6202,6 +6410,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             },
             "type": "library",
             "autoload": {
@@ -6239,6 +6449,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/event-dispatcher/tree/v6.4.8"
 =======
                 "source": "https://github.com/symfony/event-dispatcher/tree/v7.1.6"
@@ -6270,6 +6481,9 @@
 =======
                 "source": "https://github.com/symfony/event-dispatcher/tree/v7.1.6"
 >>>>>>> origin/forgot_password
+=======
+                "source": "https://github.com/symfony/event-dispatcher/tree/v7.1.6"
+>>>>>>> origin/doi_mat_khau
             },
             "funding": [
                 {
@@ -6295,6 +6509,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2024-05-31T14:49:08+00:00"
 =======
             "time": "2024-09-25T14:20:29+00:00"
@@ -6326,6 +6541,9 @@
 =======
             "time": "2024-09-25T14:20:29+00:00"
 >>>>>>> origin/forgot_password
+=======
+            "time": "2024-09-25T14:20:29+00:00"
+>>>>>>> origin/doi_mat_khau
         },
         {
             "name": "symfony/event-dispatcher-contracts",
@@ -6415,6 +6633,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/quan_ly_user
             "version": "v6.4.10",
@@ -6445,6 +6664,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "version": "v6.4.13",
             "source": {
                 "type": "git",
@@ -6455,6 +6676,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/finder/zipball/daea9eca0b08d0ed1dc9ab702a46128fd1be4958",
                 "reference": "daea9eca0b08d0ed1dc9ab702a46128fd1be4958",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6482,6 +6704,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                 "shasum": ""
             },
             "require": {
@@ -6526,6 +6750,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/finder/tree/v6.4.10"
 =======
                 "source": "https://github.com/symfony/finder/tree/v6.4.13"
@@ -6557,6 +6782,9 @@
 =======
                 "source": "https://github.com/symfony/finder/tree/v6.4.13"
 >>>>>>> origin/forgot_password
+=======
+                "source": "https://github.com/symfony/finder/tree/v6.4.13"
+>>>>>>> origin/doi_mat_khau
             },
             "funding": [
                 {
@@ -6572,6 +6800,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6616,6 +6845,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "time": "2024-10-01T08:30:56+00:00"
         },
         {
@@ -6630,6 +6861,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/http-foundation/zipball/4c0341b3e0a7291e752c69d2a1ed9a84b68d604c",
                 "reference": "4c0341b3e0a7291e752c69d2a1ed9a84b68d604c",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6657,6 +6889,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                 "shasum": ""
             },
             "require": {
@@ -6714,6 +6948,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/http-foundation/tree/v6.4.10"
 =======
                 "source": "https://github.com/symfony/http-foundation/tree/v6.4.13"
@@ -6745,6 +6980,9 @@
 =======
                 "source": "https://github.com/symfony/http-foundation/tree/v6.4.13"
 >>>>>>> origin/forgot_password
+=======
+                "source": "https://github.com/symfony/http-foundation/tree/v6.4.13"
+>>>>>>> origin/doi_mat_khau
             },
             "funding": [
                 {
@@ -6760,6 +6998,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6804,6 +7043,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "time": "2024-10-11T19:20:58+00:00"
         },
         {
@@ -6818,6 +7059,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/http-kernel/zipball/4474015c363ec0cd3bf47d55657e68630dbae66e",
                 "reference": "4474015c363ec0cd3bf47d55657e68630dbae66e",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6845,6 +7087,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                 "shasum": ""
             },
             "require": {
@@ -6939,6 +7183,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/http-kernel/tree/v6.4.10"
 =======
                 "source": "https://github.com/symfony/http-kernel/tree/v6.4.13"
@@ -6970,6 +7215,9 @@
 =======
                 "source": "https://github.com/symfony/http-kernel/tree/v6.4.13"
 >>>>>>> origin/forgot_password
+=======
+                "source": "https://github.com/symfony/http-kernel/tree/v6.4.13"
+>>>>>>> origin/doi_mat_khau
             },
             "funding": [
                 {
@@ -6985,6 +7233,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7029,6 +7278,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "time": "2024-10-27T13:00:29+00:00"
         },
         {
@@ -7043,6 +7294,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/mailer/zipball/c2f7e0d8d7ac8fe25faccf5d8cac462805db2663",
                 "reference": "c2f7e0d8d7ac8fe25faccf5d8cac462805db2663",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7070,6 +7322,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                 "shasum": ""
             },
             "require": {
@@ -7130,6 +7384,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/mailer/tree/v6.4.9"
 =======
                 "source": "https://github.com/symfony/mailer/tree/v6.4.13"
@@ -7161,6 +7416,9 @@
 =======
                 "source": "https://github.com/symfony/mailer/tree/v6.4.13"
 >>>>>>> origin/forgot_password
+=======
+                "source": "https://github.com/symfony/mailer/tree/v6.4.13"
+>>>>>>> origin/doi_mat_khau
             },
             "funding": [
                 {
@@ -7176,6 +7434,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7220,6 +7479,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "time": "2024-09-25T14:18:03+00:00"
         },
         {
@@ -7234,6 +7495,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/mime/zipball/1de1cf14d99b12c7ebbb850491ec6ae3ed468855",
                 "reference": "1de1cf14d99b12c7ebbb850491ec6ae3ed468855",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7261,6 +7523,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                 "shasum": ""
             },
             "require": {
@@ -7326,6 +7590,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/mime/tree/v6.4.9"
 =======
                 "source": "https://github.com/symfony/mime/tree/v6.4.13"
@@ -7357,6 +7622,9 @@
 =======
                 "source": "https://github.com/symfony/mime/tree/v6.4.13"
 >>>>>>> origin/forgot_password
+=======
+                "source": "https://github.com/symfony/mime/tree/v6.4.13"
+>>>>>>> origin/doi_mat_khau
             },
             "funding": [
                 {
@@ -7372,6 +7640,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7420,6 +7689,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "time": "2024-10-25T15:07:50+00:00"
         },
         {
@@ -7438,6 +7709,7 @@
             },
             "require": {
                 "php": ">=7.2"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7465,6 +7737,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             },
             "provide": {
                 "ext-ctype": "*"
@@ -7520,6 +7794,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/polyfill-ctype/tree/v1.30.0"
 =======
                 "source": "https://github.com/symfony/polyfill-ctype/tree/v1.31.0"
@@ -7551,6 +7826,9 @@
 =======
                 "source": "https://github.com/symfony/polyfill-ctype/tree/v1.31.0"
 >>>>>>> origin/forgot_password
+=======
+                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.31.0"
+>>>>>>> origin/doi_mat_khau
             },
             "funding": [
                 {
@@ -7566,6 +7844,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7614,6 +7893,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "time": "2024-09-09T11:45:10+00:00"
         },
         {
@@ -7632,6 +7913,7 @@
             },
             "require": {
                 "php": ">=7.2"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7659,6 +7941,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             },
             "suggest": {
                 "ext-intl": "For best performance"
@@ -7713,6 +7997,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.30.0"
 =======
                 "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.31.0"
@@ -7744,6 +8029,9 @@
 =======
                 "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.31.0"
 >>>>>>> origin/forgot_password
+=======
+                "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.31.0"
+>>>>>>> origin/doi_mat_khau
             },
             "funding": [
                 {
@@ -7759,6 +8047,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7809,6 +8098,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "time": "2024-09-09T11:45:10+00:00"
         },
         {
@@ -7836,6 +8127,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -7855,6 +8147,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             },
             "suggest": {
                 "ext-intl": "For best performance"
@@ -7913,6 +8207,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.30.0"
 =======
                 "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.31.0"
@@ -7944,6 +8239,9 @@
 =======
                 "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.31.0"
 >>>>>>> origin/forgot_password
+=======
+                "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.31.0"
+>>>>>>> origin/doi_mat_khau
             },
             "funding": [
                 {
@@ -7959,6 +8257,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8007,6 +8306,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "time": "2024-09-09T11:45:10+00:00"
         },
         {
@@ -8025,6 +8326,7 @@
             },
             "require": {
                 "php": ">=7.2"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8052,6 +8354,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             },
             "suggest": {
                 "ext-intl": "For best performance"
@@ -8109,6 +8413,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.30.0"
 =======
                 "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.31.0"
@@ -8140,6 +8445,9 @@
 =======
                 "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.31.0"
 >>>>>>> origin/forgot_password
+=======
+                "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.31.0"
+>>>>>>> origin/doi_mat_khau
             },
             "funding": [
                 {
@@ -8155,6 +8463,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8203,6 +8512,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "time": "2024-09-09T11:45:10+00:00"
         },
         {
@@ -8221,6 +8532,7 @@
             },
             "require": {
                 "php": ">=7.2"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8248,6 +8560,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             },
             "provide": {
                 "ext-mbstring": "*"
@@ -8304,6 +8618,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.30.0"
 =======
                 "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.31.0"
@@ -8335,6 +8650,9 @@
 =======
                 "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.31.0"
 >>>>>>> origin/forgot_password
+=======
+                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.31.0"
+>>>>>>> origin/doi_mat_khau
             },
             "funding": [
                 {
@@ -8350,6 +8668,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8471,6 +8790,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "time": "2024-09-09T11:45:10+00:00"
         },
         {
@@ -8489,6 +8810,7 @@
             },
             "require": {
                 "php": ">=7.2"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8516,6 +8838,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             },
             "type": "library",
             "extra": {
@@ -8572,6 +8896,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/polyfill-php80/tree/v1.30.0"
 =======
                 "source": "https://github.com/symfony/polyfill-php80/tree/v1.31.0"
@@ -8603,6 +8928,9 @@
 =======
                 "source": "https://github.com/symfony/polyfill-php80/tree/v1.31.0"
 >>>>>>> origin/forgot_password
+=======
+                "source": "https://github.com/symfony/polyfill-php80/tree/v1.31.0"
+>>>>>>> origin/doi_mat_khau
             },
             "funding": [
                 {
@@ -8618,6 +8946,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8666,6 +8995,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "time": "2024-09-09T11:45:10+00:00"
         },
         {
@@ -8684,6 +9015,7 @@
             },
             "require": {
                 "php": ">=7.2"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8711,6 +9043,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             },
             "type": "library",
             "extra": {
@@ -8763,6 +9097,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/polyfill-php83/tree/v1.30.0"
 =======
                 "source": "https://github.com/symfony/polyfill-php83/tree/v1.31.0"
@@ -8794,6 +9129,9 @@
 =======
                 "source": "https://github.com/symfony/polyfill-php83/tree/v1.31.0"
 >>>>>>> origin/forgot_password
+=======
+                "source": "https://github.com/symfony/polyfill-php83/tree/v1.31.0"
+>>>>>>> origin/doi_mat_khau
             },
             "funding": [
                 {
@@ -8809,6 +9147,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8857,6 +9196,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "time": "2024-09-09T11:45:10+00:00"
         },
         {
@@ -8875,6 +9216,7 @@
             },
             "require": {
                 "php": ">=7.2"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8902,6 +9244,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             },
             "provide": {
                 "ext-uuid": "*"
@@ -8957,6 +9301,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/polyfill-uuid/tree/v1.30.0"
 =======
                 "source": "https://github.com/symfony/polyfill-uuid/tree/v1.31.0"
@@ -8988,6 +9333,9 @@
 =======
                 "source": "https://github.com/symfony/polyfill-uuid/tree/v1.31.0"
 >>>>>>> origin/forgot_password
+=======
+                "source": "https://github.com/symfony/polyfill-uuid/tree/v1.31.0"
+>>>>>>> origin/doi_mat_khau
             },
             "funding": [
                 {
@@ -9003,6 +9351,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9047,6 +9396,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "time": "2024-09-09T11:45:10+00:00"
         },
         {
@@ -9061,6 +9412,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/process/zipball/1f9f59b46880201629df3bd950fc5ae8c55b960f",
                 "reference": "1f9f59b46880201629df3bd950fc5ae8c55b960f",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9088,6 +9440,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                 "shasum": ""
             },
             "require": {
@@ -9129,6 +9483,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/process/tree/v6.4.8"
 =======
                 "source": "https://github.com/symfony/process/tree/v6.4.13"
@@ -9160,6 +9515,9 @@
 =======
                 "source": "https://github.com/symfony/process/tree/v6.4.13"
 >>>>>>> origin/forgot_password
+=======
+                "source": "https://github.com/symfony/process/tree/v6.4.13"
+>>>>>>> origin/doi_mat_khau
             },
             "funding": [
                 {
@@ -9175,6 +9533,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9219,6 +9578,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "time": "2024-09-25T14:18:03+00:00"
         },
         {
@@ -9233,6 +9594,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/routing/zipball/640a74250d13f9c30d5ca045b6aaaabcc8215278",
                 "reference": "640a74250d13f9c30d5ca045b6aaaabcc8215278",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9260,6 +9622,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                 "shasum": ""
             },
             "require": {
@@ -9323,6 +9687,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/routing/tree/v6.4.10"
 =======
                 "source": "https://github.com/symfony/routing/tree/v6.4.13"
@@ -9354,6 +9719,9 @@
 =======
                 "source": "https://github.com/symfony/routing/tree/v6.4.13"
 >>>>>>> origin/forgot_password
+=======
+                "source": "https://github.com/symfony/routing/tree/v6.4.13"
+>>>>>>> origin/doi_mat_khau
             },
             "funding": [
                 {
@@ -9379,6 +9747,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2024-07-15T09:26:24+00:00"
 =======
             "time": "2024-10-01T08:30:56+00:00"
@@ -9410,6 +9779,9 @@
 =======
             "time": "2024-10-01T08:30:56+00:00"
 >>>>>>> origin/forgot_password
+=======
+            "time": "2024-10-01T08:30:56+00:00"
+>>>>>>> origin/doi_mat_khau
         },
         {
             "name": "symfony/service-contracts",
@@ -9506,6 +9878,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/quan_ly_user
             "version": "v6.4.10",
@@ -9540,6 +9913,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "version": "v7.1.6",
             "source": {
                 "type": "git",
@@ -9554,6 +9929,7 @@
             },
             "require": {
                 "php": ">=8.2",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9581,6 +9957,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                 "symfony/polyfill-ctype": "~1.8",
                 "symfony/polyfill-intl-grapheme": "~1.0",
                 "symfony/polyfill-intl-normalizer": "~1.0",
@@ -9590,6 +9968,7 @@
                 "symfony/translation-contracts": "<2.5"
             },
             "require-dev": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9625,12 +10004,15 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                 "symfony/emoji": "^7.1",
                 "symfony/error-handler": "^6.4|^7.0",
                 "symfony/http-client": "^6.4|^7.0",
                 "symfony/intl": "^6.4|^7.0",
                 "symfony/translation-contracts": "^2.5|^3.0",
                 "symfony/var-exporter": "^6.4|^7.0"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9658,6 +10040,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             },
             "type": "library",
             "autoload": {
@@ -9706,6 +10090,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/string/tree/v6.4.10"
 =======
                 "source": "https://github.com/symfony/string/tree/v7.1.6"
@@ -9737,6 +10122,9 @@
 =======
                 "source": "https://github.com/symfony/string/tree/v7.1.6"
 >>>>>>> origin/forgot_password
+=======
+                "source": "https://github.com/symfony/string/tree/v7.1.6"
+>>>>>>> origin/doi_mat_khau
             },
             "funding": [
                 {
@@ -9752,6 +10140,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9796,6 +10185,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "time": "2024-09-25T14:20:29+00:00"
         },
         {
@@ -9810,6 +10201,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/translation/zipball/bee9bfabfa8b4045a66bf82520e492cddbaffa66",
                 "reference": "bee9bfabfa8b4045a66bf82520e492cddbaffa66",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9837,6 +10229,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                 "shasum": ""
             },
             "require": {
@@ -9912,6 +10306,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/translation/tree/v6.4.10"
 =======
                 "source": "https://github.com/symfony/translation/tree/v6.4.13"
@@ -9943,6 +10338,9 @@
 =======
                 "source": "https://github.com/symfony/translation/tree/v6.4.13"
 >>>>>>> origin/forgot_password
+=======
+                "source": "https://github.com/symfony/translation/tree/v6.4.13"
+>>>>>>> origin/doi_mat_khau
             },
             "funding": [
                 {
@@ -9968,6 +10366,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2024-07-26T12:30:32+00:00"
 =======
             "time": "2024-09-27T18:14:25+00:00"
@@ -9999,6 +10398,9 @@
 =======
             "time": "2024-09-27T18:14:25+00:00"
 >>>>>>> origin/forgot_password
+=======
+            "time": "2024-09-27T18:14:25+00:00"
+>>>>>>> origin/doi_mat_khau
         },
         {
             "name": "symfony/translation-contracts",
@@ -10090,6 +10492,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/quan_ly_user
             "version": "v6.4.8",
@@ -10120,6 +10523,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "version": "v6.4.13",
             "source": {
                 "type": "git",
@@ -10130,6 +10535,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/uid/zipball/18eb207f0436a993fffbdd811b5b8fa35fa5e007",
                 "reference": "18eb207f0436a993fffbdd811b5b8fa35fa5e007",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10157,6 +10563,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                 "shasum": ""
             },
             "require": {
@@ -10211,6 +10619,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/uid/tree/v6.4.8"
 =======
                 "source": "https://github.com/symfony/uid/tree/v6.4.13"
@@ -10242,6 +10651,9 @@
 =======
                 "source": "https://github.com/symfony/uid/tree/v6.4.13"
 >>>>>>> origin/forgot_password
+=======
+                "source": "https://github.com/symfony/uid/tree/v6.4.13"
+>>>>>>> origin/doi_mat_khau
             },
             "funding": [
                 {
@@ -10257,6 +10669,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10301,6 +10714,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "time": "2024-09-25T14:18:03+00:00"
         },
         {
@@ -10315,6 +10730,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/var-dumper/zipball/2acb151474ed8cb43624e3f41a0bf7c4c8ce4f41",
                 "reference": "2acb151474ed8cb43624e3f41a0bf7c4c8ce4f41",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10342,6 +10758,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                 "shasum": ""
             },
             "require": {
@@ -10407,6 +10825,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/var-dumper/tree/v6.4.10"
 =======
                 "source": "https://github.com/symfony/var-dumper/tree/v6.4.13"
@@ -10438,6 +10857,9 @@
 =======
                 "source": "https://github.com/symfony/var-dumper/tree/v6.4.13"
 >>>>>>> origin/forgot_password
+=======
+                "source": "https://github.com/symfony/var-dumper/tree/v6.4.13"
+>>>>>>> origin/doi_mat_khau
             },
             "funding": [
                 {
@@ -10463,6 +10885,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2024-07-26T12:30:32+00:00"
 =======
             "time": "2024-09-25T14:18:03+00:00"
@@ -10494,6 +10917,9 @@
 =======
             "time": "2024-09-25T14:18:03+00:00"
 >>>>>>> origin/forgot_password
+=======
+            "time": "2024-09-25T14:18:03+00:00"
+>>>>>>> origin/doi_mat_khau
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
@@ -10778,6 +11204,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/quan_ly_user
             "version": "v3.14.2",
@@ -10808,6 +11235,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "version": "v3.14.6",
             "source": {
                 "type": "git",
@@ -10818,6 +11247,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/barryvdh/laravel-debugbar/zipball/14e4517bd49130d6119228107eb21ae47ae120ab",
                 "reference": "14e4517bd49130d6119228107eb21ae47ae120ab",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10845,6 +11275,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                 "shasum": ""
             },
             "require": {
@@ -10913,6 +11345,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/barryvdh/laravel-debugbar/tree/v3.14.2"
 =======
                 "source": "https://github.com/barryvdh/laravel-debugbar/tree/v3.14.6"
@@ -10944,6 +11377,9 @@
 =======
                 "source": "https://github.com/barryvdh/laravel-debugbar/tree/v3.14.6"
 >>>>>>> origin/forgot_password
+=======
+                "source": "https://github.com/barryvdh/laravel-debugbar/tree/v3.14.6"
+>>>>>>> origin/doi_mat_khau
             },
             "funding": [
                 {
@@ -10965,6 +11401,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2024-09-24T17:03:19+00:00"
 =======
             "time": "2024-10-18T13:15:12+00:00"
@@ -10996,6 +11433,9 @@
 =======
             "time": "2024-10-18T13:15:12+00:00"
 >>>>>>> origin/forgot_password
+=======
+            "time": "2024-10-18T13:15:12+00:00"
+>>>>>>> origin/doi_mat_khau
         },
         {
             "name": "fakerphp/faker",
@@ -11072,6 +11512,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/quan_ly_user
             "version": "2.15.4",
@@ -11112,6 +11553,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "version": "2.16.0",
             "source": {
                 "type": "git",
@@ -11140,6 +11583,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -11159,6 +11603,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             },
             "suggest": {
                 "symfony/var-dumper": "Pretty print complex values better with var-dumper available",
@@ -11208,6 +11654,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/filp/whoops/tree/2.15.4"
 =======
                 "source": "https://github.com/filp/whoops/tree/2.16.0"
@@ -11239,6 +11686,9 @@
 =======
                 "source": "https://github.com/filp/whoops/tree/2.16.0"
 >>>>>>> origin/forgot_password
+=======
+                "source": "https://github.com/filp/whoops/tree/2.16.0"
+>>>>>>> origin/doi_mat_khau
             },
             "funding": [
                 {
@@ -11256,6 +11706,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2023-11-03T12:00:00+00:00"
 =======
             "time": "2024-09-25T12:00:00+00:00"
@@ -11287,6 +11738,9 @@
 =======
             "time": "2024-09-25T12:00:00+00:00"
 >>>>>>> origin/forgot_password
+=======
+            "time": "2024-09-25T12:00:00+00:00"
+>>>>>>> origin/doi_mat_khau
         },
         {
             "name": "hamcrest/hamcrest-php",
@@ -11351,6 +11805,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/quan_ly_user
             "version": "v1.17.2",
@@ -11381,6 +11836,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "version": "v1.18.1",
             "source": {
                 "type": "git",
@@ -11391,6 +11848,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/pint/zipball/35c00c05ec43e6b46d295efc0f4386ceb30d50d9",
                 "reference": "35c00c05ec43e6b46d295efc0f4386ceb30d50d9",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11418,6 +11876,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                 "shasum": ""
             },
             "require": {
@@ -11438,6 +11898,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "friendsofphp/php-cs-fixer": "^3.61.1",
                 "illuminate/view": "^10.48.18",
 =======
@@ -11480,6 +11941,10 @@
                 "friendsofphp/php-cs-fixer": "^3.64.0",
                 "illuminate/view": "^10.48.20",
 >>>>>>> origin/forgot_password
+=======
+                "friendsofphp/php-cs-fixer": "^3.64.0",
+                "illuminate/view": "^10.48.20",
+>>>>>>> origin/doi_mat_khau
                 "larastan/larastan": "^2.9.8",
                 "laravel-zero/framework": "^10.4.0",
                 "mockery/mockery": "^1.6.12",
@@ -11494,6 +11959,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "pestphp/pest": "^2.35.0"
 =======
                 "pestphp/pest": "^2.35.1"
@@ -11525,6 +11991,9 @@
 =======
                 "pestphp/pest": "^2.35.1"
 >>>>>>> origin/forgot_password
+=======
+                "pestphp/pest": "^2.35.1"
+>>>>>>> origin/doi_mat_khau
             },
             "bin": [
                 "builds/pint"
@@ -11570,6 +12039,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/quan_ly_user
             "time": "2024-08-06T15:11:54+00:00"
@@ -11604,6 +12074,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "time": "2024-09-24T17:22:50+00:00"
         },
         {
@@ -11618,6 +12090,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/sail/zipball/7efa151ea0d16f48233d6a6cd69f81270acc6e93",
                 "reference": "7efa151ea0d16f48233d6a6cd69f81270acc6e93",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11645,6 +12118,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                 "shasum": ""
             },
             "require": {
@@ -11704,6 +12179,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/quan_ly_user
             "time": "2024-08-02T07:45:47+00:00"
@@ -11738,6 +12214,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "time": "2024-10-29T20:18:14+00:00"
         },
         {
@@ -11752,6 +12230,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/maximebf/php-debugbar/zipball/687400043d77943ef95e8417cb44e1673ee57844",
                 "reference": "687400043d77943ef95e8417cb44e1673ee57844",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11779,6 +12258,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                 "shasum": ""
             },
             "require": {
@@ -11841,6 +12322,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/maximebf/php-debugbar/tree/v1.23.2"
             },
             "time": "2024-09-16T11:23:09+00:00"
@@ -11894,6 +12376,11 @@
             },
             "time": "2024-10-29T12:24:25+00:00"
 >>>>>>> origin/forgot_password
+=======
+                "source": "https://github.com/maximebf/php-debugbar/tree/v1.23.3"
+            },
+            "time": "2024-10-29T12:24:25+00:00"
+>>>>>>> origin/doi_mat_khau
         },
         {
             "name": "mockery/mockery",
@@ -12050,6 +12537,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/quan_ly_user
             "version": "v7.10.0",
@@ -12087,6 +12575,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "version": "v7.11.0",
             "source": {
                 "type": "git",
@@ -12104,6 +12594,7 @@
                 "nunomaduro/termwind": "^1.15.1",
                 "php": "^8.1.0",
                 "symfony/console": "^6.4.12"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12131,11 +12622,14 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             },
             "conflict": {
                 "laravel/framework": ">=11.0.0"
             },
             "require-dev": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12178,6 +12672,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                 "brianium/paratest": "^7.3.1",
                 "laravel/framework": "^10.48.22",
                 "laravel/pint": "^1.18.1",
@@ -12190,6 +12686,7 @@
                 "phpunit/phpunit": "^10.5.36",
                 "sebastian/environment": "^6.1.0",
                 "spatie/laravel-ignition": "^2.8.0"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12217,6 +12714,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             },
             "type": "library",
             "extra": {
@@ -12285,6 +12784,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2023-10-11T15:45:01+00:00"
 =======
             "time": "2024-10-15T15:12:40+00:00"
@@ -12316,6 +12816,9 @@
 =======
             "time": "2024-10-15T15:12:40+00:00"
 >>>>>>> origin/forgot_password
+=======
+            "time": "2024-10-15T15:12:40+00:00"
+>>>>>>> origin/doi_mat_khau
         },
         {
             "name": "phar-io/manifest",
@@ -12768,6 +13271,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/quan_ly_user
             "version": "10.5.30",
@@ -12798,6 +13302,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "version": "10.5.38",
             "source": {
                 "type": "git",
@@ -12808,6 +13314,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/a86773b9e887a67bc53efa9da9ad6e3f2498c132",
                 "reference": "a86773b9e887a67bc53efa9da9ad6e3f2498c132",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12835,6 +13342,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                 "shasum": ""
             },
             "require": {
@@ -12858,6 +13367,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "phpunit/php-code-coverage": "^10.1.15",
 =======
                 "phpunit/php-code-coverage": "^10.1.16",
@@ -12889,6 +13399,9 @@
 =======
                 "phpunit/php-code-coverage": "^10.1.16",
 >>>>>>> origin/forgot_password
+=======
+                "phpunit/php-code-coverage": "^10.1.16",
+>>>>>>> origin/doi_mat_khau
                 "phpunit/php-file-iterator": "^4.1.0",
                 "phpunit/php-invoker": "^4.0.0",
                 "phpunit/php-text-template": "^3.0.1",
@@ -12905,6 +13418,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "sebastian/comparator": "^5.0.2",
 =======
                 "sebastian/comparator": "^5.0.3",
@@ -12936,6 +13450,9 @@
 =======
                 "sebastian/comparator": "^5.0.3",
 >>>>>>> origin/forgot_password
+=======
+                "sebastian/comparator": "^5.0.3",
+>>>>>>> origin/doi_mat_khau
                 "sebastian/diff": "^5.1.1",
                 "sebastian/environment": "^6.1.0",
                 "sebastian/exporter": "^5.1.2",
@@ -12996,6 +13513,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/phpunit/tree/10.5.30"
 =======
                 "source": "https://github.com/sebastianbergmann/phpunit/tree/10.5.38"
@@ -13027,6 +13545,9 @@
 =======
                 "source": "https://github.com/sebastianbergmann/phpunit/tree/10.5.38"
 >>>>>>> origin/forgot_password
+=======
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.5.38"
+>>>>>>> origin/doi_mat_khau
             },
             "funding": [
                 {
@@ -13052,6 +13573,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2024-08-13T06:09:37+00:00"
 =======
             "time": "2024-10-28T13:06:21+00:00"
@@ -13083,6 +13605,9 @@
 =======
             "time": "2024-10-28T13:06:21+00:00"
 >>>>>>> origin/forgot_password
+=======
+            "time": "2024-10-28T13:06:21+00:00"
+>>>>>>> origin/doi_mat_khau
         },
         {
             "name": "sebastian/cli-parser",
@@ -13264,6 +13789,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/quan_ly_user
             "version": "5.0.2",
@@ -13294,6 +13820,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "version": "5.0.3",
             "source": {
                 "type": "git",
@@ -13304,6 +13832,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/a18251eb0b7a2dcd2f7aa3d6078b18545ef0558e",
                 "reference": "a18251eb0b7a2dcd2f7aa3d6078b18545ef0558e",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13331,6 +13860,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
                 "shasum": ""
             },
             "require": {
@@ -13351,6 +13882,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "phpunit/phpunit": "^10.4"
 =======
                 "phpunit/phpunit": "^10.5"
@@ -13382,6 +13914,9 @@
 =======
                 "phpunit/phpunit": "^10.5"
 >>>>>>> origin/forgot_password
+=======
+                "phpunit/phpunit": "^10.5"
+>>>>>>> origin/doi_mat_khau
             },
             "type": "library",
             "extra": {
@@ -13436,6 +13971,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/comparator/tree/5.0.2"
 =======
                 "source": "https://github.com/sebastianbergmann/comparator/tree/5.0.3"
@@ -13467,6 +14003,9 @@
 =======
                 "source": "https://github.com/sebastianbergmann/comparator/tree/5.0.3"
 >>>>>>> origin/forgot_password
+=======
+                "source": "https://github.com/sebastianbergmann/comparator/tree/5.0.3"
+>>>>>>> origin/doi_mat_khau
             },
             "funding": [
                 {
@@ -13484,6 +14023,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2024-08-12T06:03:08+00:00"
 =======
             "time": "2024-10-18T14:56:07+00:00"
@@ -13515,6 +14055,9 @@
 =======
             "time": "2024-10-18T14:56:07+00:00"
 >>>>>>> origin/forgot_password
+=======
+            "time": "2024-10-18T14:56:07+00:00"
+>>>>>>> origin/doi_mat_khau
         },
         {
             "name": "sebastian/complexity",
@@ -14579,6 +15122,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/quan_ly_user
             "version": "v6.4.8",
@@ -14621,6 +15165,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             "version": "v7.1.6",
             "source": {
                 "type": "git",
@@ -14650,6 +15196,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -14669,6 +15216,8 @@
 >>>>>>> origin/lien_he_email
 =======
 >>>>>>> origin/forgot_password
+=======
+>>>>>>> origin/doi_mat_khau
             },
             "bin": [
                 "Resources/bin/yaml-lint"
@@ -14709,6 +15258,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/yaml/tree/v6.4.8"
 =======
                 "source": "https://github.com/symfony/yaml/tree/v7.1.6"
@@ -14740,6 +15290,9 @@
 =======
                 "source": "https://github.com/symfony/yaml/tree/v7.1.6"
 >>>>>>> origin/forgot_password
+=======
+                "source": "https://github.com/symfony/yaml/tree/v7.1.6"
+>>>>>>> origin/doi_mat_khau
             },
             "funding": [
                 {
@@ -14765,6 +15318,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2024-05-31T14:49:08+00:00"
 =======
             "time": "2024-09-25T14:20:29+00:00"
@@ -14796,6 +15350,9 @@
 =======
             "time": "2024-09-25T14:20:29+00:00"
 >>>>>>> origin/forgot_password
+=======
+            "time": "2024-09-25T14:20:29+00:00"
+>>>>>>> origin/doi_mat_khau
         },
         {
             "name": "theseer/tokenizer",
