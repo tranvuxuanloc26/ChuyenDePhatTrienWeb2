@@ -45,8 +45,11 @@
 @else
     <p>Không có sản phẩm nổi bật nào.</p>
 @endif
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> origin/san_pham_noi_bat
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
     $(document).ready(function() {

@@ -28,6 +28,7 @@ class RegisterController extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'role' => 'required|in:0,1', // Thêm xác nhận vai trò
 =======
           
@@ -41,6 +42,9 @@ class RegisterController extends Controller
 =======
           
 >>>>>>> origin/search_product
+=======
+          
+>>>>>>> origin/san_pham_noi_bat
 
         ]);
 
@@ -48,6 +52,7 @@ class RegisterController extends Controller
             'name' => $request->input('name'),
             'email' => $request->input('email'),
             'password' => bcrypt($request->input('password')),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -61,11 +66,14 @@ class RegisterController extends Controller
 >>>>>>> origin/search_product_admin
 =======
 >>>>>>> origin/search_product
+=======
+>>>>>>> origin/san_pham_noi_bat
             'terms' => 'accepted' // Người dùng phải chọn checkbox
         ]);
 
         Auth::login($user);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -96,5 +104,10 @@ class RegisterController extends Controller
         return redirect()->route('home')->with('success', 'Đăng ký thành công!');
     
 >>>>>>> origin/search_product
+=======
+ 
+        return redirect()->route('home')->with('success', 'Đăng ký thành công!');
+    
+>>>>>>> origin/san_pham_noi_bat
     }
 }

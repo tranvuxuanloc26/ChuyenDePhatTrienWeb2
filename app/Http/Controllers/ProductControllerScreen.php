@@ -6,6 +6,7 @@ namespace App\Http\Controllers;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Http\Request;
 use App\Http\Services\Product\ProductServiceScreen;
 =======
@@ -13,10 +14,13 @@ use App\Http\Services\Product\ProductServiceScreen;
 >>>>>>> origin/search_product_admin
 =======
 >>>>>>> origin/search_product
+=======
+>>>>>>> origin/san_pham_noi_bat
 use App\Models\Product;
 use Illuminate\Http\Request;
 use App\Http\Services\Product\ProductServiceScreen;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
@@ -28,6 +32,8 @@ use App\Http\Services\Product\ProductServiceScreen;
 >>>>>>> origin/search_product_admin
 =======
 >>>>>>> origin/search_product
+=======
+>>>>>>> origin/san_pham_noi_bat
 class ProductControllerScreen extends Controller
 {
      protected $productServiceScreen;
@@ -67,12 +73,15 @@ class ProductControllerScreen extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
 >>>>>>> origin/search_product_admin
 =======
 >>>>>>> origin/search_product
+=======
+>>>>>>> origin/san_pham_noi_bat
      public function getFeaturedProducts()
 {
     $featuredProducts = Product::where('is_featured', true)->get();
@@ -80,6 +89,7 @@ class ProductControllerScreen extends Controller
     // Trả về partial view chứa danh sách sản phẩm nổi bật
     return view('product.featured_products', compact('featuredProducts'))->render();
 }
+<<<<<<< HEAD
 
 public function getNewestProducts(Request $request) {
      $products = Product::orderBy('updated_at', 'desc')->paginate(16); // Lấy sản phẩm mới nhất theo thời gian tạo
@@ -115,5 +125,8 @@ public function getNewestProducts(Request $request) {
 >>>>>>> origin/search_product_admin
 =======
 >>>>>>> origin/search_product
+=======
+     
+>>>>>>> origin/san_pham_noi_bat
 
 }

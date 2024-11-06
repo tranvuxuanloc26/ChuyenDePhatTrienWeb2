@@ -70,6 +70,7 @@ $('#upload').change(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   
 
@@ -90,3 +91,8 @@ $('#upload').change(function () {
 
 
 >>>>>>> origin/search_product
+=======
+  
+
+
+>>>>>>> origin/san_pham_noi_bat

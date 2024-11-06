@@ -54,6 +54,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <a href="#" class="filter-link stext-106 trans-04">
 =======
                                 <a href="#" id="filter-popularity" class="filter-link stext-106 trans-04">
@@ -67,6 +68,9 @@
 =======
                                 <a href="#" id="filter-popularity" class="filter-link stext-106 trans-04">
 >>>>>>> origin/search_product
+=======
+                                <a href="#" id="filter-popularity" class="filter-link stext-106 trans-04">
+>>>>>>> origin/san_pham_noi_bat
                                     Popularity
                                 </a>
                             </li>
@@ -75,8 +79,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
+=======
+>>>>>>> origin/san_pham_noi_bat
                             <li class="p-b-6">
                                 <a href="#" class="filter-link stext-106 trans-04">
                                     Average rating
@@ -85,6 +92,7 @@
 
                             <li class="p-b-6">
                                 <a href="#" class="filter-link stext-106 trans-04 filter-link-active">
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -104,6 +112,8 @@
 >>>>>>> origin/search_product_admin
 =======
 >>>>>>> origin/search_product
+=======
+>>>>>>> origin/san_pham_noi_bat
                                     Newness
                                 </a>
                             </li>
@@ -166,6 +176,7 @@
                         </ul>
                     </div>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -279,11 +290,15 @@
 =======
                   
 >>>>>>> origin/search_product
+=======
+                  
+>>>>>>> origin/san_pham_noi_bat
                 </div>
             </div>
         </div>
 
       @include('product.list')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -299,10 +314,13 @@
 =======
 
 >>>>>>> origin/search_product
+=======
+>>>>>>> origin/san_pham_noi_bat
       {{ $products->links('pagination::bootstrap-4')  }}
 
     </div>
 </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -313,6 +331,8 @@
 >>>>>>> origin/search_product_admin
 =======
 >>>>>>> origin/search_product
+=======
+>>>>>>> origin/san_pham_noi_bat
 @endsection
 
 
@@ -337,6 +357,7 @@
     });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 </script>
 >>>>>>> origin/tim_kiem_user_admin
 =======
@@ -348,3 +369,6 @@
 =======
 </script>
 >>>>>>> origin/search_product
+=======
+</script>
+>>>>>>> origin/san_pham_noi_bat

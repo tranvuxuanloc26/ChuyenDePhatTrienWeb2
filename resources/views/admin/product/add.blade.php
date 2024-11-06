@@ -75,6 +75,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/search_product_admin
@@ -83,6 +84,11 @@
 
 
           {{-- <div class="form-group">
+=======
+
+
+          <div class="form-group">
+>>>>>>> origin/san_pham_noi_bat
             <label for="">Nổi Bật</label>
             <div class="custom-control custom-radio">
               <input class="custom-control-input" value="1" type="radio" id="is_featured" name="is_featured" >
@@ -93,6 +99,7 @@
               <label for="no_is_featured" class="custom-control-label">Không</label>
             </div>
            
+<<<<<<< HEAD
           </div> --}}
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -103,6 +110,9 @@
 >>>>>>> origin/search_product_admin
 =======
 >>>>>>> origin/search_product
+=======
+          </div>
+>>>>>>> origin/san_pham_noi_bat
         
 
       </div>

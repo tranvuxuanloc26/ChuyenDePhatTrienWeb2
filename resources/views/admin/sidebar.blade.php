@@ -13,6 +13,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <div class="user-panel ml-3 mt-3 pb-3 mb-3 d-flex">
 =======
       <div class="user-panel ml-3 mt-3 pb-3 mb-3 d-flex" style="max-width: 300px">
@@ -26,6 +27,9 @@
 =======
       <div class="user-panel ml-3 mt-3 pb-3 mb-3 d-flex" style="max-width: 300px">
 >>>>>>> origin/search_product
+=======
+      <div class="user-panel ml-3 mt-3 pb-3 mb-3 d-flex" style="max-width: 300px">
+>>>>>>> origin/san_pham_noi_bat
         <div class="d-flex align-items-center">
           <img src="{{ asset('template/images/icons/R.png') }}" alt="User Avatar" class="rounded-circle me-2" style="width: 40px; height: 40px;">
           <span class="fw-bold" style="margin-left: 10px;color:#9fa5ad">{{ Auth::user()->name }}</span>
@@ -53,6 +57,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                @if(Auth::user()->role == 2)
 >>>>>>> origin/tim_kiem_user_admin
@@ -65,6 +70,9 @@
 =======
                @if(Auth::user()->role == 2)
 >>>>>>> origin/search_product
+=======
+               @if(Auth::user()->role == 2)
+>>>>>>> origin/san_pham_noi_bat
           <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-tachometer-alt"></i>
@@ -92,6 +100,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
           @endif
 >>>>>>> origin/tim_kiem_user_admin
@@ -104,6 +113,9 @@
 =======
           @endif
 >>>>>>> origin/search_product
+=======
+          @endif
+>>>>>>> origin/san_pham_noi_bat
 
           <li class="nav-item">
             <a href="#" class="nav-link">
@@ -156,6 +168,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -163,6 +176,8 @@
 >>>>>>> origin/search_product_admin
 =======
 >>>>>>> origin/search_product
+=======
+>>>>>>> origin/san_pham_noi_bat
           @if(Auth::user()->role == 2)
           <li class="nav-item">
             <a href="#" class="nav-link">
@@ -185,6 +200,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -192,6 +208,8 @@
 >>>>>>> origin/search_product_admin
 =======
 >>>>>>> origin/search_product
+=======
+>>>>>>> origin/san_pham_noi_bat
 
           <li class="nav-item">
             <a href="#" class="nav-link">

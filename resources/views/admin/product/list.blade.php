@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -27,10 +28,14 @@
 =======
 
 >>>>>>> origin/search_product
+=======
+
+>>>>>>> origin/san_pham_noi_bat
    <table>
       <thead>
         <tr>
             <th style="width: 50px; padding-left: 15px;">ID</th>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -48,6 +53,9 @@
 =======
             <th style="width: 23%;">Tên Sản Phẩm </th>
 >>>>>>> origin/search_product
+=======
+            <th style="width: 23%;">Tên Sản Phẩm </th>
+>>>>>>> origin/san_pham_noi_bat
             <th>Danh Mục</th>
             <th>Giá Gốc</th>
             <th>Giá Khuyễn Mãi</th>
@@ -57,6 +65,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             <th>Feature</th>
 >>>>>>> origin/tim_kiem_user_admin
@@ -68,6 +77,9 @@
 =======
             <th>Feature</th>
 >>>>>>> origin/search_product
+=======
+            <th>Feature</th>
+>>>>>>> origin/san_pham_noi_bat
             <th style="width: 130px">&nbsp;</th>
         </tr>
       </thead>
@@ -87,11 +99,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/search_product_admin
 =======
 >>>>>>> origin/search_product
+=======
+>>>>>>> origin/san_pham_noi_bat
                 @if ($product->is_featured == 0)
                     <span class="badge badge-danger btn-xs">NO</span>
                 @else
@@ -101,6 +116,7 @@
             <td>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -108,6 +124,8 @@
 >>>>>>> origin/search_product_admin
 =======
 >>>>>>> origin/search_product
+=======
+>>>>>>> origin/san_pham_noi_bat
                 <a class="btn btn-primary btn-sm" href="/admin/products/edit/{{ $product->id }}">
                     <i class="fas fa-edit"></i>
                 </a>
@@ -127,6 +145,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    {{  $products->links('pagination::bootstrap-4')  }}
 @endsection
 =======
@@ -143,4 +162,8 @@
    {{  $products->links('pagination::bootstrap-4')  }}
 @endsection
 >>>>>>> origin/search_product
+=======
+   {{  $products->links('pagination::bootstrap-4')  }}
+@endsection
+>>>>>>> origin/san_pham_noi_bat
 

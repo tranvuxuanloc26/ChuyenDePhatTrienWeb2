@@ -7,8 +7,11 @@ $.ajaxSetup({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
+=======
+>>>>>>> origin/san_pham_noi_bat
  function loadMore(){
     const page = $('#page').val();
     $.ajax({
@@ -27,6 +30,7 @@ $.ajaxSetup({
             }
         }
     })
+<<<<<<< HEAD
 <<<<<<< HEAD
  }
 =======
@@ -68,3 +72,6 @@ function loadMore() {
 >>>>>>> origin/search_product_admin
 =======
 >>>>>>> origin/search_product
+=======
+ }
+>>>>>>> origin/san_pham_noi_bat

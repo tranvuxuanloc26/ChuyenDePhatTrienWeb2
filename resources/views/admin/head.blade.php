@@ -17,6 +17,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <link rel="stylesheet" href="/template/admin/dist/css/togglebutton.css">
 
@@ -33,6 +34,10 @@
 <link rel="stylesheet" href="/template/admin/dist/css/togglebutton.css">
 
 >>>>>>> origin/search_product
+=======
+<link rel="stylesheet" href="/template/admin/dist/css/togglebutton.css">
+
+>>>>>>> origin/san_pham_noi_bat
 
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 

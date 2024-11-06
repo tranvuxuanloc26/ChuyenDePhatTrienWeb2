@@ -21,6 +21,7 @@ class Product extends Model
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
     ];
@@ -35,6 +36,8 @@ class Product extends Model
 >>>>>>> origin/search_product_admin
 =======
 >>>>>>> origin/search_product
+=======
+>>>>>>> origin/san_pham_noi_bat
         'is_featured'
     ];
     public function menu()
@@ -49,6 +52,7 @@ class Product extends Model
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 
@@ -61,3 +65,5 @@ class Product extends Model
 >>>>>>> origin/search_product_admin
 =======
 >>>>>>> origin/search_product
+=======
+>>>>>>> origin/san_pham_noi_bat

@@ -25,6 +25,7 @@ class Helper
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <a class="btn btn-danger btn-sm" href="#" onClick="removeRow(' . $menu->id . ', \'/admin/menus/destroy\')">
                                 <i class="fas fa-trash"></i>
                             </a>
@@ -35,6 +36,8 @@ class Helper
 >>>>>>> origin/search_product_admin
 =======
 >>>>>>> origin/search_product
+=======
+>>>>>>> origin/san_pham_noi_bat
                               <a class="btn btn-primary btn-sm" href="/admin/menus/detail/' . $menu->id . '">
                                  <i class="fas fa-eye"></i>
                             </a>
@@ -45,6 +48,7 @@ class Helper
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -52,6 +56,8 @@ class Helper
 >>>>>>> origin/search_product_admin
 =======
 >>>>>>> origin/search_product
+=======
+>>>>>>> origin/san_pham_noi_bat
                         </td>
                     </tr>
                 ';
