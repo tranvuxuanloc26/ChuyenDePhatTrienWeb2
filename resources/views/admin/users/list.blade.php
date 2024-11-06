@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/profile
 =======
@@ -38,6 +39,8 @@
 >>>>>>> origin/profile
 =======
 >>>>>>> origin/lien_he_email
+=======
+>>>>>>> origin/forgot_password
 
 <table>
     <thead>
@@ -93,6 +96,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 {!! $users->appends(['query' => request('query')])->links('pagination::bootstrap-4') !!}
 =======
 {!! $users->links('pagination::bootstrap-4') !!}
@@ -118,6 +122,9 @@
 =======
 {!! $users->appends(['query' => request('query')])->links('pagination::bootstrap-4') !!}
 >>>>>>> origin/lien_he_email
+=======
+{!! $users->links('pagination::bootstrap-4') !!}
+>>>>>>> origin/forgot_password
 @endsection
 
 <script>

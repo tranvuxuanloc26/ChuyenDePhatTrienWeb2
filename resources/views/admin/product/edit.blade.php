@@ -87,6 +87,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/search_product_admin
@@ -100,6 +101,8 @@
 >>>>>>> origin/profile
 =======
 >>>>>>> origin/lien_he_email
+=======
+>>>>>>> origin/forgot_password
 
           <div class="form-group">
             <label for="">Nổi Bật</label>
@@ -116,6 +119,7 @@
             </div>
            
           </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -139,6 +143,8 @@
 >>>>>>> origin/profile
 =======
 >>>>>>> origin/lien_he_email
+=======
+>>>>>>> origin/forgot_password
         
 
       </div>

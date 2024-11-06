@@ -18,6 +18,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <div class="user-panel ml-3 mt-3 pb-3 mb-3 d-flex">
 =======
       <div class="user-panel ml-3 mt-3 pb-3 mb-3 d-flex" style="max-width: 300px">
@@ -46,6 +47,9 @@
 =======
       <div class="user-panel ml-3 mt-3 pb-3 mb-3 d-flex" style="max-width: 300px">
 >>>>>>> origin/lien_he_email
+=======
+      <div class="user-panel ml-3 mt-3 pb-3 mb-3 d-flex" style="max-width: 300px">
+>>>>>>> origin/forgot_password
         <div class="d-flex align-items-center">
           <img src="{{ asset('template/images/icons/R.png') }}" alt="User Avatar" class="rounded-circle me-2" style="width: 40px; height: 40px;">
           <span class="fw-bold" style="margin-left: 10px;color:#9fa5ad">{{ Auth::user()->name }}</span>
@@ -78,6 +82,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                @if(Auth::user()->role == 2)
 >>>>>>> origin/tim_kiem_user_admin
@@ -105,6 +110,9 @@
 =======
                @if(Auth::user()->role == 2)
 >>>>>>> origin/lien_he_email
+=======
+               @if(Auth::user()->role == 2)
+>>>>>>> origin/forgot_password
           <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-tachometer-alt"></i>
@@ -137,6 +145,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
           @endif
 >>>>>>> origin/tim_kiem_user_admin
@@ -164,6 +173,9 @@
 =======
           @endif
 >>>>>>> origin/lien_he_email
+=======
+          @endif
+>>>>>>> origin/forgot_password
 
           <li class="nav-item">
             <a href="#" class="nav-link">
@@ -221,6 +233,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -238,6 +251,8 @@
 >>>>>>> origin/profile
 =======
 >>>>>>> origin/lien_he_email
+=======
+>>>>>>> origin/forgot_password
           @if(Auth::user()->role == 2)
           <li class="nav-item">
             <a href="#" class="nav-link">
@@ -252,6 +267,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <a href="/admin/users/list" class="nav-link">
 =======
                 <a href="{{ route('admin.users.list') }}" class="nav-link">
@@ -262,6 +278,9 @@
 =======
                 <a href="/admin/users/list" class="nav-link">
 >>>>>>> origin/lien_he_email
+=======
+                <a href="/admin/users/list" class="nav-link">
+>>>>>>> origin/forgot_password
                   <i class="far fa-circle nav-icon"></i>
                   <p>Danh sách Users</p>
                 </a>
@@ -269,6 +288,7 @@
             </ul>
           </li>
           @endif
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -294,6 +314,8 @@
 >>>>>>> origin/profile
 =======
 >>>>>>> origin/lien_he_email
+=======
+>>>>>>> origin/forgot_password
 
           <li class="nav-item">
             <a href="#" class="nav-link">

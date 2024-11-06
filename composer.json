@@ -18,6 +18,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         "laravel/socialite": "^5.16",
 >>>>>>> origin/tim_kiem_user_admin
@@ -44,6 +45,9 @@
 =======
         "laravel/socialite": "^5.16",
 >>>>>>> origin/lien_he_email
+=======
+        "laravel/socialite": "^5.16",
+>>>>>>> origin/forgot_password
         "laravel/tinker": "^2.8"
     },
     "require-dev": {

@@ -39,6 +39,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -54,6 +55,8 @@ return [
 >>>>>>> origin/profile
 =======
 >>>>>>> origin/lien_he_email
+=======
+>>>>>>> origin/forgot_password
     'google' => [
     'client_id' => env('GOOGLE_CLIENT_ID'),
     'client_secret' => env('GOOGLE_CLIENT_SECRET'),
@@ -66,6 +69,7 @@ return [
 ],
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -90,5 +94,7 @@ return [
 >>>>>>> origin/profile
 =======
 >>>>>>> origin/lien_he_email
+=======
+>>>>>>> origin/forgot_password
 
 ];

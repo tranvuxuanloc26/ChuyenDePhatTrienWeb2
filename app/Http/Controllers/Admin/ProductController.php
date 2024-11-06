@@ -109,6 +109,7 @@ class ProductController extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/search_product_admin
@@ -157,4 +158,6 @@ class ProductController extends Controller
 >>>>>>> origin/profile
 =======
 >>>>>>> origin/lien_he_email
+=======
+>>>>>>> origin/forgot_password
 }

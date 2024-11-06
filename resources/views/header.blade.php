@@ -28,6 +28,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <a href="#" class="flex-c-m trans-04 p-lr-25">
                         EN
                     </a>
@@ -51,12 +52,15 @@
 >>>>>>> origin/profile
 =======
 >>>>>>> origin/lien_he_email
+=======
+>>>>>>> origin/forgot_password
                     <a href="{{ route('set.language', 'en') }}" class="flex-c-m trans-04 p-lr-25">
                         EN
                     </a>
 
                     <a href="{{ route('set.language', 'vi') }}" class="flex-c-m trans-04 p-lr-25">
                         Vi
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -82,6 +86,8 @@
 >>>>>>> origin/profile
 =======
 >>>>>>> origin/lien_he_email
+=======
+>>>>>>> origin/forgot_password
                     </a>
                 </div>
             </div>
@@ -150,6 +156,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/quan_ly_user
                     <div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti js-show-cart" data-notify="{{!is_null(\Session::get('carts')) ? count(\Session::get('carts')) : 0 }}">
@@ -175,6 +182,8 @@
 >>>>>>> origin/profile
 =======
 >>>>>>> origin/lien_he_email
+=======
+>>>>>>> origin/forgot_password
                     <div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti1 js-show-cart" data-notify="{{!is_null(\Session::get('carts')) ? count(\Session::get('carts')) : 0 }}">
                         <i class="zmdi zmdi-shopping-cart"></i>
                     </div>
@@ -190,6 +199,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 =======
 >>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
@@ -207,6 +217,8 @@
 >>>>>>> origin/profile
 =======
 >>>>>>> origin/lien_he_email
+=======
+>>>>>>> origin/forgot_password
                     <li class="p-l-30 p-r-2 nav-item dropdown" style="right: 1px">
                         @auth
                         <!-- Hiển thị khi người dùng đã đăng nhập -->
@@ -220,6 +232,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <img src="{{ asset('template/images/icons/R.png') }}" alt="User Avatar" class="rounded-circle me-4" style="width: 40px; height: 40px;">
 =======
 =======
@@ -236,12 +249,15 @@
 >>>>>>> origin/profile
 =======
 >>>>>>> origin/lien_he_email
+=======
+>>>>>>> origin/forgot_password
                         @if (Auth::user() && Auth::user()->thumb)
                             <img src="{{ Auth::user()->thumb }}" alt="{{ Auth::user()->name }}" class="rounded-circle me-4" style="width: 40px; height: 40px;">
                         @else
                             <img src="{{ asset('template/images/icons/R.png') }}" alt="User Avatar" class="rounded-circle me-4" style="width: 40px; height: 40px;">
                         @endif
                         
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -267,10 +283,13 @@
 >>>>>>> origin/profile
 =======
 >>>>>>> origin/lien_he_email
+=======
+>>>>>>> origin/forgot_password
                             <span class="fw-bold dropdown-toggle" style="margin-left: 10px" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 {{ Auth::user()->name }}
                             </span>
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                                 <li><a class="dropdown-item" href="">Thông tin người dùng</a></li>
@@ -303,10 +322,15 @@
                                 <li><a class="dropdown-item" href="">Thông tin người dùng</a></li>
                                 <li><a class="dropdown-item" href="">Đổi mật khẩu</a></li>
 >>>>>>> origin/lien_he_email
+=======
+                                <li><a class="dropdown-item" href="">Thông tin người dùng</a></li>
+                                <li><a class="dropdown-item" href="">Đổi mật khẩu</a></li>
+>>>>>>> origin/forgot_password
                                 <!-- Kiểm tra nếu người dùng có role là 1 hoặc 2 thì hiển thị -->
                                 @if(Auth::check() && (Auth::user()->role == 1 || Auth::user()->role == 2))
                                     <li><a class="dropdown-item" href="{{ route('admin') }}">Về trang Admin</a></li>
                                 @endif
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -332,6 +356,8 @@
 >>>>>>> origin/profile
 =======
 >>>>>>> origin/lien_he_email
+=======
+>>>>>>> origin/forgot_password
                                 <li>
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                         @csrf
@@ -473,6 +499,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <form class="wrap-search-header flex-w p-l-15">
 =======
             <form action="{{ route('search') }}" method="GET" class="wrap-search-header flex-w p-l-15">
@@ -501,6 +528,9 @@
 =======
             <form action="{{ route('search') }}" method="GET" class="wrap-search-header flex-w p-l-15">
 >>>>>>> origin/lien_he_email
+=======
+            <form class="wrap-search-header flex-w p-l-15">
+>>>>>>> origin/forgot_password
                 <button class="flex-c-m trans-04">
                     <i class="zmdi zmdi-search"></i>
                 </button>

@@ -19,6 +19,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <th>Link</th>
             <th>Ảnh</th>
             <th>Trạng Thái</th>
@@ -58,6 +59,10 @@
             <th>Ảnh</th>
             <th>Role</th>
 >>>>>>> origin/lien_he_email
+=======
+            <th>Ảnh</th>
+            <th>Role</th>
+>>>>>>> origin/forgot_password
             <th>Cập Nhật</th>
             <th style="width: 100px">&nbsp;</th>
         </tr>
@@ -97,6 +102,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    {!!  $sliders->links()  !!}
 =======
    {!!  $sliders->links('pagination::bootstrap-4')  !!}
@@ -125,5 +131,8 @@
 =======
    {!!  $sliders->links('pagination::bootstrap-4')  !!}
 >>>>>>> origin/lien_he_email
+=======
+   {!!  $sliders->links('pagination::bootstrap-4')  !!}
+>>>>>>> origin/forgot_password
 @endsection
 

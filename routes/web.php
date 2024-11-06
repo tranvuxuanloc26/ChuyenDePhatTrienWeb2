@@ -13,6 +13,7 @@ use App\Http\Controllers\MainController;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/quan_ly_user
 use App\Http\Controllers\Admin\MenuController;
@@ -47,10 +48,14 @@ use App\Http\Controllers\PasswordController;
 use App\Http\Controllers\WishController;
 use App\Http\Controllers\ContactController;
 >>>>>>> origin/lien_he_email
+=======
+use App\Http\Controllers\WishController;
+>>>>>>> origin/forgot_password
 use App\Http\Controllers\WishlistController;
 use App\Http\Controllers\Admin\MenuController;
 use App\Http\Controllers\MenuControllerScreen;
 use App\Http\Controllers\Auth\GoogleController;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 use App\Http\Controllers\Admin\SliderController;
@@ -66,6 +71,11 @@ use App\Http\Controllers\Admin\SliderController;
 
 use App\Http\Controllers\Admin\UploadController;
 >>>>>>> origin/lien_he_email
+=======
+use App\Http\Controllers\Admin\SliderController;
+use App\Http\Controllers\Admin\UploadController;
+
+>>>>>>> origin/forgot_password
 use App\Http\Controllers\Admin\ProductController;
 use App\Http\Controllers\Auth\FacebookController;
 use App\Http\Controllers\ProductControllerScreen;
@@ -73,6 +83,7 @@ use App\Http\Controllers\Admin\CartAdminController;
 use App\Http\Controllers\Admin\MainAdminController;
 use App\Http\Controllers\Admin\Users\UserController;
 use App\Http\Controllers\Admin\Users\LoginController;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -104,6 +115,9 @@ use App\Http\Controllers\Auth\ForgotPasswordController;
 =======
 use App\Http\Controllers\Auth\ForgotPasswordController;
 >>>>>>> origin/lien_he_email
+=======
+use App\Http\Controllers\Auth\ForgotPasswordController;
+>>>>>>> origin/forgot_password
 use App\Http\Controllers\Admin\Users\RegisterController;
 
     #Login
@@ -125,6 +139,7 @@ Route::post('admin/users/register/store', [RegisterController::class, 'store']);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/search_product_admin
@@ -134,6 +149,8 @@ Route::post('admin/users/register/store', [RegisterController::class, 'store']);
 >>>>>>> origin/profile
 =======
 >>>>>>> origin/lien_he_email
+=======
+>>>>>>> origin/forgot_password
 #Role
 Route::post('/admin/users/toggle-role/{id}', [UserController::class, 'toggleRole']);
 
@@ -156,6 +173,7 @@ Route::post('reset-password', [ForgotPasswordController::class, 'resetPassword']
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/tim_kiem_user_admin
 
 
@@ -195,6 +213,10 @@ Route::post('/admin/users/toggle-role/{id}', [UserController::class, 'toggleRole
 
 
 >>>>>>> origin/lien_he_email
+=======
+
+
+>>>>>>> origin/forgot_password
 #Admin
 Route::middleware(['auth', 'role:1,2'])->group(function () {
 
@@ -202,6 +224,7 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
         Route::get('/', [MainAdminController::class, 'index'])->name('admin');
         Route::get('main', [MainAdminController::class, 'index'])->name('admin');
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -239,11 +262,14 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 >>>>>>> origin/profile
 =======
 >>>>>>> origin/lien_he_email
+=======
+>>>>>>> origin/forgot_password
 
 
         // Các route dành cho cả role 1 và role 2 (chỉ truy cập menu, sản phẩm, slider)
         Route::middleware('role:1,2')->group(function () {
       
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -269,6 +295,8 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 >>>>>>> origin/profile
 =======
 >>>>>>> origin/lien_he_email
+=======
+>>>>>>> origin/forgot_password
         #Product
         Route::prefix('products')->group(function () {
             Route::get('add', [ProductController::class, 'create']);
@@ -286,6 +314,7 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             Route::get('/admin/products', [ProductController::class, 'index'])->name('admin.products.index');
 
@@ -316,6 +345,8 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 
             Route::get('/search', [ProductController::class, 'search'])->name('admin.products.search');
 >>>>>>> origin/lien_he_email
+=======
+>>>>>>> origin/forgot_password
 
             Route::DELETE('destroy', [ProductController::class, 'destroy']);
 
@@ -340,6 +371,7 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -361,6 +393,9 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 =======
       
 >>>>>>> origin/lien_he_email
+=======
+      
+>>>>>>> origin/forgot_password
     });
 
       // Các route chỉ dành cho role 2 (truy cập được tất cả các route)
@@ -373,6 +408,7 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      
 =======
         Route::prefix('admin')->group(function () {
@@ -397,6 +433,9 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 =======
      
 >>>>>>> origin/lien_he_email
+=======
+     
+>>>>>>> origin/forgot_password
 
           #Menu
           Route::prefix('menus')->group(function () {
@@ -412,15 +451,19 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/profile
 =======
 >>>>>>> origin/lien_he_email
+=======
+>>>>>>> origin/forgot_password
 
            #User
          Route::prefix('users')->group(function () {
           
             Route::get('list', [UserController::class, 'index']);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -451,11 +494,14 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 =======
             Route::get('search', [UserController::class, 'search'])->name('admin.users.search'); // Route tìm kiếm
 >>>>>>> origin/lien_he_email
+=======
+>>>>>>> origin/forgot_password
             Route::DELETE('destroy', [UserController::class, 'destroy']);
 
 
 
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -501,6 +547,11 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
     
     });
 >>>>>>> origin/lien_he_email
+=======
+          
+    
+    });
+>>>>>>> origin/forgot_password
         #Upload
         Route::post('upload/services', [UploadController::class, 'store']);
 
@@ -516,6 +567,7 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
      
@@ -562,6 +614,11 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 
    #Role
 >>>>>>> origin/lien_he_email
+=======
+     
+
+   #Role
+>>>>>>> origin/forgot_password
 
     });
 
@@ -576,6 +633,7 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #Trang chủ
 Route::get('/', [MainController::class, 'index'])->name('home');
 =======
@@ -595,11 +653,14 @@ Route::get('/', [MainController::class, 'index'])->name('home');
 >>>>>>> origin/profile
 =======
 >>>>>>> origin/lien_he_email
+=======
+>>>>>>> origin/forgot_password
 
 #Trang chủ
 Route::get('/', [MainController::class, 'index'])->name('home');
 Route::get('/lang/{lang}', [MainController::class , 'setLanguage'])->name('set.language');
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -625,11 +686,14 @@ Route::get('/lang/{lang}', [MainController::class , 'setLanguage'])->name('set.l
 >>>>>>> origin/profile
 =======
 >>>>>>> origin/lien_he_email
+=======
+>>>>>>> origin/forgot_password
 Route::post('/services/load-product', [MainController::class, 'loadProduct']);
 
 
 Route::get('/danh-muc/{id}-{slug}.html', [MenuControllerScreen::class, 'index']);
 Route::get('/san-pham/{id}-{slug}.html', [ProductControllerScreen::class, 'index']);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -678,6 +742,11 @@ Route::get('/products/newest', [ProductControllerScreen::class, 'getNewestProduc
 >>>>>>> origin/profile
 =======
 >>>>>>> origin/lien_he_email
+=======
+Route::get('/products/popularity', [ProductControllerScreen::class, 'getFeaturedProducts'])->name('products.popularity');
+Route::get('/products/newest', [ProductControllerScreen::class, 'getNewestProducts'])->name('products.newest');
+
+>>>>>>> origin/forgot_password
 // Route::post('/san-pham/{id}-{slug}.html', [ProductControllerScreen::class, 'indexQuickView']);
 
 
@@ -688,6 +757,7 @@ Route::post('update-cart', [CartController::class, 'update']);
 Route::get('carts/delete/{id}', [CartController::class, 'remove']);
 Route::post('carts', [CartController::class, 'addCart']);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -712,6 +782,8 @@ Route::post('carts', [CartController::class, 'addCart']);
 >>>>>>> origin/profile
 =======
 >>>>>>> origin/lien_he_email
+=======
+>>>>>>> origin/forgot_password
 #Đăng nhập gmail 
 Route::get('auth/google', [GoogleController::class, 'redirectToGoogle']);
 Route::get('auth/google/callback', [GoogleController::class, 'handleGoogleCallback']);
@@ -726,6 +798,7 @@ Route::get('auth/facebook/callback', [FacebookController::class, 'handleFacebook
 Route::middleware(['auth'])->group(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     Route::get('/user/profile', [UserController::class, 'editProfile'])->name('user.profile');
 Route::post('/user/profile', [UserController::class, 'updateProfile'])->name('user.profile.update');
@@ -734,10 +807,13 @@ Route::post('/user/profile', [UserController::class, 'updateProfile'])->name('us
 >>>>>>> origin/profile
 =======
 >>>>>>> origin/lien_he_email
+=======
+>>>>>>> origin/forgot_password
     Route::post('wish-list', [WishlistController::class, 'index'])->name('wishlist.add');
     Route::get('wishlists', [WishlistController::class, 'show'])->name('wishlist.show');
 });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -770,6 +846,10 @@ Route::get('/contact', [ContactController::class, 'index'])->name('contact.index
 Route::post('/contact', [ContactController::class, 'send'])->name('contact.send');
 
 >>>>>>> origin/lien_he_email
+=======
+
+
+>>>>>>> origin/forgot_password
 
 
 
