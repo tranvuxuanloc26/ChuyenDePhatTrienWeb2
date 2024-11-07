@@ -2,57 +2,12 @@
 
 @section('content')
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> origin/profile
-=======
->>>>>>> origin/lien_he_email
-=======
->>>>>>> origin/doi_mat_khau
 <!-- Form tìm kiếm -->
 <form action="{{ route('admin.users.search') }}" method="GET" class="form-inline mb-3">
     <input type="text" name="query" class="form-control" placeholder="Tìm kiếm người dùng..." value="{{ request('query') }}">
     <button type="submit" class="btn btn-primary ml-2">Tìm kiếm</button>
 </form>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
-=======
->>>>>>> origin/search_product_admin
-=======
->>>>>>> origin/search_product
-=======
->>>>>>> origin/san_pham_noi_bat
-=======
->>>>>>> origin/san_pham_mơi_nhat
-=======
->>>>>>> origin/quan_ly_user
-=======
->>>>>>> origin/profile
-=======
->>>>>>> origin/lien_he_email
-=======
->>>>>>> origin/forgot_password
-=======
->>>>>>> origin/doi_mat_khau
-=======
->>>>>>> origin/dang_nhap_google
-=======
->>>>>>> origin/dang_nhap_facebook
 
 <table>
     <thead>
@@ -100,55 +55,7 @@
         @endforeach
     </tbody>
 </table>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 {!! $users->appends(['query' => request('query')])->links('pagination::bootstrap-4') !!}
-=======
-{!! $users->links('pagination::bootstrap-4') !!}
->>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
-=======
-{!! $users->links('pagination::bootstrap-4') !!}
->>>>>>> origin/search_product_admin
-=======
-{!! $users->links('pagination::bootstrap-4') !!}
->>>>>>> origin/search_product
-=======
-{!! $users->links('pagination::bootstrap-4') !!}
->>>>>>> origin/san_pham_noi_bat
-=======
-{!! $users->links('pagination::bootstrap-4') !!}
->>>>>>> origin/san_pham_mơi_nhat
-=======
-{!! $users->links('pagination::bootstrap-4') !!}
->>>>>>> origin/quan_ly_user
-=======
-{!! $users->appends(['query' => request('query')])->links('pagination::bootstrap-4') !!}
->>>>>>> origin/profile
-=======
-{!! $users->appends(['query' => request('query')])->links('pagination::bootstrap-4') !!}
->>>>>>> origin/lien_he_email
-=======
-{!! $users->links('pagination::bootstrap-4') !!}
->>>>>>> origin/forgot_password
-=======
-{!! $users->appends(['query' => request('query')])->links('pagination::bootstrap-4') !!}
->>>>>>> origin/doi_mat_khau
-=======
-{!! $users->links('pagination::bootstrap-4') !!}
->>>>>>> origin/dang_nhap_google
-=======
-{!! $users->links('pagination::bootstrap-4') !!}
->>>>>>> origin/dang_nhap_facebook
 @endsection
 
 <script>

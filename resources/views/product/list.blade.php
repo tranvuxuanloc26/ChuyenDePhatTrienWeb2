@@ -10,70 +10,6 @@
                 {{-- <a href="/san-pham/{{ $product->id }}-{{ \Str::slug($product->name, '-') }}.html" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
                     Quick View
                 </a> --}}
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> origin/quan_ly_user
-=======
->>>>>>> origin/dang_nhap_google
-=======
->>>>>>> origin/dang_nhap_facebook
-                <button  class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
-                    Quick View
-                </button>
-            </div>
-
-            <div class="block2-txt flex-w flex-t p-t-14">
-                <div class="block2-txt-child1 flex-col-l ">
-                    <a href="/san-pham/{{ $product->id }}-{{ \Str::slug($product->name, '-') }}.html" class="d-inline-block text-truncate stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6" style="max-width: 220px;color:black">
-                        {{ $product->name }}
-                    </a>
-
-                    <span class="stext-105 cl4">
-                        {!! \App\Helpers\Helper::price($product->price, $product->price_sale) !!}
-                    </span>
-                </div>
-
-                <div class="block2-txt-child2 flex-r p-t-3">
-                    <a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-                        <img class="icon-heart1 dis-block trans-04" src="/template/images//icons/icon-heart-01.png" alt="ICON">
-                        <img class="icon-heart2 dis-block trans-04 ab-t-l" src="/template/images//icons/icon-heart-02.png" alt="ICON">
-                    </a>
-                </div>
-            </div>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
-=======
->>>>>>> origin/search_product_admin
-=======
->>>>>>> origin/search_product
-=======
->>>>>>> origin/san_pham_noi_bat
-=======
->>>>>>> origin/san_pham_mơi_nhat
-=======
->>>>>>> origin/profile
-=======
->>>>>>> origin/lien_he_email
-=======
->>>>>>> origin/forgot_password
-=======
->>>>>>> origin/doi_mat_khau
                 {{-- <button  class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
                     Quick View
                 </button> --}}
@@ -105,79 +41,12 @@
     </div>
 </div>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> origin/tim_kiem_user_admin
-=======
->>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
-=======
->>>>>>> origin/search_product_admin
-=======
->>>>>>> origin/search_product
-=======
->>>>>>> origin/san_pham_noi_bat
-=======
->>>>>>> origin/san_pham_mơi_nhat
-=======
->>>>>>> origin/quan_ly_user
-=======
->>>>>>> origin/profile
-=======
->>>>>>> origin/lien_he_email
-=======
->>>>>>> origin/forgot_password
-=======
->>>>>>> origin/doi_mat_khau
-=======
->>>>>>> origin/dang_nhap_google
-=======
->>>>>>> origin/dang_nhap_facebook
         </div>
     </div>
    
     @endforeach
     @endif
 </div>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  
-=======
-=======
->>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
-=======
->>>>>>> origin/search_product_admin
-=======
->>>>>>> origin/search_product
-=======
->>>>>>> origin/san_pham_noi_bat
-=======
->>>>>>> origin/san_pham_mơi_nhat
-=======
->>>>>>> origin/profile
-=======
->>>>>>> origin/lien_he_email
-=======
->>>>>>> origin/forgot_password
-=======
->>>>>>> origin/doi_mat_khau
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
     $(document).ready(function() {
@@ -234,42 +103,5 @@
 
 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> origin/tim_kiem_user_admin
-=======
->>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
-=======
->>>>>>> origin/search_product_admin
-=======
->>>>>>> origin/search_product
-=======
->>>>>>> origin/san_pham_noi_bat
-=======
->>>>>>> origin/san_pham_mơi_nhat
-=======
-  
->>>>>>> origin/quan_ly_user
-=======
->>>>>>> origin/profile
-=======
->>>>>>> origin/lien_he_email
-=======
->>>>>>> origin/forgot_password
-=======
->>>>>>> origin/doi_mat_khau
-=======
-  
->>>>>>> origin/dang_nhap_google
-=======
-  
->>>>>>> origin/dang_nhap_facebook
 
 

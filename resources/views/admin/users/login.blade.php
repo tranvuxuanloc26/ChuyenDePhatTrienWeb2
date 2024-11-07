@@ -7,59 +7,7 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <a href="../../index2.html"><b>COZA</b>STORE</a>
-=======
     <a href="/"><b>COZA</b>STORE</a>
->>>>>>> origin/tim_kiem_user_admin
-=======
-    <a href="/"><b>COZA</b>STORE</a>
->>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
-=======
-    <a href="/"><b>COZA</b>STORE</a>
->>>>>>> origin/search_product_admin
-=======
-    <a href="/"><b>COZA</b>STORE</a>
->>>>>>> origin/search_product
-=======
-    <a href="/"><b>COZA</b>STORE</a>
->>>>>>> origin/san_pham_noi_bat
-=======
-    <a href="/"><b>COZA</b>STORE</a>
->>>>>>> origin/san_pham_mơi_nhat
-=======
-    <a href="../../index2.html"><b>COZA</b>STORE</a>
->>>>>>> origin/quan_ly_user
-=======
-    <a href="/"><b>COZA</b>STORE</a>
->>>>>>> origin/profile
-=======
-    <a href="/"><b>COZA</b>STORE</a>
->>>>>>> origin/lien_he_email
-=======
-    <a href="/"><b>COZA</b>STORE</a>
->>>>>>> origin/forgot_password
-=======
-    <a href="/"><b>COZA</b>STORE</a>
->>>>>>> origin/doi_mat_khau
-=======
-    <a href="../../index2.html"><b>COZA</b>STORE</a>
->>>>>>> origin/dang_nhap_google
-=======
-    <a href="../../index2.html"><b>COZA</b>STORE</a>
->>>>>>> origin/dang_nhap_facebook
   </div>
   <!-- /.login-logo -->
   <div class="card">
@@ -102,149 +50,17 @@
       </form>
       <div class="social-auth-links text-center mb-3">
         <p>- OR -</p>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> origin/quan_ly_user
-        <a href="#" class="btn btn-block btn-primary">
-          <i class="fab fa-facebook mr-2"></i> Sign in using Facebook
-        </a>
-        <a href="#" class="btn btn-block btn-danger">
-<<<<<<< HEAD
-=======
-=======
->>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
-=======
->>>>>>> origin/search_product_admin
-=======
->>>>>>> origin/search_product
-=======
->>>>>>> origin/san_pham_noi_bat
-=======
->>>>>>> origin/san_pham_mơi_nhat
-=======
->>>>>>> origin/profile
-=======
->>>>>>> origin/lien_he_email
-=======
->>>>>>> origin/forgot_password
-=======
->>>>>>> origin/doi_mat_khau
-=======
->>>>>>> origin/dang_nhap_facebook
         <a href="{{ route('facebook.login') }}" class="btn btn-block btn-primary">
           <i class="fab fa-facebook mr-2"></i> Sign in using Facebook
         </a>
         <a href="{{ url('auth/google') }}" class="btn btn-block btn-danger">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> origin/tim_kiem_user_admin
-=======
->>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
-=======
->>>>>>> origin/search_product_admin
-=======
->>>>>>> origin/search_product
-=======
->>>>>>> origin/san_pham_noi_bat
-=======
->>>>>>> origin/san_pham_mơi_nhat
-=======
->>>>>>> origin/quan_ly_user
-=======
->>>>>>> origin/profile
-=======
->>>>>>> origin/lien_he_email
-=======
->>>>>>> origin/forgot_password
-=======
->>>>>>> origin/doi_mat_khau
-=======
-        <a href="#" class="btn btn-block btn-primary">
-          <i class="fab fa-facebook mr-2"></i> Sign in using Facebook
-        </a>
-        <a href="{{ url('auth/google') }}" class="btn btn-block btn-danger">
->>>>>>> origin/dang_nhap_google
-=======
->>>>>>> origin/dang_nhap_facebook
           <i class="fab fa-google-plus mr-2"></i> Sign in using Google+
         </a>
       </div>
       <!-- /.social-auth-links -->
 
       <p class="mb-1">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <a href="forgot-password.html">I forgot my password</a>
-=======
         <a href="/forgot-password">I forgot my password</a>
->>>>>>> origin/tim_kiem_user_admin
-=======
-        <a href="forgot-password.html">I forgot my password</a>
->>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
-=======
-        <a href="/forgot-password">I forgot my password</a>
->>>>>>> origin/search_product_admin
-=======
-        <a href="/forgot-password">I forgot my password</a>
->>>>>>> origin/search_product
-=======
-        <a href="forgot-password.html">I forgot my password</a>
->>>>>>> origin/san_pham_noi_bat
-=======
-        <a href="forgot-password.html">I forgot my password</a>
->>>>>>> origin/san_pham_mơi_nhat
-=======
-        <a href="forgot-password.html">I forgot my password</a>
->>>>>>> origin/quan_ly_user
-=======
-        <a href="/forgot-password">I forgot my password</a>
->>>>>>> origin/profile
-=======
-        <a href="/forgot-password">I forgot my password</a>
->>>>>>> origin/lien_he_email
-=======
-        <a href="/forgot-password">I forgot my password</a>
->>>>>>> origin/forgot_password
-=======
-        <a href="/forgot-password">I forgot my password</a>
->>>>>>> origin/doi_mat_khau
-=======
-        <a href="forgot-password.html">I forgot my password</a>
->>>>>>> origin/dang_nhap_google
-=======
-        <a href="forgot-password.html">I forgot my password</a>
->>>>>>> origin/dang_nhap_facebook
       </p>
       <p class="mb-0">
         <a href="/admin/users/register" class="text-center">Register a new membership</a>
@@ -259,3 +75,4 @@
 
 </body>
 </html>
+  

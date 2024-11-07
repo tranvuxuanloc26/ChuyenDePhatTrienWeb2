@@ -14,52 +14,7 @@
             <th>Price</th>
             <th>Price Sale</th>
             <th>Active</th>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
             <th>Feature</th>
->>>>>>> origin/tim_kiem_user_admin
-=======
->>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
-=======
-            <th>Feature</th>
->>>>>>> origin/search_product_admin
-=======
-            <th>Feature</th>
->>>>>>> origin/search_product
-=======
->>>>>>> origin/san_pham_noi_bat
-=======
->>>>>>> origin/san_pham_mơi_nhat
-=======
->>>>>>> origin/quan_ly_user
-=======
-            <th>Feature</th>
->>>>>>> origin/profile
-=======
-            <th>Feature</th>
->>>>>>> origin/lien_he_email
-=======
-            <th>Feature</th>
->>>>>>> origin/forgot_password
-=======
-            <th>Feature</th>
->>>>>>> origin/doi_mat_khau
-=======
->>>>>>> origin/dang_nhap_google
-=======
->>>>>>> origin/dang_nhap_facebook
             <th>Update</th>
             <th style="width: 130px">&nbsp;</th>
         </tr>
@@ -78,33 +33,6 @@
             <td> {{ $product->menu ? $product->menu->name : 'Không có danh mục' }}</td>
             <td> {{ $product->description }}</td>
             <td style="max-width: 200px;">{{ $product->content }}</td>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            <td>{!! \App\Helpers\Helper::active($product->active)  !!}</td>
-=======
-=======
->>>>>>> origin/search_product_admin
-=======
->>>>>>> origin/search_product
-=======
->>>>>>> origin/profile
-=======
->>>>>>> origin/lien_he_email
-=======
->>>>>>> origin/forgot_password
-=======
->>>>>>> origin/doi_mat_khau
             <td>{{ $product->price }}</td>
             <td style="padding-left: 30px;
 }">{{ $product->price_sale }}</td>
@@ -116,43 +44,6 @@
                   <span class="badge badge-success btn-xs">YES</span>
               @endif
           </td>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> origin/tim_kiem_user_admin
-=======
-            <td>{!! \App\Helpers\Helper::active($product->active)  !!}</td>
->>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
-=======
->>>>>>> origin/search_product_admin
-=======
->>>>>>> origin/search_product
-=======
-            <td>{!! \App\Helpers\Helper::active($product->active)  !!}</td>
->>>>>>> origin/san_pham_noi_bat
-=======
-            <td>{!! \App\Helpers\Helper::active($product->active)  !!}</td>
->>>>>>> origin/san_pham_mơi_nhat
-=======
-            <td>{!! \App\Helpers\Helper::active($product->active)  !!}</td>
->>>>>>> origin/quan_ly_user
-=======
->>>>>>> origin/profile
-=======
->>>>>>> origin/lien_he_email
-=======
->>>>>>> origin/forgot_password
-=======
->>>>>>> origin/doi_mat_khau
-=======
-            <td>{!! \App\Helpers\Helper::active($product->active)  !!}</td>
->>>>>>> origin/dang_nhap_google
-=======
-            <td>{!! \App\Helpers\Helper::active($product->active)  !!}</td>
->>>>>>> origin/dang_nhap_facebook
             <td>{{ $product->updated_at }}</td>
         </tr>
 

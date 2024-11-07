@@ -100,79 +100,15 @@ class ProductController extends Controller
         }
         return response()->json([ 'error' => false]);
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> origin/search_product_admin
-=======
->>>>>>> origin/profile
-=======
->>>>>>> origin/lien_he_email
-=======
->>>>>>> origin/doi_mat_khau
 
     public function search(Request $request)
 {
     $query = $request->input('query');
     $products = Product::where('name', 'like', "%$query%")
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-                ->orWhere('description', 'like', "%$query%")
->>>>>>> origin/search_product_admin
-=======
->>>>>>> origin/profile
-=======
->>>>>>> origin/lien_he_email
-=======
->>>>>>> origin/doi_mat_khau
                 ->paginate(10);
 
     return view('admin.product.list',[
         'title' => 'Kết quả tìm kiếm'
     ], compact('products'))->with('query', $query);
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> origin/tim_kiem_user_admin
-=======
->>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
-=======
->>>>>>> origin/search_product_admin
-=======
->>>>>>> origin/search_product
-=======
->>>>>>> origin/san_pham_noi_bat
-=======
->>>>>>> origin/san_pham_mơi_nhat
-=======
->>>>>>> origin/quan_ly_user
-=======
->>>>>>> origin/profile
-=======
->>>>>>> origin/lien_he_email
-=======
->>>>>>> origin/forgot_password
-=======
->>>>>>> origin/doi_mat_khau
-=======
->>>>>>> origin/dang_nhap_google
-=======
->>>>>>> origin/dang_nhap_facebook
 }

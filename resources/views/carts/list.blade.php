@@ -144,63 +144,7 @@
                                 </div>
                           
                                 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                                <div class="flex-w">
-                                    <div class="flex-c-m stext-101 cl2 size-115 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer">
-                                        Update Totals
-                                    </div>
-                                </div>
-=======
                             
->>>>>>> origin/tim_kiem_user_admin
-=======
-                            
->>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
-=======
-                            
->>>>>>> origin/search_product_admin
-=======
-                            
->>>>>>> origin/search_product
-=======
-                            
->>>>>>> origin/san_pham_noi_bat
-=======
-                            
->>>>>>> origin/san_pham_mơi_nhat
-=======
-                            
->>>>>>> origin/quan_ly_user
-=======
-                            
->>>>>>> origin/profile
-=======
-                            
->>>>>>> origin/lien_he_email
-=======
-                            
->>>>>>> origin/forgot_password
-=======
-                            
->>>>>>> origin/doi_mat_khau
-=======
-                            
->>>>>>> origin/dang_nhap_google
-=======
-                            
->>>>>>> origin/dang_nhap_facebook
                                     
                             </div>
                         </div>

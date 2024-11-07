@@ -9,57 +9,7 @@
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^10.10",
         "laravel/sanctum": "^3.3",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
         "laravel/socialite": "^5.16",
->>>>>>> origin/tim_kiem_user_admin
-=======
-        "laravel/socialite": "^5.16",
->>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
-=======
-        "laravel/socialite": "^5.16",
->>>>>>> origin/search_product_admin
-=======
-        "laravel/socialite": "^5.16",
->>>>>>> origin/search_product
-=======
-        "laravel/socialite": "^5.16",
->>>>>>> origin/san_pham_noi_bat
-=======
-        "laravel/socialite": "^5.16",
->>>>>>> origin/san_pham_mơi_nhat
-=======
->>>>>>> origin/quan_ly_user
-=======
-        "laravel/socialite": "^5.16",
->>>>>>> origin/profile
-=======
-        "laravel/socialite": "^5.16",
->>>>>>> origin/lien_he_email
-=======
-        "laravel/socialite": "^5.16",
->>>>>>> origin/forgot_password
-=======
-        "laravel/socialite": "^5.16",
->>>>>>> origin/doi_mat_khau
-=======
-        "laravel/socialite": "^5.16",
->>>>>>> origin/dang_nhap_google
-=======
-        "laravel/socialite": "^5.16",
->>>>>>> origin/dang_nhap_facebook
         "laravel/tinker": "^2.8"
     },
     "require-dev": {

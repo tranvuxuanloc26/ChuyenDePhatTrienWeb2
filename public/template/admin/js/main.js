@@ -3,25 +3,7 @@ $.ajaxSetup({
         'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
     }
 });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 console.log($('meta[name="csrf-token"]').attr('content')); // Kiểm tra giá trị CSRF token
->>>>>>> origin/profile
-=======
->>>>>>> origin/lien_he_email
-=======
->>>>>>> origin/forgot_password
-=======
->>>>>>> origin/doi_mat_khau
-=======
->>>>>>> origin/dang_nhap_google
-=======
->>>>>>> origin/dang_nhap_facebook
 
 function removeRow(id, url) {
     swal({
@@ -85,81 +67,6 @@ $('#upload').change(function () {
     });
 });
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
   
 
 
->>>>>>> origin/tim_kiem_user_admin
-=======
-  
-
-
->>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
-=======
-  
-
-
->>>>>>> origin/search_product_admin
-=======
-  
-
-
->>>>>>> origin/search_product
-=======
-  
-
-
->>>>>>> origin/san_pham_noi_bat
-=======
-  
-
-
->>>>>>> origin/san_pham_mơi_nhat
-=======
-  
-
-
->>>>>>> origin/quan_ly_user
-=======
-  
-
-
->>>>>>> origin/profile
-=======
-  
-
-
->>>>>>> origin/lien_he_email
-=======
-  
-
-
->>>>>>> origin/forgot_password
-=======
-  
-
-
->>>>>>> origin/doi_mat_khau
-=======
-  
-
-
->>>>>>> origin/dang_nhap_google
-=======
-  
-
-
->>>>>>> origin/dang_nhap_facebook

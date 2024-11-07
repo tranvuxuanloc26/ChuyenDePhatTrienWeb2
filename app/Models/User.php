@@ -22,58 +22,7 @@ class User extends Authenticatable
         'email',
         'password',
         'role',
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
          'thumb',
->>>>>>> origin/tim_kiem_user_admin
-=======
-         'thumb',
->>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
-=======
-         'thumb',
->>>>>>> origin/search_product_admin
-=======
-         'thumb',
->>>>>>> origin/search_product
-=======
-         'thumb',
->>>>>>> origin/san_pham_noi_bat
-=======
-         'thumb',
->>>>>>> origin/san_pham_mơi_nhat
-=======
-         'thumb',
->>>>>>> origin/quan_ly_user
-=======
-         'thumb',
->>>>>>> origin/profile
-=======
-         'thumb',
->>>>>>> origin/lien_he_email
-=======
-         'thumb',
->>>>>>> origin/forgot_password
-=======
-         'thumb',
->>>>>>> origin/doi_mat_khau
-=======
-         'thumb',
->>>>>>> origin/dang_nhap_google
-=======
-         'thumb',
->>>>>>> origin/dang_nhap_facebook
     ];
 
     /**

@@ -71,57 +71,9 @@
             </div>
            
           </div>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> origin/search_product_admin
-=======
->>>>>>> origin/search_product
 
 
           {{-- <div class="form-group">
-=======
-
-
-          <div class="form-group">
->>>>>>> origin/san_pham_noi_bat
-=======
-
-
-          <div class="form-group">
->>>>>>> origin/san_pham_mơi_nhat
-=======
-
-
-          {{-- <div class="form-group">
->>>>>>> origin/profile
-=======
-
-
-          {{-- <div class="form-group">
->>>>>>> origin/lien_he_email
-=======
-
-
-          {{-- <div class="form-group">
->>>>>>> origin/forgot_password
-=======
-
-
-          {{-- <div class="form-group">
->>>>>>> origin/doi_mat_khau
             <label for="">Nổi Bật</label>
             <div class="custom-control custom-radio">
               <input class="custom-control-input" value="1" type="radio" id="is_featured" name="is_featured" >
@@ -132,46 +84,7 @@
               <label for="no_is_featured" class="custom-control-label">Không</label>
             </div>
            
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
           </div> --}}
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> origin/tim_kiem_user_admin
-=======
->>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
-=======
->>>>>>> origin/search_product_admin
-=======
->>>>>>> origin/search_product
-=======
-          </div>
->>>>>>> origin/san_pham_noi_bat
-=======
-          </div>
->>>>>>> origin/san_pham_mơi_nhat
-=======
->>>>>>> origin/quan_ly_user
-=======
-          </div> --}}
->>>>>>> origin/profile
-=======
-          </div> --}}
->>>>>>> origin/lien_he_email
-=======
-          </div> --}}
->>>>>>> origin/forgot_password
-=======
-          </div> --}}
->>>>>>> origin/doi_mat_khau
-=======
->>>>>>> origin/dang_nhap_google
-=======
->>>>>>> origin/dang_nhap_facebook
         
 
       </div>

@@ -10,74 +10,8 @@
         <tr>
             <th style="width: 50px; padding-left: 15px;">ID</th>
             <th>Tiêu Đề</th>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            <th>Link</th>
-            <th>Ảnh</th>
-            <th>Trạng Thái</th>
-=======
             <th>Ảnh</th>
             <th>Role</th>
->>>>>>> origin/tim_kiem_user_admin
-=======
-            <th>Ảnh</th>
-            <th>Role</th>
->>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
-=======
-            <th>Ảnh</th>
-            <th>Role</th>
->>>>>>> origin/search_product_admin
-=======
-            <th>Ảnh</th>
-            <th>Role</th>
->>>>>>> origin/search_product
-=======
-            <th>Ảnh</th>
-            <th>Role</th>
->>>>>>> origin/san_pham_noi_bat
-=======
-            <th>Ảnh</th>
-            <th>Role</th>
->>>>>>> origin/san_pham_mơi_nhat
-=======
-            <th>Ảnh</th>
-            <th>Role</th>
->>>>>>> origin/quan_ly_user
-=======
-            <th>Ảnh</th>
-            <th>Role</th>
->>>>>>> origin/profile
-=======
-            <th>Ảnh</th>
-            <th>Role</th>
->>>>>>> origin/lien_he_email
-=======
-            <th>Ảnh</th>
-            <th>Role</th>
->>>>>>> origin/forgot_password
-=======
-            <th>Ảnh</th>
-            <th>Role</th>
->>>>>>> origin/doi_mat_khau
-=======
-            <th>Ảnh</th>
-            <th>Role</th>
->>>>>>> origin/dang_nhap_google
-=======
-            <th>Ảnh</th>
-            <th>Role</th>
->>>>>>> origin/dang_nhap_facebook
             <th>Cập Nhật</th>
             <th style="width: 100px">&nbsp;</th>
         </tr>
@@ -108,58 +42,6 @@
         
       </tbody>
    </table>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-   {!!  $sliders->links()  !!}
-=======
    {!!  $sliders->links('pagination::bootstrap-4')  !!}
->>>>>>> origin/tim_kiem_user_admin
-=======
-   {!!  $sliders->links('pagination::bootstrap-4')  !!}
->>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
-=======
-   {!!  $sliders->links('pagination::bootstrap-4')  !!}
->>>>>>> origin/search_product_admin
-=======
-   {!!  $sliders->links('pagination::bootstrap-4')  !!}
->>>>>>> origin/search_product
-=======
-   {!!  $sliders->links('pagination::bootstrap-4')  !!}
->>>>>>> origin/san_pham_noi_bat
-=======
-   {!!  $sliders->links('pagination::bootstrap-4')  !!}
->>>>>>> origin/san_pham_mơi_nhat
-=======
-   {!!  $sliders->links('pagination::bootstrap-4')  !!}
->>>>>>> origin/quan_ly_user
-=======
-   {!!  $sliders->links('pagination::bootstrap-4')  !!}
->>>>>>> origin/profile
-=======
-   {!!  $sliders->links('pagination::bootstrap-4')  !!}
->>>>>>> origin/lien_he_email
-=======
-   {!!  $sliders->links('pagination::bootstrap-4')  !!}
->>>>>>> origin/forgot_password
-=======
-   {!!  $sliders->links('pagination::bootstrap-4')  !!}
->>>>>>> origin/doi_mat_khau
-=======
-   {!!  $sliders->links('pagination::bootstrap-4')  !!}
->>>>>>> origin/dang_nhap_google
-=======
-   {!!  $sliders->links('pagination::bootstrap-4')  !!}
->>>>>>> origin/dang_nhap_facebook
 @endsection
 

@@ -21,47 +21,6 @@ class Helper
                             <a class="btn btn-primary btn-sm" href="/admin/menus/edit/' . $menu->id . '">
                                 <i class="fas fa-edit"></i>
                             </a>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                            <a class="btn btn-danger btn-sm" href="#" onClick="removeRow(' . $menu->id . ', \'/admin/menus/destroy\')">
-                                <i class="fas fa-trash"></i>
-                            </a>
-=======
-=======
->>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
-=======
->>>>>>> origin/search_product_admin
-=======
->>>>>>> origin/search_product
-=======
->>>>>>> origin/san_pham_noi_bat
-=======
->>>>>>> origin/san_pham_mơi_nhat
-=======
->>>>>>> origin/quan_ly_user
-=======
->>>>>>> origin/profile
-=======
->>>>>>> origin/lien_he_email
-=======
->>>>>>> origin/forgot_password
-=======
->>>>>>> origin/doi_mat_khau
-=======
->>>>>>> origin/dang_nhap_google
-=======
->>>>>>> origin/dang_nhap_facebook
                               <a class="btn btn-primary btn-sm" href="/admin/menus/detail/' . $menu->id . '">
                                  <i class="fas fa-eye"></i>
                             </a>
@@ -69,43 +28,6 @@ class Helper
                                 <i class="fas fa-trash"></i>
                             </a>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> origin/tim_kiem_user_admin
-=======
->>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
-=======
->>>>>>> origin/search_product_admin
-=======
->>>>>>> origin/search_product
-=======
->>>>>>> origin/san_pham_noi_bat
-=======
->>>>>>> origin/san_pham_mơi_nhat
-=======
->>>>>>> origin/quan_ly_user
-=======
->>>>>>> origin/profile
-=======
->>>>>>> origin/lien_he_email
-=======
->>>>>>> origin/forgot_password
-=======
->>>>>>> origin/doi_mat_khau
-=======
->>>>>>> origin/dang_nhap_google
-=======
->>>>>>> origin/dang_nhap_facebook
                         </td>
                     </tr>
                 ';
@@ -166,31 +88,7 @@ class Helper
             return $formattedPriceSale;
         }
         
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        return '<a href="/lien-he.html">Liên Hệ</a>';
-=======
         return '<a href="/contact">Liên Hệ</a>';
->>>>>>> origin/profile
-=======
-        return '<a href="/contact">Liên Hệ</a>';
->>>>>>> origin/lien_he_email
-=======
-        return '<a href="/lien-he.html">Liên Hệ</a>';
->>>>>>> origin/forgot_password
-=======
-        return '<a href="/contact">Liên Hệ</a>';
->>>>>>> origin/doi_mat_khau
-=======
-        return '<a href="/lien-he.html">Liên Hệ</a>';
->>>>>>> origin/dang_nhap_google
-=======
-        return '<a href="/lien-he.html">Liên Hệ</a>';
->>>>>>> origin/dang_nhap_facebook
     }
     
 }

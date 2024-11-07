@@ -13,71 +13,8 @@
 <link rel="stylesheet" href="/template/admin/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
 <!-- Theme style -->
 <link rel="stylesheet" href="/template/admin/dist/css/adminlte.min.css">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 <link rel="stylesheet" href="/template/admin/dist/css/togglebutton.css">
 
->>>>>>> origin/tim_kiem_user_admin
-=======
-<link rel="stylesheet" href="/template/admin/dist/css/togglebutton.css">
-
->>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
-=======
-<link rel="stylesheet" href="/template/admin/dist/css/togglebutton.css">
-
->>>>>>> origin/search_product_admin
-=======
-<link rel="stylesheet" href="/template/admin/dist/css/togglebutton.css">
-
->>>>>>> origin/search_product
-=======
-<link rel="stylesheet" href="/template/admin/dist/css/togglebutton.css">
-
->>>>>>> origin/san_pham_noi_bat
-=======
-<link rel="stylesheet" href="/template/admin/dist/css/togglebutton.css">
-
->>>>>>> origin/san_pham_mơi_nhat
-=======
-<link rel="stylesheet" href="/template/admin/dist/css/togglebutton.css">
-
->>>>>>> origin/quan_ly_user
-=======
-<link rel="stylesheet" href="/template/admin/dist/css/togglebutton.css">
-
->>>>>>> origin/profile
-=======
-<link rel="stylesheet" href="/template/admin/dist/css/togglebutton.css">
-
->>>>>>> origin/lien_he_email
-=======
-<link rel="stylesheet" href="/template/admin/dist/css/togglebutton.css">
-
->>>>>>> origin/forgot_password
-=======
-<link rel="stylesheet" href="/template/admin/dist/css/togglebutton.css">
-
->>>>>>> origin/doi_mat_khau
-=======
-<link rel="stylesheet" href="/template/admin/dist/css/togglebutton.css">
-
->>>>>>> origin/dang_nhap_google
-=======
-<link rel="stylesheet" href="/template/admin/dist/css/togglebutton.css">
-
->>>>>>> origin/dang_nhap_facebook
 
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 

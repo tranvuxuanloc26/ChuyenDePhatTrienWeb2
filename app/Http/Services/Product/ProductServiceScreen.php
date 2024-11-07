@@ -14,67 +14,8 @@ class ProductServiceScreen{
                                   $query->offset($page * self::LIMIT);
                               })
                               ->limit(self::LIMIT)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                              ->get();
-=======
                               ->get()
                               ;
->>>>>>> origin/tim_kiem_user_admin
-=======
-                              ->get();
->>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
-=======
-                              ->get()
-                              ;
->>>>>>> origin/search_product_admin
-=======
-                              ->get()
-                              ;
->>>>>>> origin/search_product
-=======
-                              ->get();
->>>>>>> origin/san_pham_noi_bat
-=======
-                              ->get()
-                              ;
->>>>>>> origin/san_pham_mơi_nhat
-=======
-                              ->get();
->>>>>>> origin/quan_ly_user
-=======
-                              ->get()
-                              ;
->>>>>>> origin/profile
-=======
-                              ->get()
-                              ;
->>>>>>> origin/lien_he_email
-=======
-                              ->get()
-                              ;
->>>>>>> origin/forgot_password
-=======
-                              ->get()
-                              ;
->>>>>>> origin/doi_mat_khau
-=======
-                              ->get();
->>>>>>> origin/dang_nhap_google
-=======
-                              ->get();
->>>>>>> origin/dang_nhap_facebook
     }
 
     public function show($id){

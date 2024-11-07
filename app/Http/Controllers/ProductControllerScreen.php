@@ -2,83 +2,10 @@
 
 namespace App\Http\Controllers;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Illuminate\Http\Request;
-use App\Http\Services\Product\ProductServiceScreen;
-=======
-=======
->>>>>>> origin/search_product_admin
-=======
->>>>>>> origin/search_product
-=======
->>>>>>> origin/san_pham_noi_bat
-=======
->>>>>>> origin/san_pham_mơi_nhat
-=======
->>>>>>> origin/profile
-=======
->>>>>>> origin/lien_he_email
-=======
->>>>>>> origin/forgot_password
-=======
->>>>>>> origin/doi_mat_khau
 use App\Models\Product;
 use Illuminate\Http\Request;
 use App\Http\Services\Product\ProductServiceScreen;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> origin/tim_kiem_user_admin
-=======
-use Illuminate\Http\Request;
-use App\Http\Services\Product\ProductServiceScreen;
->>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
-=======
->>>>>>> origin/search_product_admin
-=======
->>>>>>> origin/search_product
-=======
->>>>>>> origin/san_pham_noi_bat
-=======
->>>>>>> origin/san_pham_mơi_nhat
-=======
-use Illuminate\Http\Request;
-use App\Http\Services\Product\ProductServiceScreen;
->>>>>>> origin/quan_ly_user
-=======
->>>>>>> origin/profile
-=======
->>>>>>> origin/lien_he_email
-=======
->>>>>>> origin/forgot_password
-=======
->>>>>>> origin/doi_mat_khau
-=======
-use Illuminate\Http\Request;
-use App\Http\Services\Product\ProductServiceScreen;
->>>>>>> origin/dang_nhap_google
-=======
-use Illuminate\Http\Request;
-use App\Http\Services\Product\ProductServiceScreen;
->>>>>>> origin/dang_nhap_facebook
 class ProductControllerScreen extends Controller
 {
      protected $productServiceScreen;
@@ -114,37 +41,6 @@ class ProductControllerScreen extends Controller
 
      //      ]);
      // }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-=======
->>>>>>> origin/search_product_admin
-=======
->>>>>>> origin/search_product
-=======
->>>>>>> origin/san_pham_noi_bat
-=======
->>>>>>> origin/san_pham_mơi_nhat
-=======
->>>>>>> origin/profile
-=======
->>>>>>> origin/lien_he_email
-=======
->>>>>>> origin/forgot_password
-=======
->>>>>>> origin/doi_mat_khau
      public function getFeaturedProducts()
 {
     $featuredProducts = Product::where('is_featured', true)->get();
@@ -152,38 +48,11 @@ class ProductControllerScreen extends Controller
     // Trả về partial view chứa danh sách sản phẩm nổi bật
     return view('product.featured_products', compact('featuredProducts'))->render();
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> origin/san_pham_mơi_nhat
-=======
->>>>>>> origin/profile
-=======
->>>>>>> origin/lien_he_email
-=======
->>>>>>> origin/forgot_password
-=======
->>>>>>> origin/doi_mat_khau
 
 public function getNewestProducts(Request $request) {
      $products = Product::orderBy('updated_at', 'desc')->paginate(16); // Lấy sản phẩm mới nhất theo thời gian tạo
  
      return view('product.newest_products',[
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> origin/profile
-=======
->>>>>>> origin/lien_he_email
-=======
->>>>>>> origin/doi_mat_khau
           'title' => 'Sản phẩm mới nhất'
      ], compact('products'));
  }
@@ -204,48 +73,5 @@ public function getNewestProducts(Request $request) {
     ]);
 }
      
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> origin/tim_kiem_user_admin
-=======
-
->>>>>>> origin/them_sp_vao_danh_sach_yeu_thich
-=======
->>>>>>> origin/search_product_admin
-=======
->>>>>>> origin/search_product
-=======
-     
->>>>>>> origin/san_pham_noi_bat
-=======
-          'title' => 'Trang sản phẩm mới nhất'
-     ], compact('products'));
- }
-     
->>>>>>> origin/san_pham_mơi_nhat
-=======
-
->>>>>>> origin/quan_ly_user
-=======
->>>>>>> origin/profile
-=======
->>>>>>> origin/lien_he_email
-=======
-          'title' => 'Sản phẩm mới nhất'
-     ], compact('products'));
- }
-     
->>>>>>> origin/forgot_password
-=======
->>>>>>> origin/doi_mat_khau
-=======
-
->>>>>>> origin/dang_nhap_google
-=======
-
->>>>>>> origin/dang_nhap_facebook
 
 }

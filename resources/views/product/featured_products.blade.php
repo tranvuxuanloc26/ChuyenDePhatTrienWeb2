@@ -45,36 +45,8 @@
 @else
     <p>Không có sản phẩm nổi bật nào.</p>
 @endif
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 
-=======
->>>>>>> origin/san_pham_noi_bat
-=======
-
-
->>>>>>> origin/san_pham_mơi_nhat
-=======
-
-
->>>>>>> origin/profile
-=======
-
-
->>>>>>> origin/lien_he_email
-=======
-
-
->>>>>>> origin/forgot_password
-=======
-
-
->>>>>>> origin/doi_mat_khau
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
     $(document).ready(function() {
