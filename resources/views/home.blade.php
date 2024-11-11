@@ -33,29 +33,11 @@
 				</div>
 				@endforeach
 				@endif
-
-				
-
-
-
-				
+		
 			</div>
 		</div>
 	</section>
 
-	<a href="{{ route('set.language', 'en') }}" class="flex-c-m trans-04 p-lr-25">
-		EN
-	</a>
-
-	<a href="{{ route('set.language', 'vi') }}" class="flex-c-m trans-04 p-lr-25">
-		Vi
-	</a>
-
-	{{ __('Free shipping for standard order over $100') }}
-	<div class="left-top-bar">
-		{{ __('messages.shipping_message') }}
-	</div>
-	
 
 	<!-- Banner -->
 	<div class="sec-banner bg0 p-t-80 p-b-50">
