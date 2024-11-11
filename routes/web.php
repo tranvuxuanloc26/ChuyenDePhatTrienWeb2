@@ -1,17 +1,19 @@
 <?php
 
+use Illuminate\Support\Facades\App;
 use App\Http\Services\UploadService;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\MainController;
 use App\Http\Controllers\WishController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\LanguageController;
 use App\Http\Controllers\PasswordController;
 use App\Http\Controllers\WishlistController;
 use App\Http\Controllers\Admin\MenuController;
+
 use App\Http\Controllers\MenuControllerScreen;
 use App\Http\Controllers\Auth\GoogleController;
-
 use App\Http\Controllers\Admin\SliderController;
 use App\Http\Controllers\Admin\UploadController;
 use App\Http\Controllers\Admin\ProductController;
@@ -141,9 +143,10 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 
 #Trang chủ
 Route::get('/', [MainController::class, 'index'])->name('home');
-Route::get('/lang/{lang}', [MainController::class , 'setLanguage'])->name('set.language');
 
 Route::post('/services/load-product', [MainController::class, 'loadProduct']);
+
+Route::get('/san-pham/{id}-{slug}.html', [MainController::class, 'show'])->name('show');
 
 
 Route::get('/danh-muc/{id}-{slug}.html', [MenuControllerScreen::class, 'index']);
@@ -175,7 +178,7 @@ Route::get('auth/facebook/callback', [FacebookController::class, 'handleFacebook
 
 Route::middleware(['auth'])->group(function () {
     Route::get('/user/profile', [UserController::class, 'editProfile'])->name('user.profile');
-Route::post('/user/profile', [UserController::class, 'updateProfile'])->name('user.profile.update');
+    Route::post('/profile/update', [UserController::class, 'update'])->name('user.profile.update');
     Route::get('/change-password', [PasswordController::class, 'showChangePasswordForm'])->name('password.change');
     Route::post('/change-password', [PasswordController::class, 'updatePassword'])->name('password.update');
     Route::post('wish-list', [WishlistController::class, 'index'])->name('wishlist.add');
@@ -187,4 +190,5 @@ Route::post('/contact', [ContactController::class, 'send'])->name('contact.send'
 
 
 
+Route::get('language/{language}', [LanguageController::class, 'index'])->name('language.index');
 

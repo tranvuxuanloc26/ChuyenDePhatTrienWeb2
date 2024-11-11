@@ -17,6 +17,7 @@ class ProductServiceScreen{
                               ->get()
                               ;
     }
+   
 
     public function show($id){
         return Product::where('id', $id)

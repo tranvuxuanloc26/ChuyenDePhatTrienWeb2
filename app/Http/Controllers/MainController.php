@@ -43,10 +43,6 @@ class MainController extends Controller
     }
 
     // Ví dụ trong controller
-public function setLanguage($lang)
-{
-    session(['applocale' => $lang]);
-    return redirect()->back();
-}
+
 
 }

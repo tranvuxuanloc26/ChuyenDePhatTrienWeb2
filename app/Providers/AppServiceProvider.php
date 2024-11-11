@@ -24,7 +24,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        Schema::defaultStringLength(191);
+        Schema::defaultStringLength(250);
         View::composer('header', MenuComposer::class);
         View::composer('cart', CartComposer::class);
 

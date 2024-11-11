@@ -28,4 +28,7 @@ class Product extends Model
     {
         return $this->hasMany(Wishlist::class);
     }
+
+     // Quan hệ với bảng product_translations
+  
 }

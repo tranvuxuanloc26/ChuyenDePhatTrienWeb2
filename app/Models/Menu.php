@@ -28,5 +28,13 @@ class Menu extends Model
         return $this->belongsTo(Menu::class, 'parent_id');
     }
 
+    public $translatable = ['name', 'description','content'];
+
+    // Liên kết với bảng dịch
+    public function translations()
+    {
+        return $this->hasMany(MenuTranslation::class);
+    }
+   
  
 }

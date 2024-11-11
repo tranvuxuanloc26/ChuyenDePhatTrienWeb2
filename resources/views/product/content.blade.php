@@ -79,40 +79,18 @@
                     <!--  -->
                     <div class="p-t-33">
                         <div class="flex-w flex-r-m p-b-10">
-                            <div class="size-203 flex-c-m respon6">
-                                Size
-                            </div>
+                         
 
                             <div class="size-204 respon6-next">
-                                <div class="rs1-select2 bor8 bg0">
-                                    <select class="js-select2 select2-hidden-accessible" name="time" tabindex="-1" aria-hidden="true">
-                                        <option>Choose an option</option>
-                                        <option>Size S</option>
-                                        <option>Size M</option>
-                                        <option>Size L</option>
-                                        <option>Size XL</option>
-                                    </select><span class="select2 select2-container select2-container--default" dir="ltr" style="width: 142px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-time-na-container"><span class="select2-selection__rendered" id="select2-time-na-container" title="Choose an option">Choose an option</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
-                                    <div class="dropDownSelect2"></div>
-                                </div>
+                            
                             </div>
                         </div>
 
                         <div class="flex-w flex-r-m p-b-10">
-                            <div class="size-203 flex-c-m respon6">
-                                Color
-                            </div>
+                         
 
                             <div class="size-204 respon6-next">
-                                <div class="rs1-select2 bor8 bg0">
-                                    <select class="js-select2 select2-hidden-accessible" name="time" tabindex="-1" aria-hidden="true">
-                                        <option>Choose an option</option>
-                                        <option>Red</option>
-                                        <option>Blue</option>
-                                        <option>White</option>
-                                        <option>Grey</option>
-                                    </select><span class="select2 select2-container select2-container--default" dir="ltr" style="width: 142px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-time-uy-container"><span class="select2-selection__rendered" id="select2-time-uy-container" title="Choose an option">Choose an option</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
-                                    <div class="dropDownSelect2"></div>
-                                </div>
+                           
                             </div>
                         </div>
 
@@ -120,12 +98,12 @@
                             <div class="size-204 flex-w flex-m respon6-next">
                                 <form action="/add-cart" method="post">
                                     @if($product->price != NULL)
-                                <div class="wrap-num-product flex-w m-r-20 m-tb-10">
+                                <div id="numProductDiv{{ $product->id }}" class="wrap-num-product flex-w m-r-20 m-tb-10">
                                     <div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
                                         <i class="fs-16 zmdi zmdi-minus"></i>
                                     </div>
 
-                                    <input class="mtext-104 cl3 txt-center num-product" type="number" name="num_product" value="1">
+                                    <input class="mtext-104 cl3 txt-center num-product" type="number" name="num_product" value="1"  min="1">
 
                                     <div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
                                         <i class="fs-16 zmdi zmdi-plus"></i>
@@ -143,25 +121,7 @@
                     </div>
 
                     <!--  -->
-                    <div class="flex-w flex-m p-l-100 p-t-40 respon7">
-                        <div class="flex-m bor9 p-r-10 m-r-11">
-                            <a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 js-addwish-detail tooltip100" data-tooltip="Add to Wishlist">
-                                <i class="zmdi zmdi-favorite"></i>
-                            </a>
-                        </div>
-
-                        <a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Facebook">
-                            <i class="fa fa-facebook"></i>
-                        </a>
-
-                        <a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Twitter">
-                            <i class="fa fa-twitter"></i>
-                        </a>
-
-                        <a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Google Plus">
-                            <i class="fa fa-google-plus"></i>
-                        </a>
-                    </div>
+                   
                 </div>
             </div>
         </div>
@@ -610,5 +570,50 @@
 
     </div>
 </section>
+<div class="wrap-num-product flex-w m-r-20 m-tb-10">
+    <div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
+        <i class="fs-16 zmdi zmdi-minus"></i>
+    </div>
+
+    <input class="mtext-104 cl3 txt-center num-product" type="number" name="num_product" value="1">
+
+    <div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
+        <i class="fs-16 zmdi zmdi-plus"></i>
+    </div>
+</div>
+
+<script>
+    // Lắng nghe sự kiện nhấn vào link mua ngay hoặc tên sản phẩm
+    document.getElementById('buyNowLink{{ $product->id }}').addEventListener('click', function(event) {
+        event.preventDefault();  // Ngừng chuyển trang
+        document.getElementById('numProductDiv{{ $product->id }}').style.display = 'block';  // Hiển thị phần số lượng
+    });
+
+    document.getElementById('productNameLink{{ $product->id }}').addEventListener('click', function(event) {
+        event.preventDefault();  // Ngừng chuyển trang
+        document.getElementById('numProductDiv{{ $product->id }}').style.display = 'block';  // Hiển thị phần số lượng
+    });
+
+    // Các nút tăng giảm số lượng
+    document.querySelectorAll('.btn-num-product-down').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+            var input = btn.closest('.wrap-num-product').querySelector('.num-product');
+            var qty = parseInt(input.value, 10);
+            if (qty > 1) {
+                input.value = qty - 1;  // Giảm số lượng
+            }
+        });
+    });
+
+    document.querySelectorAll('.btn-num-product-up').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+            var input = btn.closest('.wrap-num-product').querySelector('.num-product');
+            var qty = parseInt(input.value, 10);
+            input.value = qty + 1;  // Tăng số lượng
+        });
+    });
+</script>
+
+
 
 @endsection

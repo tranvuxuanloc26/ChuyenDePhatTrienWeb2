@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Services\User\UserService;
+use Illuminate\Support\Facades\Storage;
 
 
 class UserController extends Controller
@@ -72,27 +73,22 @@ class UserController extends Controller
         ], compact('user'));
     }
 
-    public function updateProfile(Request $request)
+    public function update(Request $request)
     {
-    
-    
-        $request->validate([
-            'name' => 'required|string|max:255',
-            'phone' => 'nullable|string|max:15',
-            'thumb' => 'nullable|string',
-        ]);
-    
         $user = Auth::user();
-        $user->name = $request->name;
-        $user->phone = $request->phone;
-        if ($request->thumb) {
-            $user->thumb = $request->thumb;
-        }
-      
-        $user->save();
-        \Log::info($request->all());  // Kiểm tra dữ liệu gửi lên
 
-    
-        return redirect()->route('user.profile')->with('success', 'Profile updated successfully');
+        // Kiểm tra và xử lý tải lên hình ảnh
+        if ($request->hasFile('thumb')) {
+            $file = $request->file('thumb');
+            $path = $file->store('uploads', 'public'); // Lưu tệp vào thư mục public/uploads
+            $user->thumb = $path; // Lưu đường dẫn vào database
+        }
+
+        // Cập nhật các trường khác
+        $user->name = $request->input('name');
+        $user->phone = $request->input('phone');
+        $user->save();
+
+        return redirect()->back()->with('success', 'Profile updated successfully');
     }
 }

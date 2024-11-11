@@ -7,25 +7,26 @@
         <div class="top-bar">
             <div class="content-topbar flex-sb-m h-full container">
                 <div class="left-top-bar">
-                    Free shipping for standard order over $100
+                    {{ __('messages.introduce') }}
                 </div>
 
                 <div class="right-top-bar flex-w h-full">
-                    <a href="#" class="flex-c-m trans-04 p-lr-25">
-                        Help & FAQs
+                    <a href="/contact" class="flex-c-m trans-04 p-lr-25">
+                        {{ __('messages.help') }}
                     </a>
-
-                    <a href="#" class="flex-c-m trans-04 p-lr-25">
-                        My Account
-                    </a>
-
-                    <a href="{{ route('set.language', 'en') }}" class="flex-c-m trans-04 p-lr-25">
+                    <a href="{{ route('language.index', ['language' => 'en']) }}" 
+                        class="flex-c-m trans-04 p-lr-25" 
+                        @if (App::getLocale() == 'en') style="display:none;" @endif>
                         EN
-                    </a>
-
-                    <a href="{{ route('set.language', 'vi') }}" class="flex-c-m trans-04 p-lr-25">
+                     </a>
+                     
+                     <a href="{{ route('language.index', ['language' => 'vi']) }}" 
+                        class="flex-c-m trans-04 p-lr-25" 
+                        @if (App::getLocale() == 'vi') style="display:none;" @endif>
                         Vi
-                    </a>
+                     </a>
+                     
+                  
                 </div>
             </div>
         </div>
@@ -96,11 +97,17 @@
                         @auth
                         <!-- Hiển thị khi người dùng đã đăng nhập -->
                         <div class="d-flex align-items-center">
-                        @if (Auth::user() && Auth::user()->thumb)
-                            <img src="{{ Auth::user()->thumb }}" alt="{{ Auth::user()->name }}" class="rounded-circle me-4" style="width: 40px; height: 40px;">
+                            @if (Auth::user() && Auth::user()->thumb)
+                            {{-- Kiểm tra nếu đường dẫn thumb đã là URL tuyệt đối --}}
+                            @if (filter_var(Auth::user()->thumb, FILTER_VALIDATE_URL))
+                                <img src="{{ Auth::user()->thumb }}" alt="{{ Auth::user()->name }}" class="rounded-circle me-4" style="width: 40px; height: 40px;">
+                            @else
+                                <img src="{{ asset('storage/' . Auth::user()->thumb) }}" alt="{{ Auth::user()->name }}" class="rounded-circle me-4" style="width: 40px; height: 40px;">
+                            @endif
                         @else
                             <img src="{{ asset('template/images/icons/R.png') }}" alt="User Avatar" class="rounded-circle me-4" style="width: 40px; height: 40px;">
                         @endif
+                        
                         
                             <span class="fw-bold dropdown-toggle" style="margin-left: 10px" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 {{ Auth::user()->name }}
