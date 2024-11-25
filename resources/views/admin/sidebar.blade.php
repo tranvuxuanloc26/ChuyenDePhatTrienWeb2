@@ -85,6 +85,30 @@
 
           <li class="nav-item">
             <a href="#" class="nav-link">
+              <i class=" fas fa-newspaper nav-icon"></i>
+              <p>
+                Tin Tức
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="/admin/news/create" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Thêm tin tức </p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="/admin/news/list" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Danh sách tin tức</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          
+          <li class="nav-item">
+            <a href="#" class="nav-link">
               <i class="nav-icon fas fa-images"></i>
               <p>
                 Slide
