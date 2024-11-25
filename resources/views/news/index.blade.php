@@ -21,7 +21,7 @@
                                     {{ $item->title }}
                                 </a>
                             </h5>
-                            <p class="card-text" style="font-size: 0.9rem; height: 80px; overflow: hidden; text-overflow: ellipsis;">{!! Str::limit($item->content, 100) !!}</p>
+                            <p class="card-text" style="">{!! Str::limit($item->content, 490) !!}</p>
                         </div>
                     </div>
                 </div>
