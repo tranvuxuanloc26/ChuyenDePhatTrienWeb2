@@ -45,7 +45,7 @@ class ProductController extends Controller
     public function store(ProductRequest $request)
     {
         $result = $this->productService->insert($request);
-        if ($result) {
+        if($result){
             return redirect('/admin/products/list');
         }
         return redirect()->back();
@@ -64,14 +64,16 @@ class ProductController extends Controller
         ]);
     }
 
-
+    
     public function update(Request $request, Product $product)
     {
         $result = $this->productService->update($request, $product);
-        if ($result) {
-            return redirect('/admin/products/list');
+        if($result){
+            return redirect( '/admin/products/list');
+
         }
         return redirect()->back();
+
     }
 
     public function showDetail(Product $product)
@@ -90,23 +92,23 @@ class ProductController extends Controller
     public function destroy(Request $request)
     {
         $result = $this->productService->delete($request);
-        if ($result) {
+        if($result){
             return response()->json([
                 'error' => false,
                 'message' => 'Xoá thành công sản phẩm'
             ]);
         }
-        return response()->json(['error' => false]);
+        return response()->json([ 'error' => false]);
     }
 
     public function search(Request $request)
-    {
-        $query = $request->input('query');
-        $products = Product::where('name', 'like', "%$query%")
-            ->paginate(10);
+{
+    $query = $request->input('query');
+    $products = Product::where('name', 'like', "%$query%")
+                ->paginate(10);
 
-        return view('admin.product.list', [
-            'title' => 'Kết quả tìm kiếm'
-        ], compact('products'))->with('query', $query);
-    }
+    return view('admin.product.list',[
+        'title' => 'Kết quả tìm kiếm'
+    ], compact('products'))->with('query', $query);
+}
 }

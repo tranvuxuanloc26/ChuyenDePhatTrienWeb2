@@ -19,6 +19,13 @@ class CartAdminController extends Controller
             'customers' => $this->cart->getCustomer()
          ]);
     }
+
+    public function index2(Customer $customer){
+      return view('mail.success', [
+         'title' => 'Danh Sách Đơn Hàng',
+         'customers' => $this->cart->getProductForCart($customer)
+      ]);
+ }
     public function show(Customer $customer){
         $carts = $this->cart->getProductForCart($customer);
           return view('admin.carts.detail',[
