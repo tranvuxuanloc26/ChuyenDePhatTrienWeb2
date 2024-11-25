@@ -141,7 +141,6 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 
         #Cart
         Route::get('customers', [CartAdminController::class, 'index']);
-        Route::get('customers', [CartAdminController::class, 'index2']);
 
         Route::get('customers/view/{customer}', [CartAdminController::class, 'show']);
      
