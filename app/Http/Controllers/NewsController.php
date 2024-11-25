@@ -26,7 +26,17 @@ class NewsController extends Controller
         
         ]);
     }
-
+    public function detail($id)
+    {
+        // Lấy tin tức theo ID
+        $news = News::findOrFail($id);
+    
+        return view('news.detail', [
+            'news' => $news,
+            'title' => $news->title,
+        ]);
+    }
+    
 
     public function create()
     {

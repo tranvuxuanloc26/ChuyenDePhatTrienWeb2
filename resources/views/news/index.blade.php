@@ -7,7 +7,7 @@
     <div class="row">
         @foreach($news as $item)
         <div class="col-12 mb-4">
-            <div class="card h-100 d-flex flex-column">
+            <div class="card h-100 d-flex flex-column" style="border: 2px solid #ddd; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
                 <div class="row g-0">
                     <!-- Cột Hình ảnh -->
                     <div class="col-md-4">
@@ -17,7 +17,7 @@
                     <div class="col-md-8">
                         <div class="card-body">
                             <h5 class="card-title">
-                                <a href="" class="text-decoration-none">
+                                <a href="{{ route('news.detail', ['id' => $item->id]) }}" class="text-decoration-none">
                                     {{ $item->title }}
                                 </a>
                             </h5>
@@ -29,8 +29,9 @@
         </div>
         @endforeach
     </div>
-     <!-- Phân trang -->
-     <div class="d-flex justify-content-start">
+
+    <!-- Phân trang -->
+    <div class="d-flex justify-content-start">
         {{ $news->appends(['query' => request('query')])->links('pagination::bootstrap-4') }}
     </div>
 </div>
