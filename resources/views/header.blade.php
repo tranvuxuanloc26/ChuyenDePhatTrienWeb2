@@ -47,7 +47,7 @@
                     <ul id="navbuttons" class="main-menu ">
                         {!! $menuHtml !!}
                         <li>
-                            <a href="product.html">Tin Tức</a>
+                            <a href="/tintuc">Tin Tức</a>
                         </li>
 
                         {{-- <li >

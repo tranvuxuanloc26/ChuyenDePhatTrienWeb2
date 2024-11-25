@@ -204,3 +204,4 @@ Route::post('/contact', [ContactController::class, 'send'])->name('contact.send'
 
 Route::get('language/{language}', [LanguageController::class, 'index'])->name('language.index');
 
+Route::get('/tintuc', [NewsController::class, 'list'])->name('news.index');

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\News;
+use App\Models\Product;
 use Illuminate\Http\Request;
 
 class NewsController extends Controller
@@ -14,6 +15,18 @@ class NewsController extends Controller
             'title' => 'Danh sách tin tức'
         ]);
     }
+ # Hiển thị danh sách
+    public function list()
+    {
+        $news = News::orderBy('created_at', 'desc')->paginate(5); // Lấy 5 tin tức mới nhất
+    
+        return view('news.index', compact('news', ),
+            [
+            'title' => 'Trang tin tức'
+        
+        ]);
+    }
+
 
     public function create()
     {
