@@ -48,10 +48,14 @@
                         {!! $menuHtml !!}
                         <li>
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <a href="/tintuc">Tin Tức</a>
 =======
                             <a href="product.html">Tin Tức</a>
 >>>>>>> them_tin_tuc
+=======
+                            <a href="product.html">Tin Tức</a>
+>>>>>>> sua_tin_tuc
                         </li>
 
                         {{-- <li >

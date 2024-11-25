@@ -4,9 +4,12 @@ namespace App\Http\Controllers;
 
 use App\Models\News;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use App\Models\Product;
 =======
 >>>>>>> them_tin_tuc
+=======
+>>>>>>> sua_tin_tuc
 use Illuminate\Http\Request;
 
 class NewsController extends Controller
@@ -18,6 +21,7 @@ class NewsController extends Controller
             'title' => 'Danh sách tin tức'
         ]);
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
  # Hiển thị danh sách
     public function list()
@@ -43,6 +47,8 @@ class NewsController extends Controller
     
 =======
 >>>>>>> them_tin_tuc
+=======
+>>>>>>> sua_tin_tuc
 
     public function create()
     {
