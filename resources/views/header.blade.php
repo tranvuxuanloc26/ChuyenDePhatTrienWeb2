@@ -47,7 +47,11 @@
                     <ul id="navbuttons" class="main-menu ">
                         {!! $menuHtml !!}
                         <li>
+<<<<<<< HEAD
                             <a href="/tintuc">Tin Tức</a>
+=======
+                            <a href="product.html">Tin Tức</a>
+>>>>>>> them_tin_tuc
                         </li>
 
                         {{-- <li >
