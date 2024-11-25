@@ -5,13 +5,14 @@ use App\Http\Services\UploadService;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\MainController;
+use App\Http\Controllers\NewsController;
 use App\Http\Controllers\WishController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\LanguageController;
 use App\Http\Controllers\PasswordController;
 use App\Http\Controllers\WishlistController;
-use App\Http\Controllers\Admin\MenuController;
 
+use App\Http\Controllers\Admin\MenuController;
 use App\Http\Controllers\MenuControllerScreen;
 use App\Http\Controllers\Auth\GoogleController;
 use App\Http\Controllers\Admin\SliderController;
@@ -67,7 +68,16 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 
         // Các route dành cho cả role 1 và role 2 (chỉ truy cập menu, sản phẩm, slider)
         Route::middleware('role:1,2')->group(function () {
-      
+      #News
+      Route::prefix('news')->group(function () {
+        Route::get('/list', [NewsController::class, 'index'])->name('admin.news.index');
+        Route::get('/create', [NewsController::class, 'create'])->name('admin.news.create');
+        Route::post('/store', [NewsController::class, 'store'])->name('admin.news.store');
+        Route::get('/edit/{id}', [NewsController::class, 'edit'])->name('admin.news.edit');
+        Route::put('/update/{id}', [NewsController::class, 'update'])->name('admin.news.update');
+        Route::delete('/delete/{id}', [NewsController::class, 'destroy'])->name('admin.news.destroy');
+        Route::post('/upload/services', [NewsController::class, 'upload'])->name('admin.upload.services');
+    });
         #Product
         Route::prefix('products')->group(function () {
             Route::get('add', [ProductController::class, 'create']);
@@ -131,6 +141,8 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 
         #Cart
         Route::get('customers', [CartAdminController::class, 'index']);
+        Route::get('customers', [CartAdminController::class, 'index2']);
+
         Route::get('customers/view/{customer}', [CartAdminController::class, 'show']);
      
 
