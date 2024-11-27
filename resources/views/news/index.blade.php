@@ -21,15 +21,7 @@
                                     {{ $item->title }}
                                 </a>
                             </h5>
-<<<<<<< HEAD
-<<<<<<< HEAD
-                            <p class="card-text" >{!! Str::limit($item->content, 400) !!}</p>
-=======
                             <p class="card-text" >{!! Str::limit($item->content, 399) !!}</p>
->>>>>>> chi_tiet_blog
-=======
-                            <p class="card-text" >{!! Str::limit($item->content, 400) !!}</p>
->>>>>>> thanh_toan_vnPay
                         </div>
                     </div>
                 </div>

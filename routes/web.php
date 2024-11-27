@@ -8,31 +8,23 @@ use App\Http\Controllers\CartController;
 use App\Http\Controllers\MainController;
 use App\Http\Controllers\NewsController;
 use App\Http\Controllers\WishController;
+use App\Http\Controllers\ReviewController;
+use App\Http\Controllers\CommentController;
 use App\Http\Controllers\ContactController;
+
 use App\Http\Controllers\paymentController;
-<<<<<<< HEAD
-<<<<<<< HEAD
-use App\Http\Controllers\CheckoutController;
-
-use App\Http\Controllers\LanguageController;
-use App\Http\Controllers\PasswordController;
-use App\Http\Controllers\WishlistController;
-<<<<<<< HEAD
 use App\Http\Controllers\VoucherController;
-
-
-=======
->>>>>>> them_blog
-=======
-
-=======
->>>>>>> thanh_toan_vnPay
 use App\Http\Controllers\CheckoutController;
-
 use App\Http\Controllers\LanguageController;
+
+
+
+
+
+
+
 use App\Http\Controllers\PasswordController;
 use App\Http\Controllers\WishlistController;
->>>>>>> chi_tiet_blog
 use App\Http\Controllers\Admin\MenuController;
 use App\Http\Controllers\MenuControllerScreen;
 use App\Http\Controllers\Auth\GoogleController;
@@ -41,25 +33,22 @@ use App\Http\Controllers\Admin\UploadController;
 use App\Http\Controllers\Admin\ProductController;
 use App\Http\Controllers\Auth\FacebookController;
 use App\Http\Controllers\ProductControllerScreen;
+use App\Http\Controllers\ProductReviewController;
 use App\Http\Controllers\Admin\CartAdminController;
 use App\Http\Controllers\Admin\MainAdminController;
 use App\Http\Controllers\Admin\Users\UserController;
 use App\Http\Controllers\Admin\Users\LoginController;
 use App\Http\Controllers\Auth\ForgotPasswordController;
 use App\Http\Controllers\Admin\Users\RegisterController;
-<<<<<<< HEAD
-use App\Http\Controllers\ProductReviewController;
-use App\Http\Controllers\ReviewController;
     
     #Login
     Route::get('admin/users/login', [LoginController::class, 'index'])->name('login');
     Route::post('admin/users/login/store', [LoginController::class, 'store']);
-=======
+
 
 #Login
 Route::get('admin/users/login', [LoginController::class, 'index'])->name('login');
 Route::post('admin/users/login/store', [LoginController::class, 'store']);
->>>>>>> chi_tiet_blog
 
 #logout
 Route::post('admin/users/logout', [LoginController::class, 'logout'])->name('logout');
@@ -98,7 +87,6 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 
         // Các route dành cho cả role 1 và role 2 (chỉ truy cập menu, sản phẩm, slider)
         Route::middleware('role:1,2')->group(function () {
-<<<<<<< HEAD
       
                 #Blogs
       Route::prefix('blogs')->group(function () {
@@ -129,8 +117,8 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
             Route::post('edit/{product}', [ProductController::class, 'update']);
             Route::get('detail/{product}', [ProductController::class, 'showDetail']);
             Route::get('/admin/products', [ProductController::class, 'index'])->name('admin.products.index');
-=======
->>>>>>> chi_tiet_blog
+
+
 
             #Blogs
             Route::prefix('blogs')->group(function () {
@@ -202,7 +190,6 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
                 Route::DELETE('destroy', [UserController::class, 'destroy']);
             });
         });
-<<<<<<< HEAD
       
     });
 
@@ -235,8 +222,7 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
           
     
     });
-=======
->>>>>>> chi_tiet_blog
+
         #Upload
         Route::post('upload/services', [UploadController::class, 'store']);
 
@@ -244,27 +230,13 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
         Route::get('customers', [CartAdminController::class, 'index']);
 
         Route::get('customers/view/{customer}', [CartAdminController::class, 'show']);
-<<<<<<< HEAD
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         Route::post('customers/update-status', [CartAdminController::class, 'updateStatus']);
-=======
->>>>>>> them_blog
-     
 
-   #Role
-=======
-        Route::get('/payments', [paymentController::class, 'index']);
-=======
+    
 
->>>>>>> thanh_toan_vnPay
-=======
-        Route::get('/payments', [paymentController::class, 'index']);
->>>>>>> luu_thong_tin_thanh_toan_vnPay
-        #Role
->>>>>>> chi_tiet_blog
+    Route::get('/payments', [paymentController::class, 'index']);
+    #Role
 
     });
 });
@@ -323,19 +295,16 @@ Route::get('language/{language}', [LanguageController::class, 'index'])->name('l
 
 Route::get('/tintuc', [NewsController::class, 'list'])->name('news.index');
 Route::get('/tintuc/{id}', [NewsController::class, 'detail'])->name('news.detail');
-<<<<<<< HEAD
-<<<<<<< HEAD
 #Reviews
 Route::get('/products/{product}', [ReviewController::class, 'show'])->name('products.show');
 Route::post('/reviews', [ReviewController::class, 'store'])->name('reviews.store');
-=======
-=======
->>>>>>> chi_tiet_blog
+
+
+ 
 
 Route::get('/baidang', [BlogController::class, 'list'])->name('blogs.index');
 Route::get('/baidang/{id}', [BlogController::class, 'detail'])->name('blogs.detail');
 #Cổng thanh toán
-<<<<<<< HEAD
 Route::post('/vnpay_payment',[CheckoutController::class,'vnpay_payment'])->name('vnpay_payment');
 
 Route::get('/payment',[paymentController::class,'payment']);
@@ -343,23 +312,18 @@ Route::get('/payment',[paymentController::class,'payment']);
   
  
   
->>>>>>> them_blog
-=======
+
 Route::post('/vnpay_create_payment', [paymentController::class, 'createPayment'])->name('createPayment');
 
 Route::post('/payment', [paymentController::class, 'payment']);
 Route::post('/saveInForPay', [paymentController::class, 'save']);
 Route::get('/vnpay_return', [paymentController::class, 'vnpay_return']);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 Route::post('/comment', [CommentController::class, 'sendComment']);
 Route::get('/list_comment/{id}', [CommentController::class, 'getCommentByBlogID']);
->>>>>>> chi_tiet_blog
-=======
->>>>>>> thanh_toan_vnPay
-=======
 
 
 
->>>>>>> luu_thong_tin_thanh_toan_vnPay
+
+

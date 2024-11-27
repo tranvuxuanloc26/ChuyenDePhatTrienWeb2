@@ -2,22 +2,10 @@
 
 namespace App\Http\Controllers;
 
-<<<<<<< HEAD
-use Illuminate\Http\Request;
-
-class paymentController extends Controller
-{
-  
-    public function payment(){
-        return view('payment.payment');
-    }
-
-
-    
-=======
 use Carbon\Carbon;
 use App\Models\Payment;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Session;
 
 class paymentController extends Controller
 {
@@ -95,6 +83,7 @@ class paymentController extends Controller
         }
 
         header('Location: ' . $vnp_Url);
+        
         die();
     }
 
@@ -116,12 +105,9 @@ class paymentController extends Controller
     public function vnpay_return()
     {
 
+        Session::forget('carts');
         return view('payment.vnpay_return');
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> luu_thong_tin_thanh_toan_vnPay
 
     public function index()
     {
@@ -131,10 +117,4 @@ class paymentController extends Controller
         // Hiển thị view (hoặc JSON nếu cần)
         return view('admin.carts.index',['title' => 'Trang Lưu VnPay'], compact('payments'));
     }
-<<<<<<< HEAD
->>>>>>> chi_tiet_blog
-=======
->>>>>>> thanh_toan_vnPay
-=======
->>>>>>> luu_thong_tin_thanh_toan_vnPay
 }

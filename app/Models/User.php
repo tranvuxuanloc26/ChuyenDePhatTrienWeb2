@@ -44,19 +44,4 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
         'password' => 'hashed',
     ];
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function vouchers()
-    {
-        return $this->belongsToMany(Voucher::class, 'user_vouchers')
-            ->withPivot('used')
-            ->withTimestamps();
-    }
-    public function carts(){
-        return $this->hasMany(Customer::class);
-    }
-=======
->>>>>>> them_blog
-=======
->>>>>>> chi_tiet_blog
 }
