@@ -1,5 +1,11 @@
 <!-- Footer -->
-
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="shop_fashion"
+  agent-id="940461f4-8267-494e-a552-099d0ea2b2aa"
+  language-code="vi"
+></df-messenger>
 <footer class="bg3 p-t-75 p-b-32">
     <div class="container">
         <div class="row">
