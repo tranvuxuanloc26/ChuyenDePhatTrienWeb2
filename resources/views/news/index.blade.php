@@ -21,7 +21,7 @@
                                     {{ $item->title }}
                                 </a>
                             </h5>
-                            <p class="card-text" >{!! Str::limit($item->content, 399) !!}</p>
+                            <p class="card-text" >{!! Str::limit($item->content, 400) !!}</p>
                         </div>
                     </div>
                 </div>

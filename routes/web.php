@@ -8,11 +8,10 @@ use App\Http\Controllers\CartController;
 use App\Http\Controllers\MainController;
 use App\Http\Controllers\NewsController;
 use App\Http\Controllers\WishController;
-use App\Http\Controllers\CommentController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\paymentController;
-
 use App\Http\Controllers\CheckoutController;
+
 use App\Http\Controllers\LanguageController;
 use App\Http\Controllers\PasswordController;
 use App\Http\Controllers\WishlistController;
@@ -151,7 +150,7 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 
         Route::get('customers/view/{customer}', [CartAdminController::class, 'show']);
 
-        Route::get('/payments', [paymentController::class, 'index']);
+
         #Role
 
     });
@@ -221,5 +220,3 @@ Route::post('/payment', [paymentController::class, 'payment']);
 Route::post('/saveInForPay', [paymentController::class, 'save']);
 Route::get('/vnpay_return', [paymentController::class, 'vnpay_return']);
 
-Route::post('/comment', [CommentController::class, 'sendComment']);
-Route::get('/list_comment/{id}', [CommentController::class, 'getCommentByBlogID']);

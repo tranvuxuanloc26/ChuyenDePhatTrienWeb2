@@ -17,7 +17,7 @@ class BlogController extends Controller
  # Hiển thị danh sách
     public function list()
     {
-        $blogs = Blog::orderBy('created_at', 'desc')->paginate(1); // Lấy 5 bài đăng mới nhất
+        $blogs = Blog::orderBy('created_at', 'desc')->paginate(5); // Lấy 5 bài đăng mới nhất
     
         return view('blogs.index', compact('blogs', ),
             [
