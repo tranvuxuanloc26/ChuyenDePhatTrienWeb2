@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Product;
+use App\Models\Review;
 use Illuminate\Http\Request;
 use App\Http\Services\Product\ProductServiceScreen;
 
@@ -17,16 +18,16 @@ class ProductControllerScreen extends Controller
      {
               $product = $this->productServiceScreen->show($id);
               $productMore = $this->productServiceScreen->more($id);
-
+              $reviews = Review::where('product_id', $id)->get();
               return view('product.content', [
                    'title' => $product->name,
                    'product' => $product,
                    'products' => $productMore,
+                   'reviews' => $reviews, 
 
 
               ]);
      }
-
      // public function indexQuickView($id = '', $slug = '')
      // {
      //      $product = $this->productServiceScreen->show($id);

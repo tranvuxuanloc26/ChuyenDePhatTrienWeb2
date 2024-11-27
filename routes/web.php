@@ -12,6 +12,7 @@ use App\Http\Controllers\LanguageController;
 use App\Http\Controllers\PasswordController;
 use App\Http\Controllers\WishlistController;
 
+
 use App\Http\Controllers\Admin\MenuController;
 use App\Http\Controllers\MenuControllerScreen;
 use App\Http\Controllers\Auth\GoogleController;
@@ -26,7 +27,9 @@ use App\Http\Controllers\Admin\Users\UserController;
 use App\Http\Controllers\Admin\Users\LoginController;
 use App\Http\Controllers\Auth\ForgotPasswordController;
 use App\Http\Controllers\Admin\Users\RegisterController;
-
+use App\Http\Controllers\ProductReviewController;
+use App\Http\Controllers\ReviewController;
+    
     #Login
     Route::get('admin/users/login', [LoginController::class, 'index'])->name('login');
     Route::post('admin/users/login/store', [LoginController::class, 'store']);
@@ -205,3 +208,6 @@ Route::get('language/{language}', [LanguageController::class, 'index'])->name('l
 
 Route::get('/tintuc', [NewsController::class, 'list'])->name('news.index');
 Route::get('/tintuc/{id}', [NewsController::class, 'detail'])->name('news.detail');
+#Reviews
+Route::get('/products/{product}', [ReviewController::class, 'show'])->name('products.show');
+Route::post('/reviews', [ReviewController::class, 'store'])->name('reviews.store');
