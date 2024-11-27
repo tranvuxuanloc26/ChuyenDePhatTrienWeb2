@@ -45,6 +45,7 @@ class User extends Authenticatable
         'password' => 'hashed',
     ];
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function vouchers()
     {
         return $this->belongsToMany(Voucher::class, 'user_vouchers')
@@ -56,4 +57,6 @@ class User extends Authenticatable
     }
 =======
 >>>>>>> them_blog
+=======
+>>>>>>> chi_tiet_blog
 }

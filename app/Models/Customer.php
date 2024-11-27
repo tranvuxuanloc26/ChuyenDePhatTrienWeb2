@@ -15,24 +15,11 @@ class Customer extends Model
        'phone',
        'address',
        'email',
-       'content',
-       'user_id',
+       'content'
     ];
 
     public function carts(){
         return $this->hasMany(Cart::class, 'customer_id', 'id');
     }
-
-    public function user(){
-        return $this->belongsTo(User::class);
-    }
-
-    public function calculateTotalPrice()
-    {
-        $total = 0;
-        foreach ($this->carts as $cart) {
-            $total += $cart->product->price_sale;
-        }
-        return $total;
-    }
+  
 }

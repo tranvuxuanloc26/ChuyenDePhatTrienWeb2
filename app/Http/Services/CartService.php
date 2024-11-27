@@ -72,7 +72,6 @@ class CartService
     }
 
     public function addCart($request){
-
         try{
             DB::beginTransaction();
             $carts = Session::get('carts');
@@ -83,8 +82,7 @@ class CartService
             'phone' => $request->input('phone'),
             'address' => $request->input('address'),
             'email' => $request->input('email'),
-            'content' => $request->input('content'),
-            'user_id' => auth()->id() ? auth()->id() : null,
+            'content' => $request->input('content')
            ]);
                
            $this->infoProductCart($carts, $customer->id);

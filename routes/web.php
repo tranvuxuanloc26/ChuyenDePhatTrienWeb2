@@ -8,8 +8,10 @@ use App\Http\Controllers\CartController;
 use App\Http\Controllers\MainController;
 use App\Http\Controllers\NewsController;
 use App\Http\Controllers\WishController;
+use App\Http\Controllers\CommentController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\paymentController;
+<<<<<<< HEAD
 use App\Http\Controllers\CheckoutController;
 
 use App\Http\Controllers\LanguageController;
@@ -21,6 +23,13 @@ use App\Http\Controllers\VoucherController;
 
 =======
 >>>>>>> them_blog
+=======
+
+use App\Http\Controllers\CheckoutController;
+use App\Http\Controllers\LanguageController;
+use App\Http\Controllers\PasswordController;
+use App\Http\Controllers\WishlistController;
+>>>>>>> chi_tiet_blog
 use App\Http\Controllers\Admin\MenuController;
 use App\Http\Controllers\MenuControllerScreen;
 use App\Http\Controllers\Auth\GoogleController;
@@ -35,18 +44,25 @@ use App\Http\Controllers\Admin\Users\UserController;
 use App\Http\Controllers\Admin\Users\LoginController;
 use App\Http\Controllers\Auth\ForgotPasswordController;
 use App\Http\Controllers\Admin\Users\RegisterController;
+<<<<<<< HEAD
 use App\Http\Controllers\ProductReviewController;
 use App\Http\Controllers\ReviewController;
     
     #Login
     Route::get('admin/users/login', [LoginController::class, 'index'])->name('login');
     Route::post('admin/users/login/store', [LoginController::class, 'store']);
+=======
 
-    #logout
-    Route::post('admin/users/logout', [LoginController::class, 'logout'])->name('logout');
+#Login
+Route::get('admin/users/login', [LoginController::class, 'index'])->name('login');
+Route::post('admin/users/login/store', [LoginController::class, 'store']);
+>>>>>>> chi_tiet_blog
+
+#logout
+Route::post('admin/users/logout', [LoginController::class, 'logout'])->name('logout');
 
 #Register
-Route::get('admin/users/register', [RegisterController::class,'index'])->name('register');
+Route::get('admin/users/register', [RegisterController::class, 'index'])->name('register');
 Route::post('admin/users/register/store', [RegisterController::class, 'store']);
 #Role
 Route::post('/admin/users/toggle-role/{id}', [UserController::class, 'toggleRole']);
@@ -79,6 +95,7 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 
         // Các route dành cho cả role 1 và role 2 (chỉ truy cập menu, sản phẩm, slider)
         Route::middleware('role:1,2')->group(function () {
+<<<<<<< HEAD
       
                 #Blogs
       Route::prefix('blogs')->group(function () {
@@ -109,23 +126,80 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
             Route::post('edit/{product}', [ProductController::class, 'update']);
             Route::get('detail/{product}', [ProductController::class, 'showDetail']);
             Route::get('/admin/products', [ProductController::class, 'index'])->name('admin.products.index');
+=======
+>>>>>>> chi_tiet_blog
 
-            Route::get('/search', [ProductController::class, 'search'])->name('admin.products.search');
+            #Blogs
+            Route::prefix('blogs')->group(function () {
+                Route::get('/list', [BlogController::class, 'index'])->name('admin.blogs.index');
+                Route::get('/create', [BlogController::class, 'create'])->name('admin.blogs.create');
+                Route::post('/store', [BlogController::class, 'store'])->name('admin.blogs.store');
+                Route::get('/edit/{id}', [BlogController::class, 'edit'])->name('admin.blogs.edit');
+                Route::put('/update/{id}', [BlogController::class, 'update'])->name('admin.blogs.update');
+                Route::delete('/delete/{id}', [BlogController::class, 'destroy'])->name('admin.blogs.destroy');
+                Route::post('/upload/services', [BlogController::class, 'upload'])->name('admin.upload.services');
+            });
+            #News
+            Route::prefix('news')->group(function () {
+                Route::get('/list', [NewsController::class, 'index'])->name('admin.news.index');
+                Route::get('/create', [NewsController::class, 'create'])->name('admin.news.create');
+                Route::post('/store', [NewsController::class, 'store'])->name('admin.news.store');
+                Route::get('/edit/{id}', [NewsController::class, 'edit'])->name('admin.news.edit');
+                Route::put('/update/{id}', [NewsController::class, 'update'])->name('admin.news.update');
+                Route::delete('/delete/{id}', [NewsController::class, 'destroy'])->name('admin.news.destroy');
+                Route::post('/upload/services', [NewsController::class, 'upload'])->name('admin.upload.services');
+            });
+            #Product
+            Route::prefix('products')->group(function () {
+                Route::get('add', [ProductController::class, 'create']);
+                Route::post('add', [ProductController::class, 'store']);
+                Route::get('list', [ProductController::class, 'index']);
+                Route::get('edit/{product}', [ProductController::class, 'show']);
+                Route::post('edit/{product}', [ProductController::class, 'update']);
+                Route::get('detail/{product}', [ProductController::class, 'showDetail']);
+                Route::get('/admin/products', [ProductController::class, 'index'])->name('admin.products.index');
 
-            Route::DELETE('destroy', [ProductController::class, 'destroy']);
+                Route::get('/search', [ProductController::class, 'search'])->name('admin.products.search');
 
+                Route::DELETE('destroy', [ProductController::class, 'destroy']);
+            });
+
+            #Slider
+            Route::prefix('sliders')->group(function () {
+                Route::get('add', [SliderController::class, 'create']);
+                Route::post('add', [SliderController::class, 'store']);
+                Route::get('list', [SliderController::class, 'index']);
+                Route::get('edit/{slider}', [SliderController::class, 'show']);
+                Route::post('edit/{slider}', [SliderController::class, 'update']);
+                Route::DELETE('destroy', [SliderController::class, 'destroy']);
+            });
         });
 
-        #Slider
-        Route::prefix('sliders')->group(function () {
-            Route::get('add', [SliderController::class, 'create']);
-            Route::post('add', [SliderController::class, 'store']);
-            Route::get('list', [SliderController::class, 'index']);
-            Route::get('edit/{slider}', [SliderController::class, 'show']);
-            Route::post('edit/{slider}', [SliderController::class, 'update']);
-            Route::DELETE('destroy', [SliderController::class, 'destroy']);
+        // Các route chỉ dành cho role 2 (truy cập được tất cả các route)
+        Route::middleware('role:2')->group(function () {
 
+
+            #Menu
+            Route::prefix('menus')->group(function () {
+                Route::get('add', [MenuController::class, 'create']);
+                Route::post('add', [MenuController::class, 'store']);
+                Route::get('list', [MenuController::class, 'index']);
+                Route::get('edit/{menu}', [MenuController::class, 'show']);
+                Route::post('edit/{menu}', [MenuController::class, 'update']);
+                Route::get('detail/{menu}', [MenuController::class, 'showDetail']);
+
+                Route::DELETE('destroy', [MenuController::class, 'destroy']);
+            });
+
+            #User
+            Route::prefix('users')->group(function () {
+
+                Route::get('list', [UserController::class, 'index']);
+                Route::get('search', [UserController::class, 'search'])->name('admin.users.search'); // Route tìm kiếm
+                Route::DELETE('destroy', [UserController::class, 'destroy']);
+            });
         });
+<<<<<<< HEAD
       
     });
 
@@ -158,6 +232,8 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
           
     
     });
+=======
+>>>>>>> chi_tiet_blog
         #Upload
         Route::post('upload/services', [UploadController::class, 'store']);
 
@@ -167,15 +243,19 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
         Route::get('customers/view/{customer}', [CartAdminController::class, 'show']);
 <<<<<<< HEAD
 
+<<<<<<< HEAD
         Route::post('customers/update-status', [CartAdminController::class, 'updateStatus']);
 =======
 >>>>>>> them_blog
      
 
    #Role
+=======
+        Route::get('/payments', [paymentController::class, 'index']);
+        #Role
+>>>>>>> chi_tiet_blog
 
     });
-
 });
 
 
@@ -221,9 +301,6 @@ Route::middleware(['auth'])->group(function () {
     Route::post('/change-password', [PasswordController::class, 'updatePassword'])->name('password.update');
     Route::post('wish-list', [WishlistController::class, 'index'])->name('wishlist.add');
     Route::get('wishlists', [WishlistController::class, 'show'])->name('wishlist.show');
-
-    Route::get('purchase-history', [CartController::class, 'purchaseHistory'])->name('purchase.history');
-    Route::get('purchase-history/{id}', [CartController::class, 'showPurchaseHistory'])->name('purchase.history.show');
 });
 
 Route::get('/contact', [ContactController::class, 'index'])->name('contact.index');
@@ -236,14 +313,18 @@ Route::get('language/{language}', [LanguageController::class, 'index'])->name('l
 Route::get('/tintuc', [NewsController::class, 'list'])->name('news.index');
 Route::get('/tintuc/{id}', [NewsController::class, 'detail'])->name('news.detail');
 <<<<<<< HEAD
+<<<<<<< HEAD
 #Reviews
 Route::get('/products/{product}', [ReviewController::class, 'show'])->name('products.show');
 Route::post('/reviews', [ReviewController::class, 'store'])->name('reviews.store');
 =======
+=======
+>>>>>>> chi_tiet_blog
 
 Route::get('/baidang', [BlogController::class, 'list'])->name('blogs.index');
 Route::get('/baidang/{id}', [BlogController::class, 'detail'])->name('blogs.detail');
 #Cổng thanh toán
+<<<<<<< HEAD
 Route::post('/vnpay_payment',[CheckoutController::class,'vnpay_payment'])->name('vnpay_payment');
 
 Route::get('/payment',[paymentController::class,'payment']);
@@ -252,3 +333,13 @@ Route::get('/payment',[paymentController::class,'payment']);
  
   
 >>>>>>> them_blog
+=======
+Route::post('/vnpay_create_payment', [paymentController::class, 'createPayment'])->name('createPayment');
+
+Route::post('/payment', [paymentController::class, 'payment']);
+Route::post('/saveInForPay', [paymentController::class, 'save']);
+Route::get('/vnpay_return', [paymentController::class, 'vnpay_return']);
+
+Route::post('/comment', [CommentController::class, 'sendComment']);
+Route::get('/list_comment/{id}', [CommentController::class, 'getCommentByBlogID']);
+>>>>>>> chi_tiet_blog

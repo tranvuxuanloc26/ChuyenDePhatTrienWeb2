@@ -165,6 +165,7 @@
                     </div>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <div class="text-center">
                         <span class="text-danger">Đăng nhập để được xem lịch sử mua hàng</span>
                     </div>
@@ -183,18 +184,34 @@
                             Thanh toán MoMo
                         </button>
 
+=======
+                        <button class="flex-c-m stext-101 cl0 size-116 bg3 bor14 hov-btn3 p-lr-15 trans-04 pointer">
+                            Thanh toán COD
+                        </button>
+                 
+                        
+                       <!-- Nút Thanh toán MoMo -->
+                        <button class="mt-3 flex-c-m stext-101 cl0 size-116 bg-danger bor14 hov-btn3 p-lr-15 trans-04 pointer">
+                            Thanh toán MoMo
+                        </button>
+
+>>>>>>> chi_tiet_blog
                         
                         
                         
 
                     
+<<<<<<< HEAD
 >>>>>>> them_blog
+=======
+>>>>>>> chi_tiet_blog
                 </div>
             </div>
         </div>
     </div>
  
 </form>
+<<<<<<< HEAD
 <form action="/payment" method="GET">
     @csrf
     <button type="submit" name="redirect" class="mt-3 vnpay-button flex-c-m stext-101 cl0 size-116 bg-success bor14 hov-btn3 p-lr-15 trans-04 pointer">
@@ -202,6 +219,16 @@
     </button>
 </form>
   
+=======
+<form action="/payment"  method="POST">
+    @csrf
+    <input type="text" hidden name="total" value="{{ $total }}">
+    <button type="submit"  id="vnpay-btn" name="redirect" class="mt-3 vnpay-button flex-c-m stext-101 cl0 size-116 bg-success bor14 hov-btn3 p-lr-15 trans-04 pointer">
+        Thanh toán VNPay
+    </button>
+</form>
+
+>>>>>>> chi_tiet_blog
 
 @else
 <div class="text-center"><h2>Giỏ hàng trống</h2></div>

@@ -188,6 +188,10 @@
                   <i class="far fa-circle nav-icon"></i>
                   <p>Danh sách Đơn Hàng</p>
                 </a>
+                <a href="/admin/payments" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Danh sách VnPay</p>
+                </a>
               </li>
             </ul>
           </li>

@@ -21,7 +21,11 @@
                                     {{ $item->title }}
                                 </a>
                             </h5>
+<<<<<<< HEAD
                             <p class="card-text" >{!! Str::limit($item->content, 400) !!}</p>
+=======
+                            <p class="card-text" >{!! Str::limit($item->content, 399) !!}</p>
+>>>>>>> chi_tiet_blog
                         </div>
                     </div>
                 </div>

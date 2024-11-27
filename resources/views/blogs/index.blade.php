@@ -22,9 +22,16 @@
 				<div class="col-md-8 col-lg-9 p-b-80">
 					<div class="p-r-45 p-r-0-lg">
 						<!-- item blog -->
+<<<<<<< HEAD
 						<div class="p-b-63">
 							<a href="blog-detail.html" class="hov-img0 how-pos5-parent">
 								<img src="/template/images/blog-04.jpg" alt="IMG-BLOG">
+=======
+                        @foreach($blogs as $item)
+						<div class="p-b-63">
+							<a href="{{ route('blogs.detail', ['id' => $item->id]) }}" class="hov-img0 how-pos5-parent">
+								<img src="{{ $item->thumb }}" alt="IMG-BLOG">
+>>>>>>> chi_tiet_blog
 
 								<div class="flex-col-c-m size-123 bg9 how-pos5">
 									<span class="ltext-107 cl2 txt-center">
@@ -39,13 +46,22 @@
 
 							<div class="p-t-32">
 								<h4 class="p-b-15">
+<<<<<<< HEAD
 									<a href="blog-detail.html" class="ltext-108 cl2 hov-cl1 trans-04">
 										8 Inspiring Ways to Wear Dresses in the Winter
+=======
+									<a href="{{ route('blogs.detail', ['id' => $item->id]) }}" class="ltext-108 cl2 hov-cl1 trans-04">
+										{{ $item->title }}
+>>>>>>> chi_tiet_blog
 									</a>
 								</h4>
 
 								<p class="stext-117 cl6">
+<<<<<<< HEAD
 									Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce eget dictum tortor. Donec dictum vitae sapien eu varius
+=======
+                                    {!! Str::limit($item->content, 400) !!}
+>>>>>>> chi_tiet_blog
 								</p>
 
 								<div class="flex-w flex-sb-m p-t-18">
@@ -65,7 +81,11 @@
 										</span>
 									</span>
 
+<<<<<<< HEAD
 									<a href="blog-detail.html" class="stext-101 cl2 hov-cl1 trans-04 m-tb-10">
+=======
+									<a href="{{ route('blogs.detail', ['id' => $item->id]) }}" class="stext-101 cl2 hov-cl1 trans-04 m-tb-10">
+>>>>>>> chi_tiet_blog
 										Continue Reading
 
 										<i class="fa fa-long-arrow-right m-l-9"></i>
@@ -73,6 +93,7 @@
 								</div>
 							</div>
 						</div>
+<<<<<<< HEAD
 
 						<!-- item blog -->
 						<div class="p-b-63">
@@ -190,6 +211,54 @@
 								2
 							</a>
 						</div>
+=======
+                        @endforeach
+
+						
+
+						<!-- Pagination -->
+                         <!-- Phân trang -->
+        <div class="flex-l-m flex-w w-full p-t-10 m-lr--7">
+            <!-- Duyệt qua các trang phân trang và tạo các liên kết -->
+            @foreach ($blogs->links()->elements[0] as $page => $url)
+                <a href="{{ $url }}" class="flex-c-m how-pagination1 trans-04 m-all-7 {{ $blogs->currentPage() == $page ? 'active-pagination1' : '' }}">
+                    {{ $page }}
+                </a>
+            @endforeach
+        </div>
+
+                        <style>
+                            /* Căn giữa các phần tử trong phân trang */
+.flex-c-m {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Định dạng nút phân trang */
+.how-pagination1 {
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    text-decoration: none;
+    margin: 0 5px;
+    font-size: 16px;
+}
+
+/* Đánh dấu trang hiện tại */
+.active-pagination1 {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Hiệu ứng khi di chuột vào nút phân trang */
+.how-pagination1:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+                        </style>
+>>>>>>> chi_tiet_blog
 					</div>
 				</div>
 
