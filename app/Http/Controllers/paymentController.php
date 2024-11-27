@@ -18,7 +18,6 @@ class paymentController extends Controller
 use Carbon\Carbon;
 use App\Models\Payment;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Session;
 
 class paymentController extends Controller
 {
@@ -96,7 +95,6 @@ class paymentController extends Controller
         }
 
         header('Location: ' . $vnp_Url);
-        
         die();
     }
 
@@ -118,9 +116,9 @@ class paymentController extends Controller
     public function vnpay_return()
     {
 
-        Session::forget('carts');
         return view('payment.vnpay_return');
     }
+<<<<<<< HEAD
 
     public function index()
     {
@@ -131,4 +129,6 @@ class paymentController extends Controller
         return view('admin.carts.index',['title' => 'Trang Lưu VnPay'], compact('payments'));
     }
 >>>>>>> chi_tiet_blog
+=======
+>>>>>>> thanh_toan_vnPay
 }
