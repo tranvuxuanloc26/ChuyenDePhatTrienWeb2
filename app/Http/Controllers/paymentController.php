@@ -105,4 +105,13 @@ class paymentController extends Controller
 
         return view('payment.vnpay_return');
     }
+
+    public function index()
+    {
+        // Lấy toàn bộ dữ liệu từ bảng payments
+        $payments = Payment:: paginate(10);
+
+        // Hiển thị view (hoặc JSON nếu cần)
+        return view('admin.carts.index',['title' => 'Trang Lưu VnPay'], compact('payments'));
+    }
 }

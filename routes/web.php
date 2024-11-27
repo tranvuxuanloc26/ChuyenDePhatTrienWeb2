@@ -150,7 +150,7 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 
         Route::get('customers/view/{customer}', [CartAdminController::class, 'show']);
 
-
+        Route::get('/payments', [paymentController::class, 'index']);
         #Role
 
     });
@@ -219,4 +219,7 @@ Route::post('/vnpay_create_payment', [paymentController::class, 'createPayment']
 Route::post('/payment', [paymentController::class, 'payment']);
 Route::post('/saveInForPay', [paymentController::class, 'save']);
 Route::get('/vnpay_return', [paymentController::class, 'vnpay_return']);
+
+
+
 
