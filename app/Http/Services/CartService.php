@@ -198,11 +198,12 @@ class CartService
 
 
            Session::forget('carts');
+           Session::forget('discount');
 
         }catch(\Exception $err){
             DB::rollback();
             Session::flash('error', 'Đặt Hàng Lỗi . Vui lòng thử lại sau');
-            Log::debug($err->getMessage());
+            \Log::debug($err->getMessage());
             return false;
         }
         return true;
