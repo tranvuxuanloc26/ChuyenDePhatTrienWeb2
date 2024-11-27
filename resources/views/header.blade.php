@@ -47,10 +47,10 @@
                     <ul id="navbuttons" class="main-menu ">
                         {!! $menuHtml !!}
                         <li>
-
                             <a href="/tintuc">Tin Tức</a>
-
-                          
+                        </li>
+                        <li>
+                            <a href="/baidang">Blog</a>
                         </li>
 
                         {{-- <li >

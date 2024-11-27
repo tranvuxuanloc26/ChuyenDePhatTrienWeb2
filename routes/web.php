@@ -3,16 +3,18 @@
 use Illuminate\Support\Facades\App;
 use App\Http\Services\UploadService;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\BlogController;
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\MainController;
 use App\Http\Controllers\NewsController;
 use App\Http\Controllers\WishController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\paymentController;
+use App\Http\Controllers\CheckoutController;
+
 use App\Http\Controllers\LanguageController;
 use App\Http\Controllers\PasswordController;
 use App\Http\Controllers\WishlistController;
-use App\Http\Controllers\VoucherController;
-
 use App\Http\Controllers\Admin\MenuController;
 use App\Http\Controllers\MenuControllerScreen;
 use App\Http\Controllers\Auth\GoogleController;
@@ -69,7 +71,18 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 
         // Các route dành cho cả role 1 và role 2 (chỉ truy cập menu, sản phẩm, slider)
         Route::middleware('role:1,2')->group(function () {
-      #News
+      
+                #Blogs
+      Route::prefix('blogs')->group(function () {
+        Route::get('/list', [BlogController::class, 'index'])->name('admin.blogs.index');
+        Route::get('/create', [BlogController::class, 'create'])->name('admin.blogs.create');
+        Route::post('/store', [BlogController::class, 'store'])->name('admin.blogs.store');
+        Route::get('/edit/{id}', [BlogController::class, 'edit'])->name('admin.blogs.edit');
+        Route::put('/update/{id}', [BlogController::class, 'update'])->name('admin.blogs.update');
+        Route::delete('/delete/{id}', [BlogController::class, 'destroy'])->name('admin.blogs.destroy');
+        Route::post('/upload/services', [BlogController::class, 'upload'])->name('admin.upload.services');
+    });
+            #News
       Route::prefix('news')->group(function () {
         Route::get('/list', [NewsController::class, 'index'])->name('admin.news.index');
         Route::get('/create', [NewsController::class, 'create'])->name('admin.news.create');
@@ -105,16 +118,12 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
             Route::DELETE('destroy', [SliderController::class, 'destroy']);
 
         });
-
-        Route::resource('voucher', VoucherController::class);
-        Route::get('/userVoucher', [VoucherController::class, 'indexUser'])->name('admin.voucher.indexUser');
-        Route::get('/send-by-email', [VoucherController::class, 'showSendForm'])->name('admin.voucher.showSendForm');
-        Route::post('/send-by-email', [VoucherController::class, 'sendVoucherByEmail'])->name('admin.voucher.sendByEmail');
+      
     });
 
       // Các route chỉ dành cho role 2 (truy cập được tất cả các route)
       Route::middleware('role:2')->group(function () {
-
+     
 
           #Menu
           Route::prefix('menus')->group(function () {
@@ -130,7 +139,7 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 
            #User
          Route::prefix('users')->group(function () {
-
+          
             Route::get('list', [UserController::class, 'index']);
             Route::get('search', [UserController::class, 'search'])->name('admin.users.search'); // Route tìm kiếm
             Route::DELETE('destroy', [UserController::class, 'destroy']);
@@ -138,8 +147,8 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 
 
         });
-
-
+          
+    
     });
         #Upload
         Route::post('upload/services', [UploadController::class, 'store']);
@@ -148,7 +157,7 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
         Route::get('customers', [CartAdminController::class, 'index']);
 
         Route::get('customers/view/{customer}', [CartAdminController::class, 'show']);
-
+     
 
    #Role
 
@@ -181,7 +190,7 @@ Route::post('update-cart', [CartController::class, 'update']);
 Route::get('carts/delete/{id}', [CartController::class, 'remove']);
 Route::post('carts', [CartController::class, 'addCart']);
 
-#Đăng nhập gmail
+#Đăng nhập gmail 
 Route::get('auth/google', [GoogleController::class, 'redirectToGoogle']);
 Route::get('auth/google/callback', [GoogleController::class, 'handleGoogleCallback']);
 
@@ -210,3 +219,14 @@ Route::get('language/{language}', [LanguageController::class, 'index'])->name('l
 
 Route::get('/tintuc', [NewsController::class, 'list'])->name('news.index');
 Route::get('/tintuc/{id}', [NewsController::class, 'detail'])->name('news.detail');
+
+Route::get('/baidang', [BlogController::class, 'list'])->name('blogs.index');
+Route::get('/baidang/{id}', [BlogController::class, 'detail'])->name('blogs.detail');
+#Cổng thanh toán
+Route::post('/vnpay_payment',[CheckoutController::class,'vnpay_payment'])->name('vnpay_payment');
+
+Route::get('/payment',[paymentController::class,'payment']);
+  
+  
+ 
+  
