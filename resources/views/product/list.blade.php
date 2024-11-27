@@ -42,12 +42,6 @@
             </button>
         </form>
     </div>
-    
-</div>
-<div>
-    @if ($product->total_qty)
-        {{ $product->total_qty }} Sản phẩm đã bán
-    @endif
 </div>
 
         </div>

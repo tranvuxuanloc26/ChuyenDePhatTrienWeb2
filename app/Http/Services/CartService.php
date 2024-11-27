@@ -7,9 +7,6 @@ use App\Models\Cart;
 use App\Jobs\SendMail;
 use App\Models\Product;
 use App\Models\Customer;
-use App\Models\UserVoucher;
-use App\Models\Voucher;
-use Carbon\Carbon;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\DB;
 
@@ -26,13 +23,13 @@ class CartService
 
         $carts = Session::get('carts');
         // dd($carts);
-        if(is_null($carts)){
+        if(is_null($carts)){        
            Session::put('carts', [
                 $product_id => $qty
             ]);
         return true;
         }
-
+    
         $exists = Arr::exists($carts, $product_id);
         if($exists){
             $carts[$product_id]  =  $carts[$product_id] + $qty ;
@@ -43,7 +40,7 @@ class CartService
           Session::put('carts', $carts);
 
         return true;
-
+    
     }
 
     public function getProduct(){
@@ -57,106 +54,11 @@ class CartService
         ->get();
     }
 
-    public function update($request)
-    {
-
+    public function update($request){
         Session::put('carts', $request->input('num_product'));
 
-        $couponCode = $request->input('coupon');
+        return true;
 
-        $cartTotal = $this->calculateCartTotal();
-        $discount = $this->applyCoupon($couponCode, $cartTotal);
-
-        Session::put('discount', $discount);
-
-        return redirect()->back()->with('success', 'Giỏ hàng đã được cập nhật!');
-    }
-
-    private function calculateCartTotal()
-    {
-
-        $cartTotal = 0;
-        $carts = Session::get('carts', []);
-        foreach ($carts as $productId => $quantity) {
-            $product = Product::find($productId);
-            if ($product) {
-                $price = $product->price_sale != 0 ? $product->price_sale : $product->price;
-                $cartTotal += $price * $quantity;
-            }
-        }
-        return $cartTotal;
-    }
-
-    private function applyCoupon($couponCode, $cartTotal)
-    {
-        if (!$couponCode) {
-            Session::flash('error', 'Vui lòng nhập mã giảm giá!');
-            return 0;
-        }
-
-
-        $voucher = Voucher::where('code', $couponCode)->first();
-        if ($voucher->expired_at < Carbon::now()) {
-            UserVoucher::where('voucher_id', $voucher->id)
-                       ->where('status', 'unused')
-                       ->update(['status' => 'expired']);
-
-            Session::flash('error', 'Mã giảm giá đã hết hạn!');
-            return 0;
-        }
-        if (!$voucher) {
-            Session::flash('error', 'Mã giảm giá không hợp lệ!');
-            return 0;
-        }
-
-
-        if ($voucher->expired_at < now()) {
-            Session::flash('error', 'Mã giảm giá đã hết hạn!');
-            return 0;
-        }
-        $userVoucher = UserVoucher::where('user_id', auth()->id())
-                        ->where('voucher_id', $voucher->id)
-                        ->whereIn('status', ['unused', 'used'])
-                        ->first();
-        if ($userVoucher) {
-            if ($userVoucher->status === 'used') {
-                Session::flash('error', 'Bạn đã sử dụng mã giảm giá này rồi!');
-                return 0;
-            }
-        }
-        if (!$voucher->active) {
-            Session::flash('error', 'Mã giảm giá không khả dụng!');
-            return 0;
-        }
-
-
-        if ($voucher->min_order_value && $cartTotal < $voucher->min_order_value) {
-            Session::flash('error', 'Giá trị đơn hàng không đủ để áp dụng mã giảm giá!');
-            return 0;
-        }
-
-
-        $discount = 0;
-        if ($voucher->discount_type === 'percent') {
-            $discount = ($cartTotal * $voucher->discount_value) / 100;
-            if ($voucher->max_discount && $discount > $voucher->max_discount) {
-                $discount = $voucher->max_discount;
-            }
-        } else if ($voucher->discount_type === 'amount') {
-            $discount = $voucher->discount_value;
-            if ($discount > $cartTotal) {
-                $discount = $cartTotal;
-            }
-        }
-
-        UserVoucher::updateOrCreate(
-            ['user_id' => auth()->id(), 'voucher_id' => $voucher->id],
-            ['status' => 'used', 'updated_at' => now()]
-        );
-        // Lưu thông báo thành công
-        Session::flash('success', 'Mã giảm giá đã được áp dụng thành công!');
-
-        return $discount;
     }
 
     public function remove($id){
@@ -165,15 +67,11 @@ class CartService
         unset($carts[$id]);
 
         Session::put('carts', $carts);
-
-        Session::forget('discount');
-
         return true;
 
     }
 
     public function addCart($request){
-
         try{
             DB::beginTransaction();
             $carts = Session::get('carts');
@@ -184,10 +82,9 @@ class CartService
             'phone' => $request->input('phone'),
             'address' => $request->input('address'),
             'email' => $request->input('email'),
-            'content' => $request->input('content'),
-            'user_id' => auth()->id() ? auth()->id() : null,
+            'content' => $request->input('content')
            ]);
-
+               
            $this->infoProductCart($carts, $customer->id);
 
            DB::commit();
@@ -200,17 +97,15 @@ class CartService
 
 
            Session::forget('carts');
-           Session::forget('discount');
-
+           
         }catch(\Exception $err){
             DB::rollback();
             Session::flash('error', 'Đặt Hàng Lỗi . Vui lòng thử lại sau');
-            \Log::debug($err->getMessage());
             return false;
         }
         return true;
     }
-
+    
     protected function infoProductCart($carts, $customer_id){
        
         $productId = array_keys($carts);
@@ -258,13 +153,13 @@ class CartService
 
         $wishlishs = Session::get('wishlishs');
         // dd($carts);
-        if(is_null($wishlishs)){
+        if(is_null($wishlishs)){        
            Session::put('wishlishs', [
                 $product_id => $qty
             ]);
         return true;
         }
-
+    
         $exists = Arr::exists($wishlishs, $product_id);
         if($exists){
             $wishlishs[$product_id]  =  $wishlishs[$product_id] + $qty ;
@@ -275,7 +170,7 @@ class CartService
           Session::put('wishlishs', $wishlishs);
 
         return true;
-
+    
     }
 
     public function getProductWish(){

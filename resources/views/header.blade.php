@@ -47,10 +47,10 @@
                     <ul id="navbuttons" class="main-menu ">
                         {!! $menuHtml !!}
                         <li>
-
                             <a href="/tintuc">Tin Tức</a>
-
-                          
+                        </li>
+                        <li>
+                            <a href="/baidang">Blog</a>
                         </li>
 
                         {{-- <li >
@@ -117,7 +117,6 @@
                             </span>
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
                                 <li><a class="dropdown-item" href="/user/profile">Thông tin người dùng</a></li>
-                                <li><a class="dropdown-item" href="{{ route('purchase.history') }}">Lịch sử mua hàng</a></li>
                                 <li><a class="dropdown-item" href="/change-password">Đổi mật khẩu</a></li>
                                 <!-- Kiểm tra nếu người dùng có role là 1 hoặc 2 thì hiển thị -->
                                 @if(Auth::check() && (Auth::user()->role == 1 || Auth::user()->role == 2))

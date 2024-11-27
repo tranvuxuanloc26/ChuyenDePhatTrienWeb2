@@ -20,6 +20,7 @@ class CartAdminController extends Controller
          ]);
     }
 
+
     public function show(Customer $customer){
         $carts = $this->cart->getProductForCart($customer);
           return view('admin.carts.detail',[
@@ -27,19 +28,5 @@ class CartAdminController extends Controller
             'customer' => $customer,
             'carts' => $carts
           ]);
-    }
-
-    public function updateStatus(Request $request)
-    {
-        $customer = Customer::find($request->customer_id);
-        if ($customer) {
-            if (in_array($customer->status, ['completed', 'cancelled'])) {
-                return response()->json(['success' => false, 'message' => 'Không thể thay đổi trạng thái nếu đã Hoàn Thành hoặc Đã hủy'], 400);
-            }
-            $customer->status = $request->status;
-            $customer->save();
-            return response()->json(['success' => true]);
-        }
-        return response()->json(['success' => false], 400);
     }
 }

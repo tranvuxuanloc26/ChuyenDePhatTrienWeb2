@@ -2,46 +2,45 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\News;
-use App\Models\Product;
+use App\Models\Blog;
 use Illuminate\Http\Request;
 
-class NewsController extends Controller
+class BlogController extends Controller
 {
     public function index()
     {
-        $news = News::all();
-        return view('admin.news.index', compact('news'),[
-            'title' => 'Danh sách tin tức'
+        $blogs = Blog::all();
+        return view('admin.blogs.index', compact('blogs'),[
+            'title' => 'Danh sách bài đăng'
         ]);
     }
  # Hiển thị danh sách
     public function list()
     {
-        $news = News::orderBy('created_at', 'desc')->paginate(5); // Lấy 5 tin tức mới nhất
+        $blogs = Blog::orderBy('created_at', 'desc')->paginate(1); // Lấy 5 bài đăng mới nhất
     
-        return view('news.index', compact('news', ),
+        return view('blogs.index', compact('blogs', ),
             [
-            'title' => 'Trang tin tức'
+            'title' => 'Trang bài đăng'
         
         ]);
     }
     public function detail($id)
     {
-        // Lấy tin tức theo ID
-        $news = News::findOrFail($id);
+        // Lấy bài đăng theo ID
+        $blogs = Blog::findOrFail($id);
     
-        return view('news.detail', [
-            'news' => $news,
-            'title' => $news->title,
+        return view('blogs.detail', [
+            'blogs' => $blogs,
+            'title' => $blogs->title,
         ]);
     }
     
 
     public function create()
     {
-        return view('admin.news.create', [
-            'title' => 'Thêm Tin Tức'
+        return view('admin.blogs.create', [
+            'title' => 'Thêm bài đăng'
         ]);
     }
 
@@ -53,16 +52,16 @@ class NewsController extends Controller
             'thumb' => 'required|string',
         ]);
 
-        News::create($request->only('title', 'content', 'thumb'));
+        Blog::create($request->only('title', 'content', 'thumb'));
 
-        return redirect()->route('admin.news.index')->with('success', 'Tin tức đã được tạo thành công.');
+        return redirect()->route('admin.blogs.index')->with('success', 'bài đăng đã được tạo thành công.');
     }
 
     public function edit($id)
     {
-        $news = News::findOrFail($id);
-        return view('admin.news.edit', compact('news'),[
-            'title' => 'Sửa Tin Tức'
+        $blogs = Blog::findOrFail($id);
+        return view('admin.blogs.edit', compact('blogs'),[
+            'title' => 'Sửa bài đăng'
         ]);
     }
 
@@ -74,18 +73,18 @@ class NewsController extends Controller
             'thumb' => 'required|string',
         ]);
 
-        $news = News::findOrFail($id);
-        $news->update($request->only('title', 'content', 'thumb'));
+        $blogs = Blog::findOrFail($id);
+        $blogs->update($request->only('title', 'content', 'thumb'));
 
-        return redirect()->route('admin.news.index')->with('success', 'Tin tức đã được cập nhật.');
+        return redirect()->route('admin.blogs.index')->with('success', 'bài đăng đã được cập nhật.');
     }
 
     public function destroy($id)
     {
-        $news = News::findOrFail($id);
-        $news->delete();
+        $blogs = Blog::findOrFail($id);
+        $blogs->delete();
 
-        return response()->json(['error' => false, 'message' => 'Tin tức đã được xóa.']);
+        return response()->json(['error' => false, 'message' => 'bài đăng đã được xóa.']);
     }
 
     public function upload(Request $request)
