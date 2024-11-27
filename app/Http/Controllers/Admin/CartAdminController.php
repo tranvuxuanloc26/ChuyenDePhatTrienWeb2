@@ -20,6 +20,7 @@ class CartAdminController extends Controller
          ]);
     }
 
+
     public function show(Customer $customer){
         $carts = $this->cart->getProductForCart($customer);
           return view('admin.carts.detail',[
