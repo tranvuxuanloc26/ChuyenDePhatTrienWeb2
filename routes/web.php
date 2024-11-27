@@ -11,6 +11,7 @@ use App\Http\Controllers\ContactController;
 use App\Http\Controllers\LanguageController;
 use App\Http\Controllers\PasswordController;
 use App\Http\Controllers\WishlistController;
+use App\Http\Controllers\VoucherController;
 
 use App\Http\Controllers\Admin\MenuController;
 use App\Http\Controllers\MenuControllerScreen;
@@ -104,12 +105,16 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
             Route::DELETE('destroy', [SliderController::class, 'destroy']);
 
         });
-      
+
+        Route::resource('voucher', VoucherController::class);
+        Route::get('/userVoucher', [VoucherController::class, 'indexUser'])->name('admin.voucher.indexUser');
+        Route::get('/send-by-email', [VoucherController::class, 'showSendForm'])->name('admin.voucher.showSendForm');
+        Route::post('/send-by-email', [VoucherController::class, 'sendVoucherByEmail'])->name('admin.voucher.sendByEmail');
     });
 
       // Các route chỉ dành cho role 2 (truy cập được tất cả các route)
       Route::middleware('role:2')->group(function () {
-     
+
 
           #Menu
           Route::prefix('menus')->group(function () {
@@ -125,7 +130,7 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 
            #User
          Route::prefix('users')->group(function () {
-          
+
             Route::get('list', [UserController::class, 'index']);
             Route::get('search', [UserController::class, 'search'])->name('admin.users.search'); // Route tìm kiếm
             Route::DELETE('destroy', [UserController::class, 'destroy']);
@@ -133,8 +138,8 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 
 
         });
-          
-    
+
+
     });
         #Upload
         Route::post('upload/services', [UploadController::class, 'store']);
@@ -143,7 +148,7 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
         Route::get('customers', [CartAdminController::class, 'index']);
 
         Route::get('customers/view/{customer}', [CartAdminController::class, 'show']);
-     
+
 
    #Role
 
@@ -176,7 +181,7 @@ Route::post('update-cart', [CartController::class, 'update']);
 Route::get('carts/delete/{id}', [CartController::class, 'remove']);
 Route::post('carts', [CartController::class, 'addCart']);
 
-#Đăng nhập gmail 
+#Đăng nhập gmail
 Route::get('auth/google', [GoogleController::class, 'redirectToGoogle']);
 Route::get('auth/google/callback', [GoogleController::class, 'handleGoogleCallback']);
 

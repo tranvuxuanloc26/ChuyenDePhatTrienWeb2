@@ -53,25 +53,25 @@
                                 </td>
                             </tr>
                               @endforeach
-                           
 
-                          
+
+
                         </tbody>
-                     
+
                     </table>
                     </div>
 
                     <div class="flex-w flex-sb-m bor15 p-t-18 p-b-15 p-lr-40 p-lr-15-sm">
                         <div class="flex-w flex-m m-r-20 m-tb-5">
                             <input class="stext-104 cl2 plh4 size-117 bor13 p-lr-20 m-r-10 m-tb-5" type="text" name="coupon" placeholder="Coupon Code">
-                                
-                            <div class="flex-c-m stext-101 cl2 size-118 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer m-tb-5">
+
+                            {{-- <div class="flex-c-m stext-101 cl2 size-118 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer m-tb-5">
                                 Apply coupon
-                            </div>
+                            </div> --}}
                         </div>
 
                         <input type="submit" value="Update Cart" formaction="/update-cart" class="flex-c-m stext-101 cl2 size-119 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer m-tb-10">
-                        
+
                         @csrf
                     </div>
                 </div>
@@ -96,7 +96,20 @@
                             </span>
                         </div>
                     </div>
-
+                    @if(Session::has('discount'))
+                            <div class="flex-w flex-t bor12 p-b-13">
+                                <div class="size-208">
+                                    <span class="stext-110 cl2 ">
+                                        Discount:
+                                    </span>
+                                </div>
+                                <div class="size-209">
+                                    <span class="mtext-110 cl2">
+                                        {{ Session::has('discount') && Session::get('discount') != 0 ? '-' . number_format(Session::get('discount'), 0, '', '.') . ' Đ' : '0 Đ' }}
+                                    </span>
+                                </div>
+                            </div>
+                    @endif
                     <div class="flex-w flex-t bor12 p-t-15 p-b-30">
                         {{-- <div class="size-208 w-full-ssm">
                             <span class="stext-110 cl2">
@@ -108,7 +121,7 @@
                             {{-- <p class="stext-111 cl6 p-t-2">
                                 There are no shipping methods available. Please double check your address, or contact us if you need any help.
                             </p> --}}
-                            
+
                             <div class="p-t-15">
                                 <span class="stext-112 cl8">
                                     THÔNG TIN KHÁCH HÀNG
@@ -126,7 +139,7 @@
                                 <div class="bor8 bg0 m-b-12">
                                     <input class="stext-111 cl8 plh3 size-111 p-lr-15" type="text" name="name" placeholder="Tên Khách Hàng" >
                                 </div>
-                                 
+
                                 <div class="bor8 bg0 m-b-12">
                                     <input class="stext-111 cl8 plh3 size-111 p-lr-15" type="text" name="phone" placeholder="Số Điện Thoại" >
                                 </div>
@@ -142,10 +155,10 @@
                                 <div class="bor8 bg0 m-b-12">
                                     <textarea class="stext-111 cl8 plh3 size-111 p-lr-15" type="text" name="content" placeholder="Ghi Chú"></textarea>
                                 </div>
-                          
-                                
-                            
-                                    
+
+
+
+
                             </div>
                         </div>
                     </div>
@@ -159,7 +172,11 @@
 
                         <div class="size-209 p-t-1">
                             <span class="mtext-110 cl2">
-                                {{ number_format($total, '0', '', '.') }} Đ
+                                @if(Session::has('discount'))
+                                    {{ number_format($total - Session::get('discount'), '0', '', '.') }} Đ
+                                @else
+                                    {{ number_format($total, '0', '', '.') }} Đ
+                                @endif
                             </span>
                         </div>
                     </div>
@@ -171,7 +188,7 @@
             </div>
         </div>
     </div>
- 
+
 </form>
 @else
 <div class="text-center"><h2>Giỏ hàng trống</h2></div>
