@@ -149,6 +149,8 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 
         Route::get('customers/view/{customer}', [CartAdminController::class, 'show']);
 
+        Route::post('customers/update-status', [CartAdminController::class, 'updateStatus']);
+     
 
    #Role
 
@@ -199,6 +201,9 @@ Route::middleware(['auth'])->group(function () {
     Route::post('/change-password', [PasswordController::class, 'updatePassword'])->name('password.update');
     Route::post('wish-list', [WishlistController::class, 'index'])->name('wishlist.add');
     Route::get('wishlists', [WishlistController::class, 'show'])->name('wishlist.show');
+
+    Route::get('purchase-history', [CartController::class, 'purchaseHistory'])->name('purchase.history');
+    Route::get('purchase-history/{id}', [CartController::class, 'showPurchaseHistory'])->name('purchase.history.show');
 });
 
 Route::get('/contact', [ContactController::class, 'index'])->name('contact.index');

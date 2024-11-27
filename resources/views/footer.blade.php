@@ -316,11 +316,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 </div> 
 
 
-<script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-
-</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!--===============================================================================================-->	
 <script src="/template/vendor/jquery/jquery-3.2.1.min.js"></script>
 <!--===============================================================================================-->

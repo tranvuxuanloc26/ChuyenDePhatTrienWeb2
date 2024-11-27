@@ -31,4 +31,8 @@ class Product extends Model
 
      // Quan hệ với bảng product_translations
   
+     public function carts()
+    {
+        return $this->hasMany(Cart::class);
+    }
 }

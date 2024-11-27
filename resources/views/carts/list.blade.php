@@ -181,6 +181,10 @@
                         </div>
                     </div>
 
+                    <div class="text-center">
+                        <span class="text-danger">Đăng nhập để được xem lịch sử mua hàng</span>
+                    </div>
+
                     <button class="flex-c-m stext-101 cl0 size-116 bg3 bor14 hov-btn3 p-lr-15 trans-04 pointer">
                         Đặt Hàng
                     </button>
