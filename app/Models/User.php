@@ -50,4 +50,7 @@ class User extends Authenticatable
             ->withPivot('used')
             ->withTimestamps();
     }
+    public function carts(){
+        return $this->hasMany(Customer::class);
+    }
 }
