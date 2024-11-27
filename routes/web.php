@@ -248,6 +248,7 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Route::post('customers/update-status', [CartAdminController::class, 'updateStatus']);
 =======
 >>>>>>> them_blog
@@ -259,6 +260,9 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 =======
 
 >>>>>>> thanh_toan_vnPay
+=======
+        Route::get('/payments', [paymentController::class, 'index']);
+>>>>>>> luu_thong_tin_thanh_toan_vnPay
         #Role
 >>>>>>> chi_tiet_blog
 
@@ -348,8 +352,14 @@ Route::post('/saveInForPay', [paymentController::class, 'save']);
 Route::get('/vnpay_return', [paymentController::class, 'vnpay_return']);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Route::post('/comment', [CommentController::class, 'sendComment']);
 Route::get('/list_comment/{id}', [CommentController::class, 'getCommentByBlogID']);
 >>>>>>> chi_tiet_blog
 =======
 >>>>>>> thanh_toan_vnPay
+=======
+
+
+
+>>>>>>> luu_thong_tin_thanh_toan_vnPay

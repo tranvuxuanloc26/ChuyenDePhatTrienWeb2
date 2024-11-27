@@ -119,6 +119,9 @@ class paymentController extends Controller
         return view('payment.vnpay_return');
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> luu_thong_tin_thanh_toan_vnPay
 
     public function index()
     {
@@ -128,7 +131,10 @@ class paymentController extends Controller
         // Hiển thị view (hoặc JSON nếu cần)
         return view('admin.carts.index',['title' => 'Trang Lưu VnPay'], compact('payments'));
     }
+<<<<<<< HEAD
 >>>>>>> chi_tiet_blog
 =======
 >>>>>>> thanh_toan_vnPay
+=======
+>>>>>>> luu_thong_tin_thanh_toan_vnPay
 }
