@@ -99,6 +99,7 @@
         </div>
     </div>
     <script>
+        //getD cart lcS, deD cart
         const miniCart = JSON.parse(localStorage.getItem('miniCartss')) || [];
         miniCart.splice(0, miniCart.length);
         localStorage.setItem('miniCartss', JSON.stringify(miniCart));

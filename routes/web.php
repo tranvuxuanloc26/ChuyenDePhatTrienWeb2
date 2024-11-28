@@ -40,10 +40,10 @@ use App\Http\Controllers\Admin\Users\UserController;
 use App\Http\Controllers\Admin\Users\LoginController;
 use App\Http\Controllers\Auth\ForgotPasswordController;
 use App\Http\Controllers\Admin\Users\RegisterController;
-    
-    #Login
-    Route::get('admin/users/login', [LoginController::class, 'index'])->name('login');
-    Route::post('admin/users/login/store', [LoginController::class, 'store']);
+
+#Login
+Route::get('admin/users/login', [LoginController::class, 'index'])->name('login');
+Route::post('admin/users/login/store', [LoginController::class, 'store']);
 
 
 #Login
@@ -87,38 +87,6 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 
         // Các route dành cho cả role 1 và role 2 (chỉ truy cập menu, sản phẩm, slider)
         Route::middleware('role:1,2')->group(function () {
-      
-                #Blogs
-      Route::prefix('blogs')->group(function () {
-        Route::get('/list', [BlogController::class, 'index'])->name('admin.blogs.index');
-        Route::get('/create', [BlogController::class, 'create'])->name('admin.blogs.create');
-        Route::post('/store', [BlogController::class, 'store'])->name('admin.blogs.store');
-        Route::get('/edit/{id}', [BlogController::class, 'edit'])->name('admin.blogs.edit');
-        Route::put('/update/{id}', [BlogController::class, 'update'])->name('admin.blogs.update');
-        Route::delete('/delete/{id}', [BlogController::class, 'destroy'])->name('admin.blogs.destroy');
-        Route::post('/upload/services', [BlogController::class, 'upload'])->name('admin.upload.services');
-    });
-            #News
-      Route::prefix('news')->group(function () {
-        Route::get('/list', [NewsController::class, 'index'])->name('admin.news.index');
-        Route::get('/create', [NewsController::class, 'create'])->name('admin.news.create');
-        Route::post('/store', [NewsController::class, 'store'])->name('admin.news.store');
-        Route::get('/edit/{id}', [NewsController::class, 'edit'])->name('admin.news.edit');
-        Route::put('/update/{id}', [NewsController::class, 'update'])->name('admin.news.update');
-        Route::delete('/delete/{id}', [NewsController::class, 'destroy'])->name('admin.news.destroy');
-        Route::post('/upload/services', [NewsController::class, 'upload'])->name('admin.upload.services');
-    });
-        #Product
-        Route::prefix('products')->group(function () {
-            Route::get('add', [ProductController::class, 'create']);
-            Route::post('add', [ProductController::class, 'store']);
-            Route::get('list', [ProductController::class, 'index']);
-            Route::get('edit/{product}', [ProductController::class, 'show']);
-            Route::post('edit/{product}', [ProductController::class, 'update']);
-            Route::get('detail/{product}', [ProductController::class, 'showDetail']);
-            Route::get('/admin/products', [ProductController::class, 'index'])->name('admin.products.index');
-
-
 
             #Blogs
             Route::prefix('blogs')->group(function () {
@@ -150,19 +118,81 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
                 Route::get('detail/{product}', [ProductController::class, 'showDetail']);
                 Route::get('/admin/products', [ProductController::class, 'index'])->name('admin.products.index');
 
-                Route::get('/search', [ProductController::class, 'search'])->name('admin.products.search');
 
-                Route::DELETE('destroy', [ProductController::class, 'destroy']);
+
+                #Blogs
+                Route::prefix('blogs')->group(function () {
+                    Route::get('/list', [BlogController::class, 'index'])->name('admin.blogs.index');
+                    Route::get('/create', [BlogController::class, 'create'])->name('admin.blogs.create');
+                    Route::post('/store', [BlogController::class, 'store'])->name('admin.blogs.store');
+                    Route::get('/edit/{id}', [BlogController::class, 'edit'])->name('admin.blogs.edit');
+                    Route::put('/update/{id}', [BlogController::class, 'update'])->name('admin.blogs.update');
+                    Route::delete('/delete/{id}', [BlogController::class, 'destroy'])->name('admin.blogs.destroy');
+                    Route::post('/upload/services', [BlogController::class, 'upload'])->name('admin.upload.services');
+                });
+                #News
+                Route::prefix('news')->group(function () {
+                    Route::get('/list', [NewsController::class, 'index'])->name('admin.news.index');
+                    Route::get('/create', [NewsController::class, 'create'])->name('admin.news.create');
+                    Route::post('/store', [NewsController::class, 'store'])->name('admin.news.store');
+                    Route::get('/edit/{id}', [NewsController::class, 'edit'])->name('admin.news.edit');
+                    Route::put('/update/{id}', [NewsController::class, 'update'])->name('admin.news.update');
+                    Route::delete('/delete/{id}', [NewsController::class, 'destroy'])->name('admin.news.destroy');
+                    Route::post('/upload/services', [NewsController::class, 'upload'])->name('admin.upload.services');
+                });
+                #Product
+                Route::prefix('products')->group(function () {
+                    Route::get('add', [ProductController::class, 'create']);
+                    Route::post('add', [ProductController::class, 'store']);
+                    Route::get('list', [ProductController::class, 'index']);
+                    Route::get('edit/{product}', [ProductController::class, 'show']);
+                    Route::post('edit/{product}', [ProductController::class, 'update']);
+                    Route::get('detail/{product}', [ProductController::class, 'showDetail']);
+                    Route::get('/admin/products', [ProductController::class, 'index'])->name('admin.products.index');
+
+                    Route::get('/search', [ProductController::class, 'search'])->name('admin.products.search');
+
+                    Route::DELETE('destroy', [ProductController::class, 'destroy']);
+                });
+
+                #Slider
+                Route::prefix('sliders')->group(function () {
+                    Route::get('add', [SliderController::class, 'create']);
+                    Route::post('add', [SliderController::class, 'store']);
+                    Route::get('list', [SliderController::class, 'index']);
+                    Route::get('edit/{slider}', [SliderController::class, 'show']);
+                    Route::post('edit/{slider}', [SliderController::class, 'update']);
+                    Route::DELETE('destroy', [SliderController::class, 'destroy']);
+                });
+                Route::resource('voucher', VoucherController::class);
+                Route::get('/userVoucher', [VoucherController::class, 'indexUser'])->name('admin.voucher.indexUser');
+                Route::get('/send-by-email', [VoucherController::class, 'showSendForm'])->name('admin.voucher.showSendForm');
+                Route::post('/send-by-email', [VoucherController::class, 'sendVoucherByEmail'])->name('admin.voucher.sendByEmail'); 
             });
 
-            #Slider
-            Route::prefix('sliders')->group(function () {
-                Route::get('add', [SliderController::class, 'create']);
-                Route::post('add', [SliderController::class, 'store']);
-                Route::get('list', [SliderController::class, 'index']);
-                Route::get('edit/{slider}', [SliderController::class, 'show']);
-                Route::post('edit/{slider}', [SliderController::class, 'update']);
-                Route::DELETE('destroy', [SliderController::class, 'destroy']);
+            // Các route chỉ dành cho role 2 (truy cập được tất cả các route)
+            Route::middleware('role:2')->group(function () {
+
+
+                #Menu
+                Route::prefix('menus')->group(function () {
+                    Route::get('add', [MenuController::class, 'create']);
+                    Route::post('add', [MenuController::class, 'store']);
+                    Route::get('list', [MenuController::class, 'index']);
+                    Route::get('edit/{menu}', [MenuController::class, 'show']);
+                    Route::post('edit/{menu}', [MenuController::class, 'update']);
+                    Route::get('detail/{menu}', [MenuController::class, 'showDetail']);
+
+                    Route::DELETE('destroy', [MenuController::class, 'destroy']);
+                });
+
+                #User
+                Route::prefix('users')->group(function () {
+
+                    Route::get('list', [UserController::class, 'index']);
+                    Route::get('search', [UserController::class, 'search'])->name('admin.users.search'); // Route tìm kiếm
+                    Route::DELETE('destroy', [UserController::class, 'destroy']);
+                });
             });
         });
 
@@ -190,38 +220,6 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
                 Route::DELETE('destroy', [UserController::class, 'destroy']);
             });
         });
-      
-    });
-
-      // Các route chỉ dành cho role 2 (truy cập được tất cả các route)
-      Route::middleware('role:2')->group(function () {
-     
-
-          #Menu
-          Route::prefix('menus')->group(function () {
-            Route::get('add', [MenuController::class, 'create']);
-            Route::post('add', [MenuController::class, 'store']);
-            Route::get('list', [MenuController::class, 'index']);
-            Route::get('edit/{menu}', [MenuController::class, 'show']);
-            Route::post('edit/{menu}', [MenuController::class, 'update']);
-            Route::get('detail/{menu}', [MenuController::class, 'showDetail']);
-
-            Route::DELETE('destroy', [MenuController::class, 'destroy']);
-        });
-
-           #User
-         Route::prefix('users')->group(function () {
-          
-            Route::get('list', [UserController::class, 'index']);
-            Route::get('search', [UserController::class, 'search'])->name('admin.users.search'); // Route tìm kiếm
-            Route::DELETE('destroy', [UserController::class, 'destroy']);
-
-
-
-        });
-          
-    
-    });
 
         #Upload
         Route::post('upload/services', [UploadController::class, 'store']);
@@ -233,10 +231,10 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 
         Route::post('customers/update-status', [CartAdminController::class, 'updateStatus']);
 
-    
 
-    Route::get('/payments', [paymentController::class, 'index']);
-    #Role
+
+        Route::get('/payments', [paymentController::class, 'index']);
+        #Role
 
     });
 });
@@ -300,18 +298,18 @@ Route::get('/products/{product}', [ReviewController::class, 'show'])->name('prod
 Route::post('/reviews', [ReviewController::class, 'store'])->name('reviews.store');
 
 
- 
+
 
 Route::get('/baidang', [BlogController::class, 'list'])->name('blogs.index');
 Route::get('/baidang/{id}', [BlogController::class, 'detail'])->name('blogs.detail');
 #Cổng thanh toán
-Route::post('/vnpay_payment',[CheckoutController::class,'vnpay_payment'])->name('vnpay_payment');
+Route::post('/vnpay_payment', [CheckoutController::class, 'vnpay_payment'])->name('vnpay_payment');
 
-Route::get('/payment',[paymentController::class,'payment']);
-  
-  
- 
-  
+Route::get('/payment', [paymentController::class, 'payment']);
+
+
+
+
 
 Route::post('/vnpay_create_payment', [paymentController::class, 'createPayment'])->name('createPayment');
 
@@ -322,8 +320,3 @@ Route::get('/vnpay_return', [paymentController::class, 'vnpay_return']);
 
 Route::post('/comment', [CommentController::class, 'sendComment']);
 Route::get('/list_comment/{id}', [CommentController::class, 'getCommentByBlogID']);
-
-
-
-
-

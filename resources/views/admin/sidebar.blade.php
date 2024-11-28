@@ -195,7 +195,41 @@
               </li>
             </ul>
           </li>
-       
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+                <i class=" fas fa-newspaper nav-icon"></i>
+                <p>
+                    Voucher
+                    <i class="right fas fa-angle-left"></i>
+                </p>
+            </a>
+            <ul class="nav nav-treeview">
+                <li class="nav-item">
+                    <a href="{{ route('voucher.create') }}" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Thêm voucher</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ route('voucher.index') }}" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Danh sách voucher</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ route('admin.voucher.indexUser') }}" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Danh sách dùng voucher</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ route('admin.voucher.showSendForm') }}" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Gửi voucher cho người dùng</p>
+                    </a>
+                </li>
+            </ul>
+        </li>
          
              
         </ul>
