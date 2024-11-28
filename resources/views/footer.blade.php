@@ -1,11 +1,10 @@
 <!-- Footer -->
 <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
 <df-messenger
-  intent="WELCOME"
-  chat-title="shop_fashion"
-  agent-id="940461f4-8267-494e-a552-099d0ea2b2aa"
-  language-code="vi"
-></df-messenger>
+    intent="WELCOME"
+    chat-title="shop_fashion"
+    agent-id="940461f4-8267-494e-a552-099d0ea2b2aa"
+    language-code="vi"></df-messenger>
 <footer class="bg3 p-t-75 p-b-32">
     <div class="container">
         <div class="row">
@@ -58,7 +57,7 @@
                     <li class="p-b-10">
                         <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
                             {{ __('messages.Returns') }}
- 
+
                         </a>
                     </li>
 
@@ -150,8 +149,10 @@
 
             <p class="stext-107 cl6 txt-center">
                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> &amp; distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright &copy;<script>
+                    document.write(new Date().getFullYear());
+                </script> All rights reserved | Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> &amp; distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 
             </p>
         </div>
@@ -167,7 +168,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 </div>
 
 <!-- Modal1 -->
- <div class="wrap-modal1 js-modal1 p-t-60 p-b-20">
+<div class="wrap-modal1 js-modal1 p-t-60 p-b-20">
     <div class="overlay-modal1 js-hide-modal1"></div>
 
     <div class="container">
@@ -212,13 +213,13 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                                             <i class="fa fa-expand"></i>
                                         </a>
                                     </div>
-                                    
+
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col-md-6 col-lg-5 p-b-30">
                     <div class="p-r-50 p-t-5 p-lr-0-lg">
                         <h4 class="mtext-105 cl2 js-name-detail p-b-14">
@@ -232,7 +233,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                         <p class="stext-102 cl3 p-t-23">
                             Nulla eget sem vitae eros pharetra viverra. Nam vitae luctus ligula. Mauris consequat ornare feugiat.
                         </p>
-                        
+
                         <!--  -->
                         <div class="p-t-33">
                             <div class="flex-w flex-r-m p-b-10">
@@ -291,7 +292,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                                         Add to cart
                                     </button>
                                 </div>
-                            </div>	
+                            </div>
                         </div>
 
                         <!--  -->
@@ -319,15 +320,13 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
             </div>
         </div>
     </div>
-</div> 
+</div>
 
 
-<script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 
-</script>
-<!--===============================================================================================-->	
+<!--===============================================================================================-->
 <script src="/template/vendor/jquery/jquery-3.2.1.min.js"></script>
 <!--===============================================================================================-->
 <script src="/template/vendor/animsition/js/animsition.min.js"></script>
@@ -337,7 +336,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <!--===============================================================================================-->
 <script src="/template/vendor/select2/select2.min.js"></script>
 <script>
-    $(".js-select2").each(function(){
+    $(".js-select2").each(function() {
         $(this).select2({
             minimumResultsForSearch: 20,
             dropdownParent: $(this).next('.dropDownSelect2')
@@ -363,7 +362,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
             delegate: 'a', // the selector for gallery item
             type: 'image',
             gallery: {
-                enabled:true
+                enabled: true
             },
             mainClass: 'mfp-fade'
         });
@@ -374,7 +373,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <!--===============================================================================================-->
 <script src="/template/vendor/sweetalert/sweetalert.min.js"></script>
 <script>
-    $('.js-addwish-b2').on('click', function(e){
+    $('.js-addwish-b2').on('click', function(e) {
         e.preventDefault();
     });
 
@@ -388,10 +387,10 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     //     });
     // });
 
-    $('.js-addwish-detail').each(function(){
+    $('.js-addwish-detail').each(function() {
         var nameProduct = $(this).parent().parent().parent().find('.js-name-detail').html();
 
-        $(this).on('click', function(){
+        $(this).on('click', function() {
             swal(nameProduct, "is added to wishlist !", "success");
 
             $(this).addClass('js-addedwish-detail');
@@ -401,27 +400,26 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
     /*---------------------------------------------*/
 
-    $('.js-addcart-detail').each(function(){
+    $('.js-addcart-detail').each(function() {
         var nameProduct = $(this).parent().parent().parent().parent().find('.js-name-detail').html();
-        $(this).on('click', function(){
+        $(this).on('click', function() {
             swal(nameProduct, "is added to cart !", "success");
         });
     });
-
 </script>
 <!--===============================================================================================-->
 <script src="/template/vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
 <script>
-    $('.js-pscroll').each(function(){
-        $(this).css('position','relative');
-        $(this).css('overflow','hidden');
+    $('.js-pscroll').each(function() {
+        $(this).css('position', 'relative');
+        $(this).css('overflow', 'hidden');
         var ps = new PerfectScrollbar(this, {
             wheelSpeed: 1,
             scrollingThreshold: 1000,
             wheelPropagation: false,
         });
 
-        $(window).on('resize', function(){
+        $(window).on('resize', function() {
             ps.update();
         })
     });
@@ -429,4 +427,3 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <!--===============================================================================================-->
 <script src="/template/js/main.js"></script>
 <script src="/template/js/public.js"></script>
-

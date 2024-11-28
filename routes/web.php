@@ -16,13 +16,6 @@ use App\Http\Controllers\paymentController;
 use App\Http\Controllers\VoucherController;
 use App\Http\Controllers\CheckoutController;
 use App\Http\Controllers\LanguageController;
-
-
-
-
-
-
-
 use App\Http\Controllers\PasswordController;
 use App\Http\Controllers\WishlistController;
 use App\Http\Controllers\Admin\MenuController;
@@ -167,7 +160,7 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
                 Route::resource('voucher', VoucherController::class);
                 Route::get('/userVoucher', [VoucherController::class, 'indexUser'])->name('admin.voucher.indexUser');
                 Route::get('/send-by-email', [VoucherController::class, 'showSendForm'])->name('admin.voucher.showSendForm');
-                Route::post('/send-by-email', [VoucherController::class, 'sendVoucherByEmail'])->name('admin.voucher.sendByEmail'); 
+                Route::post('/send-by-email', [VoucherController::class, 'sendVoucherByEmail'])->name('admin.voucher.sendByEmail');
             });
 
             // Các route chỉ dành cho role 2 (truy cập được tất cả các route)
@@ -185,6 +178,10 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 
                     Route::DELETE('destroy', [MenuController::class, 'destroy']);
                 });
+                Route::resource('voucher', VoucherController::class);
+                Route::get('/userVoucher', [VoucherController::class, 'indexUser'])->name('admin.voucher.indexUser');
+                Route::get('/send-by-email', [VoucherController::class, 'showSendForm'])->name('admin.voucher.showSendForm');
+                Route::post('/send-by-email', [VoucherController::class, 'sendVoucherByEmail'])->name('admin.voucher.sendByEmail');
 
                 #User
                 Route::prefix('users')->group(function () {
@@ -282,6 +279,8 @@ Route::middleware(['auth'])->group(function () {
     Route::post('/change-password', [PasswordController::class, 'updatePassword'])->name('password.update');
     Route::post('wish-list', [WishlistController::class, 'index'])->name('wishlist.add');
     Route::get('wishlists', [WishlistController::class, 'show'])->name('wishlist.show');
+    Route::get('purchase-history', [CartController::class, 'purchaseHistory'])->name('purchase.history');
+    Route::get('purchase-history/{id}', [CartController::class, 'showPurchaseHistory'])->name('purchase.history.show');
 });
 
 Route::get('/contact', [ContactController::class, 'index'])->name('contact.index');

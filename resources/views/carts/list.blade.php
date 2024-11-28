@@ -66,9 +66,9 @@
                         <div class="flex-w flex-m m-r-20 m-tb-5">
                             <input class="stext-104 cl2 plh4 size-117 bor13 p-lr-20 m-r-10 m-tb-5" type="text" name="coupon" placeholder="Coupon Code">
 
-                            <div class="flex-c-m stext-101 cl2 size-118 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer m-tb-5">
+                          {{-- <div class="flex-c-m stext-101 cl2 size-118 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer m-tb-5">
                                 Apply coupon
-                            </div>
+                            </div> --}}
                         </div>
 
                         <input type="submit" value="Update Cart" formaction="/update-cart" class="flex-c-m stext-101 cl2 size-119 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer m-tb-10">
@@ -97,7 +97,20 @@
                             </span>
                         </div>
                     </div>
-
+                    @if(Session::has('discount'))
+                    <div class="flex-w flex-t bor12 p-b-13">
+                        <div class="size-208">
+                            <span class="stext-110 cl2 ">
+                                Discount:
+                            </span>
+                        </div>
+                        <div class="size-209">
+                            <span class="mtext-110 cl2">
+                                {{ Session::has('discount') && Session::get('discount') != 0 ? '-' . number_format(Session::get('discount'), 0, '', '.') . ' Đ' : '0 Đ' }}
+                            </span>
+                        </div>
+                    </div>
+                    @endif
                     <div class="flex-w flex-t bor12 p-t-15 p-b-30">
                         {{-- <div class="size-208 w-full-ssm">
                             <span class="stext-110 cl2">
@@ -160,11 +173,17 @@
 
                         <div class="size-209 p-t-1">
                             <span class="mtext-110 cl2">
+                            @if(Session::has('discount'))
+                                {{ number_format($total - Session::get('discount'), '0', '', '.') }} Đ
+                                @else
                                 {{ number_format($total, '0', '', '.') }} Đ
+                                @endif
                             </span>
                         </div>
                     </div>
-
+                    <div class="text-center">
+                        <span class="text-danger">Đăng nhập để được xem lịch sử mua hàng</span>
+                    </div>
                     <button class="flex-c-m stext-101 cl0 size-116 bg3 bor14 hov-btn3 p-lr-15 trans-04 pointer">
                         Thanh toán COD
                     </button>
@@ -174,12 +193,6 @@
                     <button class="mt-3 flex-c-m stext-101 cl0 size-116 bg-danger bor14 hov-btn3 p-lr-15 trans-04 pointer">
                         Thanh toán MoMo
                     </button>
-
-
-
-
-
-
                 </div>
             </div>
         </div>
